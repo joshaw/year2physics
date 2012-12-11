@@ -1,0 +1,894 @@
+#LyX file created by tex2lyx 2.0.2
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\usepackage{babel}
+\usepackage{babel}
+\renewcommand{\d}{\mathrm{d}} % for integrals
+\newcommand{\dx}[2]{\frac{\textrm{d} #1}{\textrm{d} #2}} % for derivatives
+\newcommand{\dd}[2]{\frac{\textrm{d}^2 #1}{\textrm{d} #2^2}} % for double derivatives
+\newcommand{\pd}[2]{\frac{\partial #1}{\partial #2}} % for partial derivatives
+\newcommand{\pdd}[2]{\frac{\partial^2 #1}{\partial #2^2}} % for double partial derivatives
+\renewcommand{\u}[1]{\underline{#1}} % for underline's vectors
+\newcommand{\sintertext}[1]{\intertext{#1}\\[-0.7cm]}
+\usepackage{mathtools}\hyphenpenalty=50
+\usepackage[font=small,labelfont=bf,textfont=it]{caption}
+
+
+
+
+\end_preamble
+\use_default_options false
+\language british
+\language_package default
+\inputencoding latin9
+\fontencoding T1
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\paperfontsize default
+\spacing single
+\use_hyperref 1
+\pdf_title "Electronics"
+\pdf_author "Josh Wainwright"
+\pdf_bookmarks 1
+\pdf_bookmarksnumbered 1
+\pdf_bookmarksopen 1
+\pdf_bookmarksopenlevel 2
+\pdf_breaklinks 0
+\pdf_pdfborder 1
+\pdf_colorlinks 0
+\pdf_backref false
+\pdf_pdfusetitle 1
+\papersize default
+\use_geometry true
+\use_amsmath 2
+\use_esint 2
+\use_mhchem 0
+\use_mathdots 0
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\leftmargin 3cm
+\topmargin 3cm
+\rightmargin 3cm
+\bottommargin 3cm
+\headheight 2cm
+\headsep 3cm
+\footskip 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip bigskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+
+Electronics
+\end_layout
+
+\begin_layout Author
+
+Josh Wainwright
+\end_layout
+
+\begin_layout Section
+
+Electronics
+\end_layout
+
+\begin_layout Standard
+
+
+\bar under
+
+\noun on
+Ex
+\noun default
+
+\bar default
+
+\end_layout
+
+\begin_layout Standard
+
+Consider the following circuit,
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+
+\begin_layout Plain Layout
+\align center
+\noindent
+
+
+\begin_inset Graphics 
+	filename Electronics/superposition.pdf
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+What is the voltage across 
+\begin_inset Formula $R_{2}$
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Paragraph
+
+Superposition:
+\end_layout
+
+\begin_layout Standard
+
+Consider the effect of each source separately then add the two effects.
+\end_layout
+
+\begin_layout Subsubsection
+
+Voltage Source
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+
+\begin_layout Plain Layout
+\align center
+\noindent
+
+
+\begin_inset Graphics 
+	filename Electronics/voltage_source.pdf
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+Effective resistance, 
+\begin_inset Formula ${\displaystyle {R=\frac{\Delta V}{\Delta I}}}$
+\end_inset
+
+. For the ideal source, 
+\begin_inset Formula $R_{s}=0$
+\end_inset
+
+ (i.e.
+\begin_inset space \space{}
+
+\end_inset
+
+short circuit)
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset Formula $\therefore$
+\end_inset
+
+ Consider the ideal voltage source to have zero internal resistance.
+\end_layout
+
+\begin_layout Subsubsection
+
+Current Source
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+
+\begin_layout Plain Layout
+\align center
+\noindent
+
+
+\begin_inset Graphics 
+	filename Electronics/current_source.pdf
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+Effective resistance, 
+\begin_inset Formula ${\displaystyle {R=\frac{\Delta V}{\Delta I}}}$
+\end_inset
+
+ For the ideal source, 
+\begin_inset Formula $R\rightarrow\infty$
+\end_inset
+
+. 
+\begin_inset Formula $\therefore$
+\end_inset
+
+ Take the current source as having infinite internal resistance (i.e.
+\begin_inset space \space{}
+
+\end_inset
+
+open circuit). 
+\end_layout
+
+\begin_layout Enumerate
+
+Consider the effect of just the voltage source by switching the current source off, so 
+\begin_inset Formula $10\unit{mA}\rightarrow0$
+\end_inset
+
+ and is replaced by an open circuit.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+
+\begin_layout Plain Layout
+\align center
+\noindent
+
+
+\begin_inset Graphics 
+	filename Electronics/superposition_just_voltage.pdf
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+Consider the current source only by switching off the voltage source, so 
+\begin_inset Formula $5\text{V}\rightarrow0$
+\end_inset
+
+ and is replaced by a short circuit.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+
+\begin_layout Plain Layout
+\align center
+\noindent
+
+
+\begin_inset Graphics 
+	filename Electronics/superposition_just_current.pdf
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+
+Using the superposition principle, we can say that the current through 
+\begin_inset Formula $R_{2}$
+\end_inset
+
+ is the sum of these two, 
+\begin_inset Formula \begin{align*}
+I & =\frac{5}{300}+\frac{10}{3}\times10^{-3}\\
+ & =\frac{5}{300}+\frac{1}{50}=\frac{6}{300}=\frac{1}{50}\unit{Amps}
+\end{align*}
+\end_inset
+
+ 
+\begin_inset Formula $\therefore$
+\end_inset
+
+ Voltage across 
+\begin_inset Formula $R_{2}=\frac{1}{50}\times200=4\unit{V}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+
+Review of Circuit Components
+\end_layout
+
+\begin_layout Standard
+
+The most important three components that a general circuit can be composed of are the resistor, capacitor and the inductor. 
+\end_layout
+
+\begin_layout Enumerate
+
+
+\series bold
+Resistance
+\series default
+ By Ohm's law, 
+\begin_inset Formula $V_{R}=iR$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+
+\begin_layout Plain Layout
+\align center
+\noindent
+
+
+\begin_inset Graphics 
+	filename Electronics/resistor.pdf
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+
+\series bold
+Capacitance
+\series default
+ 
+\begin_inset Formula ${\displaystyle {V_{c}=\frac{q}{C}}}$
+\end_inset
+
+, where C is the capacitance given by 
+\begin_inset Formula ${\displaystyle {C=\frac{\epsilon_{0}A}{d}}}$
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+
+\begin_layout Plain Layout
+\align center
+\noindent
+
+
+\begin_inset Graphics 
+	filename Electronics/capacitor.pdf
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+Now 
+\begin_inset Formula \begin{alignat*}{2}
+q & =\int i\d{t}\\
+\therefore V_{c} & =\frac{\int i\d{t}}{C} & \qquad\text{\noun{Or}}\qquad\dx{V_{c}}{t} & =\frac{i}{C}\\
+ &  & \qquad i & =C\dx{V_{c}}{t}
+\end{alignat*}
+\end_inset
+
+ When 
+\begin_inset Formula $V_{c}$
+\end_inset
+
+ is constant, 
+\begin_inset Formula $i=0$
+\end_inset
+
+. Therefore, there is no current flows through a capacitor when a dc voltage is applied. Therefore, under dc conditions, the capacitor acts as an open circuit. But current does flow through a capacitor when the applied voltage across it changes, 
+\begin_inset Formula \begin{align*}
+\because i & =C\dx{V_{c}}{t}
+\end{align*}
+\end_inset
+
+ When 
+\begin_inset Formula $\dx{V_{c}}{t}$
+\end_inset
+
+ is large, the current is large. For an infinitesimally small time interval, 
+\begin_inset Formula $\Delta t$
+\end_inset
+
+, 
+\begin_inset Formula $\Delta V$
+\end_inset
+
+ will be very small as well, but the ratio of 
+\begin_inset Formula $\frac{\Delta V}{\Delta t}$
+\end_inset
+
+ may be significant. This implies then that the current, 
+\begin_inset Formula $i$
+\end_inset
+
+ may be appreciable. But as usual, the effective resistance, 
+\begin_inset Formula $R=\frac{\Delta V}{\Delta i}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+For the infinitesimal changes, 
+\begin_inset Formula $\Delta V$
+\end_inset
+
+ may be small and 
+\begin_inset Formula $\Delta i$
+\end_inset
+
+ may be large, such that 
+\begin_inset Formula $R\rightarrow0$
+\end_inset
+
+. Therefore a capacitor will act as a short circuit when instantaneous changes occur.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+
+\series bold
+Inductance "Choke"
+\series default
+ An inductor is a coil of thick wire (so that the resistance, ideally, is zero) wrapped around a metal core.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+
+\begin_layout Plain Layout
+\align center
+\noindent
+
+
+\begin_inset Graphics 
+	filename Electronics/inductor.pdf
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+If the current is constant, then 
+\begin_inset Formula $V_{L}=0$
+\end_inset
+
+. If the current changes, the magnetic field changes as well,so, by Faraday's Law, there is an induced electromotive force (back emf), 
+\begin_inset Formula \begin{align*}
+\epsilon & =-\dx{\phi}{t}
+\end{align*}
+\end_inset
+
+ where 
+\begin_inset Formula $\phi$
+\end_inset
+
+ is the flux threading the coil. But 
+\begin_inset Formula $\phi\propto i$
+\end_inset
+
+, which means 
+\begin_inset Formula \begin{align*}
+\phi & =Li\\
+\therefore\epsilon & =-L\dx{i}{t}
+\end{align*}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+
+If 
+\begin_inset Formula $i=$
+\end_inset
+
+ constant, then 
+\begin_inset Formula $V=0$
+\end_inset
+
+. So the inductor acts as a short circuit under dc conditions. 
+\end_layout
+
+\begin_layout Enumerate
+
+For infinitesimally small changes, 
+\begin_inset Formula $\Delta t$
+\end_inset
+
+ will be small and 
+\begin_inset Formula $\Delta i$
+\end_inset
+
+ will be small also. But again, the ratio, 
+\begin_inset Formula $\frac{\Delta t}{\Delta i}$
+\end_inset
+
+, may be significant, and so 
+\begin_inset Formula $\Delta L$
+\end_inset
+
+ may be significant. The effective resistance is given by 
+\begin_inset Formula \begin{align*}
+R & =\frac{\Delta V}{\Delta i}\\
+ & \approx\frac{\text{finite}}{\text{zero}}\rightarrow\infty
+\end{align*}
+\end_inset
+
+ Therefore for instantaneous changes, the inductor behaves like an open circuit. 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+
+To summarise,
+\end_layout
+
+\begin_layout Standard
+\align center
+
+
+\begin_inset Tabular 
+<lyxtabular version="3" rows="3" columns="4">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="left" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+
+\series bold
+R
+\series default
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+
+\series bold
+C
+\series default
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+
+\series bold
+L
+\series default
+ 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+Steady Conditions (dc) 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+R 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+open circuit 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+short circuit 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+Instantaneous Changes 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+R 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+short circuit 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+open circuit 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+Consider the time response of an RC circuit.
+\end_layout
+
+\begin_layout Standard
+
+How does the circuit respond to 
+\end_layout
+
+\begin_layout Itemize
+
+dc conditions? 
+\end_layout
+
+\begin_layout Itemize
+
+instantaneous changes? 
+\end_layout
+
+\end_body
+\end_document

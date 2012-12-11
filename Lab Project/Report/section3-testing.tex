@@ -1,0 +1,111 @@
+\section{Testing}
+With the theremin in a usable state, some testing was performed to assess the capabilities and extent to which the product would have to be improved or modified to allow it to be sold commercially. The main area that would need to be improved was the quality of the sound produced.
+
+\subsection{Minimizing Interference}
+In order to test the theremin quantitatively, a set-up was built such that no human variation could be included over the duration of the measurement. This involved making a second plate and grounding it to act as the user's hand such that it could be placed a a distant and would remain constant as opposed to a human user who's hand would move, obscuring the results. 
+
+Using this apparatus, it was found that there was still a considerable amount of variation due to human interference simply because someone was near the wire that connected to the plate capacitor to the circuit. Because of the high frequencies involved, the effects of interference become amplified. This is basically the effect that was sought in order that the remote control be possible, but it has more of an effect than was expected on the rest of the circuit.
+
+An attempt to reduce this noise was made using a coaxial cable to connect the plate capacitor and the circuit. Since the coaxial cable has an outer conducting layer, the field near the inner wire connecting the components is greatly reduced and so the interference from outside is also reduced. In order to reduce the effect still further, the distance between the circuit and capacitor could be reduced.
+
+\subsection{Signal Variation}
+A large contributing factor to the imperfections in the output signal is due to inaccuracies in the chip. These can be clearly seen in figure~\ref{fig:variations} where a series of measurements of the same signal are overlaid to show the differences. The measurements are of the same signal with no change, taken at 10\,second intervals.
+
+\begin{figure}[htbp]
+	\centering
+		\input{report_img/variation_of_signal.tex} 
+		\vspace{-10pt}
+		\caption{Random variation of the signal produced by a 7555 timer IC. The variation is most likely produced by Johnson Noise inside the chip.}
+		\label{fig:variations}
+\end{figure} 
+
+The fluctuations are most likely due to the the effects of Johnson noise. This is the random thermal motion of charge carriers inside a conductor\cite{Johnson28}. This means that the exact frequency of the produced signal varies slightly with time. In addition to this, the wave itself has a degree of variation associated with the inaccuracies in the chip. Whereas the input wave is smooth in the upper and lower regions, high and low times, the output wave has a large degree of variation that changes with each cycle. An example is shown in figure~\ref{fig:variations2}
+
+\begin{figure}[htbp]
+	\centering
+		\input{report_img/signal_inacuracy1.tex} 
+		\vspace{-20pt}
+		\caption{The inaccuracies and noise sources in the chip mean that there is a maximum input voltage that can be mixed. When this limit is exceeded the waveform becomes distorted during the high and low times}
+		\label{fig:variations2}
+\end{figure} 
+
+The cause of this error in signal production is the upper limit of the voltage allowed by the mixer. This is confirmed by connecting the TG315 signal generator once again to act as the input. The generators have the ability to alter the amplitude of the produced signal. When this signal, which is fed into the mixer chip along with the fixed VCO signal, is increased in amplitude, the output signal increases up to a maximum value of around 1.9\,V after which there is no increase in amplitude. This is shown in figure~\ref{fig:amplitude} where the amplitude of the signal generator is increased but the resulting signal does not follow the same increase pattern. Instead, the output signal increases at a much slower rate until it reaches the peak of 1.9\,V where the wave continues to degrade. 
+
+\begin{figure}[htbp]
+	\centering
+		\input{report_img/amplitudeperfection.tex} 
+		\vspace{-20pt}
+		\caption{The generated signal does not follow the amplitude of the signal fed into the mixer. When the amplitude is low, upper left, the signals are close. As the generator amplitude is increased, upper right, the output signal stays the same shape and increases but at a slower rate. Once the output signal reaches 1.9\,V the amplitude stops increasing and degrades in quality.}
+		\label{fig:amplitude}
+\end{figure} 
+
+\subsubsection{Attempted Improvements}
+In order to try to reduce the effect of the clipping due to the limit of voltage allowed by the mixer chip, a method to reduce the amplitude of the signal before it is input into the chip is attempted. This involves a small circuit with two semiconductor diodes, one with a forward direction aligned toward ground and one aligned away from ground, as shown in figure~\ref{fig:diodes}. This circuit should allow amplitudes of up to the threshold frequency of the diodes, in this case roughly 0.6\,V to pass through unimpeded, but voltages higher than this will be able to pass through the diodes to ground, reducing the amplitude of the signal fed into the mixer.
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[scale=1.2]{report_img/diodes} 
+		\caption{The double diode circuit is used to remove some of the amplitude of the signal before it is input to the mixer chip. This should allow a cleaner signal to be produced as the signal will be below the upper voltage limit of the chip.}
+		\label{fig:diodes}
+\end{figure} 
+
+Another method to reduce the amplitude of the signal was attempted using a simple low pass filter. This time with a threshold frequency that is much higher than the wave which means that some of the frequencies that make up the square wave are removed. This will have the effect of reducing the overall amplitude of the wave, but at the expense of turning the square wave into a triangular wave. When implemented, this circuit had the desired effect of reducing the amplitude, but to such a degree that the signal is completely inaudible now. The amount of control over the properties of this circuit is limited and so this attempt is abandoned. 
+
+\subsection{Quantitative Characteristics}
+The nature of the variation of the produced signal with respect to the position of the user's hand is the product of several laws that govern separate components of the circuit. For example, the capacitance of the capacitor itself is inversely proportional to $d$ and the frequency of the oscillator chip is inversely proportional to $C$. This meant that the expect relation between the distance and the capacitance was
+\begin{align}
+	f &\propto \frac{1}{C} \propto \frac{1}{\frac{1}{d}} = d \nonumber \\
+	\therefore f &\propto d 
+\end{align}
+This however was not seen when the frequency is measured with respect to the distance between the plates. When this was measured, shown in figure~\ref{fig:distance frequency}, the relation was found to be $f \propto \frac{1}{d}$.
+
+\begin{figure}[ht]
+	\centering
+	\begin{minipage}[c]{0.3\textwidth}
+		\begin{tabular}{r@{.}l|r@{.}l||r@{.}l|r@{.}l}
+			\multicolumn{2}{c|}{\rotatebox{90}{Distance (cm)}} & \multicolumn{2}{c||}{\rotatebox{90}{Frequency (Hz)}} & \multicolumn{2}{c|}{\rotatebox{90}{Distance (cm)}} & \multicolumn{2}{c}{\rotatebox{90}{Frequency (Hz)}} \\ \hline \hline
+			36&8	& 1&4 & 8&8	& 4&1 \\
+			34&0	& 1&5 & 7&4	& 5&0 \\
+			32&0	& 1&7 & 5&2	& 6&0 \\
+			26&8	& 2&0 & 4&6	& 7&0 \\
+			23&3	& 2&2 & 3&4	& 8&0 \\
+			18&9	& 2&5 & 2&7	& 9&0 \\
+			14&8	& 3&0 & 2&2	& 11&0 \\
+			12&9	& 3&3 & 1&5	& 13&0 \\
+			10&6	& 3&9 \\
+		\end{tabular}
+	\end{minipage}
+	\begin{minipage}[c]{0.65\textwidth}
+		\centering
+		\centering
+				\input{report_img/frequency-distance.tex} 
+			\vspace{-10pt}
+	\end{minipage}
+	\caption{The distance from the plate capacitor against the frequency that this position produces is recorded.}
+	\label{fig:distance frequency}
+\end{figure}
+
+Also, the action of the mixer chip was verified by measuring the output frequency produced when using a single VCO at a fixed frequency of 1.5\,MHz and the variable TG315 signal generator. This is shown in figure~\ref{fig:frequency generator}. The linear direct relationship can be clearly seen here. This graph is of the form $y=|x-c|$ where $c$ is a constant, since the two regions have the same slope. This confirms that the action of the mixer is as expected.  
+
+\begin{figure}
+	\begin{center}
+		\input{report_img/VCO_generator.tex}
+		\caption{As the generator input frequency to the mixer is increased, the difference between the generator and the reference VCO decreases, and so does the output frequency produced, until the generator is greater than the reference and so the difference, and so the output frequency, increases.}
+		\label{fig:frequency generator}
+	\end{center}
+\end{figure}
+
+Finally the relationship between the frequency of the input to the low pass circuit and the peak to peak voltage of the output of low pass circuit was measured. This allowed the characteristics of the signal with respect to the voltage to be observed. As can be seen in figure~\ref{fig:bode}, this is essentially a Bode plot with a cut off frequency of around 23.5\,kHz, just above human hearing range. This confirmed what was expected. As the frequency increases, the voltage is almost constant, up until the cut off frequency where the voltage is attenuated swiftly. This is due to the effect of the low pass filter removing the high frequency signals as desired.
+
+\begin{figure}
+	\begin{center}
+		\input{report_img/voltage_frequency.tex}
+		\vspace{-20pt}
+		\caption{When the natural logarithm of the output voltage is plotted against the log of the frequency input into the chip, a Bode plot is clearly observed. This is due to the low pass filters removing the high frequency signals after the cut-off frequency.}
+		\label{fig:bode}
+	\end{center}
+\end{figure}
+
+This concludes the experimental build time and data collection.
+
+\newpage

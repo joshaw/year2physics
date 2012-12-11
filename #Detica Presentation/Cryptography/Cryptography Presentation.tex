@@ -1,0 +1,272 @@
+% !TEX TS-program = pdflatex
+% !TEX encoding = UTF-8 Unicode
+
+\documentclass{beamer}
+
+\mode<presentation>
+{
+  \usetheme{Singapore}
+  % or ...
+
+  \setbeamercovered{transparent}
+  % or whatever (possibly just delete it)
+}
+
+\usepackage[english]{babel}
+\usepackage{calc}
+\usepackage[utf8]{inputenc}
+
+\usepackage{kpfonts}
+\usepackage[T1]{fontenc}
+
+\title[Cryptography] % (optional, use only with long paper titles)
+{Cryptography}
+
+\subtitle
+{\& Quantum Computing} % (optional)
+
+\author[Wainwright, Bloggs] % (optional, use only with lots of authors)
+{J.~Wainwright}
+% - Use the \inst{?} command only if the authors have different
+%   affiliation.
+
+\institute[Universities of Somewhere and Elsewhere] % (optional, but mostly needed)
+{
+  Department of Physics and Astronomy\\
+  University of Birmingham}
+% - Use the \inst command only if there are several affiliations.
+% - Keep it simple, no one is interested in your street address.
+
+\date[Short Occasion] % (optional)
+{24th Feb 2012}
+
+\subject{J. Wainwright - Inteview 24-02-12}
+% This is only inserted into the PDF information catalog. Can be left
+% out. 
+
+
+% If you have a file called "university-logo-filename.xxx", where xxx
+% is a graphic format that can be processed by latex or pdflatex,
+% resp., then you can add a logo as follows:
+
+% \pgfdeclareimage[height=0.5cm]{university-logo}{university-logo-filename}
+% \logo{\pgfuseimage{university-logo}}
+
+% Delete this, if you do not want the table of contents to pop up at
+% the beginning of each subsection:
+\AtBeginSubsection[]
+{
+  \begin{frame}<beamer>{Outline}
+    \tableofcontents[currentsection,currentsubsection]
+  \end{frame}
+}
+
+
+% If you wish to uncover everything in a step-wise fashion, uncomment
+% the following command: 
+
+\beamerdefaultoverlayspecification{<+->}
+
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Outline}
+  \tableofcontents[pausesections]
+  % You might wish to add the option [pausesections]
+\end{frame}
+
+\section{Introduction}
+
+\begin{frame}{Definition}
+	\begin{itemize}
+		\item \emph{Cryptography} or \emph{cryptology}.
+		\begin{itemize}
+			\item Greek - \emph{kryptos} and \emph{logia} - the study of hidden writing.
+			\item The practice and study of techniques for secure communication in the presence of third parties.
+		\end{itemize}
+		\begin{itemize}
+			\item Involves a set of data to be sent which is;
+			\begin{itemize}[<+->]
+				\item Encrypted;
+				\item Transferred;
+				\item Decrypted;
+				\item Read.
+			\end{itemize}
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{History}
+	\begin{itemize}
+		\item Pen and paper - effective if they can't read or write.
+		\item Transposition ciphers
+		\begin{itemize}
+			\item ``hello world'' $\rightarrow$ ``ehlol owrdl''
+		\end{itemize}
+		\item Substitution ciphers
+		\begin{itemize}
+			\item ``hello world'' $\rightarrow$ ``ifmmp xpsme''
+		\end{itemize}		
+		
+	\end{itemize}
+\end{frame}
+
+\section{Cryptography}
+
+\subsection{Symmetric Key Cryptography}
+
+\begin{frame}{Ciphertext \& Keys}
+Some definitions
+	\begin{itemize}
+		\pause \item Normal information is called \emph{plaintext}.
+		\item When the text is hidden its called \emph{ciphertext}.
+		\item Messages are locked with keys:  
+		\begin{itemize}
+			\item Mathematical operation to hide text (e.g.\ transposition and substitution ciphers).
+			\item The more complex the operation, the better hidden.
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Symmetric Key}
+	\begin{centering}
+		\pgfimage[width=0.8\paperwidth]{\string"Cryptography/symmetric key\string".pdf}
+		\par
+	\end{centering}
+\end{frame}
+
+\begin{frame}{Symmetric Key}
+	\begin{itemize}
+		\item Same key used to encrypt and decrypt.
+		\item Benafits:
+	 	\begin{itemize}
+			\item Simple and easy to use.
+			\item Quick encode and transfer.
+		\end{itemize}
+		\item Limitations:
+		\begin{itemize}
+			\item Only one level of security.
+			\item Easy to break if intercepted.
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+
+\subsection{Asymmetric Key Cryptography}
+
+\begin{frame}{Asymmetric Key}
+	\begin{itemize}
+		\item Most common method used in the public domain.
+		\item One key for encrypting, one for decrypting.
+		\begin{itemize}
+			\item Recipient makes locking and unlocking keys
+			\item Locking key sent to sender
+			\item Sender encrypts message using recieved key
+			\item Ciphertext sent using public channels
+			\item Recipient decrytps message using unlocking key
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Asymmetric Key}
+	\begin{itemize}
+		\item Most common method used in the public domain.
+		\item One key for encrypting, one for decrypting.
+		
+		\begin{center}
+			\begin{tabular}{c}
+				\\
+				\uncover<3->{Recipient makes locking and unlocking keys} \\
+				\uncover<3->{$\downarrow$} \\
+				\uncover<4->{Locking key sent to sender} \\
+				\uncover<4->{$\downarrow$} \\
+				\uncover<5->{Sender encrypts message using recieved key} \\
+				\uncover<5->{$\downarrow$} \\
+				\uncover<6->{Ciphertext sent using public channels} \\
+				\uncover<6->{$\downarrow$} \\
+				\uncover<7->{Recipient decrytps message using unlocking key}
+			\end{tabular}
+		\end{center}
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Symmetric Key}
+	\begin{centering}
+		\pgfimage[width=0.8\paperwidth]{\string"Cryptography/asymmetric key\string".pdf}
+		\par
+	\end{centering}
+\end{frame}
+
+\section{Breaking In}
+
+\begin{frame}{Brute Force}
+	\begin{itemize}
+		\item Nothing can be entirely resistant to attack.
+		\item \emph{Attack} - interception of a message or key by any party other than the intended recipient.
+		\item Brute Force tries every possible combination - last resort.
+		\item Benafits:
+	 	\begin{itemize}
+			\item All messages can be broken.
+			\item Simple algorithm to try everything sequentially.
+		\end{itemize}
+		\item Limitations:
+		\begin{itemize}
+			\item Time.
+			\item Computing power needed to be reasonable.
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Unbreakable Codes}
+	\begin{itemize}
+		\item Nothing can be entirely resistant to attack.
+		\item Larger keys = more time to break.
+		\item ANother method availible - ``one-time pad''
+		\item Benafits:
+	 	\begin{itemize}
+			\item All messages can be broken.
+			\item Simple algorithm to try everything sequentially.
+		\end{itemize}
+		\item Limitations:
+		\begin{itemize}
+			\item Time.
+			\item Computing power needed to be reasonable.
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+
+\section*{Summary}
+
+\begin{frame}{Summary}
+
+  % Keep the summary *very short*.
+  \begin{itemize}
+  \item
+    The \alert{first main message} of your talk in one or two lines.
+  \item
+    The \alert{second main message} of your talk in one or two lines.
+  \item
+    Perhaps a \alert{third message}, but not more than that.
+  \end{itemize}
+  
+  % The following outlook is optional.
+  \vskip0pt plus.5fill
+  \begin{itemize}
+  \item
+    Outlook
+    \begin{itemize}
+    \item
+      Something you haven't solved.
+    \item
+      Something else you haven't solved.
+    \end{itemize}
+  \end{itemize}
+\end{frame}
+
+
+\end{document}
+
+

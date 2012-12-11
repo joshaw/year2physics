@@ -1,0 +1,444 @@
+\documentclass[british]{article}
+\usepackage[T1]{fontenc}
+\usepackage[latin9]{inputenc}
+\usepackage[a4paper]{geometry}
+\geometry{verbose,tmargin=3cm,bmargin=3cm,lmargin=3cm,rmargin=3cm,headheight=2cm,headsep=3cm,footskip=2cm}
+\setlength{\parskip}{\bigskipamount}
+\setlength{\parindent}{0pt}
+\usepackage{babel}
+\usepackage{endnotes}
+\usepackage{amsthm}
+\usepackage{SIunits}
+\usepackage{amsmath}
+\usepackage{units}
+\usepackage{graphicx}
+\PassOptionsToPackage{normalem}{ulem}
+\usepackage{ulem}
+\usepackage{mathtools}
+\usepackage[font=small,labelfont=bf,textfont=it]{caption}
+\usepackage[unicode=true,
+ bookmarks=true,bookmarksnumbered=true,bookmarksopen=true,bookmarksopenlevel=2,
+ breaklinks=false,pdfborder={0 0 0},backref=false,colorlinks=false]
+ {hyperref}
+\hypersetup{pdftitle={Structure in the Universe},
+ pdfauthor={Josh Wainwright}}
+
+\newcommand{\noun}[1]{\textsc{#1}}
+\allowdisplaybreaks[2]
+\renewcommand{\d}{\mathrm{d}} % for integrals 
+\newcommand{\dx}[2]{\frac{\textrm{d} #1}{\textrm{d} #2}} % for derivatives
+\newcommand{\dd}[2]{\frac{\textrm{d}^2 #1}{\textrm{d} #2^2}} % for double derivatives
+\newcommand{\pd}[2]{\frac{\partial #1}{\partial #2}} % for partial derivatives
+\newcommand{\pdd}[2]{\frac{\partial^2 #1}{\partial #2^2}} % for double partial derivatives
+\renewcommand{\u}[1]{\underline{#1}} % for underline's vectors
+\newcommand{\sintertext}[1]{\intertext{#1}\\[-0.7cm]}
+\hyphenpenalty=50
+
+\makeatother
+
+\begin{document}
+
+\title{Structure in the Universe}
+
+\date{}
+
+\author{Josh Wainwright}
+
+\maketitle
+
+\tableofcontents
+
+\section{Stability of Systems}
+
+
+\paragraph{What is a stable system?}
+
+Any changes that occur take place over a very large time scale. Everything in the universe changes, but some will change outside the time interval we are interested in. So we can say that a "long time" is greater than some time scale of interest. We could define a simple measure of the time scale for the change of a distance, for example, $R$, according to
+\begin{align*}
+\tau_{\mbox{change}} & =\frac{R}{\dx{R}{t}} \equiv \frac{R}{\dot{R}}
+\sintertext{Or, more generally, for any measurable quantity,} 
+\tau_{\mbox{change}} & =\frac{X}{\dx{X}{t}} \equiv \frac{X}{\dot{X}}
+\end{align*}
+Clearly, our choice of the reference time scale will depend on what we are observing.
+
+\uline{\noun{Ex}}
+
+Halley's comet has an orbital period of $~75\unit{yrs}$. It also looses around 1\% of its mass for every orbit it performs around the sun. We can estimate a characteristic time scale for the existence of the comet,
+\begin{align*}
+\tau &\approx 75 \times \frac{M}{\dot{M}}\\
+	&\approx 75 \times \frac{1.00}{0.01} \approx 10^4 \unit{yrs}
+\end{align*}
+\begin{itemize}
+\item For humans this is stable
+\item Compared to the solar system it is not.
+\end{itemize}
+
+\subsection{Dynamical Time Scale}
+
+\uline{\noun{Ex}}
+
+How long does it take the sun to orbit the galaxy, and so how many orbits can it have performed in its life time?
+
+The sun travels at $v\approx 220\unit{km/s}$ in a mostly circular orbit of radius $r=8\unit{kpc}$
+\begin{itemize}
+\item $1\unit{kpc} = 3.1\times 10^{16} \unit{km}$
+\item $1\unit{yr} = 3.1\times 10^7 \unit{s}$
+\end{itemize}
+\begin{align*}
+\Rightarrow\tau &= \frac{2\pi r}{v}
+\end{align*} 
+Alternatively, it is easier to use a different system of units.
+\begin{itemize}
+\item Assume $G=1$
+\item Unit of distance $=1$
+\item Unit of velocity $=1$
+\item Then the unit of time becomes $10^9\unit{yrs}$
+\item And the unit of mass becomes $2.3\times 10^5 M_\odot$ (where $M_\odot$ is the mass of the sun)
+\end{itemize}
+So now, the equation
+\begin{align*}
+\tau &= \frac{2\pi r}{v}
+\sintertext{is much easier to use,}
+\tau &= \frac{2\pi r}{v}\\
+	&= \frac{2\pi \times 8}{220} \times 10^9\unit{yrs} = 0.25\times 10^9\unit{yrs}
+\end{align*}
+The age of the sun is $~4.5\times 10^9 \unit{yrs}$, so the sun has gone around the centre of the galaxy around 20 times.
+
+\subsection{Newton's Shell Theorems}
+For an object that feels a force from a finite number of other objects, the force can be written as,
+\begin{align*}
+	F &= \sum_i \frac{GMm_i}{|\u{x}-\u{x}_i|^2} \left(\u{x}-\u{x}_i\right)
+\end{align*}
+where $x-x_i$ is the distance from the object of interest with mass $M$ to the object $m_i$ that acts a force on $M$.
+
+\begin{itemize}
+	\item \textbf{Newton's first shell theorem} says that if you have a thin spherical uniform shell, the the net gravitational force on any particle inside the shell is zero.
+	\item \textbf{Newton's second shell theorem} says that if you have a shell with a particle outside, then the force that the external object feels is the same as if the shell was reduced to a point mass a-t its centre.
+\end{itemize}
+
+Consider the earth as a uniform sphere of density $\rho_0$ with a perfect tunnel through the centre. The mass is given by
+
+\begin{minipage}{.6\textwidth}
+	\centering
+	\includegraphics{"Structure in the Universe/earth_tunnel"}
+	\label{fig:figure}
+\end{minipage}
+\begin{minipage}{0.1\textwidth}
+\begin{align*}
+	M_\oplus &= \frac{4}{3} \pi R^3 \rho_0
+\end{align*}
+\end{minipage}
+
+If an object is dropped through the tunnel, the the force that it feels from the gravity of the earth is only from the mass of the earth inside the point $x$, where the object is at a single time during it's fall. $m$ is the mass of the object, so,
+\begin{align*}
+	m\ddot{x} &= -\frac{GmM(<x)}{x^2} \\
+	\ddot{x} &= -\frac{GM(<x)}{x^2}
+\end{align*}
+$M(<x)$ is the mass of the earth that is inside the position of the object as it falls. This means that that this will decrease as the object falls. As such, the force acting on the object decreases as the distance from the centre of the earth decreases until it reaches the centre where the force will be zero. Here, because of the considerable kinetic energy, and assuming an idealised situation without friction, the object will continue out to the other side of the earth and repeat its journey back to the original position. This is simple harmonic motion,
+\begin{align*}
+	M(<x) &= \frac{4}{3} \pi x^3 \rho_0 \\
+	\Rightarrow \ddot{x} &= -\frac{G\times \frac{4}{3} \pi x^3 \rho_0}{x^2} \\
+	\ddot{x} &= -\frac{4}{3}G\pi\rho_0 x
+\end{align*}
+If $\ddot{x} \propto -\alpha$, then the motion must be SHM. Since $-\frac{4}{3}G\pi\rho_0$ is constant (given the assumption that the earth's density is constant) then this motion must be SHM.
+\begin{align*}
+	\ddot{x} &= -\omega x \\
+\sintertext{The period is given by}
+	P &= \frac{2\pi}{\omega} 
+\end{align*}
+Here $\omega^2=\frac{4}{3}G\pi\rho_0$, so the period is given by
+\begin{align*}
+	P &= 2\pi \sqrt{\frac{3}{4G\pi\rho_0}}
+\end{align*}
+If instead, the density varies as a function $r$, then the mass of a shell is given by
+\begin{align*}
+	M &= \rho(x) 4\pi x^2 \d{x}
+\end{align*}
+The total mass, then is
+\begin{align*}
+	M &= \int_0^R \rho(x) 4\pi x^2 \d{x}\\
+\sintertext{For uniform density, $\rho(x)=\rho_0$,}
+	M &= 4\pi \rho_0 \int_0^R x^2\d{x} \\
+	&= \frac{4}{3} \pi R^3 \rho_0 \qquad \text{as before}
+\end{align*}
+
+\subsection{Gravitational Potential}
+
+The gravitational potential is defined as the work required to bring a unit mass, from infinity to a given position in a gravitational field, and is given by
+\begin{align*}
+	\phi(r) &= -\frac{GM(r)}{r}
+\end{align*}
+The force at the position $r$, due to this gravitational potential is
+\begin{align*}
+	\u{F}(r) &= -\u{\nabla} \phi(r)
+\end{align*}
+Inside a shell, the potential is constant, and so the force is zero.
+
+\subsubsection{Circular Velocity}
+For a planet in a circular orbit, the centripetal force is equal to the gravitational force, so
+\begin{align*}
+	F = \frac{mv^2}{r} &= \frac{GMm}{r^2} \\
+	v_{\text{circ}} &= \sqrt{\frac{GM}{r}}
+\end{align*}
+So it can be seen that the circular velocity and the potential at the same point are closely related,
+\begin{align*}
+	\phi(r) &= -(v_{\text{circ}})^2 \\
+	v_{\text{circ}}^2 &= |\phi|
+\end{align*}
+
+\subsubsection{Escape Velocity}
+\begin{align*}
+	\frac{1}{2}mv^2 &= \frac{GMm}{r} \\
+	v_{\text{esc}} &= \sqrt{\frac{2GM}{r}}
+\end{align*}
+This again, is very closely related to the circular velocity,
+\begin{align*}
+	v_{\text{esc}} &= \sqrt{2} \times v_{\text{circ}}
+\end{align*}
+So, for a point inside a sphere of radius $R$ at a distance $r$ from the centre, the circular velocity can be calculated as
+\begin{align*}
+	v_{\text{circ}} &= \sqrt{\frac{GM(r)}{r}}\\
+\sintertext{but,}
+	M(r) &= \int_0^r \rho(x) 4\pi x^2 \d{x}\\
+\sintertext{so,}
+	v_{\text{circ}}(r) &= \sqrt{\frac{G \displaystyle{\int_0^r} \rho(x)4\pi x^2 \d{x}}{r}}\\
+\end{align*}
+when $\rho(x)=\rho _0$, i.e.\ uniform density, then this is proportional to $r$. Since the angular velocity $\omega = \frac{v}{r}$, the angular velocity is constant for this situation. For a point mass,
+\begin{align*}
+	v_{\text{circ}} &= \sqrt{\frac{GM_0}{r}} \propto r^{-\frac{1}{2}}
+\end{align*} 
+This also applies for an object outside the source of the gravity field, since the mass can be modelled as as being in a point mass. 
+
+This method can be applied to spiral galaxies. The expected results, when the velocities of satellite stars or clouds of gas around the galaxy were measured, was to find this characteristic  linear relation to $r$ inside the galaxy, but then the $r^{-\frac{1}{2}}$ relation when all the mass was inside the orbit and so could be considered a point mass. This however was not what was observed. 
+
+Instead the linear relation continued to the expected point, but the decrease was not found. In its place, the velocities continue to increase, though tailing off to some constant value. This effectively means that there is no edge of the galaxy since the mass cannot be assumed to be point-like. This is the first major evidence for dark matter since there must be a great deal of mass that, causes the star's velocities to remain high, that cannot be seen.
+
+\begin{minipage}[t]{1\columnwidth}%
+\noindent \begin{center}
+\includegraphics{"Structure in the Universe/dark_matter_velocity"}
+\par\end{center}%
+\end{minipage}
+
+Since the rotation curve is flat, the distribution of dark matter around the galaxy must be
+\begin{align*}
+	M(R)\propto R \qquad \text{and} \qquad \rho(R)\propto \frac{1}{R^2}
+\end{align*}
+
+\subsection{The Virial Theorem}
+\begin{align*}
+	\frac{1}{2} \dd{I}{t} &= 2T+V
+\sintertext{such that}
+	I &= \sum_i m_i r_i^2
+\end{align*}
+where $I$ is the spherical momentum of inertia and $r_i$ are their distances from the centre of mass and
+\begin{align*}
+	T &= \frac{1}{2}\sum_i m_i v_i^2 \\
+	V &= -\sum_{i \neq j} \frac{Gm_i m_j}{r_{ij}}
+\end{align*}
+where $T$ is the total kinetic energy and $V$ is the total gravitational potential energy.
+\begin{itemize}
+	\item The term in $T$ acts to support the system against contraction or collapse.
+	\item The term in $V$ acts to contract the system, i.e.\ it is a "collapse" term.
+\end{itemize}
+So if 
+\begin{itemize}
+	\item $2T+V>0\qquad$ the system will expand
+	\item $2T+V<0\qquad$ the system will contract
+	\item $2T+V=0\qquad$ the system is stable in equilibrium
+\end{itemize}
+If there are other forces involved (e.g.\ magnetic forces) then there will be other terms on the right hand side of the equation.
+
+\subsubsection{Consequences of  Virial Theorem}
+
+\begin{itemize}
+	\item A strange consequence of this theory is that stars have negative total energy,
+	\begin{align*}
+		2\langle T\rangle + \langle V \rangle &= 0 \qquad \text{Virial Theorem} \\
+		\langle T \rangle + \langle V \rangle &\equiv E \qquad \text{The total energy} \\
+		\Rightarrow E = -\langle T \rangle &= \frac{\langle V \rangle}{2}
+	\sintertext{But}
+		T = \sum_i m_i v_i^2 &> 0
+	\end{align*}
+	So the total energy of a star must be negative, so you must do work to disrupt the star.
+	\item Another consequence of the Virial theorem is that stars have a negative specific hear.
+
+	If a star produces energy, the total energy must increase. This will lead to a decrease in the kinetic energy of the star, $\langle T \rangle$. So the star cools down.
+
+If a star radiates energys, the total energy, $E$ must decrease, this will lead to a decrease in $\langle V\rangle$ but an increase in $\langle T \rangle$. Thus a ball of gas with no extra source of energy must contract, and heat up as it radiates energy.
+\end{itemize}
+
+\subsection{Gravitational Potential Energy}
+Splitting a mass distribution  into shells of thickness $\d{r}$ and radius $r$, for each shell there is
+\begin{align*}
+	\text{Volume} &= \d{V} = 4\pi r^2 \d{r} \\
+	\text{Density} &= \rho(r) \\
+	\Rightarrow \text{Mass} &= \d{m} = 4\pi r^2 \rho(r)\d{r}
+\end{align*}
+So each shell has gravitational potential energy.
+\begin{align*}
+	\d{U} &= -\frac{GM(r)\d{m}}{r} \\
+	&= -\frac{G\left(\frac{4}{3} \pi r^3 \overline{\rho}\right) \left(4\pi r^2 \overline{\rho} \d{r}\right)}{r} \\
+	&= -\frac{16G\pi^2 \overline{\rho}^2}{3}r^4\d{r} \\
+	\Rightarrow U &= \int_0^R -\frac{16G\pi^2\overline{\rho}^2}{3} r^4 \d{r} \\
+	&= -\frac{16G\pi^2\overline{\rho}^2}{3} \int_0^R r^4 \d{r} \\
+	&= -\frac{16G\pi^2\overline{\rho}^2}{3} \frac{R^5}{5}
+\sintertext{We know already that}
+	\rho &= \frac{M}{\frac{4}{3}\pi R^3}
+\sintertext{So}
+	U &=-\frac{3}{5}\frac{GM^2}{R}
+\end{align*}
+This is the gravitational potential for a uniform sphere.
+
+\subsection{Kepler's Laws}
+\subsubsection{First Law}
+Planets orbit the sun in elipses with the sun at one focus. The eccentricity of the elipse tells you how elongated it is. When $e=0$ the orbit is a circle, and when $0<e<1$ then the orbit is an elipse.
+
+\subsubsection{Second Law}
+As a planet moves in its orbit, it sweeps out an equal area for every equal period of time.
+
+\subsubsection{Third Law}
+The period of a planet, $T$, increases as its mean distance from the sun raised to the power $\frac{2}{3}$ increases.
+\begin{align*}
+	T &\propto r^{\frac{2}{3}}
+\sintertext{If the average distance from the earth to the sun is $r$}
+	\frac{T^2}{r^3} &= \frac{4\pi^2}{G(m_1+m_2)}
+\sintertext{Approximately for an eliptical orbit (exactly for a circular orbit) this can be written as}
+	\frac{T^2_{\text{Planet}}}{r^3_{\text{Planet}}} &= \frac{T^2_{\text{Earth}}}{r^3_{\text{Earth}}} = \frac{(1\text{yr})^2}{(1\text{AU})^2}
+\end{align*}
+This model assumes the sun is fixed so that the planets all move independantly around a fixed point. But this is not the case. Becauise Jupiter and Saturn have considerable mass, compared to the sun, the center of mass of the solar sytem moves throughout the sun, sometimes to a point outside its radius.
+
+\section{Two Body Probelm}
+\subsection{Center of Mass}
+The majority of stars in the galaxy are binary systems of two stars that are of comparable mass. The two bodies must hyave the same angular frequency, $\omega$ since otherwise one would catch up woth the other and the force would no longer be through the center of the circular orbits.
+\begin{align*}
+\left.\begin{array}{cc}
+	v_1 &= \omega r_1 \\
+	v_2 &= \omega r_2
+\end{array}\right\} \Rightarrow \frac{r_1}{r_2} = \frac{v_1}{v_2}
+\end{align*}
+The force between the two bodies is
+\begin{align*}
+	F = \frac{Gm_1m_2}{r^2} &= \frac{m_1v_1^2}{r_1} = m_1\omega^2 r_1 \\
+	&= \frac{m_2v_2^2}{r_2} = m_2\omega^2 r_2
+\end{align*}
+The equality of the two right hand terms gives
+\begin{align*}
+	\frac{r_1}{r_2} &= \frac{m_1}{m_2}
+\end{align*}
+So the radius, mass and velocity are related by the equation
+\begin{equation*}
+	\frac{r_1}{r_2} = \frac{v_1}{v_2} = \frac{m_2}{m_1}
+\end{equation*}
+So the center of mass of a two body system is closer to the more massive object, but the smaller object travels faster around its longer object. The ratio of the earth to the sun's mass is $1:333,000$. This leads to movement of the center of mass of 450km. For the sun-Jupiter sysytem, the ratio is $1:1,050$. This moves the center of mass by much more, around 742,000km, which is outside the surface of the sun.
+
+From the wobble caused by the presence of Jupiter, the speed of the sun the center of mass can be calculated. The period of Jupiter's orbit is 13.86\,yrs and the speed of Jupiter around the sun is given by
+\begin{align*}
+	v_J &= \frac{2\pi a}{P} = \unit{13.07}{\kilo\metre\reciprocal\second}
+\end{align*}
+We expect that $v_{\odot}+v_J\approx v_J$, therefore the speed of the sun around the center of mass is given by
+\begin{align*}
+	v_{\odot} &= (v_{\odot}+v_J)\frac{m_1}{m_2} \\
+	&= \frac{13,070}{1,050} = 13\metre\reciprocal\second
+\end{align*}
+Observers measure radial velocities, $v_r$, of galaxies from Doppler shifts in their spectra. The mean of all redshifts in a cluster $\langle v \rangle$ would yield the mean radial velocity of the cluster with respect to the observer (largely due to the Hubble expansion of the universe). The dispersion $\sigma_r^2$, of the measured values of $v_r$ about this mean would be a measure of the kinetic energy of the galaxy, so 
+\begin{align*}
+	T &= 3\times \frac{1}{2}M\sigma_r^2
+\end{align*}
+where $M$ is the combined mass of all the galaxies, the factor 3 accounting for the fact that one measures only the radial component of the velocities of the galaxies, whereas the kinetic energy would depend on the net spacial velocity $v$ of each galaxy, and statistically $\langle v\rangle = 3\langle \sigma_r^2\rangle$  
+
+The potential energy of a uniform sphere is calculated from the work done to assemble the sphere out of shells of matter brought from infinity. Since gravitation is attractive, this quantity would be negative, and turns out that for a sphere of radius $R$ and mass $M$, one gets 
+\begin{align*}
+	V &= -\frac{3}{5}\frac{GM^2}{R}
+\end{align*} 
+You would get the same answer for the potential energy of a sphere of uniform positive charge due to the electrostatic forces, but the sign would be positive.
+
+So one can estimate the virial mass, $M=\frac{5R\langle \sigma_r^2\rangle}{G}$, given the radius of the cluster and its radial velocity dispersion. So the dispersion in radial velocities is given by
+\begin{align*}
+	\sigma_r^2 = \frac{\sum (v_r - \langle v\rangle)^2 }{N-1}
+\end{align*} 
+
+\subsubsection{Measuring Masses in a Binary System}
+The angle of inclination, $i$ is that between the line of sight of the observer and a direction at right angles to the plane of the orbit.
+\begin{align*}
+	\frac{r_1}{r_2} = &\frac{m_2}{m_1} = \frac{v_1}{v_2} \\
+	R &= r_1 + r_2 \\
+	P^2 &= \frac{4\pi^2}{G(m_1+m_2)}R^3
+\end{align*}
+This would lead to observed speeds of
+\begin{align*}
+	v_{o,1} = v_1 \sin i &\qquad v_{o,2} = v_2 \sin i \\
+	M = m_1 + m_2 & \frac{P}{2\pi G})v_1+v_2)^3 \\
+	&= \frac{P}{2\pi G}\frac{(v_{o,1} + v_{o,2})^3}{\sin^3 i}
+\end{align*}
+\subsection{Types of Binary Star}
+\begin{itemize}
+	\item Visual Binaries - both stars can be resolved independantly
+		\begin{itemize}
+			\item Astrometric Binaries - the light from only one member (that is significantly brighter than the other) can be detected
+			\item Eclipsing Binaries - given a favourable inclination of the orbital plane, the stars will eclipse (i.e.\ pass infront of( one another
+		\end{itemize}
+	\item Spectroscopic Binaries - if the periodic motion of the stars has a component along the line of sight, a periodic shift in the spectral lines will be seen (note that one star may be far more luminous than the other meaning that only a single set of shifting lines will be observed).
+\end{itemize}
+Sirius AB was first discovered as an astrometric binary system, but now we can resolve them, so they are now visual binaries. As technology progresses, the ability to resolve objects will become better and so more binary systems are likely to become visual binaries.
+
+The radial velocities are a sinusodal function of time. The minimum and maximum velocities (about the center of mass velocity) are given by
+\begin{align*}
+	v^{\text{max}}_{1,r} &=v_1\sin i \\
+	v^{\text{max}}_{2,r} &=v_2\sin i 
+\end{align*}
+where $i$ is the angle of inclination of the orbit to the observer. The angle of inclination is the angle between the line of sight of the observer and the direction at right angles to the plane of the orbit.
+
+Exo-planets are extreme cases of binary systems, where one member is much less massive than the other. We can use some of the same mthods used for binary star systems to search for exo-plants in other solar systems and for mass measurements. Methods to detect exo-planets currently include
+\begin{itemize}
+	\item Pulsar timing
+	\item Dopple shifting
+	\item Astrometry
+	\item Microlensing
+	\item Direct observations
+	\item Transit method
+\end{itemize}
+Roughly 550 exo-planets have been found to date, most of these have a orbital radius $a<1 \text{AU}$ and a mass $M>M_{\text{Jupiter}}$.
+
+\subsubsection{Direct Observation}
+Consider a planet of radius $R_p$ at a distance from its parent star $a$. The fraction of light intercepted is given by
+\[
+	f = \frac{\pi R_p^2}{4\pi a^2}
+\]
+For the earth,
+\[
+	R_p=6.4\times 10^8\centi\metre, \qquad a=1.5\times 10^{13}\centi\metre, \qquad \Rightarrow f= 5\times 10^{-10}
+\]
+For Jupiter,
+\[
+	R_p=7.1\times 10^9\centi\metre, \qquad a=7.8\times 10^{15}\centi\metre, \qquad \Rightarrow f= 2\times 10^{-9}
+\]
+Within about $50$pc, another civilization would be able to separate, and so view, Jupiter and the sun. But any further out, the light would not be able to be resolved into two objects.
+
+\subsubsection{Method of Transits}
+If a plaent passis infront of  the star, the reduction in intensity can be measured (in the same manner as for a binary star system). The depthof ht edip during the transit is proportional to the ratio of the planet to the star disk area, i.e.\ $d \propto \left(\frac{R_p}{R}\right)^2$.
+
+If the size of the star is known, (e.g.\ for brighter stars by direct observation; or more generally from spectral type) the size of the planet can be determined.
+\begin{itemize}
+	\item For the Jupiter-Sun system, Jupiter has a radius of $71000\kilo\metre$, so the fractional depth of the dip should be $\left(\frac{71000}{696000}\right)^2$ which is about 1\%.
+	\item For the Earth-Sun system, Earth has a radius of $6400\kilo\metre$, so the depth will be $8.5\times 10^{-3}\%$.
+	\item Detections have been made of Jupiter like bodies orbiting other stars, e.g.\ HD209458b.
+\end{itemize}
+The length of the transit (assuming an equitorial crossing is given as follows;
+\begin{align*}
+\sintertext{Assume circular orbit, then the orbital period, $P$, follows from the relation,}
+	P &= \frac{2\pi a}{v_c}
+\sintertext{The time to transitis given by}
+	\tau_T &= \frac{2R}{v_c} = \frac{RP}{\pi a}
+\sintertext{where $R$ is the radius of the star, so $2R$ is the distance travelled in front of the star. We also know that}
+	P &= \frac{2\pi}{\sqrt{GM}}a^{\frac{3}{2}}
+\sintertext{Therefore, we have}
+	\tau_T &= \sqrt{\frac{4R^2a}{GM}}
+\end{align*}
+where $R$ and $M$ are the radius and mass of the star respectively and $a$ is the semi major axis of the orbit of the planet.
+
+
+
+
+
+
+\end{document}

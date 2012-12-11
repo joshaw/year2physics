@@ -1,0 +1,240 @@
+\begin{tikzpicture}{0pt}{0pt}{449pt}{239pt}
+	\clip(0pt,239pt) -- (426.964pt,239pt) -- (426.964pt,11.7299pt) -- (0pt,11.7299pt) -- (0pt,239pt);
+\begin{scope}
+	\clip(85.5829pt,231.393pt) -- (404.141pt,231.393pt) -- (404.141pt,55.4722pt) -- (85.5829pt,55.4722pt) -- (85.5829pt,231.393pt);
+	\color[rgb]{0,0,0}
+	\fill(86.0584pt,213.801pt) ellipse (1.42638pt and 1.42638pt);
+	\draw[line width=1pt, line join=miter, line cap=rect](86.0584pt,213.801pt) ellipse (1.42638pt and 1.42638pt);
+	\color[rgb]{0,0,0}
+	\fill(129.801pt,213.801pt) ellipse (1.42638pt and 1.42638pt);
+	\draw[line width=1pt, line join=miter, line cap=rect](129.801pt,213.801pt) ellipse (1.42638pt and 1.42638pt);
+	\fill(155.476pt,212.85pt) ellipse (1.42638pt and 1.42638pt);
+	\draw[line width=1pt, line join=miter, line cap=rect](155.476pt,212.85pt) ellipse (1.42638pt and 1.42638pt);
+	\fill(172.592pt,212.85pt) ellipse (1.42638pt and 1.42638pt);
+	\draw[line width=1pt, line join=miter, line cap=rect](172.592pt,212.85pt) ellipse (1.42638pt and 1.42638pt);
+	\fill(198.267pt,211.899pt) ellipse (1.42638pt and 1.42638pt);
+	\draw[line width=1pt, line join=miter, line cap=rect](198.267pt,211.899pt) ellipse (1.42638pt and 1.42638pt);
+	\fill(207.776pt,211.899pt) ellipse (1.42638pt and 1.42638pt);
+	\draw[line width=1pt, line join=miter, line cap=rect](207.776pt,211.899pt) ellipse (1.42638pt and 1.42638pt);
+	\fill(216.335pt,210.948pt) ellipse (1.42638pt and 1.42638pt);
+	\draw[line width=1pt, line join=miter, line cap=rect](216.335pt,210.948pt) ellipse (1.42638pt and 1.42638pt);
+	\fill(223.942pt,210.948pt) ellipse (1.42638pt and 1.42638pt);
+	\draw[line width=1pt, line join=miter, line cap=rect](223.942pt,210.948pt) ellipse (1.42638pt and 1.42638pt);
+	\fill(230.598pt,209.997pt) ellipse (1.42638pt and 1.42638pt);
+	\draw[line width=1pt, line join=miter, line cap=rect](230.598pt,209.997pt) ellipse (1.42638pt and 1.42638pt);
+	\fill(236.304pt,209.046pt) ellipse (1.42638pt and 1.42638pt);
+	\draw[line width=1pt, line join=miter, line cap=rect](236.304pt,209.046pt) ellipse (1.42638pt and 1.42638pt);
+	\fill(241.058pt,208.095pt) ellipse (1.42638pt and 1.42638pt);
+	\draw[line width=1pt, line join=miter, line cap=rect](241.058pt,208.095pt) ellipse (1.42638pt and 1.42638pt);
+	\fill(246.764pt,208.095pt) ellipse (1.42638pt and 1.42638pt);
+	\draw[line width=1pt, line join=miter, line cap=rect](246.764pt,208.095pt) ellipse (1.42638pt and 1.42638pt);
+	\fill(251.519pt,207.144pt) ellipse (1.42638pt and 1.42638pt);
+	\draw[line width=1pt, line join=miter, line cap=rect](251.519pt,207.144pt) ellipse (1.42638pt and 1.42638pt);
+	\fill(255.322pt,205.242pt) ellipse (1.42638pt and 1.42638pt);
+	\draw[line width=1pt, line join=miter, line cap=rect](255.322pt,205.242pt) ellipse (1.42638pt and 1.42638pt);
+	\fill(259.126pt,204.291pt) ellipse (1.42638pt and 1.42638pt);
+	\draw[line width=1pt, line join=miter, line cap=rect](259.126pt,204.291pt) ellipse (1.42638pt and 1.42638pt);
+	\fill(262.93pt,203.34pt) ellipse (1.42638pt and 1.42638pt);
+	\draw[line width=1pt, line join=miter, line cap=rect](262.93pt,203.34pt) ellipse (1.42638pt and 1.42638pt);
+	\fill(266.733pt,201.439pt) ellipse (1.42638pt and 1.42638pt);
+	\draw[line width=1pt, line join=miter, line cap=rect](266.733pt,201.439pt) ellipse (1.42638pt and 1.42638pt);
+	\fill(270.537pt,198.586pt) ellipse (1.42638pt and 1.42638pt);
+	\draw[line width=1pt, line join=miter, line cap=rect](270.537pt,198.586pt) ellipse (1.42638pt and 1.42638pt);
+	\fill(273.39pt,197.635pt) ellipse (1.42638pt and 1.42638pt);
+	\draw[line width=1pt, line join=miter, line cap=rect](273.39pt,197.635pt) ellipse (1.42638pt and 1.42638pt);
+	\fill(277.193pt,196.684pt) ellipse (1.42638pt and 1.42638pt);
+	\draw[line width=1pt, line join=miter, line cap=rect](277.193pt,196.684pt) ellipse (1.42638pt and 1.42638pt);
+	\fill(279.095pt,194.782pt) ellipse (1.42638pt and 1.42638pt);
+	\draw[line width=1pt, line join=miter, line cap=rect](279.095pt,194.782pt) ellipse (1.42638pt and 1.42638pt);
+	\fill(282.899pt,193.831pt) ellipse (1.42638pt and 1.42638pt);
+	\draw[line width=1pt, line join=miter, line cap=rect](282.899pt,193.831pt) ellipse (1.42638pt and 1.42638pt);
+	\fill(284.801pt,191.929pt) ellipse (1.42638pt and 1.42638pt);
+	\draw[line width=1pt, line join=miter, line cap=rect](284.801pt,191.929pt) ellipse (1.42638pt and 1.42638pt);
+	\fill(287.654pt,190.978pt) ellipse (1.42638pt and 1.42638pt);
+	\draw[line width=1pt, line join=miter, line cap=rect](287.654pt,190.978pt) ellipse (1.42638pt and 1.42638pt);
+	\fill(299.065pt,184.322pt) ellipse (1.42638pt and 1.42638pt);
+	\draw[line width=1pt, line join=miter, line cap=rect](299.065pt,184.322pt) ellipse (1.42638pt and 1.42638pt);
+	\fill(316.181pt,169.107pt) ellipse (1.42638pt and 1.42638pt);
+	\draw[line width=1pt, line join=miter, line cap=rect](316.181pt,169.107pt) ellipse (1.42638pt and 1.42638pt);
+	\fill(331.396pt,156.745pt) ellipse (1.42638pt and 1.42638pt);
+	\draw[line width=1pt, line join=miter, line cap=rect](331.396pt,156.745pt) ellipse (1.42638pt and 1.42638pt);
+	\fill(352.316pt,136.776pt) ellipse (1.42638pt and 1.42638pt);
+	\draw[line width=1pt, line join=miter, line cap=rect](352.316pt,136.776pt) ellipse (1.42638pt and 1.42638pt);
+	\fill(367.531pt,116.807pt) ellipse (1.42638pt and 1.42638pt);
+	\draw[line width=1pt, line join=miter, line cap=rect](367.531pt,116.807pt) ellipse (1.42638pt and 1.42638pt);
+	\fill(374.187pt,104.445pt) ellipse (1.42638pt and 1.42638pt);
+	\draw[line width=1pt, line join=miter, line cap=rect](374.187pt,104.445pt) ellipse (1.42638pt and 1.42638pt);
+	\fill(385.598pt,74.9661pt) ellipse (1.42638pt and 1.42638pt);
+	\draw[line width=1pt, line join=miter, line cap=rect](385.598pt,74.9661pt) ellipse (1.42638pt and 1.42638pt);
+	\fill(392.255pt,58.8005pt) ellipse (1.42638pt and 1.42638pt);
+	\draw[line width=1pt, line join=miter, line cap=rect](392.255pt,58.8005pt) ellipse (1.42638pt and 1.42638pt);
+	\color[rgb]{1,0,0}
+	\draw[line width=1pt, line join=miter, line cap=rect](85.5829pt,213.14pt) -- (101.655pt,213.14pt) -- (114.43pt,213.14pt) -- (125.033pt,213.14pt) -- (134.097pt,213.14pt) -- (142.013pt,213.14pt) -- (149.038pt,213.14pt) -- (155.354pt,213.14pt) -- (161.09pt,213.14pt) -- (166.344pt,213.14pt) -- (171.19pt,213.14pt) -- (175.688pt,213.14pt) -- (179.885pt,213.14pt) -- (183.817pt,213.14pt) -- (187.517pt,213.14pt) -- (191.01pt,213.14pt) -- (194.318pt,213.14pt) -- (197.46pt,213.14pt) -- (200.452pt,213.14pt) -- (203.307pt,213.14pt) -- (206.038pt,213.14pt) -- (208.654pt,213.14pt) -- (211.165pt,213.14pt) -- (213.58pt,213.14pt) -- (215.904pt,213.14pt) -- (218.146pt,213.14pt) -- (220.309pt,213.14pt) -- (222.401pt,213.14pt) -- (224.425pt,213.14pt) -- (226.385pt,213.14pt) -- (228.286pt,213.14pt) -- (230.131pt,213.14pt) -- (231.922pt,213.14pt) -- (233.664pt,213.14pt) -- (235.359pt,213.14pt) -- (237.009pt,213.14pt) -- (238.617pt,213.14pt) -- (240.184pt,213.14pt) -- (241.713pt,213.14pt) -- (243.206pt,213.14pt) -- (244.664pt,213.14pt) -- (246.089pt,213.14pt) -- (247.481pt,213.14pt) -- (248.844pt,213.14pt) -- (250.177pt,213.14pt) -- (251.483pt,213.14pt) -- (252.762pt,213.14pt) -- (254.015pt,213.14pt) -- (255.244pt,213.14pt) -- (256.449pt,213.14pt) -- (257.632pt,213.14pt) -- (258.792pt,213.14pt) -- (259.931pt,213.14pt) -- (261.05pt,213.14pt) -- (262.149pt,213.14pt) -- (263.229pt,213.14pt) -- (264.291pt,213.14pt) -- (265.335pt,213.14pt) -- (266.362pt,213.14pt) -- (267.373pt,213.14pt) -- (268.367pt,213.14pt) -- (269.346pt,213.14pt) -- (270.31pt,213.14pt) -- (271.259pt,213.14pt) -- (272.194pt,213.14pt) -- (273.115pt,213.14pt) -- (274.023pt,213.14pt) -- (274.918pt,213.14pt) -- (275.8pt,213.14pt) -- (276.67pt,213.14pt) -- (277.528pt,213.14pt) -- (278.374pt,213.14pt) -- (279.209pt,213.14pt) -- (280.033pt,213.14pt) -- (280.846pt,213.14pt) -- (281.649pt,213.14pt) -- (282.442pt,213.14pt) -- (283.225pt,213.14pt) -- (283.998pt,213.14pt) -- (284.762pt,213.14pt) -- (285.516pt,213.14pt) -- (286.262pt,213.14pt) -- (286.999pt,213.14pt) -- (287.727pt,213.14pt) -- (288.446pt,213.14pt) -- (289.158pt,213.14pt) -- (289.862pt,213.14pt) -- (290.557pt,213.14pt) -- (291.245pt,213.14pt) -- (291.926pt,213.14pt) -- (292.599pt,213.14pt) -- (293.266pt,213.14pt) -- (293.925pt,213.14pt) -- (294.577pt,213.14pt) -- (295.222pt,213.14pt) -- (295.861pt,213.14pt) -- (296.494pt,213.14pt) -- (297.12pt,213.14pt) -- (297.74pt,213.14pt) -- (298.354pt,213.14pt);
+	\draw[line width=1pt, line join=miter, line cap=rect](275.767pt,219.031pt) -- (406.994pt,57.3741pt);
+	\color[rgb]{0,0,0}
+	\draw[line width=1pt, dash pattern=on 0.12cm off 0.08cm, dash phase=0pt, line join=miter, line cap=rect](281.473pt,218.08pt) -- (281.473pt,45.963pt);
+\end{scope}
+\begin{scope}
+	\color[rgb]{0,0,0}
+	\pgftext[center, base, at={\pgfpoint{11.4111pt}{147.229pt}},rotate=90]{\textbf{$\boldsymbol{\log_\mathbf{e}}$}}
+	\color[rgb]{0,0,0}
+	\pgftext[center, base, at={\pgfpoint{23.773pt}{147.229pt}},rotate=90]{\textbf{Voltage [ln(V)]}}
+	\pgftext[center, base, at={\pgfpoint{50.3097pt}{71.6379pt}}]{0.367879}
+	\pgftext[center, base, at={\pgfpoint{68.5183pt}{123.939pt}}]{1}
+	\pgftext[center, base, at={\pgfpoint{53.1104pt}{175.288pt}}]{2.71828}
+	\pgftext[center, base, at={\pgfpoint{53.1104pt}{227.589pt}}]{7.38906}
+	\draw[line width=1pt, line join=bevel, line cap=rect](85.5829pt,55.4722pt) -- (80.8283pt,55.4722pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](85.5829pt,59.2759pt) -- (80.8283pt,59.2759pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](85.5829pt,62.1287pt) -- (80.8283pt,62.1287pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](85.5829pt,64.9814pt) -- (80.8283pt,64.9814pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](85.5829pt,67.8342pt) -- (80.8283pt,67.8342pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](85.5829pt,70.687pt) -- (80.8283pt,70.687pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](85.5829pt,73.5397pt) -- (80.8283pt,73.5397pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](85.5829pt,75.4416pt) -- (80.8283pt,75.4416pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](85.5829pt,75.4416pt) -- (80.8283pt,75.4416pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](85.5829pt,81.1471pt) -- (80.8283pt,81.1471pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](85.5829pt,86.8526pt) -- (80.8283pt,86.8526pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](85.5829pt,91.6072pt) -- (80.8283pt,91.6072pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](85.5829pt,96.3618pt) -- (80.8283pt,96.3618pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](85.5829pt,100.166pt) -- (80.8283pt,100.166pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](85.5829pt,103.969pt) -- (80.8283pt,103.969pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](85.5829pt,107.773pt) -- (80.8283pt,107.773pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](85.5829pt,110.626pt) -- (80.8283pt,110.626pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](85.5829pt,114.429pt) -- (80.8283pt,114.429pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](85.5829pt,117.282pt) -- (80.8283pt,117.282pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](85.5829pt,120.135pt) -- (80.8283pt,120.135pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](85.5829pt,122.988pt) -- (80.8283pt,122.988pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](85.5829pt,124.889pt) -- (80.8283pt,124.889pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](85.5829pt,127.742pt) -- (80.8283pt,127.742pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](85.5829pt,127.742pt) -- (80.8283pt,127.742pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](85.5829pt,133.448pt) -- (80.8283pt,133.448pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](85.5829pt,139.153pt) -- (80.8283pt,139.153pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](85.5829pt,143.908pt) -- (80.8283pt,143.908pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](85.5829pt,148.662pt) -- (80.8283pt,148.662pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](85.5829pt,152.466pt) -- (80.8283pt,152.466pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](85.5829pt,156.27pt) -- (80.8283pt,156.27pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](85.5829pt,160.074pt) -- (80.8283pt,160.074pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](85.5829pt,162.926pt) -- (80.8283pt,162.926pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](85.5829pt,165.779pt) -- (80.8283pt,165.779pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](85.5829pt,168.632pt) -- (80.8283pt,168.632pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](85.5829pt,171.485pt) -- (80.8283pt,171.485pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](85.5829pt,174.337pt) -- (80.8283pt,174.337pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](85.5829pt,177.19pt) -- (80.8283pt,177.19pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](85.5829pt,179.092pt) -- (80.8283pt,179.092pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](85.5829pt,179.092pt) -- (80.8283pt,179.092pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](85.5829pt,185.748pt) -- (80.8283pt,185.748pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](85.5829pt,190.503pt) -- (80.8283pt,190.503pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](85.5829pt,195.258pt) -- (80.8283pt,195.258pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](85.5829pt,200.012pt) -- (80.8283pt,200.012pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](85.5829pt,204.767pt) -- (80.8283pt,204.767pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](85.5829pt,208.571pt) -- (80.8283pt,208.571pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](85.5829pt,211.423pt) -- (80.8283pt,211.423pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](85.5829pt,215.227pt) -- (80.8283pt,215.227pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](85.5829pt,218.08pt) -- (80.8283pt,218.08pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](85.5829pt,220.933pt) -- (80.8283pt,220.933pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](85.5829pt,223.785pt) -- (80.8283pt,223.785pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](85.5829pt,226.638pt) -- (80.8283pt,226.638pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](85.5829pt,228.54pt) -- (80.8283pt,228.54pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](85.5829pt,231.393pt) -- (80.8283pt,231.393pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](85.5829pt,75.4416pt) -- (77.0246pt,75.4416pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](85.5829pt,127.742pt) -- (77.0246pt,127.742pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](85.5829pt,179.092pt) -- (77.0246pt,179.092pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](85.5829pt,231.393pt) -- (77.0246pt,231.393pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](85.5829pt,231.393pt) -- (85.5829pt,55.4722pt);
+	\pgftext[center, base, at={\pgfpoint{250.085pt}{19.3372pt}}]{\textbf{$\boldsymbol{\log_\mathbf{e}}$ Frequency [ln(Hz)]}}
+	\pgftext[center, base, at={\pgfpoint{91.2884pt}{32.6501pt}}]{1,096.63}
+	\pgftext[center, base, at={\pgfpoint{154.049pt}{32.6501pt}}]{2,980.96}
+	\pgftext[center, base, at={\pgfpoint{216.81pt}{32.6501pt}}]{8,103.08}
+	\pgftext[center, base, at={\pgfpoint{278.62pt}{32.6501pt}}]{22,026.5}
+	\pgftext[center, base, at={\pgfpoint{341.381pt}{32.6501pt}}]{59,874.1}
+	\draw[line width=1pt, line join=bevel, line cap=rect](88.4357pt,55.4722pt) -- (88.4357pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](91.2884pt,55.4722pt) -- (91.2884pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](91.2884pt,55.4722pt) -- (91.2884pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](98.8958pt,55.4722pt) -- (98.8958pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](105.552pt,55.4722pt) -- (105.552pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](111.258pt,55.4722pt) -- (111.258pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](116.012pt,55.4722pt) -- (116.012pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](121.718pt,55.4722pt) -- (121.718pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](125.522pt,55.4722pt) -- (125.522pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](130.276pt,55.4722pt) -- (130.276pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](134.08pt,55.4722pt) -- (134.08pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](137.884pt,55.4722pt) -- (137.884pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](141.687pt,55.4722pt) -- (141.687pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](144.54pt,55.4722pt) -- (144.54pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](148.344pt,55.4722pt) -- (148.344pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](151.196pt,55.4722pt) -- (151.196pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](154.049pt,55.4722pt) -- (154.049pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](154.049pt,55.4722pt) -- (154.049pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](160.706pt,55.4722pt) -- (160.706pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](167.362pt,55.4722pt) -- (167.362pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](173.068pt,55.4722pt) -- (173.068pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](178.773pt,55.4722pt) -- (178.773pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](183.528pt,55.4722pt) -- (183.528pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](188.282pt,55.4722pt) -- (188.282pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](193.037pt,55.4722pt) -- (193.037pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](196.841pt,55.4722pt) -- (196.841pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](200.644pt,55.4722pt) -- (200.644pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](204.448pt,55.4722pt) -- (204.448pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](207.301pt,55.4722pt) -- (207.301pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](210.154pt,55.4722pt) -- (210.154pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](213.957pt,55.4722pt) -- (213.957pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](216.81pt,55.4722pt) -- (216.81pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](216.81pt,55.4722pt) -- (216.81pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](223.466pt,55.4722pt) -- (223.466pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](230.123pt,55.4722pt) -- (230.123pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](235.828pt,55.4722pt) -- (235.828pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](241.534pt,55.4722pt) -- (241.534pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](246.289pt,55.4722pt) -- (246.289pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](251.043pt,55.4722pt) -- (251.043pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](254.847pt,55.4722pt) -- (254.847pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](259.601pt,55.4722pt) -- (259.601pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](263.405pt,55.4722pt) -- (263.405pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](266.258pt,55.4722pt) -- (266.258pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](270.062pt,55.4722pt) -- (270.062pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](272.914pt,55.4722pt) -- (272.914pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](275.767pt,55.4722pt) -- (275.767pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](278.62pt,55.4722pt) -- (278.62pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](278.62pt,55.4722pt) -- (278.62pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](286.227pt,55.4722pt) -- (286.227pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](292.884pt,55.4722pt) -- (292.884pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](298.589pt,55.4722pt) -- (298.589pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](304.295pt,55.4722pt) -- (304.295pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](309.049pt,55.4722pt) -- (309.049pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](313.804pt,55.4722pt) -- (313.804pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](317.608pt,55.4722pt) -- (317.608pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](321.411pt,55.4722pt) -- (321.411pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](325.215pt,55.4722pt) -- (325.215pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](329.019pt,55.4722pt) -- (329.019pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](332.822pt,55.4722pt) -- (332.822pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](335.675pt,55.4722pt) -- (335.675pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](338.528pt,55.4722pt) -- (338.528pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](341.381pt,55.4722pt) -- (341.381pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](341.381pt,55.4722pt) -- (341.381pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](348.988pt,55.4722pt) -- (348.988pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](355.644pt,55.4722pt) -- (355.644pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](361.35pt,55.4722pt) -- (361.35pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](366.105pt,55.4722pt) -- (366.105pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](371.81pt,55.4722pt) -- (371.81pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](376.565pt,55.4722pt) -- (376.565pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](380.368pt,55.4722pt) -- (380.368pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](384.172pt,55.4722pt) -- (384.172pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](387.976pt,55.4722pt) -- (387.976pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](391.779pt,55.4722pt) -- (391.779pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](394.632pt,55.4722pt) -- (394.632pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](398.436pt,55.4722pt) -- (398.436pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](401.289pt,55.4722pt) -- (401.289pt,50.7176pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](91.2884pt,55.4722pt) -- (91.2884pt,46.9139pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](154.049pt,55.4722pt) -- (154.049pt,46.9139pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](216.81pt,55.4722pt) -- (216.81pt,46.9139pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](278.62pt,55.4722pt) -- (278.62pt,46.9139pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](341.381pt,55.4722pt) -- (341.381pt,46.9139pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](85.5829pt,55.4722pt) -- (404.141pt,55.4722pt);
+	\fill(107.93pt,143.432pt) ellipse (1.42638pt and 1.42638pt);
+	\draw[line width=1pt, line join=miter, line cap=rect](107.93pt,143.432pt) ellipse (1.42638pt and 1.42638pt);
+	\pgftext[left, base, at={\pgfpoint{134.08pt}{134.399pt}}]{Experimental Data}
+	\color[rgb]{1,0,0}
+	\draw[line width=1pt, line join=miter, line cap=rect](91.2884pt,116.331pt) -- (124.571pt,116.331pt);
+	\color[rgb]{0,0,0}
+	\pgftext[left, base, at={\pgfpoint{134.08pt}{106.822pt}}]{Bode plot approximation}
+\end{scope}
+\end{tikzpicture}

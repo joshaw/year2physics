@@ -1,0 +1,101 @@
+\documentclass[english]{article}
+\usepackage[T1]{fontenc}
+\usepackage[latin9]{inputenc}
+\usepackage[a4paper]{geometry}
+\geometry{verbose,tmargin=3cm,bmargin=1cm,lmargin=2cm,rmargin=2cm,headheight=2cm,headsep=2cm,footskip=2cm}
+\setlength{\parskip}{\bigskipamount}
+\setlength{\parindent}{0pt}
+\usepackage{babel}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{tabularx}
+\usepackage{fancyhdr}
+\usepackage[unicode=true,
+ bookmarks=true,bookmarksnumbered=true,bookmarksopen=false,
+ breaklinks=false,pdfborder={0 0 0},backref=false,colorlinks=false]
+ {hyperref}
+\hypersetup{
+ pdfauthor={Josh Wainwright}}
+
+\makeatletter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LyX specific LaTeX commands.
+%% Because html converters don't know tabularnewline
+\providecommand{\tabularnewline}{\\}
+
+\@ifundefined{date}{}{\date{}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+\renewcommand{\d}{\mathrm{d}} % for integrals
+\newcommand{\dx}[2]{\frac{\textrm{d} #1}{\textrm{d} #2}} % for derivatives
+\newcommand{\dd}[2]{\frac{\textrm{d}^2 #1}{\textrm{d} #2^2}} % for double derivatives
+\newcommand{\pd}[2]{\frac{\partial #1}{\partial #2}} % for partial derivatives
+\newcommand{\pdd}[2]{\frac{\partial^2 #1}{\partial #2^2}} % for double partial derivatives
+\renewcommand{\u}[1]{\underline{#1}} % for underline's vectors
+\newcommand{\sintertext}[1]{\intertext{#1}\\[-0.7cm]}
+\usepackage{mathtools}
+\hyphenpenalty=5000000
+\usepackage[font=small,labelfont=bf,textfont=it]{caption}
+\usepackage{kpfonts}
+
+\pagestyle{myheadings}
+\markright{Josh Wainwright \qquad 1079596\hfill Supervisor: Dr. Y. Singh \hfill}
+
+\begin{document}
+
+\vspace*{-3cm}
+\part*{Building a Theremin: Preliminary Report}
+
+\begin{description}
+\item [{Overview}] the theremin is a kind of musical instrument that is based
+around adjusting the frequency of an electronic oscillator by the
+proximity of your hand. Make and understand a modern one.
+
+\item [{Principle}] A Theremin has the potnetial to be a highly complex electronic device. We will investigate ways of making a functioning theremin using more basic principles. The theremin is based around a voltage control oscillator that creates a signal which is sent to a loudspeaker. The frequency and amplitude of this signal is controled by the musician by means of altering the position of their hands relative to the theremin. This causes a change in capacitance of the system which is interpreted to change the necessary component of the sound.
+
+\end{description}
+
+The aims of this project are to
+\begin{itemize}
+\item Research the theory behind and the physics governing the modern theremin
+\item Use this knowledge to design a system with the necessary components
+to act as a working theremin
+\item Build the theremin using, where possible, the equipment available
+and where not to source the components
+\item Test the limitations and downfalls of the theremin
+\end{itemize}
+This project will be completed in several steps in such a way that the project opperates on a modular basis. This means that at each stage of the construction, test will be able to be performed and improvements made, as described below:
+
+\newcolumntype{R}{>{\raggedright}p{2.7cm}}
+\begin{tabularx}{\textwidth}{|R|X|l|l|}
+\hline 
+Task & Description & Time & \%Completed\tabularnewline
+\hline \hline 
+Research basic idea and concept & Use reliable sources to get an understanding of the basic ideas that govern the working of a theremin. & 6 hours & 100\\ \hline 
+
+First ideas and concepts & Draw up some initial possibilities for a theremin and discus viability of ideas. & 3 hours & 100\\ \hline 
+
+Order necessary parts & Order any parts that are known not to be immediately available so they are ready by the time they are needed. Continuing process. & n/a & 80\\ \hline 
+
+Build voltage controlled oscillator (VCO) & Build a circuit that can produce an output signal that is changeable by changing the input voltage, with ranges of around 20 to 20000 Hz. & 4 hours & 80\\ \hline 
+
+Test VCO output & Test the range and capabilities of the VCO and check that it is sufficient to perform. & 2 hours & 20\\ \hline 
+
+Build voltage control circuit & Build a circuit that can be used as the input for the VCO in order to control the pitch of the final sound. & 6 hours & 0\\ \hline 
+
+Test voltage control circuit & Check that the desired range can be achieved. & 1 hour & 0\\ \hline 
+
+Build a variable capacitor & Build a capacitor, the capacitance of which can be varied, preferably by moving the user's hand closer or further from it. & 4 hours & 0\\ \hline 
+
+Edit the voltage control circuit & Depending on how the variable capacitor functions, the VCC is unlikely to be able to achieve the whole range of frequencies. It will need to be modified to achieve this. & 4 hours & 0\\ \hline 
+
+Build a second voltage control circuit for the volume & A circuit will be needed so the user can control the volume of the sound produced. It will be similar to the VCO control but will change the amplitude rather than the frequency of the produced signal. & 5 hours & 0\\ \hline 
+
+Build a second variable capacitor & This will be to interact with the volume control system. It will use the same theory as the pitch capacitor & 2 hours & 0\\ \hline 
+ 
+Test the Theremin & At this point, all of the components will have been assembled and the machine as a whole can be tested and flaws investigated. & 8 hours & 0\\ \hline
+ 
+Unforeseen problems & There are going to be plenty of opportunities for the plan to be changed by problems that have not been anticipated. & 5 hours & n/a\\ \hline 
+\end{tabularx}
+
+
+\end{document}

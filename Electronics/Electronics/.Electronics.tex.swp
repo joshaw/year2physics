@@ -1,0 +1,253 @@
+%% LyX 2.0.2 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[british]{article}
+\usepackage[T1]{fontenc}
+\usepackage[latin9]{inputenc}
+\usepackage{geometry}
+\geometry{verbose,tmargin=3cm,bmargin=3cm,lmargin=3cm,rmargin=3cm,headheight=2cm,headsep=3cm,footskip=2cm}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\setlength{\parskip}{\bigskipamount}
+\setlength{\parindent}{0pt}
+\usepackage{babel}
+\usepackage{units}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{esint}
+\PassOptionsToPackage{normalem}{ulem}
+\usepackage{ulem}
+\usepackage[unicode=true,
+ bookmarks=true,bookmarksnumbered=true,bookmarksopen=true,bookmarksopenlevel=2,
+ breaklinks=false,pdfborder={0 0 0},backref=false,colorlinks=false]
+ {hyperref}
+\hypersetup{pdftitle={Electronics},
+ pdfauthor={Josh Wainwright}}
+
+\makeatletter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LyX specific LaTeX commands.
+\newcommand{\noun}[1]{\textsc{#1}}
+%% Because html converters don't know tabularnewline
+\providecommand{\tabularnewline}{\\}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+\usepackage{babel}
+\usepackage{babel}
+\renewcommand{\d}{\mathrm{d}} % for integrals
+\newcommand{\dx}[2]{\frac{\textrm{d} #1}{\textrm{d} #2}} % for derivatives
+\newcommand{\dd}[2]{\frac{\textrm{d}^2 #1}{\textrm{d} #2^2}} % for double derivatives
+\newcommand{\pd}[2]{\frac{\partial #1}{\partial #2}} % for partial derivatives
+\newcommand{\pdd}[2]{\frac{\partial^2 #1}{\partial #2^2}} % for double partial derivatives
+\renewcommand{\u}[1]{\underline{#1}} % for underline's vectors
+\newcommand{\sintertext}[1]{\intertext{#1}\\[-0.7cm]}
+\usepackage{mathtools}\hyphenpenalty=50
+\usepackage[font=small,labelfont=bf,textfont=it]{caption}
+
+
+
+
+
+\makeatother
+
+\begin{document}
+
+\title{Electronics}
+
+
+\author{Josh Wainwright}
+
+\maketitle
+
+\tableofcontents
+
+\section{Electronics}
+
+\uline{\noun{Ex}}
+
+Consider the following circuit,
+
+\begin{minipage}[t]{1\columnwidth}%
+\noindent \begin{center}
+\includegraphics{Electronics/superposition}
+\par\end{center}%
+\end{minipage}
+
+What is the voltage across $R_{2}$?
+
+
+\paragraph{Superposition}
+
+Consider the effect of each source separately then add the two effects.
+
+
+\subsubsection{Voltage Source}
+
+\begin{minipage}[t]{1\columnwidth}%
+\noindent \begin{center}
+\includegraphics{Electronics/voltage_source}
+\par\end{center}%
+\end{minipage}
+
+Effective resistance, ${\displaystyle {R=\frac{\Delta V}{\Delta I}}}$.
+For the ideal source, $R_{s}=0$ (i.e.\ short circuit)
+
+$\therefore$ Consider the ideal voltage source to have zero internal
+resistance.
+
+
+\subsubsection{Current Source}
+
+\begin{minipage}[t]{1\columnwidth}%
+\noindent \begin{center}
+\includegraphics{Electronics/current_source}
+\par\end{center}%
+\end{minipage}
+
+Effective resistance, ${\displaystyle {R=\frac{\Delta V}{\Delta I}}}$
+For the ideal source, $R\rightarrow\infty$. $\therefore$ Take the
+current source as having infinite internal resistance (i.e.\ open
+circuit).
+\begin{enumerate}
+\item Consider the effect of just the voltage source by switching the current
+source off, so $10\unit{mA}\rightarrow0$ and is replaced by an open
+circuit.
+
+
+\begin{minipage}[t]{1\columnwidth}%
+\noindent \begin{center}
+\includegraphics{Electronics/superposition_just_voltage}
+\par\end{center}%
+\end{minipage}
+
+\item Consider the current source only by switching off the voltage source,
+so $5\text{V}\rightarrow0$ and is replaced by a short circuit.
+
+
+\begin{minipage}[t]{1\columnwidth}%
+\noindent \begin{center}
+\includegraphics{Electronics/superposition_just_current}
+\par\end{center}%
+\end{minipage}
+
+\end{enumerate}
+Using the superposition principle, we can say that the current through
+$R_{2}$ is the sum of these two,
+\begin{align*}
+I & =\frac{5}{300}+\frac{10}{3}\times10^{-3}\\
+ & =\frac{5}{300}+\frac{1}{50}=\frac{6}{300}=\frac{1}{50}\unit{Amps}
+\end{align*}
+ $\therefore$ Voltage across $R_{2}=\frac{1}{50}\times200=4\unit{V}$.
+
+
+\subsection{Review of Circuit Components}
+
+The most important three components that a general circuit can be
+composed of are the resistor, capacitor and the inductor.
+\begin{enumerate}
+\item \textbf{Resistance} By Ohm's law, $V_{R}=iR$
+
+
+\begin{minipage}[t]{1\columnwidth}%
+\noindent \begin{center}
+\includegraphics{Electronics/resistor}
+\par\end{center}%
+\end{minipage}
+
+\item \textbf{Capacitance} ${\displaystyle {V_{c}=\frac{q}{C}}}$, where
+C is the capacitance given by ${\displaystyle {C=\frac{\epsilon_{0}A}{d}}}$, where $A$ is the area of the capacitor and $d$ is the separation of the plates.
+
+
+\begin{minipage}[t]{1\columnwidth}%
+\noindent \begin{center}
+\includegraphics{Electronics/capacitor}
+\par\end{center}%
+\end{minipage}
+
+
+Now
+\begin{alignat*}{2}
+q & =\int i\d{t}\\
+\therefore V_{c} & =\frac{\int i\d{t}}{C} & \qquad\text{\noun{Or}}\qquad\dx{V_{c}}{t} & =\frac{i}{C}\\
+ &  & \qquad i & =C\dx{V_{c}}{t}
+\end{alignat*}
+ When $V_{c}$ is constant, $i=0$. Therefore, there is no current
+flows through a capacitor when a DC voltage is applied. Therefore,
+under DC conditions, the capacitor acts as an open circuit. But current
+does flow through a capacitor when the applied voltage across it changes,
+\begin{align*}
+\because i & =C\dx{V_{c}}{t}
+\end{align*}
+ When $\dx{V_{c}}{t}$ is large, the current is large. For an infinitesimally
+small time interval, $\Delta t$, $\Delta V$ will be very small as
+well, but the ratio of $\frac{\Delta V}{\Delta t}$ may be significant.
+This implies then that the current, $i$ may be appreciable. But as
+usual, the effective resistance, $R=\frac{\Delta V}{\Delta i}$.
+
+
+For the infinitesimal changes, $\Delta V$ may be small and $\Delta i$
+may be large, such that $R\rightarrow0$. Therefore a capacitor will
+act as a short circuit when instantaneous changes occur.
+
+\item \textbf{Inductance \textquotedbl{}Choke\textquotedbl{}} An inductor
+is a coil of thick wire (so that the resistance, ideally, is zero)
+wrapped around a metal core.
+
+
+\begin{minipage}[t]{1\columnwidth}%
+\noindent \begin{center}
+\includegraphics{Electronics/inductor}
+\par\end{center}%
+\end{minipage}
+
+
+If the current is constant, then $V_{L}=0$. If the current changes,
+the magnetic field changes as well,so, by Faraday's Law, there is
+an induced electromotive force (back emf),
+\begin{align*}
+\epsilon & =-\dx{\phi}{t}
+\end{align*}
+ where $\phi$ is the flux threading the coil. But $\phi\propto i$,
+which means
+\begin{align*}
+\phi & =Li\\
+\therefore\epsilon & =-L\dx{i}{t}
+\end{align*}
+
+\begin{enumerate}
+\item If $i=$ constant, then $V=0$. So the inductor acts as a short circuit
+under DC conditions.
+\item For infinitesimally small changes, $\Delta t$ will be small and $\Delta i$
+will be small also. But again, the ratio, $\frac{\Delta t}{\Delta i}$,
+may be significant, and so $\Delta L$ may be significant. The effective
+resistance is given by
+\begin{align*}
+R & =\frac{\Delta V}{\Delta i}\\
+ & \approx\frac{\text{finite}}{\text{zero}}\rightarrow\infty
+\end{align*}
+ Therefore for instantaneous changes, the inductor behaves like an
+open circuit.
+\end{enumerate}
+\end{enumerate}
+To summarise,
+
+\begin{center}
+\begin{tabular}{l|ccc}
+ & \textbf{R}  & \textbf{C}  & \textbf{L} \tabularnewline
+\hline
+Steady Conditions (DC)  & R  & open circuit  & short circuit \tabularnewline
+Instantaneous Changes  & R  & short circuit  & open circuit \tabularnewline
+\end{tabular}
+\par\end{center}
+
+\section{Time Responce}
+
+Consider the time response of an RC circuit.
+
+How does the circuit respond to
+\begin{itemize}
+\item DC conditions?
+\item instantaneous changes? 
+\end{itemize}
+
+\end{document}

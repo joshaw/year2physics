@@ -1,0 +1,1575 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="352.42099"
+   height="73.050003"
+   version="1.2"
+   id="svg2"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="low_pass_filter.svg">
+  <metadata
+     id="metadata466">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="744"
+     id="namedview464"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="2.4635959"
+     inkscape:cx="272.53581"
+     inkscape:cy="11.30258"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <title
+     id="title4">Qt Svg Document</title>
+  <desc
+     id="desc6">Generated with Qt</desc>
+  <defs
+     id="defs8" />
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Ubuntu"
+     id="g12"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0.947368,0,0,0.947368,-9.000056,-7.0026621)" />
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g18"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0.947368,0,0,0.947368,-217.42106,-168.86748)"
+     stroke-miterlimit="2">
+    <path
+       inkscape:connector-curvature="0"
+       id="path20"
+       d="m 271,190 9,0 -10,0 0,9"
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g22"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0.947368,0,0,0.947368,-217.42106,-168.86748)"
+     stroke-miterlimit="2">
+    <path
+       style="fill-rule:evenodd"
+       inkscape:connector-curvature="0"
+       id="path24"
+       d="m 271,190 c 0,0.552 -0.448,1 -1,1 -0.552,0 -1,-0.448 -1,-1 0,-0.552 0.448,-1 1,-1 0.552,0 1,0.448 1,1"
+       vector-effect="none" />
+    <path
+       style="fill-rule:evenodd"
+       inkscape:connector-curvature="0"
+       id="path26"
+       d="m 271,190 c 0,0.552 -0.448,1 -1,1 -0.552,0 -1,-0.448 -1,-1 0,-0.552 0.448,-1 1,-1 0.552,0 1,0.448 1,1"
+       vector-effect="none" />
+    <path
+       style="fill-rule:evenodd"
+       inkscape:connector-curvature="0"
+       id="path28"
+       d="m 271,190 c 0,0.552 -0.448,1 -1,1 -0.552,0 -1,-0.448 -1,-1 0,-0.552 0.448,-1 1,-1 0.552,0 1,0.448 1,1"
+       vector-effect="none" />
+    <path
+       style="fill-rule:evenodd"
+       inkscape:connector-curvature="0"
+       id="path30"
+       d="m 271,190 c 0,0.552 -0.448,1 -1,1 -0.552,0 -1,-0.448 -1,-1 0,-0.552 0.448,-1 1,-1 0.552,0 1,0.448 1,1"
+       vector-effect="none" />
+    <path
+       style="fill-rule:evenodd"
+       inkscape:connector-curvature="0"
+       id="path32"
+       d="m 271,190 c 0,0.552 -0.448,1 -1,1 -0.552,0 -1,-0.448 -1,-1 0,-0.552 0.448,-1 1,-1 0.552,0 1,0.448 1,1"
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g34"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0.947368,0,0,0.947368,-217.42106,-168.86748)"
+     stroke-miterlimit="2">
+    <path
+       inkscape:connector-curvature="0"
+       id="path36"
+       d="m 270,239 0,-9 0,20 0,-9"
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g38"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0.947368,0,0,0.947368,-217.42106,-168.86748)"
+     stroke-miterlimit="2">
+    <path
+       inkscape:connector-curvature="0"
+       id="path40"
+       d="m 360,241 0,9 0,-20 0,9"
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g42"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0.947368,0,0,0.947368,-217.42106,-168.86748)"
+     stroke-miterlimit="2">
+    <path
+       inkscape:connector-curvature="0"
+       id="path44"
+       d="m 360,199 0,-9 -9,0"
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g46"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0.947368,0,0,0.947368,-217.42106,-168.86748)"
+     stroke-miterlimit="2">
+    <path
+       style="fill-rule:evenodd"
+       inkscape:connector-curvature="0"
+       id="path48"
+       d="m 361,190 c 0,0.552 -0.448,1 -1,1 -0.552,0 -1,-0.448 -1,-1 0,-0.552 0.448,-1 1,-1 0.552,0 1,0.448 1,1"
+       vector-effect="none" />
+    <path
+       style="fill-rule:evenodd"
+       inkscape:connector-curvature="0"
+       id="path50"
+       d="m 361,190 c 0,0.552 -0.448,1 -1,1 -0.552,0 -1,-0.448 -1,-1 0,-0.552 0.448,-1 1,-1 0.552,0 1,0.448 1,1"
+       vector-effect="none" />
+    <path
+       style="fill-rule:evenodd"
+       inkscape:connector-curvature="0"
+       id="path52"
+       d="m 361,190 c 0,0.552 -0.448,1 -1,1 -0.552,0 -1,-0.448 -1,-1 0,-0.552 0.448,-1 1,-1 0.552,0 1,0.448 1,1"
+       vector-effect="none" />
+    <path
+       style="fill-rule:evenodd"
+       inkscape:connector-curvature="0"
+       id="path54"
+       d="m 361,190 c 0,0.552 -0.448,1 -1,1 -0.552,0 -1,-0.448 -1,-1 0,-0.552 0.448,-1 1,-1 0.552,0 1,0.448 1,1"
+       vector-effect="none" />
+    <path
+       style="fill-rule:evenodd"
+       inkscape:connector-curvature="0"
+       id="path56"
+       d="m 361,190 c 0,0.552 -0.448,1 -1,1 -0.552,0 -1,-0.448 -1,-1 0,-0.552 0.448,-1 1,-1 0.552,0 1,0.448 1,1"
+       vector-effect="none" />
+    <path
+       style="fill-rule:evenodd"
+       inkscape:connector-curvature="0"
+       id="path58"
+       d="m 361,190 c 0,0.552 -0.448,1 -1,1 -0.552,0 -1,-0.448 -1,-1 0,-0.552 0.448,-1 1,-1 0.552,0 1,0.448 1,1"
+       vector-effect="none" />
+    <path
+       style="fill-rule:evenodd"
+       inkscape:connector-curvature="0"
+       id="path60"
+       d="m 361,190 c 0,0.552 -0.448,1 -1,1 -0.552,0 -1,-0.448 -1,-1 0,-0.552 0.448,-1 1,-1 0.552,0 1,0.448 1,1"
+       vector-effect="none" />
+    <path
+       style="fill-rule:evenodd"
+       inkscape:connector-curvature="0"
+       id="path62"
+       d="m 361,190 c 0,0.552 -0.448,1 -1,1 -0.552,0 -1,-0.448 -1,-1 0,-0.552 0.448,-1 1,-1 0.552,0 1,0.448 1,1"
+       vector-effect="none" />
+    <path
+       style="fill-rule:evenodd"
+       inkscape:connector-curvature="0"
+       id="path64"
+       d="m 361,190 c 0,0.552 -0.448,1 -1,1 -0.552,0 -1,-0.448 -1,-1 0,-0.552 0.448,-1 1,-1 0.552,0 1,0.448 1,1"
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g66"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0.947368,0,0,0.947368,-217.42106,-168.86748)"
+     stroke-miterlimit="2">
+    <path
+       inkscape:connector-curvature="0"
+       id="path68"
+       d="m 305,190 9,0 -14,0 9,0"
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g70"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0.947368,0,0,0.947368,-217.42106,-168.86748)"
+     stroke-miterlimit="2">
+    <path
+       inkscape:connector-curvature="0"
+       id="path72"
+       d="m 277,190 -9,0 13.92808,0 L 271,190"
+       vector-effect="none"
+       sodipodi:nodetypes="cccc" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g74"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0.947368,0,0,0.947368,-217.42106,-168.86748)"
+     stroke-miterlimit="2">
+    <path
+       inkscape:connector-curvature="0"
+       id="path76"
+       d="m 359,190 -9,0 10,0 -9,0"
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g78"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0.947368,0,0,0.947368,-18.473736,-168.86748)"
+     stroke-miterlimit="2">
+    <path
+       inkscape:connector-curvature="0"
+       id="path80"
+       d="m 369,190 -9,0 10,0 -9,0"
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g82"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0.947368,0,0,0.947368,-18.473736,-168.86748)"
+     stroke-miterlimit="2">
+    <path
+       inkscape:connector-curvature="0"
+       id="path84"
+       d="m 370,199 0,-9 -9,0"
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g86"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0.947368,0,0,0.947368,-18.473736,-168.86748)"
+     stroke-miterlimit="2">
+    <path
+       style="fill-rule:evenodd"
+       inkscape:connector-curvature="0"
+       id="path88"
+       d="m 371,190 c 0,0.552 -0.448,1 -1,1 -0.552,0 -1,-0.448 -1,-1 0,-0.552 0.448,-1 1,-1 0.552,0 1,0.448 1,1"
+       vector-effect="none" />
+    <path
+       style="fill-rule:evenodd"
+       inkscape:connector-curvature="0"
+       id="path90"
+       d="m 371,190 c 0,0.552 -0.448,1 -1,1 -0.552,0 -1,-0.448 -1,-1 0,-0.552 0.448,-1 1,-1 0.552,0 1,0.448 1,1"
+       vector-effect="none" />
+    <path
+       style="fill-rule:evenodd"
+       inkscape:connector-curvature="0"
+       id="path92"
+       d="m 371,190 c 0,0.552 -0.448,1 -1,1 -0.552,0 -1,-0.448 -1,-1 0,-0.552 0.448,-1 1,-1 0.552,0 1,0.448 1,1"
+       vector-effect="none" />
+    <path
+       style="fill-rule:evenodd"
+       inkscape:connector-curvature="0"
+       id="path94"
+       d="m 371,190 c 0,0.552 -0.448,1 -1,1 -0.552,0 -1,-0.448 -1,-1 0,-0.552 0.448,-1 1,-1 0.552,0 1,0.448 1,1"
+       vector-effect="none" />
+    <path
+       style="fill-rule:evenodd"
+       inkscape:connector-curvature="0"
+       id="path96"
+       d="m 371,190 c 0,0.552 -0.448,1 -1,1 -0.552,0 -1,-0.448 -1,-1 0,-0.552 0.448,-1 1,-1 0.552,0 1,0.448 1,1"
+       vector-effect="none" />
+    <path
+       style="fill-rule:evenodd"
+       inkscape:connector-curvature="0"
+       id="path98"
+       d="m 371,190 c 0,0.552 -0.448,1 -1,1 -0.552,0 -1,-0.448 -1,-1 0,-0.552 0.448,-1 1,-1 0.552,0 1,0.448 1,1"
+       vector-effect="none" />
+    <path
+       style="fill-rule:evenodd"
+       inkscape:connector-curvature="0"
+       id="path100"
+       d="m 371,190 c 0,0.552 -0.448,1 -1,1 -0.552,0 -1,-0.448 -1,-1 0,-0.552 0.448,-1 1,-1 0.552,0 1,0.448 1,1"
+       vector-effect="none" />
+    <path
+       style="fill-rule:evenodd"
+       inkscape:connector-curvature="0"
+       id="path102"
+       d="m 371,190 c 0,0.552 -0.448,1 -1,1 -0.552,0 -1,-0.448 -1,-1 0,-0.552 0.448,-1 1,-1 0.552,0 1,0.448 1,1"
+       vector-effect="none" />
+    <path
+       style="fill-rule:evenodd"
+       inkscape:connector-curvature="0"
+       id="path104"
+       d="m 371,190 c 0,0.552 -0.448,1 -1,1 -0.552,0 -1,-0.448 -1,-1 0,-0.552 0.448,-1 1,-1 0.552,0 1,0.448 1,1"
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g106"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0.947368,0,0,0.947368,-18.473736,-168.86748)"
+     stroke-miterlimit="2">
+    <path
+       inkscape:connector-curvature="0"
+       id="path108"
+       d="m 370,241 0,9 0,-20 0,9"
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g110"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0.947368,0,0,0.947368,-217.42106,-168.86748)"
+     stroke-miterlimit="2">
+    <path
+       inkscape:connector-curvature="0"
+       id="path112"
+       d="m 529,190 -9,0 14,0 -9,0"
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g114"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0.947368,0,0,0.947368,-18.473736,-168.86748)"
+     stroke-miterlimit="2">
+    <path
+       inkscape:connector-curvature="0"
+       id="path116"
+       d="m 260,239 0,-9 0,20 0,-9"
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g118"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0.947368,0,0,0.947368,-18.473736,-168.86748)"
+     stroke-miterlimit="2">
+    <path
+       inkscape:connector-curvature="0"
+       id="path120"
+       d="m 251,190 9,0 0,9"
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g122"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0.947368,0,0,0.947368,-18.473736,-168.86748)"
+     stroke-miterlimit="2">
+    <path
+       style="fill-rule:evenodd"
+       inkscape:connector-curvature="0"
+       id="path124"
+       d="m 261,190 c 0,0.552 -0.448,1 -1,1 -0.552,0 -1,-0.448 -1,-1 0,-0.552 0.448,-1 1,-1 0.552,0 1,0.448 1,1"
+       vector-effect="none" />
+    <path
+       style="fill-rule:evenodd"
+       inkscape:connector-curvature="0"
+       id="path126"
+       d="m 261,190 c 0,0.552 -0.448,1 -1,1 -0.552,0 -1,-0.448 -1,-1 0,-0.552 0.448,-1 1,-1 0.552,0 1,0.448 1,1"
+       vector-effect="none" />
+    <path
+       style="fill-rule:evenodd"
+       inkscape:connector-curvature="0"
+       id="path128"
+       d="m 261,190 c 0,0.552 -0.448,1 -1,1 -0.552,0 -1,-0.448 -1,-1 0,-0.552 0.448,-1 1,-1 0.552,0 1,0.448 1,1"
+       vector-effect="none" />
+    <path
+       style="fill-rule:evenodd"
+       inkscape:connector-curvature="0"
+       id="path130"
+       d="m 261,190 c 0,0.552 -0.448,1 -1,1 -0.552,0 -1,-0.448 -1,-1 0,-0.552 0.448,-1 1,-1 0.552,0 1,0.448 1,1"
+       vector-effect="none" />
+    <path
+       style="fill-rule:evenodd"
+       inkscape:connector-curvature="0"
+       id="path132"
+       d="m 261,190 c 0,0.552 -0.448,1 -1,1 -0.552,0 -1,-0.448 -1,-1 0,-0.552 0.448,-1 1,-1 0.552,0 1,0.448 1,1"
+       vector-effect="none" />
+    <path
+       style="fill-rule:evenodd"
+       inkscape:connector-curvature="0"
+       id="path134"
+       d="m 261,190 c 0,0.552 -0.448,1 -1,1 -0.552,0 -1,-0.448 -1,-1 0,-0.552 0.448,-1 1,-1 0.552,0 1,0.448 1,1"
+       vector-effect="none" />
+    <path
+       style="fill-rule:evenodd"
+       inkscape:connector-curvature="0"
+       id="path136"
+       d="m 261,190 c 0,0.552 -0.448,1 -1,1 -0.552,0 -1,-0.448 -1,-1 0,-0.552 0.448,-1 1,-1 0.552,0 1,0.448 1,1"
+       vector-effect="none" />
+    <path
+       style="fill-rule:evenodd"
+       inkscape:connector-curvature="0"
+       id="path138"
+       d="m 261,190 c 0,0.552 -0.448,1 -1,1 -0.552,0 -1,-0.448 -1,-1 0,-0.552 0.448,-1 1,-1 0.552,0 1,0.448 1,1"
+       vector-effect="none" />
+    <path
+       style="fill-rule:evenodd"
+       inkscape:connector-curvature="0"
+       id="path140"
+       d="m 261,190 c 0,0.552 -0.448,1 -1,1 -0.552,0 -1,-0.448 -1,-1 0,-0.552 0.448,-1 1,-1 0.552,0 1,0.448 1,1"
+       vector-effect="none" />
+    <path
+       style="fill-rule:evenodd"
+       inkscape:connector-curvature="0"
+       id="path142"
+       d="m 261,190 c 0,0.552 -0.448,1 -1,1 -0.552,0 -1,-0.448 -1,-1 0,-0.552 0.448,-1 1,-1 0.552,0 1,0.448 1,1"
+       vector-effect="none" />
+    <path
+       style="fill-rule:evenodd"
+       inkscape:connector-curvature="0"
+       id="path144"
+       d="m 261,190 c 0,0.552 -0.448,1 -1,1 -0.552,0 -1,-0.448 -1,-1 0,-0.552 0.448,-1 1,-1 0.552,0 1,0.448 1,1"
+       vector-effect="none" />
+    <path
+       style="fill-rule:evenodd"
+       inkscape:connector-curvature="0"
+       id="path146"
+       d="m 261,190 c 0,0.552 -0.448,1 -1,1 -0.552,0 -1,-0.448 -1,-1 0,-0.552 0.448,-1 1,-1 0.552,0 1,0.448 1,1"
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g148"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0.947368,0,0,0.947368,-217.42106,-168.86748)"
+     stroke-miterlimit="2">
+    <path
+       inkscape:connector-curvature="0"
+       id="path150"
+       d="M 501.87375,195 488,195 l 0,15 42,0 0,-20 -10,0 9,0"
+       vector-effect="none"
+       sodipodi:nodetypes="ccccccc" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g152"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0.947368,0,0,0.947368,-217.42106,-168.86748)"
+     stroke-miterlimit="2">
+    <path
+       style="fill-rule:evenodd"
+       inkscape:connector-curvature="0"
+       id="path154"
+       d="m 531,190 c 0,0.552 -0.448,1 -1,1 -0.552,0 -1,-0.448 -1,-1 0,-0.552 0.448,-1 1,-1 0.552,0 1,0.448 1,1"
+       vector-effect="none" />
+    <path
+       style="fill-rule:evenodd"
+       inkscape:connector-curvature="0"
+       id="path156"
+       d="m 531,190 c 0,0.552 -0.448,1 -1,1 -0.552,0 -1,-0.448 -1,-1 0,-0.552 0.448,-1 1,-1 0.552,0 1,0.448 1,1"
+       vector-effect="none" />
+    <path
+       style="fill-rule:evenodd"
+       inkscape:connector-curvature="0"
+       id="path158"
+       d="m 531,190 c 0,0.552 -0.448,1 -1,1 -0.552,0 -1,-0.448 -1,-1 0,-0.552 0.448,-1 1,-1 0.552,0 1,0.448 1,1"
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g160"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0.947368,0,0,0.947368,-217.42106,-168.86748)"
+     stroke-miterlimit="2">
+    <path
+       inkscape:connector-curvature="0"
+       id="path162"
+       d="M 501.76663,185 488,185 l -18,0 0,5 -9,0"
+       vector-effect="none"
+       sodipodi:nodetypes="ccccc" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g164"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0.947368,0,0,0.947368,-217.42106,-168.86748)"
+     stroke-miterlimit="2">
+    <path
+       style="fill-rule:evenodd"
+       inkscape:connector-curvature="0"
+       id="path166"
+       d="m 471,190 c 0,0.552 -0.448,1 -1,1 -0.552,0 -1,-0.448 -1,-1 0,-0.552 0.448,-1 1,-1 0.552,0 1,0.448 1,1"
+       vector-effect="none" />
+    <path
+       style="fill-rule:evenodd"
+       inkscape:connector-curvature="0"
+       id="path168"
+       d="m 471,190 c 0,0.552 -0.448,1 -1,1 -0.552,0 -1,-0.448 -1,-1 0,-0.552 0.448,-1 1,-1 0.552,0 1,0.448 1,1"
+       vector-effect="none" />
+    <path
+       style="fill-rule:evenodd"
+       inkscape:connector-curvature="0"
+       id="path170"
+       d="m 471,190 c 0,0.552 -0.448,1 -1,1 -0.552,0 -1,-0.448 -1,-1 0,-0.552 0.448,-1 1,-1 0.552,0 1,0.448 1,1"
+       vector-effect="none" />
+    <path
+       style="fill-rule:evenodd"
+       inkscape:connector-curvature="0"
+       id="path172"
+       d="m 471,190 c 0,0.552 -0.448,1 -1,1 -0.552,0 -1,-0.448 -1,-1 0,-0.552 0.448,-1 1,-1 0.552,0 1,0.448 1,1"
+       vector-effect="none" />
+    <path
+       style="fill-rule:evenodd"
+       inkscape:connector-curvature="0"
+       id="path174"
+       d="m 471,190 c 0,0.552 -0.448,1 -1,1 -0.552,0 -1,-0.448 -1,-1 0,-0.552 0.448,-1 1,-1 0.552,0 1,0.448 1,1"
+       vector-effect="none" />
+    <path
+       style="fill-rule:evenodd"
+       inkscape:connector-curvature="0"
+       id="path176"
+       d="m 471,190 c 0,0.552 -0.448,1 -1,1 -0.552,0 -1,-0.448 -1,-1 0,-0.552 0.448,-1 1,-1 0.552,0 1,0.448 1,1"
+       vector-effect="none" />
+    <path
+       style="fill-rule:evenodd"
+       inkscape:connector-curvature="0"
+       id="path178"
+       d="m 471,190 c 0,0.552 -0.448,1 -1,1 -0.552,0 -1,-0.448 -1,-1 0,-0.552 0.448,-1 1,-1 0.552,0 1,0.448 1,1"
+       vector-effect="none" />
+    <path
+       style="fill-rule:evenodd"
+       inkscape:connector-curvature="0"
+       id="path180"
+       d="m 471,190 c 0,0.552 -0.448,1 -1,1 -0.552,0 -1,-0.448 -1,-1 0,-0.552 0.448,-1 1,-1 0.552,0 1,0.448 1,1"
+       vector-effect="none" />
+    <path
+       style="fill-rule:evenodd"
+       inkscape:connector-curvature="0"
+       id="path182"
+       d="m 471,190 c 0,0.552 -0.448,1 -1,1 -0.552,0 -1,-0.448 -1,-1 0,-0.552 0.448,-1 1,-1 0.552,0 1,0.448 1,1"
+       vector-effect="none" />
+    <path
+       style="fill-rule:evenodd"
+       inkscape:connector-curvature="0"
+       id="path184"
+       d="m 471,190 c 0,0.552 -0.448,1 -1,1 -0.552,0 -1,-0.448 -1,-1 0,-0.552 0.448,-1 1,-1 0.552,0 1,0.448 1,1"
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g186"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0,-0.947368,0.947368,0,95.210944,11.132916)"
+     stroke-miterlimit="2">
+    <polyline
+       style="fill:none"
+       id="polyline188"
+       points="0,-10 0,-20 "
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g190"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0,-0.947368,0.947368,0,95.210944,11.132916)"
+     stroke-miterlimit="2">
+    <polyline
+       style="fill:none"
+       id="polyline192"
+       points="0,10 0,20 "
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g194"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0,-0.947368,0.947368,0,95.210944,11.132916)"
+     stroke-miterlimit="2">
+    <polyline
+       style="fill:none"
+       id="polyline196"
+       points="4,10 4,-10 "
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g198"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0,-0.947368,0.947368,0,95.210944,11.132916)"
+     stroke-miterlimit="2">
+    <polyline
+       style="fill:none"
+       id="polyline200"
+       points="-4,10 4,10 "
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g202"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0,-0.947368,0.947368,0,95.210944,11.132916)"
+     stroke-miterlimit="2">
+    <polyline
+       style="fill:none"
+       id="polyline204"
+       points="4,-10 -4,-10 "
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g206"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0,-0.947368,0.947368,0,95.210944,11.132916)"
+     stroke-miterlimit="2">
+    <polyline
+       style="fill:none"
+       id="polyline208"
+       points="-4,-10 -4,10 "
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g210"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0.947368,0,0,0.947368,38.368344,39.553916)"
+     stroke-miterlimit="2">
+    <polyline
+       style="fill:none"
+       id="polyline212"
+       points="-5,2 5,2 "
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g214"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0.947368,0,0,0.947368,38.368344,39.553916)"
+     stroke-miterlimit="2">
+    <polyline
+       style="fill:none"
+       id="polyline216"
+       points="-5,-2 5,-2 "
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g218"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0.947368,0,0,0.947368,38.368344,39.553916)"
+     stroke-miterlimit="2">
+    <polyline
+       style="fill:none"
+       id="polyline220"
+       points="0,2 0,20 "
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g222"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0.947368,0,0,0.947368,38.368344,39.553916)"
+     stroke-miterlimit="2">
+    <polyline
+       style="fill:none"
+       id="polyline224"
+       points="0,-20 0,-2 "
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g226"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0.947368,0,0,0.947368,123.63194,39.553916)"
+     stroke-miterlimit="2">
+    <polyline
+       style="fill:none"
+       id="polyline228"
+       points="-5,2 5,2 "
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g230"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0.947368,0,0,0.947368,123.63194,39.553916)"
+     stroke-miterlimit="2">
+    <polyline
+       style="fill:none"
+       id="polyline232"
+       points="-5,-2 5,-2 "
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g234"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0.947368,0,0,0.947368,123.63194,39.553916)"
+     stroke-miterlimit="2">
+    <polyline
+       style="fill:none"
+       id="polyline236"
+       points="0,2 0,20 "
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g238"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0.947368,0,0,0.947368,123.63194,39.553916)"
+     stroke-miterlimit="2">
+    <polyline
+       style="fill:none"
+       id="polyline240"
+       points="0,-20 0,-2 "
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g242"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0.947368,0,0,0.947368,38.368344,67.975016)"
+     stroke-miterlimit="2">
+    <polyline
+       style="fill:none"
+       id="polyline244"
+       points="-3,4 3,4 "
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g246"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0.947368,0,0,0.947368,38.368344,67.975016)"
+     stroke-miterlimit="2">
+    <polyline
+       style="fill:none"
+       id="polyline248"
+       points="-5,2 5,2 "
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g250"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0.947368,0,0,0.947368,38.368344,67.975016)"
+     stroke-miterlimit="2">
+    <polyline
+       style="fill:none"
+       id="polyline252"
+       points="-7,0 7,0 "
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g254"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0.947368,0,0,0.947368,38.368344,67.975016)"
+     stroke-miterlimit="2">
+    <polyline
+       style="fill:none"
+       id="polyline256"
+       points="0,-10 0,0 "
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g258"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0.947368,0,0,0.947368,123.63194,67.975016)"
+     stroke-miterlimit="2">
+    <polyline
+       style="fill:none"
+       id="polyline260"
+       points="-3,4 3,4 "
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g262"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0.947368,0,0,0.947368,123.63194,67.975016)"
+     stroke-miterlimit="2">
+    <polyline
+       style="fill:none"
+       id="polyline264"
+       points="-5,2 5,2 "
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g266"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0.947368,0,0,0.947368,123.63194,67.975016)"
+     stroke-miterlimit="2">
+    <polyline
+       style="fill:none"
+       id="polyline268"
+       points="-7,0 7,0 "
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g270"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0.947368,0,0,0.947368,123.63194,67.975016)"
+     stroke-miterlimit="2">
+    <polyline
+       style="fill:none"
+       id="polyline272"
+       points="0,-10 0,0 "
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g274"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0,-0.947368,0.947368,0,19.421044,11.132916)"
+     stroke-miterlimit="2">
+    <polyline
+       style="fill:none"
+       id="polyline276"
+       points="0,-10 0,-20 "
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g278"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0,-0.947368,0.947368,0,19.421044,11.132916)"
+     stroke-miterlimit="2">
+    <polyline
+       style="fill:none"
+       id="polyline280"
+       points="0,10 0,20 "
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g282"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0,-0.947368,0.947368,0,19.421044,11.132916)"
+     stroke-miterlimit="2">
+    <polyline
+       style="fill:none"
+       id="polyline284"
+       points="4,10 4,-10 "
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g286"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0,-0.947368,0.947368,0,19.421044,11.132916)"
+     stroke-miterlimit="2">
+    <polyline
+       style="fill:none"
+       id="polyline288"
+       points="-4,10 4,10 "
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g290"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0,-0.947368,0.947368,0,19.421044,11.132916)"
+     stroke-miterlimit="2">
+    <polyline
+       style="fill:none"
+       id="polyline292"
+       points="4,-10 -4,-10 "
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g294"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0,-0.947368,0.947368,0,19.421044,11.132916)"
+     stroke-miterlimit="2">
+    <polyline
+       style="fill:none"
+       id="polyline296"
+       points="-4,-10 -4,10 "
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Ubuntu"
+     id="g298"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0,0.947368,-0.947368,0,142.57894,11.132916)">
+    <polyline
+       style="fill:none"
+       id="polyline300"
+       points="-4,-1 0,5 4,-1 "
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g302"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0,0.947368,-0.947368,0,142.57894,11.132916)"
+     stroke-miterlimit="2">
+    <polyline
+       style="fill:none"
+       id="polyline304"
+       points="0,5.5 0,20 "
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:7px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Sans Serif"
+     id="g306"
+     font-style="normal"
+     font-weight="400"
+     font-size="7"
+     transform="matrix(0.947368,0,0,0.947368,57.315744,11.132916)">
+    <text
+       style="font-size:7px;font-style:normal;font-weight:400;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans Serif"
+       id="text308"
+       font-style="normal"
+       font-weight="400"
+       font-size="7"
+       y="3"
+       x="-5.6875"
+       xml:space="preserve">x1</text>
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g310"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0.947368,0,0,0.947368,57.315744,11.944738)"
+     stroke-miterlimit="2" />
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g314"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0.947368,0,0,0.947368,57.315744,11.132916)"
+     stroke-miterlimit="2">
+    <path
+       d="M -8,10 -8,-10 11,0 z"
+       id="polyline316"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g318"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0.947368,0,0,0.947368,57.315744,11.944738)"
+     stroke-miterlimit="2" />
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Ubuntu"
+     id="g322"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0,0.947368,-0.947368,0,350.99994,11.132916)">
+    <polyline
+       style="fill:none"
+       id="polyline324"
+       points="-4,-1 0,5 4,-1 "
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g326"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0,0.947368,-0.947368,0,350.99994,11.132916)"
+     stroke-miterlimit="2">
+    <polyline
+       style="fill:none"
+       id="polyline328"
+       points="0,5.5 0,20 "
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g330"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0,-0.947368,0.947368,0,199.42094,11.132916)"
+     stroke-miterlimit="2">
+    <polyline
+       style="fill:none"
+       id="polyline332"
+       points="0,-10 0,-20 "
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g334"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0,-0.947368,0.947368,0,199.42094,11.132916)"
+     stroke-miterlimit="2">
+    <polyline
+       style="fill:none"
+       id="polyline336"
+       points="0,10 0,20 "
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g338"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0,-0.947368,0.947368,0,199.42094,11.132916)"
+     stroke-miterlimit="2">
+    <polyline
+       style="fill:none"
+       id="polyline340"
+       points="4,10 4,-10 "
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g342"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0,-0.947368,0.947368,0,199.42094,11.132916)"
+     stroke-miterlimit="2">
+    <polyline
+       style="fill:none"
+       id="polyline344"
+       points="-4,10 4,10 "
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g346"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0,-0.947368,0.947368,0,199.42094,11.132916)"
+     stroke-miterlimit="2">
+    <polyline
+       style="fill:none"
+       id="polyline348"
+       points="4,-10 -4,-10 "
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g350"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0,-0.947368,0.947368,0,199.42094,11.132916)"
+     stroke-miterlimit="2">
+    <polyline
+       style="fill:none"
+       id="polyline352"
+       points="-4,-10 -4,10 "
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g354"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0.947368,0,0,0.947368,332.05294,67.975016)"
+     stroke-miterlimit="2">
+    <polyline
+       style="fill:none"
+       id="polyline356"
+       points="-3,4 3,4 "
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g358"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0.947368,0,0,0.947368,332.05294,67.975016)"
+     stroke-miterlimit="2">
+    <polyline
+       style="fill:none"
+       id="polyline360"
+       points="-5,2 5,2 "
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g362"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0.947368,0,0,0.947368,332.05294,67.975016)"
+     stroke-miterlimit="2">
+    <polyline
+       style="fill:none"
+       id="polyline364"
+       points="-7,0 7,0 "
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g366"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0.947368,0,0,0.947368,332.05294,67.975016)"
+     stroke-miterlimit="2">
+    <polyline
+       style="fill:none"
+       id="polyline368"
+       points="0,-10 0,0 "
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g370"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0.947368,0,0,0.947368,227.84194,67.975016)"
+     stroke-miterlimit="2">
+    <polyline
+       style="fill:none"
+       id="polyline372"
+       points="-3,4 3,4 "
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g374"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0.947368,0,0,0.947368,227.84194,67.975016)"
+     stroke-miterlimit="2">
+    <polyline
+       style="fill:none"
+       id="polyline376"
+       points="-5,2 5,2 "
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g378"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0.947368,0,0,0.947368,227.84194,67.975016)"
+     stroke-miterlimit="2">
+    <polyline
+       style="fill:none"
+       id="polyline380"
+       points="-7,0 7,0 "
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g382"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0.947368,0,0,0.947368,227.84194,67.975016)"
+     stroke-miterlimit="2">
+    <polyline
+       style="fill:none"
+       id="polyline384"
+       points="0,-10 0,0 "
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g386"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0.947368,0,0,0.947368,332.05294,39.553916)"
+     stroke-miterlimit="2">
+    <polyline
+       style="fill:none"
+       id="polyline388"
+       points="-5,2 5,2 "
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g390"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0.947368,0,0,0.947368,332.05294,39.553916)"
+     stroke-miterlimit="2">
+    <polyline
+       style="fill:none"
+       id="polyline392"
+       points="-5,-2 5,-2 "
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g394"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0.947368,0,0,0.947368,332.05294,39.553916)"
+     stroke-miterlimit="2">
+    <polyline
+       style="fill:none"
+       id="polyline396"
+       points="0,2 0,20 "
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g398"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0.947368,0,0,0.947368,332.05294,39.553916)"
+     stroke-miterlimit="2">
+    <polyline
+       style="fill:none"
+       id="polyline400"
+       points="0,-20 0,-2 "
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g402"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0.947368,0,0,0.947368,227.84194,39.553916)"
+     stroke-miterlimit="2">
+    <polyline
+       style="fill:none"
+       id="polyline404"
+       points="-5,2 5,2 "
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g406"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0.947368,0,0,0.947368,227.84194,39.553916)"
+     stroke-miterlimit="2">
+    <polyline
+       style="fill:none"
+       id="polyline408"
+       points="-5,-2 5,-2 "
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g410"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0.947368,0,0,0.947368,227.84194,39.553916)"
+     stroke-miterlimit="2">
+    <polyline
+       style="fill:none"
+       id="polyline412"
+       points="0,2 0,20 "
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g414"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0.947368,0,0,0.947368,227.84194,39.553916)"
+     stroke-miterlimit="2">
+    <polyline
+       style="fill:none"
+       id="polyline416"
+       points="0,-20 0,-2 "
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g418"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0,-0.947368,0.947368,0,303.63194,11.132916)"
+     stroke-miterlimit="2">
+    <polyline
+       style="fill:none"
+       id="polyline420"
+       points="0,-10 0,-20 "
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g422"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0,-0.947368,0.947368,0,303.63194,11.132916)"
+     stroke-miterlimit="2">
+    <polyline
+       style="fill:none"
+       id="polyline424"
+       points="0,10 0,20 "
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g426"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0,-0.947368,0.947368,0,303.63194,11.132916)"
+     stroke-miterlimit="2">
+    <polyline
+       style="fill:none"
+       id="polyline428"
+       points="4,10 4,-10 "
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g430"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0,-0.947368,0.947368,0,303.63194,11.132916)"
+     stroke-miterlimit="2">
+    <polyline
+       style="fill:none"
+       id="polyline432"
+       points="-4,10 4,10 "
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g434"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0,-0.947368,0.947368,0,303.63194,11.132916)"
+     stroke-miterlimit="2">
+    <polyline
+       style="fill:none"
+       id="polyline436"
+       points="4,-10 -4,-10 "
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g438"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0,-0.947368,0.947368,0,303.63194,11.132916)"
+     stroke-miterlimit="2">
+    <polyline
+       style="fill:none"
+       id="polyline440"
+       points="-4,-10 -4,10 "
+       vector-effect="none" />
+  </g>
+  <g
+     style="font-size:5px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Sans Serif"
+     id="g442"
+     font-style="normal"
+     font-weight="400"
+     font-size="5"
+     transform="matrix(0.947368,0,0,0.947368,265.73694,11.132916)">
+    <text
+       style="font-size:5px;font-style:normal;font-weight:400;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans Serif"
+       id="text444"
+       font-style="normal"
+       font-weight="400"
+       font-size="5"
+       y="-3.32812"
+       x="-6.40625"
+       xml:space="preserve">+</text>
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g446"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0.947368,0,0,0.947368,265.73694,11.944738)"
+     stroke-miterlimit="2" />
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g450"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0.947368,0,0,0.947368,265.73694,11.944738)"
+     stroke-miterlimit="2" />
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;font-family:Ubuntu"
+     id="g454"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0.947368,0,0,0.947368,265.73694,11.132916)"
+     stroke-miterlimit="2">
+    <path
+       d="M -8,-10 -8,10 11,0 z"
+       id="polyline456"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
+  </g>
+  <g
+     style="font-size:5px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Sans Serif"
+     id="g458"
+     font-style="normal"
+     font-weight="400"
+     font-size="5"
+     transform="matrix(0.947368,0,0,0.947368,265.73694,11.132916)">
+    <text
+       style="font-size:5px;font-style:normal;font-weight:400;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans Serif"
+       id="text460"
+       font-style="normal"
+       font-weight="400"
+       font-size="5"
+       y="5.65625"
+       x="-5.59375"
+       xml:space="preserve">-</text>
+  </g>
+  <g
+     style="font-size:11px;font-style:normal;font-weight:400;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;font-family:Ubuntu"
+     id="g462"
+     font-style="normal"
+     font-weight="400"
+     font-size="11"
+     transform="matrix(0.947368,0,0,0.947368,-9.000056,-7.0026621)" />
+</svg>

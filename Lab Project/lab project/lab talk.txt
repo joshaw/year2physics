@@ -1,0 +1,60 @@
+﻿Theremin Lab Project Talk
+
+History of the Theremin
+
+Product of the Russian Government proximity sensors
+Lev Sergeivich Termen, known in Europe as Leon Theremin – October 1920
+Showed it to Lenin – he proposed that Theremin took it on a world tour to show everyone the amazing technology of the soviet union. This tour lasted until 1928 in Europe, and in 1929 he successfully applied for a patent in America. Despite the tour, the Theremin was not a commercial success until the 1930s, and it fell into disuse after ww2 until other electronic instruments came onto the market. However, it has remained a niche interest amongst electronic enthusiasts. 
+
+\section{Basic Theory}
+
+The Theremin is an instrument which can be played without any physical contact from the user. This is certainly a contributing factor to its ongoing popularity amongst electronics enthusiasts such as Robert Moog – The sire of the music synthesiser. The instrument uses two radio frequency oscillators and a mixer to output signals in the audible range of frequencies. One oscillator remains fixed whilst the other can be adjusted by a changing capacitance, formed by the user's hand (effectively a grounded plate) and an antenna. The two frequencies are subtracted from each other by the mixer, and the result amplified and outputted by a loud speaker.
+
+\section{Progress Made}
+
+\subsection{Step 1 555 Timer IC}
+
+First idea was to use a 555 timer IC in the astable state to produce our own oscillator.  The timer chip was used to output a series of  pulses with a defined period to build an effective square wave output signal. At high frequencies, this sounds like a smooth sound, the frequency of which is the pitch. The equations used are
+
+\begin{align*}
+	f &= \frac{1}{\ln(2)C(R_1+2R_2)} \\
+	\text{low time} &= \ln(2) R_2 C \\
+	\text{High time } &= \ln(2)(R_1+R_2)C
+\end{align*}
+
+We tried including a second 555 chip to act as the volume control with LDRs to control the resistances and hence the pitch and volume. The range of frequencies that was achievable with this setup was limited and produced distorted signals. Also the pitch was controlled by LDRs, not the hand capacitors as hoped.
+
+\subsection{8038 IC}
+
+This chip has the capability to output a sine wave of variable frequency, depending on the relative input voltages. Unfortunately, this chip is no longer under production, nor were any successors since the need has been fulfilled by other components. 
+
+\subsection{4046 CMOS IC}
+
+The 4046 CMOS IC contains a voltage control oscillator (VCO) which can be used to output 20-20,000kHz signals, i.e.\ audible range. Using the data sheet for the chip, we built a circuit out of ideally selected components to generate frequencies in that range. The first chip we had was faulty, but a second chip was used to produce reasonable results [graphs].
+
+The issue encountered was again in control of the output signal, and how to use the hand capacitor with this setup.
+
+\subsection{VCO control using the hand capacitor}
+
+We attempted to control the voltage input of the VCO using just the metal plate connected to the VCO input. This did appear to work to some extent, but when we monitored the signal produced by the plate on an oscilloscope we quickly realised that it was simply mains interference at 50Hz. We could think of no easy way to vary this VCO input voltage using just a capacitor plate, and so decided we would need to explore other avenues. 
+
+\subsection{SA612A IC)
+
+we knew that the traditional Theremin works by taking the difference between 2 oscillator frequencies, and that this is achieved by using a mixer. Therefore we decided to research an IC capable of performing that function, and came across the SA612A. We set up the mixer in a circuit and used 2 TG315 function generators to test the output. It was found that the mixer outputs 2 signal at the same time, one which is the addition of the 2 inputs, and one is the difference between them. We only wanted the lower frequency, the difference, and so we built a low pass filter, which had a cut-off frequency of 20000Hz, so as to only allow audible frequencies. The cut-off frequency of a low pass filter is easily calculated by:
+
+\[
+	f_c = \frac{1}{2\pi CR)}
+\]
+
+Having used the TG315 function generators as inputs to the mixer successfully, we decided to try using 2 of the 4046 chips as inputs instead. We found that the maximum frequency that could be achieved with the 4046 was around $1.2 \times 10^{5}$Hz, and at this frequency the signal produced was very distorted and far from a symmetrical square wave – the high time was much shorter than the low time. Another problem was that the capacitor in the 4046 circuit is between 2 of the pins, and does not go to ground. This is an issue, as the users hand acts as a ground plate, and cannot provide a connection between 2 pins. 
+
+
+When interacting with the hand capacitor, the user acts as a grounded plate. To be able to use this, the circuit used needs to have a capacitor that is grounded  
+
+
+begin{align*}
+	f &= \frac{1}{\ln(2)C(R_1+2R_2)} \\
+	\text{low time} &= \ln(2) R_2 C \\
+	\text{High time } &= \ln(2)(R_1+R_2)C
+\end{align*}
+We had the idea to set the resistor $R_1$ to zero, and hence the high and the low time would be identical. To achieve this, we would simply have to remove the resistor from the circuit. Unfortunately, the duty cycle of the chip, which is given by $D=\frac{R_2}{R_1+2R_2}$, as specified in the data sheet for the component, is required to be greater than 50\%. When there is no $R_1$, the value of $D$ is 50\% and so not acceptable.

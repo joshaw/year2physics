@@ -1,0 +1,138 @@
+%LaTeX with PSTricks extensions
+%%Creator: inkscape 0.48.3.1
+%%Please note this file requires PSTricks extensions
+\psset{xunit=.5pt,yunit=.5pt,runit=.5pt}
+\begin{pspicture}(372.46875,138.71875)
+{
+\newrgbcolor{curcolor}{0 0 0}
+\pscustom[linewidth=1.60000002,linecolor=curcolor]
+{
+\newpath
+\moveto(134.82013,101.25063)
+\lineto(134.82013,79.99079)
+}
+}
+{
+\newrgbcolor{curcolor}{0 0 0}
+\pscustom[linewidth=1.60000002,linecolor=curcolor]
+{
+\newpath
+\moveto(134.82013,51.64433)
+\lineto(134.82013,37.47111)
+}
+}
+{
+\newrgbcolor{curcolor}{0 0 0}
+\pscustom[linewidth=1.60000002,linecolor=curcolor]
+{
+\newpath
+\moveto(134.82013,51.64435)
+\lineto(120.64691,79.99079)
+\lineto(148.99335,79.99079)
+\lineto(134.82013,51.64435)
+\closepath
+}
+}
+{
+\newrgbcolor{curcolor}{0 0 0}
+\pscustom[linewidth=1.60000002,linecolor=curcolor]
+{
+\newpath
+\moveto(148.99335,51.64433)
+\lineto(120.64691,51.64433)
+}
+}
+{
+\newrgbcolor{curcolor}{0 0 0}
+\pscustom[linewidth=1.60000002,linecolor=curcolor]
+{
+\newpath
+\moveto(219.65748,37.47146)
+\lineto(219.65748,58.7313)
+}
+}
+{
+\newrgbcolor{curcolor}{0 0 0}
+\pscustom[linewidth=1.60000002,linecolor=curcolor]
+{
+\newpath
+\moveto(219.65748,87.07776)
+\lineto(219.65748,101.25098)
+}
+}
+{
+\newrgbcolor{curcolor}{0 0 0}
+\pscustom[linewidth=1.60000002,linecolor=curcolor]
+{
+\newpath
+\moveto(219.65748,87.07774)
+\lineto(205.48426,58.7313)
+\lineto(233.8307,58.7313)
+\lineto(219.65748,87.07774)
+\closepath
+}
+}
+{
+\newrgbcolor{curcolor}{0 0 0}
+\pscustom[linewidth=1.60000002,linecolor=curcolor]
+{
+\newpath
+\moveto(233.8307,87.07776)
+\lineto(205.48426,87.07776)
+}
+}
+{
+\newrgbcolor{curcolor}{0 0 0}
+\pscustom[linewidth=1.60000002,linecolor=curcolor]
+{
+\newpath
+\moveto(0.010111,137.92821)
+\lineto(370.73772,137.92821)
+}
+}
+{
+\newrgbcolor{curcolor}{0 0 0}
+\pscustom[linewidth=1.60000002,linecolor=curcolor]
+{
+\newpath
+\moveto(1.753351,0.79386)
+\lineto(372.48096,0.79386)
+}
+}
+{
+\newrgbcolor{curcolor}{0 0 0}
+\pscustom[linewidth=1.60000002,linecolor=curcolor]
+{
+\newpath
+\moveto(134.82013,101.25063)
+\lineto(134.82013,137.92821)
+}
+}
+{
+\newrgbcolor{curcolor}{0 0 0}
+\pscustom[linewidth=1.60000002,linecolor=curcolor]
+{
+\newpath
+\moveto(134.82013,37.47111)
+\lineto(134.82013,0.79386)
+}
+}
+{
+\newrgbcolor{curcolor}{0 0 0}
+\pscustom[linewidth=1.60000002,linecolor=curcolor]
+{
+\newpath
+\moveto(219.65748,101.25063)
+\lineto(219.65748,137.92821)
+}
+}
+{
+\newrgbcolor{curcolor}{0 0 0}
+\pscustom[linewidth=1.60000002,linecolor=curcolor]
+{
+\newpath
+\moveto(219.65748,37.47111)
+\lineto(219.65748,0.79386)
+}
+}
+\end{pspicture}

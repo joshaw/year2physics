@@ -1,0 +1,11217 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\usepackage{feyn}
+
+ \allowdisplaybreaks[2]
+
+\renewcommand{\d}{\mathrm{d}} % for integrals 
+\newcommand{\dx}[2]{\frac{\textrm{d} #1}{\textrm{d} #2}} % for derivatives
+\newcommand{\dd}[2]{\frac{\textrm{d}^2 #1}{\textrm{d} #2^2}} % for double derivatives
+\newcommand{\pd}[2]{\frac{\partial #1}{\partial #2}} % for partial derivatives
+\newcommand{\pdd}[2]{\frac{\partial^2 #1}{\partial #2^2}} % for double partial derivatives
+\renewcommand{\u}[1]{\underline{#1}} % for underline's vectors
+\newcommand{\sintertext}[1]{\intertext{#1}\\[-0.7cm]}
+\end_preamble
+\use_default_options true
+\begin_modules
+fix-cm
+\end_modules
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding utf8
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered true
+\pdf_bookmarksopen true
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize default
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2cm
+\topmargin 3cm
+\rightmargin 2cm
+\bottommargin 3cm
+\headheight 2cm
+\headsep 2cm
+\footskip 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pagenumbering{roman}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Title
+Classical Mechanics and Relativity
+\end_layout
+
+\begin_layout Author
+Josh Wainwright
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pagenumbering{arabic} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{page}{1}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph*
+Year 1 Mechanics:
+\end_layout
+
+\begin_layout Standard
+treated objects as point masses, concerned with translation only
+\end_layout
+
+\begin_layout Paragraph*
+Year 2 Mechanics: 
+\end_layout
+
+\begin_layout Standard
+looking at extended bodies which leads to rotation
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+[
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+begin{array}{c|c}
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+mathbf{Translation} & 
+\backslash
+mathbf{Rotation} 
+\backslash
+
+\backslash
+ 
+\backslash
+hline
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+text{Force } 
+\backslash
+underline{F} & 
+\backslash
+text{Torque } 
+\backslash
+underline{
+\backslash
+tau} 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+text{Momentum } 
+\backslash
+underline{p} & 
+\backslash
+text{Angular Momentum } 
+\backslash
+underline{L}
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+text{Mass, velocity } 
+\backslash
+displaystyle 
+\backslash
+underline{F} = 
+\backslash
+frac{
+\backslash
+mathrm{d}p}{
+\backslash
+mathrm{d}t} &
+\end_layout
+
+\begin_layout Plain Layout
+
+			
+\backslash
+text{Momentum of inertia, angular velocity } 
+\end_layout
+
+\begin_layout Plain Layout
+
+			
+\backslash
+displaystyle 
+\backslash
+underline{
+\backslash
+tau} = 
+\backslash
+frac{
+\backslash
+mathrm{d} 
+\backslash
+underline{L}} {
+\backslash
+mathrm{d}t} 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		F=0
+\backslash
+Rightarrow 
+\backslash
+underline{p} = 
+\backslash
+text{constant} & 
+\backslash
+underline{
+\backslash
+tau}=0 
+\backslash
+Rightarrow 
+\backslash
+underline{L} = 
+\backslash
+text{constant}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+end{array}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+]
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+Motion of Extended Body
+\end_layout
+
+\begin_layout Standard
+The fall analysis can be very complex so it is simplified by separating
+ the motion into the motion of the center of mass and the rotation about
+ the center of mass of the rest of the object.
+\end_layout
+
+\begin_layout Section
+Reduced Mass
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/2 mass system.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Consider the external forces 
+\begin_inset Formula $\underline{F}_{1}^{ext}$
+\end_inset
+
+ and 
+\begin_inset Formula $\underline{F}_{2}^{ext}$
+\end_inset
+
+ acting on masses 1 and 2.
+ If the force on 
+\begin_inset Formula $m_{1}$
+\end_inset
+
+ due to 
+\begin_inset Formula $m_{2}$
+\end_inset
+
+ is 
+\begin_inset Formula $\underline{F}_{12}$
+\end_inset
+
+, then according to Newton's 3rd law, the force om 
+\begin_inset Formula $m_{2}$
+\end_inset
+
+ due to 
+\begin_inset Formula $m_{1}$
+\end_inset
+
+, is 
+\begin_inset Formula 
+\[
+\underline{F}_{21}=-\underline{F}_{12}\equiv-\underline{F}
+\]
+
+\end_inset
+
+Equations of motion for the two bodies
+\begin_inset Formula 
+\begin{eqnarray}
+m_{1}\underline{\ddot{r}}_{1} & = & \underline{F}_{1}^{ext}+\underline{F}\label{eq:motion of 2 bodies 1}\\
+m_{2}\underline{\ddot{r}}_{2} & = & \underline{F}_{2}^{ext}+\underline{F}\label{eq:motion of 2 bodies 2}
+\end{eqnarray}
+
+\end_inset
+
+To makes solving these equations easier, we will simplify the situation.
+ Center of mass is given by,
+\begin_inset Formula 
+\[
+\underline{R}=\frac{m_{1}r_{1}+m_{2}r_{2}}{m_{1}+m_{2}}
+\]
+
+\end_inset
+
+and the relative position is given by,
+\begin_inset Formula 
+\[
+\underline{r}=\underline{r}_{1}-\underline{r}_{2}
+\]
+
+\end_inset
+
+Given these definitions, and adding 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:motion of 2 bodies 1"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:motion of 2 bodies 2"
+
+\end_inset
+
+ gives
+\begin_inset Formula 
+\begin{eqnarray*}
+m_{1}\underline{\ddot{r}}_{1}+m_{2}\underline{\ddot{r}}_{2} & = & \underline{F}_{1}^{ext}+\underline{F}_{2}^{ext}+\underline{F}-\underline{F}\\
+(m_{1}+m_{2})\underline{\ddot{R}} & = & \underline{F}_{1}^{ext}+\underline{F}_{2}^{ext}\\
+M\underline{\ddot{R}} & = & \underline{F}_{tot}^{ext}
+\end{eqnarray*}
+
+\end_inset
+
+So the system behaves like a point mass 
+\begin_inset Formula $M$
+\end_inset
+
+ at coordinate 
+\begin_inset Formula $R$
+\end_inset
+
+ under the external force 
+\begin_inset Formula $\underline{F}_{tot}^{ext}$
+\end_inset
+
+.
+ If 
+\begin_inset Formula $\underline{F}_{tot}^{ext}=0$
+\end_inset
+
+ then the center of mass acceleration is zero and hence the momentum of
+ the center of mass is constant.
+\begin_inset Formula 
+\begin{eqnarray*}
+M\underline{\ddot{R}} & = & 0\\
+\Rightarrow M\underline{\dot{R}} & = & \text{constant}
+\end{eqnarray*}
+
+\end_inset
+
+Also from (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:motion of 2 bodies 1"
+
+\end_inset
+
+) and (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:motion of 2 bodies 2"
+
+\end_inset
+
+),
+\begin_inset Formula 
+\begin{eqnarray*}
+\underline{\ddot{r}}_{1} & = & \frac{\underline{F}_{1}^{ext}}{m_{1}}+\frac{\underline{F}}{m_{1}}\\
+\underline{\ddot{r}}_{2} & = & \frac{\underline{F}_{2}^{ext}}{m_{2}}-\frac{\underline{F}}{m_{2}}
+\end{eqnarray*}
+
+\end_inset
+
+Supposing the only external force is gravity, then
+\begin_inset Formula 
+\[
+\frac{\underline{F}_{1}^{ext}}{m_{1}}=\frac{\underline{F}_{2}^{ext}}{m_{2}}
+\]
+
+\end_inset
+
+this is the gravitational acceleration.
+\begin_inset Formula 
+\begin{eqnarray*}
+\Rightarrow\underline{\ddot{r}} & = & \underline{\ddot{r}}_{1}-\underline{\ddot{r}}_{2}=F\left(\frac{1}{m_{1}}+\frac{1}{m_{2}}\right)=\frac{F}{\mu}\\
+F & = & \mu\underline{\ddot{r}}
+\end{eqnarray*}
+
+\end_inset
+
+where 
+\begin_inset Formula $\mu=\frac{m_{1}m_{2}}{m_{1}+m_{2}}$
+\end_inset
+
+.
+ This is typically called the reduce mass.
+ So the motion of a two body system can be separated into, 
+\end_layout
+
+\begin_layout Enumerate
+Center of mass of the system which moves under the influence of the of the
+ net external force and
+\end_layout
+
+\begin_layout Enumerate
+Relative motion which can be described as the motion of a single particle
+ whose mass is the reduced mass, 
+\begin_inset Formula $\mu$
+\end_inset
+
+, under the influence of the internal force
+\end_layout
+
+\begin_layout Section
+Center of Mass of Many Body System
+\end_layout
+
+\begin_layout Standard
+For two bodies;
+\begin_inset Formula 
+\[
+R_{cm}=\frac{m_{1}r_{1}+m_{2}r_{2}}{m_{1}+m_{2}}
+\]
+
+\end_inset
+
+For many bodies;
+\begin_inset Formula 
+\[
+R_{cm}=\frac{\sum_{k}^{n}m_{k}\underline{r}_{k}}{\sum_{k}^{n}m_{k}}=\frac{1}{M}\sum_{k}m_{k}\underline{r}_{k}
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $M$
+\end_inset
+
+ is the total mass of the system.
+ For a continuous mass distribution;
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+[
+\end_layout
+
+\begin_layout Plain Layout
+
+	R_{cm} = 
+\backslash
+frac{
+\backslash
+displaystyle 
+\backslash
+int 
+\backslash
+underline{r} 
+\backslash
+mathrm{d}m}{
+\backslash
+displaystyle 
+\backslash
+int 
+\backslash
+mathrm{d}m} = 
+\backslash
+frac{
+\backslash
+displaystyle 
+\backslash
+int 
+\backslash
+underline{r} 
+\backslash
+rho (
+\backslash
+underline{r}) 
+\backslash
+mathrm{d}V}{
+\backslash
+displaystyle 
+\backslash
+int 
+\backslash
+rho (
+\backslash
+underline{r}) 
+\backslash
+mathrm{d}V}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+]
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\begin_inset Formula $\rho(\underline{r})=$
+\end_inset
+
+ mass density at the point 
+\begin_inset Formula $r$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Finding Center of Mass
+\end_layout
+
+\begin_layout Standard
+Use symmetry where possible.
+\end_layout
+
+\begin_layout Itemize
+If the mass distribution has an axis of symmetry, then the center of mass
+ will lie on that axis.
+\end_layout
+
+\begin_layout Itemize
+If there is more than one axis of symmetry, then the center of mass must
+ lie on both axes, therefor must lie at the point where the axes intersect.
+\end_layout
+
+\begin_layout Itemize
+If 
+\begin_inset Formula $\rho$
+\end_inset
+
+ is constant, then for a sphere, for example, the center of mass must lie
+ at the center of the sphere.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+If 
+\begin_inset Formula $\rho=\rho(r)$
+\end_inset
+
+ then CM is still at the center,
+\end_layout
+
+\begin_layout Itemize
+If 
+\begin_inset Formula $\rho=\rho(z)$
+\end_inset
+
+ then CM lies on the z axis.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+
+\bar under
+\noun on
+Ex
+\end_layout
+
+\begin_layout Standard
+A solid hemisphere, of uniform density , 
+\begin_inset Formula $\rho$
+\end_inset
+
+, and radius 
+\begin_inset Formula $a$
+\end_inset
+
+.
+ Find the location of the CM.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/hemisphere.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+By symmetry, 
+\begin_inset Formula $x_{cm}=y_{cm}=0$
+\end_inset
+
+, so just need to calculate 
+\begin_inset Formula $z_{cm}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Consider the hemisphere as a stack of disks, radius 
+\begin_inset Formula $r$
+\end_inset
+
+, with height 
+\begin_inset Formula $\rightarrow0$
+\end_inset
+
+,
+\begin_inset Formula 
+\begin{eqnarray*}
+\text{d}m & = & \rho\text{d}V\\
+ & = & \rho\pi r^{2}\text{d}z
+\end{eqnarray*}
+
+\end_inset
+
+Rewrite new variable, 
+\begin_inset Formula $r$
+\end_inset
+
+, in terms of 
+\begin_inset Formula $z$
+\end_inset
+
+, 
+\begin_inset Formula $r^{2}=a^{2}-z^{2}$
+\end_inset
+
+
+\begin_inset Formula 
+\begin{eqnarray*}
+\Rightarrow\text{d}m & = & \rho\pi(a^{2}-z^{2})\text{d}z\\
+z_{cm} & = & \frac{{\displaystyle \int}z\text{d}m}{{\displaystyle \int}\text{d}m}\\
+ & = & \frac{{\displaystyle \int_{0}^{a}}\rho\pi z(a^{2}-z^{2})\text{d}z}{{\displaystyle \int_{0}^{a}}\rho\pi(a^{2}-z^{2})\text{d}z}\\
+ & = & \frac{{\displaystyle \int_{0}^{a}}za^{2}-z^{3}\text{d}z}{{\displaystyle \int_{0}^{a}}a-z^{2}\text{d}z}\\
+ & = & \frac{\left[\frac{a^{2}z^{2}}{2}-\frac{z^{4}}{4}\right]_{0}^{a}}{\left[a^{2}z-\frac{z^{3}}{3}\right]_{0}^{a}}=\frac{\frac{a^{4}}{4}}{\frac{2}{3}a^{3}}=\frac{3}{8}a
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+\noun on
+Ex
+\end_layout
+
+\begin_layout Standard
+Consider a hollow hemisphere,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/hollow hemisphere.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Mass per unit area
+\begin_inset Formula $=\sigma$
+\end_inset
+
+, 
+\begin_inset Formula 
+\begin{eqnarray*}
+\Rightarrow\text{d}m & = & \sigma\text{d}A\\
+x_{cm} & = & y_{cm}=0\\
+\text{d}A & = & 2\pi ra\text{d}\theta\\
+ & = & 2\pi ra^{2}\sin(\theta)\text{d}\theta\\
+\text{d}m & = & \sigma2\pi a^{2}\sin(\theta)\text{d}\theta\\
+z & = & a\cos(\theta)
+\end{eqnarray*}
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{eqnarray*}
+z_{cm} & = & \frac{{\displaystyle \int}z\text{d}m}{{\displaystyle \int}\text{d}m}\\
+ & = & \frac{{\displaystyle \int}\sigma2\pi a^{2}\sin(\theta)a\cos(\theta)\text{d}\theta}{{\displaystyle \int}\sigma2\pi a^{2}\sin(\theta)\text{d}\theta}\\
+ & = & \frac{a}{2}\frac{{\displaystyle \int_{0}^{\frac{\pi}{2}}}2\sin(\theta)\cos(\theta)\text{d}\theta}{{\displaystyle \int_{0}^{\frac{\pi}{2}}}\sin(\theta)\text{d}\theta}\\
+ & = & \frac{a}{2}\frac{{\displaystyle \int_{0}^{\frac{\pi}{2}}}\sin(2\theta)\text{d}\theta}{{\displaystyle \int_{0}^{\frac{\pi}{2}}}\sin(\theta)\text{d}\theta}=\frac{a}{2}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+Harmonic Oscillations and Motion
+\end_layout
+
+\begin_layout Standard
+Motion in a conservative potential, if the potential depends only on position,
+\begin_inset Formula $V=V(r)$
+\end_inset
+
+, then 
+\begin_inset Formula $E=T+V=\text{constant}$
+\end_inset
+
+.
+ In one dimension this gives 
+\begin_inset Formula 
+\[
+E=\frac{p^{2}}{2m}+V(x)=\text{constant}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Types of Motion
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/bounded motion.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+For a particle with energy E there are three types of region,
+\end_layout
+
+\begin_layout Enumerate
+bounded motion, 
+\begin_inset Formula $a<x<b$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Enumerate
+excluded from the region, 
+\begin_inset Formula $b<x<c$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Enumerate
+unbounded, can travel so can travel to 
+\begin_inset Formula $\infty$
+\end_inset
+
+, 
+\begin_inset Formula $x>c$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Bounded Motion
+\end_layout
+
+\begin_layout Standard
+Consider a particle in the region 
+\begin_inset Formula $a<x<b$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $x=b$
+\end_inset
+
+, 
+\begin_inset Formula $V=E$
+\end_inset
+
+ so 
+\begin_inset Formula $T=0$
+\end_inset
+
+ and 
+\begin_inset Formula $V=0$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $\frac{\text{d}V}{\text{d}x}>0$
+\end_inset
+
+, 
+\begin_inset Formula $F=-\frac{\text{d}V}{\text{d}t}<0$
+\end_inset
+
+ so the force pushes back towards 
+\begin_inset Formula $a$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+\begin_inset Formula $x=a$
+\end_inset
+
+, 
+\begin_inset Formula $V=E$
+\end_inset
+
+ so 
+\begin_inset Formula $T=0$
+\end_inset
+
+ and 
+\begin_inset Formula $V=0$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $\frac{\text{d}V}{\text{d}x}<0$
+\end_inset
+
+, 
+\begin_inset Formula $F=-\frac{\text{d}V}{\text{d}t}>0$
+\end_inset
+
+ so the force pushes towards 
+\begin_inset Formula $b$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Formula $\therefore$
+\end_inset
+
+ Bound particle will oscillate continually between these limits.
+ The nature of the oscillation will depend on the shape of the potential
+ inside the bounded region.
+\end_layout
+
+\begin_layout Subsection
+Equilibrium
+\end_layout
+
+\begin_layout Standard
+The point 
+\begin_inset Formula $A$
+\end_inset
+
+, is an equilibrium position for a particle if that particle when released
+ from rest at that position doesn't move so remains there, ie the point
+ where the net force on an object is zero.
+ Since 
+\begin_inset Formula $F=-\frac{\text{d}V}{\text{d}x}=0$
+\end_inset
+
+.
+ So the equilibrium position is the stationary point in the potential function
+ 
+\begin_inset Formula $V(x)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Let 
+\begin_inset Formula $V(x)$
+\end_inset
+
+ have stationary point at 
+\begin_inset Formula $x_{0}$
+\end_inset
+
+.
+ For small displacement from 
+\begin_inset Formula $x_{0}$
+\end_inset
+
+, we expand,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+V(x)=V_{0}+\left[\frac{\text{d}V}{\text{d}x}\right]_{x=x_{0}}(x-x_{0})+\left[\frac{\text{d}^{2}V}{\text{d}x^{2}}\right]_{x=x_{0}}\frac{(x-x_{0})^{2}}{2}+\mathcal{O}(x-x_{0})^{3}
+\]
+
+\end_inset
+
+Therefore, near the equilibrium point,
+\begin_inset Formula 
+\begin{eqnarray*}
+V(x) & \approx & \left[\frac{\text{d}^{2}V}{\text{d}x^{2}}\right]_{x=x_{0}}\frac{(x-x_{0})^{2}}{2}+V_{0}\\
+\frac{\text{d}^{2}V}{\text{d}x^{2}} & = & \text{constant}=k
+\end{eqnarray*}
+
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/equilibrium potentail.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+\frac{\text{d}^{2}V}{\text{d}x^{2}} & \neq & k\\
+F(x) & = & -k(x-x_{0})\\
+F & \propto & -\text{displacement}\\
+ & = & \text{resulting force}
+\end{eqnarray*}
+
+\end_inset
+
+So small displacement from the equilibrium will give oscillations about
+ the equilibrium,
+\begin_inset Formula 
+\[
+F=m\ddot{x}=-kx
+\]
+
+\end_inset
+
+This is the simple harmonic oscillator.
+ So it there is a sufficiently small displacement if any system from the
+ equilibrium, that will produce SHM.
+\end_layout
+
+\begin_layout Subsubsection
+Solutions
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+\ddot{x} & = & -\frac{kx}{m}\\
+\Rightarrow x(t) & = & Ae^{i\omega t}+Be^{-i\omega t}\\
+ & \text{or}\\
+x(t) & = & C\cos(\omega t)+D\sin(\omega t)
+\end{eqnarray*}
+
+\end_inset
+
+Unstable equilibrium
+\begin_inset Formula 
+\begin{eqnarray*}
+\frac{\text{d}^{2}V}{\text{d}x^{2}} & < & 0\rightarrow\ddot{x}=\frac{k}{m}x\\
+x(t) & = & Ae^{\omega t}+Be^{-\omega t}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+which corresponds to exponential decrease with time.
+\end_layout
+
+\begin_layout Paragraph
+Examples
+\end_layout
+
+\begin_layout Itemize
+Simple Pendulum
+\begin_inset VSpace -1.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/simple pendulum.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+weight on a string
+\end_layout
+
+\begin_layout Itemize
+LC circuit
+\begin_inset VSpace -1.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/LC Circuit.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Damping
+\end_layout
+
+\begin_layout Standard
+In reality, dissipative forces are usually present.
+ These will convert the energy of motion of this oscillator into other forms.
+ And so the oscillations will decay.
+ The simplest type is one that is proportional to velocity,
+\begin_inset Formula 
+\[
+F=-b\ddot{x}
+\]
+
+\end_inset
+
+Then the equation of motion becomes
+\begin_inset Formula 
+\[
+m\ddot{x}+b\dot{x}+kx=0
+\]
+
+\end_inset
+
+
+\bar under
+\noun on
+Ex
+\end_layout
+
+\begin_layout Standard
+Mass attached to a light plate that is immersed in a viscous fluid;
+\end_layout
+
+\begin_layout Itemize
+when the mass moves up, the force points downward
+\end_layout
+
+\begin_layout Itemize
+when the mass moves down, the force points upward
+\end_layout
+
+\begin_layout Itemize
+when the mass is at rest there is no net force
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+m\ddot{x}+b\dot{x}+kx=0
+\]
+
+\end_inset
+
+Solution, try 
+\begin_inset Formula $x=e^{pt}$
+\end_inset
+
+
+\begin_inset Formula 
+\begin{eqnarray*}
+(mp^{2}+bp+k)e^{pt} & = & 0\\
+mp^{2}+bp+k & = & 0\\
+p & = & -\frac{b}{2m}-\sqrt{\frac{b^{2}}{4m^{2}}-\frac{k}{m}}\\
+\Rightarrow x(t) & = & Ae^{p_{1}t}+Be^{p_{2}t}
+\end{eqnarray*}
+
+\end_inset
+
+where
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{align*}
+\end_layout
+
+\begin_layout Plain Layout
+
+	p_1 &=-
+\backslash
+frac{b}{2m}-
+\backslash
+sqrt{
+\backslash
+frac{b^2}{4m^2}-
+\backslash
+frac{k}{m}}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+sintertext{and}
+\end_layout
+
+\begin_layout Plain Layout
+
+	p_2 &=-
+\backslash
+frac{b}{2m}+
+\backslash
+sqrt{
+\backslash
+frac{b^2}{4m^2}-
+\backslash
+frac{k}{m}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{align*}
+\end_layout
+
+\end_inset
+
+Ideal SHM 
+\begin_inset Formula $m\ddot{y}=ky=0$
+\end_inset
+
+.
+ With damping 
+\begin_inset Formula $m\ddot{y}+b\dot{y}+ky=0$
+\end_inset
+
+.
+ So the damping force,
+\begin_inset Formula 
+\[
+F_{\text{damp}}=-b\frac{dy}{dt}
+\]
+
+\end_inset
+
+The general solution is given by,
+\begin_inset Formula 
+\[
+y(t)=Ae^{p_{1}t}+Be^{p_{2}t}
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $p_{1,2}=-\frac{b}{2m}\pm\sqrt{\frac{b^{2}}{4m^{2}}-\frac{k}{m}}$
+\end_inset
+
+.
+ Note, the frequency of the undamped oscillator 
+\begin_inset Formula $\omega_{0}=\sqrt{\frac{k}{m}}$
+\end_inset
+
+.
+ So
+\begin_inset Formula 
+\begin{eqnarray*}
+p_{1,2} & = & -\frac{b}{2m}\pm\sqrt{\frac{b^{2}}{4m^{2}}-\frac{k}{m}}\\
+ & = & -\frac{b}{2m}\pm\sqrt{\frac{b^{2}}{4m^{2}}-\omega_{0}^{2}}
+\end{eqnarray*}
+
+\end_inset
+
+If 
+\begin_inset Formula $b=0$
+\end_inset
+
+, 
+\begin_inset Formula $p_{1,2}=\pm i\omega_{0}$
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\Rightarrow y(t)=Ae^{i\omega_{0}t}+Be^{-i\omega_{0}t}
+\]
+
+\end_inset
+
+as expected.
+ Get 
+\begin_inset Formula $A$
+\end_inset
+
+ and 
+\begin_inset Formula $B$
+\end_inset
+
+ from the initial conditions, e.g.
+ at 
+\begin_inset Formula $t=0$
+\end_inset
+
+, 
+\begin_inset Formula $y=10\unit{m}$
+\end_inset
+
+, 
+\begin_inset Formula $\frac{\text{d}y}{\text{d}t}=v=2.6\unit{ms^{-1}}$
+\end_inset
+
+
+\begin_inset Formula 
+\begin{eqnarray*}
+y(0) & = & A+B=10\\
+y^{\prime}(0) & = & p_{1}A+p_{2}B=2.6
+\end{eqnarray*}
+
+\end_inset
+
+then solve these simultaneously for 
+\begin_inset Formula $A$
+\end_inset
+
+ and 
+\begin_inset Formula $B$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Behavior of Damped Oscillator
+\end_layout
+
+\begin_layout Standard
+There are two qualitatively different types of behavior, depending on the
+ conditions.
+ The transition case is a special case that is useful and important for
+ many applications.
+ 
+\end_layout
+
+\begin_layout Itemize
+Consider the case where
+\begin_inset Formula 
+\[
+\frac{b^{2}}{4m^{2}}>\frac{k}{m}
+\]
+
+\end_inset
+
+This means that both 
+\begin_inset Formula $p_{1}$
+\end_inset
+
+and 
+\begin_inset Formula $p_{2}$
+\end_inset
+
+ are real and negative.
+ So 
+\begin_inset Formula $y=Ae^{p_{1}t}+Be^{p_{2}t}$
+\end_inset
+
+, which is that sum of two decaying exponentials.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\bar under
+\noun on
+Ex
+\end_layout
+
+\begin_layout Standard
+Release an object from rest
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/Over Damping.svg
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Consider the special case where 
+\begin_inset Formula $\frac{b^{2}}{4m^{2}}=\frac{k}{m}$
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\Rightarrow p_{1}=p_{2}=-\frac{b}{2m}
+\]
+
+\end_inset
+
+So the solution has the form 
+\begin_inset Formula 
+\[
+y(t)=(A+B)e^{-\frac{b}{2m}t}
+\]
+
+\end_inset
+
+Qualitatively this has the same sort of behavior.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\bar under
+\noun on
+Ex
+\end_layout
+
+\begin_layout Standard
+Release an object from rest
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/Critical Damping.svg
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Consider the case where 
+\begin_inset Formula 
+\[
+\frac{b^{2}}{4m^{2}}<\frac{k}{m}
+\]
+
+\end_inset
+
+So 
+\begin_inset Formula $p_{1}$
+\end_inset
+
+and 
+\begin_inset Formula $p_{2}$
+\end_inset
+
+ are complex
+\begin_inset Formula 
+\begin{eqnarray*}
+p_{1} & = & p_{2}=-\frac{b}{2m}\pm i\omega\\
+\Rightarrow y(t) & = & Ae^{p_{1}t}+Be^{p_{2}t}\\
+ & = & e^{-\frac{b}{2m}t}\left(Ae^{i\omega t}+Be^{-i\omega t}\right)
+\end{eqnarray*}
+
+\end_inset
+
+We can rewrite this as
+\begin_inset Formula 
+\begin{eqnarray*}
+y(t) & = & e^{-\frac{b}{2m}t}(C\sin(\omega t)+D\cos(\omega t))\\
+ & = & e^{-\frac{b}{2m}t}(C^{2}+D^{2})^{\frac{1}{2}}\left(\frac{C}{(C^{2}+D^{2})^{\frac{1}{2}}}\cos(\omega t)+\frac{D}{(C^{2}+D^{2})^{\frac{1}{2}}}\sin(\omega t)\right)
+\end{eqnarray*}
+
+\end_inset
+
+Now let 
+\begin_inset Formula $\frac{C}{(C^{2}+D^{2})^{\frac{1}{2}}}=\cos(\alpha)$
+\end_inset
+
+, and 
+\begin_inset Formula $\frac{D}{(C^{2}+D^{2})^{\frac{1}{2}}}=\sin(\alpha)$
+\end_inset
+
+, and 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $(C^{2}+D^{2})^{\frac{1}{2}}=E$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula 
+\begin{eqnarray*}
+y(t) & = & e^{-\frac{b}{2m}t}E\left(\cos(\alpha)\cos(\omega t)+\sin(\alpha)\sin(\omega t)\right)\\
+ & = & Ee^{-\frac{b}{2m}t}\cos(\omega t-\alpha)
+\end{eqnarray*}
+
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/Under Damping.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Frequency of Damped Oscillations
+\end_layout
+
+\begin_layout Standard
+From above
+\begin_inset Formula 
+\[
+\omega^{2}=\frac{k}{m}-\frac{b^{2}}{4m^{2}}=\omega_{0}^{2}-\frac{b^{2}}{4m^{2}}
+\]
+
+\end_inset
+
+So unless the system is very heavily damped 
+\begin_inset Formula $\left(\frac{b^{2}}{4m^{2}}\approx\omega_{0}^{2}\text{ ie close to critical damping}\right)$
+\end_inset
+
+ we usually find that the shift in frequency is not very large, 
+\begin_inset Formula $\omega\approx\omega_{0}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection
+Decay of Damped Oscillations
+\end_layout
+
+\begin_layout Standard
+Convenient to write 
+\begin_inset Formula 
+\[
+e^{-\frac{bt}{2m}}=e^{-\frac{\lambda}{\tau}t}\qquad T=\frac{2\pi}{\omega}
+\]
+
+\end_inset
+
+Then, for each cycle of oscillations, the amplitude decreases by a factor
+ of 
+\begin_inset Formula $e^{-\lambda}$
+\end_inset
+
+, where
+\begin_inset Formula 
+\begin{eqnarray*}
+\frac{b}{2m} & = & \frac{\lambda}{\frac{2\pi}{\omega}}\\
+\lambda & = & \frac{b}{2m}\frac{2\pi}{\omega}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Q Factor
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Q=2\pi\times\frac{\text{Energy stored in the oscillator}}{\text{Energy dissipated in one cycle}}
+\]
+
+\end_inset
+
+This is a dimensionless quantity that relates the loss of energy to the
+ cycles made by the oscillator.
+\begin_inset Formula 
+\[
+\text{Energy}\propto\text{(Amplitude)}^{2}
+\]
+
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/Q value.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This is the fraction of energy lost per cycle (change in energy)
+\begin_inset Formula 
+\begin{eqnarray*}
+\frac{\Delta E}{E} & = & \frac{A_{3}}{A_{1}}\frac{A_{1}^{2}-A_{3}^{2}}{A_{1}^{2}}\qquad\frac{A_{3}}{A_{1}}=e^{-\lambda}\\
+\frac{\Delta E}{E} & = & 1-\frac{A_{3}^{2}}{A_{1}^{2}}=1-e^{-2\lambda}\\
+\therefore Q & = & 2\pi\frac{\Delta E}{E}=\frac{2\pi}{1-e^{-2\lambda}}
+\end{eqnarray*}
+
+\end_inset
+
+When damping is very light, 
+\begin_inset Formula $\lambda\ll1$
+\end_inset
+
+
+\begin_inset Formula 
+\begin{eqnarray*}
+1-e^{-2\lambda} & \approx & 2\lambda\\
+\Rightarrow Q & \approx & \frac{\pi}{\lambda}=\frac{m\omega}{b}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Large Q
+\end_layout
+
+\begin_layout Itemize
+Light damping
+\end_layout
+
+\begin_layout Itemize
+Little energy lost per cycle
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/large Q.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Small Q
+\end_layout
+
+\begin_layout Itemize
+Heavy damping
+\end_layout
+
+\begin_layout Itemize
+Lots of energy lost per cycle
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/small Q.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Forced Damped Simple Harmonic Oscillations
+\end_layout
+
+\begin_layout Itemize
+Consider the system with
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Restoring force 
+\begin_inset Formula $=ky$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Damping force 
+\begin_inset Formula $=b\dot{y}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Periodic driving force 
+\begin_inset Formula $=F_{0}\cos(\omega t)$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+Equation of motion
+\begin_inset Formula 
+\begin{eqnarray*}
+m\ddot{y} & = & -ky-b\dot{y}+F_{0}\cos(\omega t)\\
+m\ddot{y}+ky+b\dot{y} & = & F_{0}\cos(\omega t)
+\end{eqnarray*}
+
+\end_inset
+
+This is a second order, non homogeneous differential equation.
+\end_layout
+
+\begin_layout Subsubsection
+General Solution
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\text{General Solution}=\text{Particular Integral}+\text{Complimentary Function}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Why study this example?
+\end_layout
+
+\begin_layout Standard
+There are many examples of other forced systems, but many of these are not
+ sinusoidal in their forces.
+ Study the sinusoidal forced oscillations because,
+\end_layout
+
+\begin_layout Itemize
+its the easiest to study
+\end_layout
+
+\begin_layout Itemize
+it does have many important applications
+\end_layout
+
+\begin_layout Itemize
+any other force can be rewritten as a set of interfering sinusoidal waves.
+\end_layout
+
+\begin_layout Standard
+This uses the fact that this equation is linear.
+ So if 
+\begin_inset Formula $y_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $y_{2}$
+\end_inset
+
+ are solutions of the equation
+\begin_inset Formula 
+\begin{eqnarray*}
+m\ddot{y}_{1}+ky_{1}+b\dot{y}_{1} & = & A\cos(\omega_{1}t)\\
+m\ddot{y}_{2}+ky_{2}+b\dot{y}_{2} & = & A\sin(\omega_{2}t)
+\end{eqnarray*}
+
+\end_inset
+
+then 
+\begin_inset Formula $y=y_{1}+y_{2}$
+\end_inset
+
+ is the solution of the following equation which is the same operator being
+ driven by the sum of those two forces,
+\begin_inset Formula 
+\[
+m\ddot{y}+ky+b\dot{y}=A\cos(\omega_{1}t)+B\sin(\omega_{2}t)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Solving the Equation
+\end_layout
+
+\begin_layout Standard
+Replace 
+\begin_inset Formula $\cos(\omega t)$
+\end_inset
+
+ with 
+\begin_inset Formula $e^{i\omega t}$
+\end_inset
+
+,
+\begin_inset Formula 
+\[
+\Rightarrow m\ddot{y}+b\dot{y}+ky=F_{0}e^{i\omega t}
+\]
+
+\end_inset
+
+Solve these two equations together then take the real part of y as the solution.
+ 
+\end_layout
+
+\begin_layout Paragraph
+Particular integral
+\end_layout
+
+\begin_layout Standard
+Try 
+\begin_inset Formula $y=Ae^{i\omega t}$
+\end_inset
+
+
+\begin_inset Formula 
+\begin{eqnarray*}
+A(-m\omega^{2}+ib\omega+k)e^{i\omega t} & = & F_{0}e^{i\omega t}\\
+A & = & \frac{F_{0}}{m}\frac{1}{-\omega^{2}+\frac{k}{m}+\frac{i\omega b}{m}}\\
+A & = & \frac{F_{0}}{m}\frac{1}{(\omega_{0}^{2}-\omega^{2})+i\omega\frac{b}{m}}
+\end{eqnarray*}
+
+\end_inset
+
+Rewrite in the form 
+\begin_inset Formula $A=A_{0}e^{i\phi}$
+\end_inset
+
+, so
+\begin_inset Formula 
+\[
+A_{0}=\sqrt{c^{2}+a^{2}},\qquad\tan\phi=\frac{b}{c}
+\]
+
+\end_inset
+
+Giving
+\begin_inset Formula 
+\[
+A_{0}=\frac{F_{0}}{m}\frac{1}{\left((\omega_{0}^{2}-\omega^{2})+\frac{\omega^{2}b^{2}}{m^{2}}\right)^{\frac{1}{2}}}
+\]
+
+\end_inset
+
+and
+\begin_inset Formula 
+\[
+\phi=\tan^{-1}\left(\frac{-\omega b}{m\left(\omega_{0}^{2}-\omega^{2}\right)}\right)
+\]
+
+\end_inset
+
+Convention dictates this is written as phase angle 
+\begin_inset Formula $\alpha=-\phi$
+\end_inset
+
+, giving
+\begin_inset Formula 
+\[
+y(t)=A_{0}e^{i(\omega t+\phi)}=A_{0}e^{i(\omega t-\alpha)}
+\]
+
+\end_inset
+
+So the real part of the solution
+\begin_inset Formula 
+\[
+y(t)=A_{0}\cos(\omega t-\alpha)
+\]
+
+\end_inset
+
+
+\begin_inset Formula $-\alpha$
+\end_inset
+
+ is the phase difference between the applied force and the response of the
+ oscillator to it.
+ 
+\end_layout
+
+\begin_layout Paragraph
+Complimentary function 
+\end_layout
+
+\begin_layout Standard
+This is the solution of 
+\begin_inset Formula $m\ddot{y}+b\dot{y}+ky=0$
+\end_inset
+
+, from unforced example.
+ Since the complimentary function decays with time, it describes a transient
+ response to initial conditions.
+ For large times, 
+\begin_inset Formula $CF\rightarrow0$
+\end_inset
+
+ and only 
+\begin_inset Formula $PI$
+\end_inset
+
+ is left.
+ Therefore we will ignore 
+\begin_inset Formula $CF$
+\end_inset
+
+ and consider the steady state behavior described by 
+\begin_inset Formula $PI$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection
+Constant Force 
+\begin_inset Formula $(b=0)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+A_{0}=\frac{F_{0}}{m\omega_{0}^{2}}=\frac{F_{0}}{k}\qquad(\text{Hoches Law})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Without Damping 
+\begin_inset Formula $(b=0)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+A_{0} & = & \frac{F_{0}}{m(\omega_{0}^{2}-\omega^{2})}\rightarrow\infty\qquad\text{when }\omega=\omega_{0}\\
+\alpha & = & \tan^{-1}(0)=0,\pm\pi
+\end{eqnarray*}
+
+\end_inset
+
+For 
+\begin_inset Formula 
+\begin{eqnarray*}
+\omega & < & \omega_{0},\; A>0,\;\alpha=0\qquad\text{oscillates in phase with the force}\\
+\omega & > & \omega_{0},\; A<0,\;\alpha=\pi\qquad\text{oscillates in antiphase}
+\end{eqnarray*}
+
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/oscillating without damping.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Forced Oscillations with Damping
+\end_layout
+
+\begin_layout Standard
+Resonant frequency
+\begin_inset Formula 
+\[
+A_{0}=\frac{F}{m}\left(\left(\omega_{0}^{2}-\omega^{2}\right)^{2}+\frac{\omega^{2}b^{2}}{m^{2}}\right)^{-\frac{1}{2}}
+\]
+
+\end_inset
+
+Maximum when there is a turning point,
+\begin_inset Formula 
+\begin{eqnarray*}
+\frac{\partial A}{\partial\omega} & = & 0\\
+\Rightarrow\omega_{\text{res}}^{2} & = & \omega_{0}^{2}-\frac{b^{2}}{2m^{2}}
+\end{eqnarray*}
+
+\end_inset
+
+So the resonant frequency of the damped oscillator is 
+\begin_inset Formula $<\omega_{0}$
+\end_inset
+
+.
+ Though is the damping is light, the difference is very small.
+\begin_inset Formula 
+\begin{eqnarray*}
+\text{Resonant Frequency} & \neq & \text{Natural Frequency of damped oscillator}\\
+\omega_{\text{res}}^{2} & = & \omega_{0}^{2}-\frac{b^{2}}{2m^{2}}\\
+\omega_{\text{damp}}^{2} & = & \omega_{0}^{2}-\frac{b^{2}}{4m^{2}}
+\end{eqnarray*}
+
+\end_inset
+
+The resonant frequency is the lowest.
+ The damping force is proportional to the velocity, so increasing the velocity
+ means that the damping force increases too, so the higher frequencies provide
+ more force.
+\end_layout
+
+\begin_layout Subsubsection
+Amplitude of Resonance
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+A_{\text{res}}=\frac{F_{0}}{m}\left(\frac{1}{\left(\omega_{0}^{2}-\omega_{\text{res}}^{2}\right)^{2}+\frac{\omega_{\text{\text{re}s}}^{2}b^{2}}{m^{2}}}\right)^{\frac{1}{2}}
+\]
+
+\end_inset
+
+Substitute for 
+\begin_inset Formula $\omega_{res}$
+\end_inset
+
+ from above,
+\begin_inset Formula 
+\begin{eqnarray*}
+A_{\text{res}} & = & \frac{F_{0}}{m}\left(\frac{1}{\frac{b^{2}}{m^{2}}\left(\omega_{0}^{2}-\frac{b^{2}}{4m^{2}}\right)}\right)^{\frac{1}{2}}\\
+A_{\text{res}} & = & \frac{F_{0}}{b\omega_{\text{damp}}}
+\end{eqnarray*}
+
+\end_inset
+
+As expected, the heavier damping leads to smaller amplitude at resonance.
+\end_layout
+
+\begin_layout Subsubsection
+Amplitude and Q Factor
+\end_layout
+
+\begin_layout Standard
+When there is light damping,
+\begin_inset Formula 
+\begin{eqnarray*}
+Q & \apprge & \frac{m\omega_{\text{damp}}}{b}\\
+b & = & \frac{m\omega_{\text{damp}}}{Q}\\
+\Rightarrow A_{\text{res}} & = & \frac{F_{0}Q}{m\omega_{\text{damp}}^{2}}\\
+A_{\text{res}} & \propto & Q
+\end{eqnarray*}
+
+\end_inset
+
+Also, for light damping,
+\begin_inset Formula 
+\begin{eqnarray*}
+\omega_{\text{damp}}^{2} & \approx & \omega_{0}^{2}=\frac{k}{m}\\
+\Rightarrow A_{\text{res}} & = & \frac{F_{0}}{k}Q
+\end{eqnarray*}
+
+\end_inset
+
+So, the amplitude at resonance is the Quality factor times the constant
+ displacement caused by a force of the same magnitude with no oscillations.
+\end_layout
+
+\begin_layout Subsection
+Width of Resonance
+\end_layout
+
+\begin_layout Standard
+Define the width as the full width at half maximum of 
+\begin_inset Formula $|A|^{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/full width half maximum.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+A^{2}=\frac{F_{0}^{2}}{m^{2}}\frac{1}{\left(\omega_{0}^{2}-\omega^{2}\right)^{2}+\frac{b^{2}\omega^{2}}{m^{2}}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We want 
+\begin_inset Formula $\omega$
+\end_inset
+
+ for which the denominator is doubled, ie has twice the resonant value,
+\begin_inset Formula 
+\[
+\left(\omega_{0}^{2}-\omega^{2}\right)^{2}+\frac{b^{2}\omega^{2}}{m^{2}}=2\times\left(\frac{b^{2}\omega_{0}^{2}}{m^{2}}-\frac{b^{2}}{4m^{2}}\right)
+\]
+
+\end_inset
+
+Consider light damping, so 
+\begin_inset Formula $\frac{b^{2}}{4m^{2}}\ll\omega_{0}^{2}$
+\end_inset
+
+
+\begin_inset Formula 
+\begin{eqnarray*}
+\left(\omega_{0}^{2}-\omega^{2}\right)^{2}+\frac{b^{2}\omega^{2}}{m^{2}} & \approx & \frac{2b^{2}\omega_{0}^{2}}{m^{2}}\\
+\left(\omega_{0}^{2}-\omega^{2}\right)^{2} & = & \frac{b^{2}\omega^{2}}{m^{2}}+\frac{b^{2}}{m^{2}}\left(\omega_{0}^{2}-\omega^{2}\right)
+\end{eqnarray*}
+
+\end_inset
+
+Near resonance 
+\begin_inset Formula $\omega_{0}^{2}-\omega^{2}\ll\omega_{0}^{2}$
+\end_inset
+
+
+\begin_inset Formula 
+\begin{eqnarray*}
+\left(\omega_{0}^{2}-\omega^{2}\right)^{2} & \approx & \frac{b^{2}\omega_{0}^{2}}{m^{2}}\\
+\omega_{0}^{2}-\omega^{2} & = & \pm\frac{b\omega_{0}}{m}\\
+\left(\omega_{0}-\omega\right)\left(\omega_{0}+\omega\right) & = & \pm\frac{b\omega_{0}}{m}
+\end{eqnarray*}
+
+\end_inset
+
+As 
+\begin_inset Formula $\omega_{0}\approx\omega\rightarrow\omega_{0}+\omega=2\omega_{0}$
+\end_inset
+
+
+\begin_inset Formula 
+\begin{eqnarray*}
+2\omega_{0}\left(\omega_{0}-\omega\right) & \approx & \pm\frac{b\omega_{0}}{m}\\
+\frac{\omega_{0}-\omega}{\omega_{0}} & = & \pm\frac{b}{2m\omega}=\pm\frac{1}{2Q}
+\end{eqnarray*}
+
+\end_inset
+
+This gives the half width, so the full width at half maximum (FWHM) frequency
+ is given by 
+\begin_inset Formula $\frac{1}{Q}$
+\end_inset
+
+.
+ So light damping, ie a large Q value, gives a narrow amplitude with a large
+ resonance.
+ As the damping gets heavier, the width and the amplitude decrease.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/light and heavy damping.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Phase of Oscillator
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\alpha=\tan^{-1}\left(\frac{b\omega}{m\left(\omega_{0}^{2}-\omega^{2}\right)}\right)
+\]
+
+\end_inset
+
+The 
+\begin_inset Formula $\tan\rightarrow\infty$
+\end_inset
+
+ when 
+\begin_inset Formula $\omega\rightarrow\omega_{0}$
+\end_inset
+
+ so, 
+\begin_inset Formula $\alpha\left(\omega_{0}\right)\rightarrow\frac{\pi}{2}$
+\end_inset
+
+.
+ So the phase of the oscillator does not depend of the damping.
+ We still have the phase switch, but it is softened by the damping.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/light and heavy damping phase.svg
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/heavy damping phase.svg
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+Rotational Motion
+\end_layout
+
+\begin_layout Section
+Angular Momentum
+\end_layout
+
+\begin_layout Standard
+The angular momentum of an object, relative to the origin of co-ordinates
+ is,
+\begin_inset Formula 
+\[
+\underline{L}=\underline{r}\times\underline{p}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\begin_inset Formula $\underline{r}$
+\end_inset
+
+ is the position vector from the origin and 
+\begin_inset Formula $\underline{p}$
+\end_inset
+
+ is the momentum vector.
+ This has the dimensions 
+\begin_inset Formula $[M][L^{2}][T^{-1}]$
+\end_inset
+
+, but has no named standard unit.
+ 
+\begin_inset Formula $\underline{L}$
+\end_inset
+
+ is perpendicular to both 
+\begin_inset Formula $\underline{r}$
+\end_inset
+
+ and 
+\begin_inset Formula $\underline{p}$
+\end_inset
+
+, therefore, 
+\begin_inset Formula $\underline{L}$
+\end_inset
+
+ will be normal to the plane of rotation of the object.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/plane of rotation.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The direction is given by the right hand rule, there is no position in space
+ linked with the angular momentum, just a magnitude and direction.
+ 
+\begin_inset Formula $\underline{L}$
+\end_inset
+
+ depends on where 
+\begin_inset Formula $\underline{r}$
+\end_inset
+
+ and 
+\begin_inset Formula $\underline{p}$
+\end_inset
+
+ are measured from.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+\noun on
+Ex
+\end_layout
+
+\begin_layout Standard
+Block standing along the axis
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/block sliding on the axis.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Relative to the origin, 
+\begin_inset Formula $O$
+\end_inset
+
+, 
+\begin_inset Formula 
+\begin{eqnarray*}
+\underline{L} & = & \underline{r}_{1}\times\underline{p}\\
+ & = & \underline{y}\times m\underline{v}=\underline{0}
+\end{eqnarray*}
+
+\end_inset
+
+Relative to the point 
+\begin_inset Formula $A$
+\end_inset
+
+,
+\begin_inset Formula 
+\begin{eqnarray*}
+\underline{L} & = & \underline{r}_{1}\times\underline{p}\\
+ & = & \begin{pmatrix}0\\
+y\\
+-a
+\end{pmatrix}\times\begin{pmatrix}0\\
+mv\\
+0
+\end{pmatrix}\\
+ & = & mva\hat{\underline{x}}
+\end{eqnarray*}
+
+\end_inset
+
+Note that if 
+\begin_inset Formula $\underline{v}$
+\end_inset
+
+ is constant, then so is 
+\begin_inset Formula $\underline{L}$
+\end_inset
+
+, 
+\begin_inset Formula $\underline{L}$
+\end_inset
+
+ depends on the distance of closest approach, but not on the instantaneous
+ position.
+\end_layout
+
+\begin_layout Subsubsection
+Conical Pendulum
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/conical pendulum.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+These are the same situation so the angular momentum should be able to be
+ used to describe the motion, irrespective of the chosen co-ordinate system.
+\end_layout
+
+\begin_layout Subsection
+Forces and Rotation: Torque
+\end_layout
+
+\begin_layout Standard
+The effect of forces on rotation is described by its torque,
+\begin_inset Formula 
+\[
+\tau=\underline{r}\times\underline{F}=\underline{r}\times\frac{\text{d}p}{\text{d}t}
+\]
+
+\end_inset
+
+So torques are perpendicular to the forces producing it.
+ Like the angular momentum, the magnitude of the torque depends on where
+ it is measured from, the co-ordinate system used.
+ So you can have a torque with no net force, and a force with no net torque.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/torque vs force.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Consider the change in angular momentum,
+\begin_inset Formula 
+\begin{eqnarray*}
+\frac{\text{d}\underline{L}}{\text{d}t} & = & \frac{\text{d}}{\text{d}t}(\underline{r}\times\underline{p})\\
+ & = & \frac{\text{d}\underline{r}}{\text{d}t}\times\underline{p}+\underline{r}\times\frac{\text{d}\underline{p}}{\text{d}t}\\
+ & = & \underline{v}\times m\underline{v}+\underline{r}\times\frac{\text{d}\underline{p}}{\text{d}t}\\
+ & = & \underline{r}\times\underline{F}=\tau\\
+\Rightarrow\tau & = & \frac{\text{d}\underline{L}}{\text{d}t}
+\end{eqnarray*}
+
+\end_inset
+
+So the torque is the change in angular momentum per unit time.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+\noun on
+Ex
+\end_layout
+
+\begin_layout Standard
+Conical pendulum
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/conical pendulum forces.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Tension must balance the weight,
+\begin_inset Formula 
+\begin{eqnarray*}
+T\cos(\alpha)-mg & = & 0\\
+T & = & \frac{mg}{\cos(\alpha)}
+\end{eqnarray*}
+
+\end_inset
+
+
+\begin_inset Formula $\therefore$
+\end_inset
+
+ the net force
+\begin_inset Formula $=$
+\end_inset
+
+horizontal component of the tension,
+\begin_inset Formula 
+\[
+\underline{F}_{r}=-T\sin(\alpha)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Measure everything relative to the center of rotation, 
+\begin_inset Formula $O$
+\end_inset
+
+,
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{align*}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+u{
+\backslash
+tau} &= 
+\backslash
+u{r}
+\backslash
+times
+\backslash
+u{F} = 
+\backslash
+u{
+\backslash
+tau}
+\backslash
+times
+\backslash
+u{F}_r = 0
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+dx{
+\backslash
+u{L}}{t} &= 0
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+sintertext{therefore, in this case, $
+\backslash
+u{L}$ is constant}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+u{L} &= 
+\backslash
+u{r}
+\backslash
+u{p}
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	&= 
+\backslash
+u{l}
+\backslash
+sin(
+\backslash
+alpha)p
+\backslash
+u{
+\backslash
+hat{z}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{align*}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Measure relative to the pivot, 
+\begin_inset Formula $P$
+\end_inset
+
+,
+\begin_inset Formula 
+\[
+|\underline{L}|=|\underline{l}\times\underline{p}|=lp=lmr\omega=\text{constant}
+\]
+
+\end_inset
+
+Direction of 
+\begin_inset Formula $\underline{L}$
+\end_inset
+
+,
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/conical pendulum forces side view.svg
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="3">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Vertical component
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Radial component
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\qquad L_{z}=L\sin(\alpha)=\text{constant}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\qquad L_{r}=L\cos(\alpha)$
+\end_inset
+
+, direction changes with 
+\begin_inset Formula $r$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Components of 
+\begin_inset Formula $\underline{L}$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/conical pendulum forces top view.svg
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="3">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $x=l\sin(\alpha)\cos(\theta)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $p_{x}=-p\sin(\theta)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $y=l\sin(\alpha)\sin(\theta)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $p_{y}=p\cos(\theta)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $z=-l\cos(\alpha)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $p_{z}=0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore\underline{L}=\underline{r}\times\underline{p}=pl\begin{pmatrix}\cos(\alpha)\cos(\theta)\\
+\cos(\alpha)\sin(\theta)\\
+\sin(\alpha)
+\end{pmatrix}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+Pendulum rotates with a constant angular velocity,
+\begin_inset Formula 
+\begin{eqnarray*}
+\frac{\text{d}\theta}{\text{d}t} & = & \omega\\
+\frac{\text{d}\underline{L}}{\text{d}t} & = & \frac{\text{d}\underline{L}}{\text{d}\theta}\times\frac{\text{d}\theta}{\text{d}t}\\
+ & = & pl\begin{pmatrix}-\cos(\alpha)\sin(\theta)\\
+\cos(\alpha)\cos(\theta)\\
+0
+\end{pmatrix}
+\end{eqnarray*}
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{align*}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+sintertext{For circular motion,}
+\end_layout
+
+\begin_layout Plain Layout
+
+	|
+\backslash
+u{F}| &= mr
+\backslash
+omega^2 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	&= p
+\backslash
+omega 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+sintertext{This acts towards the center of rotation,}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+u{F} &= p
+\backslash
+omega
+\backslash
+begin{pmatrix}-
+\backslash
+cos
+\backslash
+theta
+\backslash
+
+\backslash
+-
+\backslash
+sin
+\backslash
+theta
+\backslash
+
+\backslash
+0
+\backslash
+end{pmatrix}
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+Rightarrow
+\backslash
+u{
+\backslash
+tau} &= 
+\backslash
+u{r}
+\backslash
+times 
+\backslash
+u{F}
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	&= p
+\backslash
+omega l
+\backslash
+begin{pmatrix}-
+\backslash
+cos
+\backslash
+alpha
+\backslash
+sin
+\backslash
+theta
+\backslash
+
+\backslash
+ 
+\backslash
+cos
+\backslash
+alpha
+\backslash
+cos
+\backslash
+theta
+\backslash
+
+\backslash
+0
+\backslash
+end{pmatrix}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{align*}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Hence, demonstrated again, in this case, 
+\begin_inset Formula $\tau=\frac{\text{d}\underline{L}}{\text{d}t}$
+\end_inset
+
+
+\begin_inset Formula 
+\begin{eqnarray*}
+\text{\textsc{Torqu}e} & = & \text{\textsc{Rate of change of angular momentum}}
+\end{eqnarray*}
+
+\end_inset
+
+Relative to the pivot point, 
+\begin_inset Formula $P$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Itemize
+angular momentum precesses with the pendulum
+\end_layout
+
+\begin_layout Itemize
+torque from the net force causes the precession.
+\end_layout
+
+\begin_layout Standard
+Although 
+\begin_inset Formula $\underline{L}$
+\end_inset
+
+ and 
+\begin_inset Formula $\underline{\tau}$
+\end_inset
+
+ depend on where they are measured from, 
+\begin_inset Formula $\tau=\frac{\text{d}\underline{L}}{\text{d}t}$
+\end_inset
+
+ is universal and they both describe the same motion of the pendulum.
+ So always choose the co-ordinate system to make the problem as simple as
+ possible.
+\end_layout
+
+\begin_layout Section
+Rigid Body Rotation
+\end_layout
+
+\begin_layout Subsection
+Rotation About a Fixed Axis
+\end_layout
+
+\begin_layout Standard
+Consider rotation about the z-axis.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/rotation about a fixed axis.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+For any element, 
+\begin_inset Formula $j$
+\end_inset
+
+, of the body,
+\begin_inset Formula 
+\begin{eqnarray*}
+\underline{L}_{z} & = & \left(\underline{r}_{j}\times\underline{p}_{j}\right)\hat{\underline{z}}\\
+ & = & \rho_{j}m_{j}v_{j}
+\end{eqnarray*}
+
+\end_inset
+
+Using 
+\begin_inset Formula $v_{j}=\rho_{j}\omega$
+\end_inset
+
+,
+\begin_inset Formula 
+\[
+\underline{L}_{z}=m_{j}\rho_{j}^{2}\omega
+\]
+
+\end_inset
+
+Since this is a rigid body that is rotating, 
+\end_layout
+
+\begin_layout Itemize
+the distance, 
+\begin_inset Formula $\rho$
+\end_inset
+
+, of any element from the axis of rotation remains constant
+\end_layout
+
+\begin_layout Itemize
+the angular velocity of rotation, 
+\begin_inset Formula $\omega$
+\end_inset
+
+, is the same for all elements.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{align*}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+sintertext{Therefore, for the whole body,}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+u{L}_{z} &= 
+\backslash
+left(
+\backslash
+sum_{j=1}^{n}m_{j}
+\backslash
+rho_{j}
+\backslash
+right)
+\backslash
+omega
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+sintertext{Let,}
+\end_layout
+
+\begin_layout Plain Layout
+
+	I &= 
+\backslash
+sum_{j=1}^{n}m_{j}
+\backslash
+rho_{j}^{2}
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+sintertext{so we can then rewrite}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+underline{L}_{z} &= I
+\backslash
+omega
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{align*}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\begin_inset Formula $I$
+\end_inset
+
+ is the moment of inertia of the body about the z-axis (
+\begin_inset Formula $I$
+\end_inset
+
+ is to rotation what 
+\begin_inset Formula $m$
+\end_inset
+
+ is to translation).
+\begin_inset Formula 
+\[
+p=mv\qquad\rightarrow\qquad L=I\omega
+\]
+
+\end_inset
+
+
+\begin_inset Formula $I$
+\end_inset
+
+ depends on the distribution of the mass in the body and where the axis
+ of rotation is.
+ For a continuous body, the individual elements become infinitely small
+ and the equation becomes,
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{align*}
+\end_layout
+
+\begin_layout Plain Layout
+
+	I&=
+\backslash
+int
+\backslash
+rho^{2}
+\backslash
+text{d}m
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	&=
+\backslash
+int(y^{2}+x^{2})
+\backslash
+text{d}m
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+sintertext{or,}
+\end_layout
+
+\begin_layout Plain Layout
+
+	I&=
+\backslash
+int
+\backslash
+delta(r)(x^{2}+y^{2})
+\backslash
+;
+\backslash
+d x
+\backslash
+d y
+\backslash
+d z
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{align*}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\begin_inset Formula $\delta(r)$
+\end_inset
+
+ is the density at the point 
+\begin_inset Formula $\underline{r}$
+\end_inset
+
+.
+ (For the rotation about the z-axis).
+ This is then simplest if the object is symmetric about the axis of rotation.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+\noun on
+Ex
+\end_layout
+
+\begin_layout Standard
+A ring of mass 
+\begin_inset Formula $m$
+\end_inset
+
+, radius 
+\begin_inset Formula $a$
+\end_inset
+
+ is rotating about the axis through the center perpendicular to the plane
+ of the ring.
+ All of the mass is at a distance 
+\begin_inset Formula $a$
+\end_inset
+
+ from the axis of rotation,
+\begin_inset Formula 
+\[
+I=a^{2}m
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+\noun on
+Ex
+\end_layout
+
+\begin_layout Standard
+Consider a uniform disk.
+ Subdivide into multiple concentric rings.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/uniform disk inertia.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{align*}
+\end_layout
+
+\begin_layout Plain Layout
+
+	I&=
+\backslash
+int r^{2}
+\backslash
+text{d}m
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	&=
+\backslash
+int_{0}^{a}
+\backslash
+delta2mr^{3}
+\backslash
+text{d}r
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	&=
+\backslash
+frac{
+\backslash
+delta
+\backslash
+pi}{2}a^{4}
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+sintertext{Since $m=
+\backslash
+delta
+\backslash
+pi a^2$,}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+Rightarrow I &= 
+\backslash
+frac{ma^2}{2}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{align*}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+So the value of 
+\begin_inset Formula $I$
+\end_inset
+
+ is half of that for the uniform ring.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+\noun on
+Ex
+\end_layout
+
+\begin_layout Standard
+Consider a cuboid with the axis of rotation through the center.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/cuboid inertia.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{align*}
+\end_layout
+
+\begin_layout Plain Layout
+
+	M &= 
+\backslash
+delta a b c 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+mathrm{d}M &= 
+\backslash
+delta 
+\backslash
+mathrm{d}x 
+\backslash
+mathrm{d}y 
+\backslash
+mathrm{d}z 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+Rightarrow I &= 
+\backslash
+delta 
+\backslash
+int
+\backslash
+limits_{-
+\backslash
+frac{a}{2}}^{
+\backslash
+frac{a}{2}}  
+\backslash
+int
+\backslash
+limits_{-
+\backslash
+frac{b}{2}}^{
+\backslash
+frac{b}{2}} 
+\backslash
+int
+\backslash
+limits_{-
+\backslash
+frac{c}{2}}^{
+\backslash
+frac{c}{2}} 
+\backslash
+left( x^2+y^2 
+\backslash
+right) 
+\backslash
+d x
+\backslash
+d y
+\backslash
+d z 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	&= 
+\backslash
+delta a b c 
+\backslash
+left(
+\backslash
+frac{a^2}{12} + 
+\backslash
+frac{b^2}{12} 
+\backslash
+right) 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	&= 
+\backslash
+frac{M}{2} 
+\backslash
+left(a^2 + b^2 
+\backslash
+right)
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{align*}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Parallel Axis Theorem
+\end_layout
+
+\begin_layout Standard
+This is for use when the axis of rotation does not pass through the center
+ of mass.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/parallel axis theorum.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Take an element 
+\begin_inset Formula $j$
+\end_inset
+
+ of the body.
+ The vector from the axis to 
+\begin_inset Formula $j$
+\end_inset
+
+ is 
+\begin_inset Formula $\rho_{j}=\rho_{c}+\rho'_{j}$
+\end_inset
+
+.
+ Then
+\begin_inset Formula 
+\begin{eqnarray*}
+I & = & \sum_{j}m_{j}\rho_{j}^{2}\\
+ & = & \sum_{j}m_{j}\left(\underline{\rho}_{c}+\underline{\rho}`_{j}\right)^{2}\\
+ & = & \sum_{j}m_{j}\left(|\underline{\rho}_{c}|^{2}+|\underline{\rho}'_{j}|^{2}+2\underline{\rho}_{c}\underline{\rho}'_{j}\right)\\
+ & = & M\rho_{c}^{2}+\sum_{j}m_{j}\underline{\rho'}_{j}^{2}+2\sum_{j}m_{j}\underline{\rho}_{c}\underline{\rho'}_{j}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $M\rho_{c}^{2}$
+\end_inset
+
+ is the moment of inertia of mass 
+\begin_inset Formula $M$
+\end_inset
+
+ at a perpendicular distance 
+\begin_inset Formula $\rho_{c}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\sum_{j}m_{j}\rho'{}_{j}^{2}$
+\end_inset
+
+ is the moment of inertia of the body about the axis through the center
+ of mass.
+\end_layout
+
+\begin_layout Standard
+Using 
+\begin_inset Formula $\underline{\rho}'_{j}=-\underline{\rho}_{c}+\underline{\rho}_{j}$
+\end_inset
+
+,
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{align*}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+sum_{j}m_{j}
+\backslash
+rho_{c}
+\backslash
+rho'_{j}&=-
+\backslash
+sum_{j}m_{j}
+\backslash
+rho_{c}^{2}+
+\backslash
+sum_{j}m_{j}
+\backslash
+rho_{c}
+\backslash
+rho_{j}
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	&=-M
+\backslash
+rho_{c}^{2}+
+\backslash
+rho_{c}
+\backslash
+sum_{j}m_{j}
+\backslash
+rho_{j}
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	&=-M
+\backslash
+rho_{c}^{2}+
+\backslash
+rho_{c}
+\backslash
+left(M
+\backslash
+rho_{c}
+\backslash
+right)
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	&=0
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+sintertext{Therefore,}
+\end_layout
+
+\begin_layout Plain Layout
+
+	I&=M
+\backslash
+rho_{c}^{2}+I_{0}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{align*}
+\end_layout
+
+\end_inset
+
+where 
+\begin_inset Formula $I_{0}$
+\end_inset
+
+ is the moment of inertia for rotation about the parallel axis through the
+ center of mass.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+\noun on
+Ex
+\end_layout
+
+\begin_layout Standard
+Rotate a cuboid about one edge.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/rotate cuboid about edge.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{align*}
+\end_layout
+
+\begin_layout Plain Layout
+
+	I &= 
+\backslash
+int x^2 + y^2 
+\backslash
+mathrm{d}m 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	&= 
+\backslash
+rho 
+\backslash
+int
+\backslash
+limits_0^b 
+\backslash
+int
+\backslash
+limits_0^c x^2 + y^2 
+\backslash
+;
+\backslash
+d x
+\backslash
+d y
+\backslash
+d z
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	&= 
+\backslash
+frac{M}{3} (a^2 + b^2)
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{align*}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Alternatively,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+I_{0}\text{ about CM} & = & \frac{M}{12}(a^{2}+b^{2})\\
+\text{CM} & = & \left(\frac{a}{2},\frac{b}{2},\frac{c}{2}\right)\\
+\Rightarrow\text{Total mass}\times\rho_{c}^{2} & = & M\left(\frac{a^{2}}{4}+\frac{b^{2}}{4}\right)\\
+\Rightarrow I & = & \frac{M}{3}(a^{2}+b^{2})
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Perpendicular Axis Theorem
+\end_layout
+
+\begin_layout Standard
+Consider a rigid body rotating about a fixed axis 
+\begin_inset Formula $(z)$
+\end_inset
+
+, we write,
+\begin_inset Formula 
+\[
+L=I\omega
+\]
+
+\end_inset
+
+If a torque is applied parallel to the axis, 
+\begin_inset Formula 
+\[
+\tau=\frac{\text{d}L}{\text{d}t}=\frac{\text{d}}{\text{d}t}I\omega=I\frac{\text{d}\omega}{\text{d}t}=I\alpha
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $\alpha=\frac{\text{d}\omega}{\text{d}t}$
+\end_inset
+
+ which is the angular acceleration.
+ Consider the kinetic energy of the rotating object,
+\begin_inset Formula 
+\begin{eqnarray*}
+E_{k} & = & \sum_{j}\frac{1}{2}m_{j}v_{j}^{2}\\
+ & = & \frac{1}{2}\sum_{j}m_{j}\rho_{j}^{2}\omega^{2}\qquad(\text{using }v=\rho)\\
+T=E_{k} & = & \frac{1}{2}I\omega^{2}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Torques Due to Gravity
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/torques due to gravity.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{align*}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+sintertext{Torque on element $j$,}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+tau_{j} &= 
+\backslash
+u{r}_{j}
+\backslash
+times m_{j}
+\backslash
+u{g}
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+sintertext{Therefore, on the whole body,}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+tau&=
+\backslash
+sum_{j}
+\backslash
+tau_{j}
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	&=
+\backslash
+sum_{j}r_{j}
+\backslash
+times m_{j}
+\backslash
+u{g}
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	&=
+\backslash
+left(
+\backslash
+sum_{j}m_{j}r_{j}
+\backslash
+right)
+\backslash
+times
+\backslash
+u{g}
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	&=M
+\backslash
+u{R}
+\backslash
+times
+\backslash
+u{g}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+sintertext{where $
+\backslash
+u{R}$ is the vector to the center of mass.}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+therefore
+\backslash
+tau &= 
+\backslash
+u{R}
+\backslash
+times M
+\backslash
+u{g}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{align*}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Simple Pendulum
+\end_layout
+
+\begin_layout Standard
+Consider the torque about the pivot 
+\begin_inset Formula $P$
+\end_inset
+
+,
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{align*}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+tau&=
+\backslash
+underline{l}
+\backslash
+times
+\backslash
+underline{F}
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	&=
+\backslash
+underline{l}
+\backslash
+times(
+\backslash
+underline{g}m+I)
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	&=
+\backslash
+underline{l}
+\backslash
+times m
+\backslash
+underline{g}
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+tau&=-lmg
+\backslash
+sin
+\backslash
+theta
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+sintertext{So,}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+underline{L}&=
+\backslash
+underline{r}
+\backslash
+times
+\backslash
+underline{p}
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	&=ml^{2}
+\backslash
+dot{
+\backslash
+theta}=I
+\backslash
+dot{
+\backslash
+theta}=I
+\backslash
+omega
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+sintertext{Since $
+\backslash
+tau=
+\backslash
+frac{
+\backslash
+d 
+\backslash
+u{L}}{
+\backslash
+d t}$,}
+\end_layout
+
+\begin_layout Plain Layout
+
+	-lmg
+\backslash
+sin
+\backslash
+theta&=
+\backslash
+dx{}{t}(ml^{2}
+\backslash
+dot{
+\backslash
+theta})
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	&=ml^{2}
+\backslash
+dd{
+\backslash
+theta}{t}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{align*}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Using the small angle approximation, 
+\begin_inset Formula $\theta\ll1$
+\end_inset
+
+, 
+\begin_inset Formula $\sin\theta\approx\theta$
+\end_inset
+
+,
+\begin_inset Formula 
+\begin{eqnarray*}
+\Rightarrow l\ddot{\theta}+g\theta & = & 0\\
+\theta(t) & = & a\cos(\omega t+\phi)
+\end{eqnarray*}
+
+\end_inset
+
+where 
+\begin_inset Formula $\omega^{2}=\frac{g}{m}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+General Rigid Body Pendulum
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/general pendulum.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The only net torque is that due to gravity,
+\begin_inset Formula 
+\[
+\tau=-mgl\sin\theta=\frac{\text{d}\underline{L}}{\text{d}t}=I\ddot{\theta}
+\]
+
+\end_inset
+
+From the parallel axis theorem,
+\begin_inset Formula 
+\[
+I=I_{0}+Ml^{2}
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $I_{0}$
+\end_inset
+
+ is the moment of inertia about the center of mass, and 
+\begin_inset Formula $I$
+\end_inset
+
+ is for the whole body.
+ It is convenient to write,
+\begin_inset Formula 
+\[
+I_{0}=M\kappa^{2}
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $\kappa=\sqrt{\frac{I_{0}}{M}}$
+\end_inset
+
+ which is the 
+\begin_inset Quotes eld
+\end_inset
+
+radius of gyration
+\begin_inset Quotes erd
+\end_inset
+
+.
+ So,
+\begin_inset Formula 
+\begin{eqnarray*}
+I & = & I_{0}+ml^{2}\\
+ & = & M(\kappa^{2}+l^{2})
+\end{eqnarray*}
+
+\end_inset
+
+Putting this back into the equation of motion,
+\begin_inset Formula 
+\begin{eqnarray*}
+-Mgl\sin\theta & = & M(\kappa^{2}+l^{2})\ddot{\theta}\\
+-gl\sin\theta & = & (\kappa^{2}+l^{2})\ddot{\theta}\\
+\ddot{\theta}+\frac{gl}{\kappa^{2}+l^{2}}\theta & = & 0\\
+\omega^{2} & = & \frac{gl}{\kappa^{2}+l^{2}}
+\end{eqnarray*}
+
+\end_inset
+
+This is the same form as the simple pendulum with 
+\begin_inset Formula $\kappa$
+\end_inset
+
+ describing the effect of distributing the mass rather than concentrated
+ at a point.
+ For a simple pendulum, 
+\begin_inset Formula $\kappa=0$
+\end_inset
+
+, so 
+\begin_inset Formula $\omega^{2}=\frac{g}{l}$
+\end_inset
+
+ as before.
+\end_layout
+
+\begin_layout Subsection
+Atwood's Machine
+\end_layout
+
+\begin_layout Standard
+This machine was designed to show the acceleration due to gravity down so
+ that, knowing how much it had slowed, the value of 
+\begin_inset Formula $g$
+\end_inset
+
+ could be measured without having perfectly accurate timing.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/atwood machine.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Massless pulley
+\begin_inset Formula 
+\begin{eqnarray*}
+F & = & ma\\
+(m_{1}-m_{2})g & = & a(m_{a}+m_{2})\\
+a & = & \frac{m_{1}-m_{2}}{m_{1}+m_{2}}g
+\end{eqnarray*}
+
+\end_inset
+
+This relies on the unphysical assumption that the pulley is massless.
+ To be accurate, the mass of the pulley needs to be taken into account.
+\end_layout
+
+\begin_layout Itemize
+Massive pulley
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Linear motion of masses
+\begin_inset Formula 
+\begin{eqnarray}
+F & = & ma\nonumber \\
+m_{1}g-T_{1} & = & m_{1}a\\
+m_{2}g-T_{2} & = & m_{2}a
+\end{eqnarray}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Rotation of the pulley
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{align*}
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+tau &= 
+\backslash
+dx{
+\backslash
+u{L}}{t} 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		T_1 R - T_2 R &= 
+\backslash
+tau 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+u{L} &= I
+\backslash
+alpha 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+sintertext{Assume the rope does not slip}
+\end_layout
+
+\begin_layout Plain Layout
+
+		 v &= R
+\backslash
+omega 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		a &= R
+\backslash
+alpha 
+\backslash
+tag{5} 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+sintertext{Eliminate the unwanted variables, $T$,}
+\end_layout
+
+\begin_layout Plain Layout
+
+		(3)+(4)
+\backslash
+qquad (m_1 -m_2)g-(T_1 - T_2) &= (m_1 + m_2)a 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+mathrm{sub }(5) 
+\backslash
+qquad (m_1 - m_2)g - 
+\backslash
+frac{I
+\backslash
+alpha}{R} &= (m_1 + m_2)a 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		(m_1 - m_2)g - 
+\backslash
+frac{Ia}{R^2} &= (m_1 + m_2)a 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		a &= 
+\backslash
+frac{(m_1 - m_2)}{
+\backslash
+left(m_1 + m_2 + 
+\backslash
+frac{I}{R^2} 
+\backslash
+right)}g
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{align*}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+
+\bar under
+\noun on
+Ex
+\end_layout
+
+\begin_layout Standard
+If the pulley is a uniform disk,
+\begin_inset Formula 
+\begin{eqnarray*}
+I & = & \frac{1}{2}M_{p}R^{2}\\
+a & = & g\frac{\left(M_{1}-M_{2}\right)}{\left(M_{1}+M_{2}+\frac{M_{p}}{2}\right)}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Motion Including Both Rotation and Translation
+\end_layout
+
+\begin_layout Standard
+Consider an object that is both moving with linear translation and is rotating.
+\end_layout
+
+\begin_layout Itemize
+Angular momentum
+\begin_inset Formula 
+\[
+\underline{L}=\sum_{j}r_{j}\times m_{j}\underline{r}_{j}
+\]
+
+\end_inset
+
+if 
+\begin_inset Formula $R$
+\end_inset
+
+ is the center of mass,
+\begin_inset Formula 
+\[
+\underline{R}=\frac{\sum_{j}m_{j}r_{j}}{\sum_{j}m_{j}}
+\]
+
+\end_inset
+
+
+\begin_inset Formula $r'_{j}$
+\end_inset
+
+ is the position of the element 
+\begin_inset Formula $j$
+\end_inset
+
+ relative to the center of mass.
+ Then
+\begin_inset Formula 
+\begin{eqnarray*}
+\underline{r}_{j} & = & \underline{R}+\underline{r}'_{j}\\
+\therefore\underline{L} & = & \sum_{j}\left(\underline{R}+\underline{r}'_{j}\right)\times m_{j}\left(\underline{\dot{R}}+\dot{\underline{r}'_{j}}\right)\\
+ & = & \underline{R}\times\sum_{j}m_{j}\underline{\dot{R}}+\sum_{j}m_{j}\dot{r_{j}}\times\underline{\dot{R}}+\underline{R}\times\sum_{j}m_{j}\dot{\underline{r}}_{j}+\sum_{j}m_{j}\underline{r}'_{j}\times\underline{\dot{r}}'_{j}
+\end{eqnarray*}
+
+\end_inset
+
+Using 
+\begin_inset Formula 
+\begin{eqnarray*}
+\sum_{j}m_{j}\underline{r}'_{j} & = & \sum_{j}m_{j}(\underline{r}_{j}-\underline{R})\\
+ & = & \sum_{j}m_{j}\underline{r}_{j}-\underline{R}\sum_{j}m_{j}\\
+ & = & M\underline{R}-\underline{R}M=0
+\end{eqnarray*}
+
+\end_inset
+
+Also 
+\begin_inset Formula 
+\begin{eqnarray*}
+\sum_{j}m_{j}\dot{\underline{r}}'_{j} & = & \frac{\text{d}}{\text{d}t}\sum_{j}m_{j}\underline{r}'_{j}=0\\
+\Rightarrow\underline{L} & = & \underbrace{R\times M\underline{\dot{R}}}_{a}+\underbrace{\sum_{j}\underline{r}'_{j}\times m\dot{\underline{r}}'_{j}}_{b}
+\end{eqnarray*}
+
+\end_inset
+
+Here, 
+\begin_inset Formula $a$
+\end_inset
+
+ is the angular momentum due to the center of mass, and 
+\begin_inset Formula $b$
+\end_inset
+
+ is the angular momentum due to the rotation of the object about the center
+ of mass.
+ If the axis of rotation maintains a steady direction, remains parallel
+ to the z-axis, e.g.
+ a rolling wheel, then,
+\begin_inset Formula 
+\begin{eqnarray*}
+L_{z} & = & \left(R\times M\underline{v}\right)_{z}+\left(\sum_{j}m_{j}\underline{r}'_{j}\times\dot{\underline{r}}'_{j}\right)_{z}\\
+ & = & \left(R\times M\underline{v}\right)_{z}+I_{0}\omega
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Similarly, we can factor the torque,
+\begin_inset Formula 
+\[
+\tau_{z}=\left(\underline{R}\times\underline{F}\right)_{z}+I_{0}\alpha
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $\left(\underline{R}\times\underline{F}\right)_{z}$
+\end_inset
+
+ is the torque on the center of mass due to an extended force and 
+\begin_inset Formula $I_{0}\alpha$
+\end_inset
+
+ is the torque about the center of mass.
+\end_layout
+
+\begin_layout Itemize
+And the kinetic energy in the same way,
+\begin_inset Formula 
+\begin{eqnarray*}
+T=E_{k} & = & \frac{1}{2}\sum_{j}m_{j}\left(\underline{\dot{r}}_{j}\right)^{2}\\
+ & = & \frac{1}{2}\sum_{j}m_{j}\left(\underline{\dot{r}}'_{j}+\underline{\dot{R}}\right)^{2}\qquad\underline{\dot{R}}=\underline{v}\\
+ & = & \frac{1}{2}\sum_{j}m_{j}\underline{\dot{r}'}_{j}^{2}+\left(\sum_{j}m_{j}\underline{\dot{r}}'_{j}\right)\underline{v}+\frac{1}{2}\sum_{j}m_{j}v^{2}\\
+\therefore T & = & \frac{1}{2}I_{0}\omega^{2}+\frac{1}{2}Mv^{2}
+\end{eqnarray*}
+
+\end_inset
+
+So the kinetic energy is the component from the regular motion of the body
+ added to the component provided by the rotation of the body about the center
+ of mass.
+\end_layout
+
+\begin_layout Subsection
+Sliding vs.
+ Rolling
+\end_layout
+
+\begin_layout Subsubsection
+Using Equations of Motion
+\end_layout
+
+\begin_layout Itemize
+Sliding without rolling
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/sliding without rolling.svg
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+\text{Friction, }f & = & \mu\times\text{normal reaction force}\\
+f & = & \mu mg\cos\theta\\
+\therefore F=ma & = & mg\sin\theta-f\\
+a & = & g\left(\sin\theta-\mu\cos\theta\right)
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Rolling without sliding
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/rolling without sliding.svg
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+F=ma & = & mg\sin\theta-f\\
+\tau & = & I_{0}\alpha=Rf\\
+\Rightarrow f & = & \frac{I_{0}}{R}\alpha\\
+\Rightarrow ma & = & mg\sin\theta-\frac{I_{0}}{R}\alpha
+\end{eqnarray*}
+
+\end_inset
+
+Using 
+\begin_inset Formula $v=R\omega$
+\end_inset
+
+, 
+\begin_inset Formula $a=R\alpha$
+\end_inset
+
+
+\begin_inset Formula 
+\[
+mg\sin\theta-\frac{I_{0}}{R^{2}}a=ma
+\]
+
+\end_inset
+
+Using 
+\begin_inset Formula $I_{0}=m\kappa^{2}$
+\end_inset
+
+
+\begin_inset Formula 
+\begin{eqnarray*}
+\Rightarrow m\left(g\sin\theta-\frac{\kappa^{2}}{R^{2}}a\right) & = & ma\\
+a & = & \frac{g\sin\theta}{\left(1+\frac{\kappa^{2}}{R^{2}}\right)}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Subsubsection
+Using Energy
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{alignat*}{3}
+\end_layout
+
+\begin_layout Plain Layout
+
+	 && 
+\backslash
+text{Sliding (} & 
+\backslash
+text{no friction)} &
+\backslash
+qquad
+\backslash
+qquad
+\backslash
+qquad
+\backslash
+qquad 
+\backslash
+text{Rolling} & 
+\backslash
+text{ without sliding} 
+\backslash
+
+\backslash
+ 
+\backslash
+cline{1-6}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+text{At }A: &
+\backslash
+qquad& E_k+E_p &= 0 + mgh 		&E_k+E_p &= 0 + mgh 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+text{At }B: && E_k+E_P &= 
+\backslash
+frac{1}{2}mv^2 & E_k+E_p &=
+\backslash
+frac{1}{2}mv^2 +
+\backslash
+frac{1}{2} I
+\backslash
+omega^2 +0 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	&& 
+\backslash
+Rightarrow mgh &= 
+\backslash
+frac{1}{2}mv^2 & 
+\backslash
+Rightarrow mgh &=
+\backslash
+frac{1}{2}mv^2 = 
+\backslash
+frac{1}{2}T
+\backslash
+omega^2 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	&& v^2 &= 2gh & mgh &= 
+\backslash
+frac{1}{2}mv^2 +
+\backslash
+frac{1}{2}m
+\backslash
+kappa^2
+\backslash
+frac{v^2}{R^2} 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	&&&& v^2 &= 
+\backslash
+frac{2gh}{
+\backslash
+left( 1+
+\backslash
+frac{
+\backslash
+kappa^2}{R^2}
+\backslash
+right)}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{alignat*}
+\end_layout
+
+\end_inset
+
+More complicated example is when an object is sliding and rolling.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+\noun on
+Ex
+\end_layout
+
+\begin_layout Standard
+Consider a bowling ball projected horizontally along the floor.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/bowling ball motion.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Initially the ball slides along the floor, and eventually stops sliding
+ and rolls.
+ How to describe this motion?
+\end_layout
+
+\begin_layout Standard
+The forces present that must be considered are the weight and the reaction
+ from the floor which must cancel each other, and friction from the floor.
+ This means that there is only one resultant force acting on the ball.
+ The ball is initially both rolling and sliding.
+ The friction produces linear deceleration and produces an angular acceleration.
+\end_layout
+
+\begin_layout Standard
+Consider the point of contact between the ball and the floor,
+\end_layout
+
+\begin_layout Itemize
+Relative to the center of mass, 
+\begin_inset Formula $P$
+\end_inset
+
+ has velocity
+\begin_inset Formula 
+\[
+v_{p}=-R\omega
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Relative to the floor, it has velocity at any given moment in time of 
+\begin_inset Formula 
+\begin{eqnarray*}
+v'_{p} & = & v_{c}+v_{p}\\
+ & = & v_{c}-R\omega
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+When 
+\begin_inset Formula $v_{c}=R\omega$
+\end_inset
+
+, 
+\begin_inset Formula $v'_{p}=0$
+\end_inset
+
+, so the point of contact of the ball with the floor is no longer moving
+ with respect to the floor.
+ So if the point of contact is stationary, it cannot be sliding, then the
+ friction must be zero.
+ At this point, the ball will switch motion with constant velocity.
+\end_layout
+
+\begin_layout Section
+Impulsive Forces and Torques
+\end_layout
+
+\begin_layout Standard
+An impulse is a force that acts over a very short period of time.
+ We can work out the effect by using,
+\begin_inset Formula 
+\[
+\Delta\underline{p}=\int\underline{F}\text{d}t=\underline{F}\Delta t
+\]
+
+\end_inset
+
+This well also produce an abrupt change in angular momentum,
+\begin_inset Formula 
+\begin{eqnarray*}
+\Delta\underline{L} & = & \int\underline{\tau}\text{d}t=\int\underline{r}\times\underline{F}\text{d}t\\
+ & = & \underline{r}\times\int\underline{F}\text{d}t=\underline{r}\times\Delta\underline{p}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Free Body
+\end_layout
+
+\begin_layout Standard
+So if a rigid body is subject to an impulse, at the point 
+\begin_inset Formula $A$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/impulse on free object.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Impulse is applied perpendicular to the point 
+\begin_inset Formula $CA$
+\end_inset
+
+ (
+\begin_inset Formula $C$
+\end_inset
+
+ is the center of mass).
+ The center of mass moves with velocity 
+\begin_inset Formula $v_{c}$
+\end_inset
+
+, given by,
+\begin_inset Formula 
+\[
+v_{c}=\frac{\Delta\underline{p}}{m}
+\]
+
+\end_inset
+
+The body then rotates about the center of mass with angular velocity 
+\begin_inset Formula $\omega$
+\end_inset
+
+,
+\begin_inset Formula 
+\begin{eqnarray*}
+\Delta\tau & = & b\Delta\underline{p}\\
+ & = & I_{0}\omega\\
+ & = & m\kappa^{2}\omega\\
+\Rightarrow\omega & = & \frac{\Delta\tau}{I_{0}}\\
+ & = & \frac{b\Delta\underline{p}}{m\kappa^{2}}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Behavior When Object Has a Pivot
+\end_layout
+
+\begin_layout Standard
+Consider point 
+\begin_inset Formula $O$
+\end_inset
+
+ on the opposite side of the center of mass.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/impulse on pivoted object.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+If 
+\begin_inset Formula $O$
+\end_inset
+
+ is free to move, its velocity immediately after the impulse is applied
+ is given by 
+\begin_inset Formula $v_{0}=v_{c}-\omega h$
+\end_inset
+
+.
+ Suppose instead that 
+\begin_inset Formula $O$
+\end_inset
+
+ is a pivot, so is fixed in space.
+ Then 
+\begin_inset Formula $v_{0}=0$
+\end_inset
+
+ and so 
+\begin_inset Formula 
+\begin{eqnarray*}
+0 & = & v_{c}-\omega h\\
+v_{c} & = & \omega h
+\end{eqnarray*}
+
+\end_inset
+
+(Note that this 
+\begin_inset Formula $\omega$
+\end_inset
+
+ is not the same as for the free object).
+ To keep 
+\begin_inset Formula $O$
+\end_inset
+
+ fixed in space, there will be an impulse reaction 
+\begin_inset Formula $\Delta\underline{p}'$
+\end_inset
+
+ at the point 
+\begin_inset Formula $O$
+\end_inset
+
+ acting on the pivot.
+\end_layout
+
+\begin_layout Subsubsection
+Removing Impulse Reaction
+\end_layout
+
+\begin_layout Standard
+The system can be set up in such a way that the impulse 
+\begin_inset Formula $\Delta\underline{p}'$
+\end_inset
+
+ is zero.
+ Equations of motion;
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{alignat*}{2}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+Delta p+
+\backslash
+Delta p'&= mv_{c}
+\backslash
+qquad &
+\backslash
+quad& 
+\backslash
+Rightarrow
+\backslash
+text{Linear}
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+	b
+\backslash
+Delta p-h
+\backslash
+Delta p' &= m
+\backslash
+kappa^{2}
+\backslash
+omega && 
+\backslash
+Rightarrow
+\backslash
+text{Rotational}
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+sintertext{Using $v_c =
+\backslash
+omega h$,}
+\end_layout
+
+\begin_layout Plain Layout
+
+	b
+\backslash
+Delta p-h 
+\backslash
+Delta p' &= m
+\backslash
+kappa^2 
+\backslash
+frac{v_c}{h} 
+\backslash
+tag{6} &&
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+sintertext{From (6),}
+\end_layout
+
+\begin_layout Plain Layout
+
+	v_{c}&=
+\backslash
+frac{
+\backslash
+Delta p+
+\backslash
+Delta p'}{m} &&
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+sintertext{Sub into (7),}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+Rightarrow
+\backslash
+Delta p'&=
+\backslash
+left(
+\backslash
+frac{bh-
+\backslash
+kappa^{2}}{
+\backslash
+kappa^{2}+h^{2}}
+\backslash
+right)
+\backslash
+Delta p &&
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{alignat*}
+\end_layout
+
+\end_inset
+
+So if 
+\begin_inset Formula $bh=\kappa^{2}=\frac{I_{0}}{m}$
+\end_inset
+
+, ie 
+\begin_inset Formula $b=\frac{\kappa^{2}}{h}$
+\end_inset
+
+, then the reaction force is zero, 
+\begin_inset Formula $\Delta p'=0$
+\end_inset
+
+.
+ The point at which the reaction force is zero is called the 
+\begin_inset Quotes eld
+\end_inset
+
+center of percussion
+\begin_inset Quotes erd
+\end_inset
+
+ or 
+\begin_inset Quotes eld
+\end_inset
+
+sweet spot
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection
+Distance of Sweet Spot from Pivot
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+l & = & b+h\\
+ & = & \frac{h^{2}+\kappa^{2}}{h}
+\end{eqnarray*}
+
+\end_inset
+
+This has been seen before when a pendulum, when the distance from the center
+ of mass to the pivot was also 
+\begin_inset Formula $h$
+\end_inset
+
+, has frequency,
+\begin_inset Formula 
+\begin{eqnarray*}
+\omega^{2} & = & \frac{gh}{\kappa^{2}+h^{2}}\\
+\omega & = & \sqrt{\frac{g}{l}}
+\end{eqnarray*}
+
+\end_inset
+
+So measuring 
+\begin_inset Formula $\omega$
+\end_inset
+
+ gives the distance to the sweet spot 
+\begin_inset Formula $l$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+Angular Velocity Vector
+\end_layout
+
+\begin_layout Standard
+This is used when the axis of rotation is not fixed.
+ Define the angular velocity vector,
+\begin_inset Formula 
+\[
+\underline{\omega}=\left(\frac{\text{d}\theta_{x}}{\text{d}t},\frac{\text{d}\theta_{y}}{\text{d}t},\frac{\text{d}\theta_{z}}{\text{d}t}\right)
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $\frac{\text{d}\theta_{x}}{\text{d}t}$
+\end_inset
+
+ is the rate of rotation about the x-axis.
+ So for an object rotating in a plane as the examples we have so far considered,
+ 
+\begin_inset Formula $\underline{\omega}$
+\end_inset
+
+ is parallel to the axis of rotation and perpendicular to the plane of rotation.
+ So for the simplest case,
+\begin_inset Formula 
+\[
+\underline{L}=I\underline{\omega}
+\]
+
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/angular velocity vector.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+But this is 
+\emph on
+not
+\emph default
+ true in general.
+\end_layout
+
+\begin_layout Subsubsection
+Rotating Skew Rod
+\end_layout
+
+\begin_layout Standard
+Two masses of mass 
+\begin_inset Formula $m$
+\end_inset
+
+, connected by a light rigid rod of length 
+\begin_inset Formula $2l$
+\end_inset
+
+ is rotating about the center of mass at an angle to the axis of rotation
+ 
+\begin_inset Formula $\alpha$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/skew rod rotating.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Relative to the center of mass, 
+\begin_inset Formula 
+\begin{eqnarray*}
+|\underline{L_{a}}| & = & |\underline{L_{b}}|=ml^{2}\omega\cos\alpha\\
+|\underline{L}| & = & 2ml^{2}\omega\cos\alpha
+\end{eqnarray*}
+
+\end_inset
+
+as 
+\bar under
+
+\begin_inset Formula $\underline{L_{a}}$
+\end_inset
+
+ 
+\bar default
+and 
+\begin_inset Formula $\underline{L_{b}}$
+\end_inset
+
+ are parallel.
+ 
+\begin_inset Formula $\underline{L}$
+\end_inset
+
+ turns with the rod, and is perpendicular to the rod and at an angle 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ to th axis of rotation.
+ But the angular velocity component has only one component, it is parallel
+ to the axis of rotation.
+ So the angular momentum vector is not parallel to the angular velocity.
+\end_layout
+
+\begin_layout Standard
+So in general, how are the angular momentum and the angular velocity vector
+ related?
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{align*}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+sintertext{As before, consider a rotating rigid body,} 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+u{L} &=
+\backslash
+sum_j 
+\backslash
+u{r}_j 
+\backslash
+times m_j 
+\backslash
+u{
+\backslash
+dot{r}}_j 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+sintertext{as this is a rigid body,}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+u{
+\backslash
+dot{r}}_j &=
+\backslash
+u{
+\backslash
+omega} 
+\backslash
+times 
+\backslash
+u{r}_j 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+sintertext{so,}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+u{L} &= 
+\backslash
+sum_j 
+\backslash
+u{r}_j 
+\backslash
+times m_j 
+\backslash
+left(
+\backslash
+u{
+\backslash
+omega}
+\backslash
+times
+\backslash
+u{r}_j
+\backslash
+right)
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+sintertext{and rearranging gives}
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+u{L} &= 
+\backslash
+u{
+\backslash
+u{I}}
+\backslash
+times
+\backslash
+u{
+\backslash
+omega}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{align*}
+\end_layout
+
+\end_inset
+
+As before, consider a rotating rigid body, 
+\begin_inset Formula 
+\[
+\underline{L}=\sum_{j}\underline{r}_{j}\times m_{j}\underline{\dot{r}}_{j}
+\]
+
+\end_inset
+
+As this is a rigid body,
+\begin_inset Formula 
+\[
+\underline{\dot{r}}_{j}=\underline{\omega}\times\underline{r}_{j}
+\]
+
+\end_inset
+
+So
+\begin_inset Formula 
+\[
+\underline{L}=\sum_{j}\underline{r}_{j}\times m_{j}\left(\underline{\omega}\times\underline{r}_{j}\right)
+\]
+
+\end_inset
+
+Rearranging gives 
+\begin_inset Formula 
+\[
+\underline{L}=\underline{\underline{I}}\times\underline{\omega}
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $\underline{L}$
+\end_inset
+
+ and 
+\begin_inset Formula $\underline{\omega}$
+\end_inset
+
+ are vectors and 
+\begin_inset Formula $\underline{\underline{I}}$
+\end_inset
+
+ is a tensor, meaning this becomes,
+\begin_inset Formula 
+\[
+\begin{pmatrix}L_{x}\\
+L_{y}\\
+L_{z}
+\end{pmatrix}=\begin{pmatrix}I_{xx} & I_{xy} & I_{xz}\\
+I_{yx} & I_{yy} & I_{yz}\\
+I_{zx} & I_{zy} & I_{zz}
+\end{pmatrix}\begin{pmatrix}\omega_{x}\\
+\omega_{y}\\
+\omega_{z}
+\end{pmatrix}
+\]
+
+\end_inset
+
+Diagonal elements of the tensor have the form,
+\begin_inset Formula 
+\begin{eqnarray*}
+I_{xx} & = & \sum_{j}m_{j}\left(y_{j}^{2}+z_{J}^{2}\right)\\
+ & = & \text{moments of inertia}
+\end{eqnarray*}
+
+\end_inset
+
+Non-diagonal elements have the form
+\begin_inset Formula 
+\begin{eqnarray*}
+I_{xy} & = & -\sum_{j}m_{j}x_{j}y_{j}\\
+ & = & -\sum_{j}m_{j}y_{j}x_{j}\\
+ & = & I_{yx}
+\end{eqnarray*}
+
+\end_inset
+
+These are the moments of inertia.
+\begin_inset Formula 
+\[
+L_{x}=I_{xx}\omega_{x}+I_{xy}\omega_{y}+I_{xz}\omega_{z}
+\]
+
+\end_inset
+
+This can be simplified.
+\end_layout
+
+\begin_layout Subsection
+Principle Axis
+\end_layout
+
+\begin_layout Standard
+For any object you can find a set of mutually perpendicular axes for which
+ this inertia takes a particular simple form,
+\begin_inset Formula 
+\[
+\underline{\underline{I}}=\left(\begin{array}{ccc}
+I_{11} & 0 & 0\\
+0 & I_{22} & 0\\
+0 & 0 & I_{33}
+\end{array}\right)
+\]
+
+\end_inset
+
+So the tensor only has non-zero elements on the diagonal of the matrix.
+ So
+\begin_inset Formula 
+\[
+\begin{pmatrix}L_{1}\\
+L_{2}\\
+L_{3}
+\end{pmatrix}=\begin{pmatrix}I_{11} & \omega_{1}\\
+I_{22} & \omega_{2}\\
+I_{33} & \omega_{3}
+\end{pmatrix}
+\]
+
+\end_inset
+
+These are the principle axes of the object.
+ So if the axis of rotation is one of the principle axes,
+\begin_inset Formula $\underline{L}=I\underline{\omega}$
+\end_inset
+
+ as before.
+ For a symmetric body, the principle axes are the symmetry axes if that
+ body.
+ We can also write the rotational kinetic energy in terms of the principle
+ axes,
+\begin_inset Formula 
+\begin{eqnarray*}
+T_{\text{rot}} & = & \frac{1}{2}\underline{\omega}_{0}\underline{L}\\
+ & = & \frac{1}{2}I_{11}\omega_{1}^{2}+\frac{1}{2}I_{22}\omega_{2}^{2}+\frac{1}{2}I_{33}\omega_{3}^{2}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Conservation of Angular Momentum
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+\tau & = & \frac{\text{d}\underline{L}}{\text{d}t}
+\end{eqnarray*}
+
+\end_inset
+
+Therefore, when 
+\begin_inset Formula $\tau=0$
+\end_inset
+
+, 
+\begin_inset Formula 
+\[
+\frac{\text{d}\underline{L}}{\text{d}t}=0,\qquad\underline{L}=\text{constant}
+\]
+
+\end_inset
+
+But since 
+\begin_inset Formula $\underline{\omega}$
+\end_inset
+
+ need not be parallel to the angular momentum, the axis of rotation need
+ nit remain constant.
+\end_layout
+
+\begin_layout Subsection
+Torques on Rotating Bodies
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\underline{\tau}=\frac{\text{d}\underline{L}}{\text{d}t}
+\]
+
+\end_inset
+
+So in some instant, 
+\begin_inset Formula $\Delta\underline{L}=\underline{\tau}\Delta\underline{L}$
+\end_inset
+
+.
+ This means that any change in 
+\begin_inset Formula $\underline{L}$
+\end_inset
+
+will be parallel to 
+\begin_inset Formula $\underline{\tau}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection
+Tilted Spinning Wheel
+\end_layout
+
+\begin_layout Standard
+Consider a wheel rolling into the page with an angular velocity 
+\begin_inset Formula $\omega$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/tilted spinning wheel.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Rotating about a symmetry axis,
+\begin_inset Formula 
+\[
+\underline{L}=I\underline{\omega}
+\]
+
+\end_inset
+
+The torque about 
+\begin_inset Formula $O$
+\end_inset
+
+ is given by,
+\begin_inset Formula 
+\[
+\underline{\tau}=R\times mg
+\]
+
+\end_inset
+
+which acts into the page.
+ Therefore, the change in angular momentum 
+\begin_inset Formula $\Delta L$
+\end_inset
+
+ must be in the same direction,
+\begin_inset Formula 
+\[
+\Delta L=\Delta\left(I\underline{\omega}\right)=I\Delta\underline{\omega}
+\]
+
+\end_inset
+
+(
+\begin_inset Formula $\Delta\omega$
+\end_inset
+
+ into the page).
+ Also note 
+\begin_inset Formula $\Delta\underline{\omega}$
+\end_inset
+
+ is perpendicular to 
+\begin_inset Formula $\underline{\omega}$
+\end_inset
+
+, magnitude stays the same while the direction changes, so the wheel rotates
+ about the vertical axis.
+ The wheel cannot topple as this would change the vertical component of
+ 
+\begin_inset Formula $\underline{L}$
+\end_inset
+
+, while torque is horizontal.
+\end_layout
+
+\begin_layout Subsubsection
+Torque on a Spinning Wheel
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/spinning wheel.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Wheel spinning about an axle in the y-direction.
+ Apply small horizontal forces to the axis of rotation in the 
+\begin_inset Formula $\pm x$
+\end_inset
+
+ direction of equal magnitude and equal distances from the wheel, 
+\begin_inset Formula $\pm l$
+\end_inset
+
+.
+ There is no net force, so the center of mass does not move,
+\begin_inset Formula 
+\[
+\tau=\sum\underline{r}\times\underline{F}=2lF\underline{\hat{z}}
+\]
+
+\end_inset
+
+The wheel rotates about the x axis so that the angular momentum gains a
+ z component, 
+\begin_inset Formula $\Delta L$
+\end_inset
+
+ in the z direction.
+ The torque is perpendicular to 
+\begin_inset Formula $\underline{L}$
+\end_inset
+
+, so there is a change in direction of 
+\begin_inset Formula $\underline{L}$
+\end_inset
+
+, but not the magnitude,
+\begin_inset Formula 
+\[
+\Delta\underline{L}_{z}=L\Delta\theta
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Gyroscope
+\end_layout
+
+\begin_layout Standard
+Flywheel on a light axle 
+\begin_inset Formula $OO'$
+\end_inset
+
+, Pivoted completely freely at 
+\begin_inset Formula $O$
+\end_inset
+
+.
+ The wheel rotates about 
+\begin_inset Formula $OO'$
+\end_inset
+
+.
+ About the pivot, 
+\begin_inset Formula $\tau=\underline{r}\times\underline{F}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/gyroscope.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+When 
+\begin_inset Formula $\omega=0$
+\end_inset
+
+, (not spinning) the gyroscope behaves like a pendulum with a pivot at 
+\begin_inset Formula $O$
+\end_inset
+
+ and mass all in the flywheel at the end of the light axle.
+\end_layout
+
+\begin_layout Enumerate
+When the wheel is spinning, torque is parallel to the angular velocity,
+ e.g.
+ brake pads.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/brake pads.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The friction, 
+\begin_inset Formula $f_{r}$
+\end_inset
+
+, acts to produce a torque opposed to 
+\begin_inset Formula $\underline{\omega}$
+\end_inset
+
+, so 
+\begin_inset Formula 
+\begin{eqnarray*}
+\Delta\underline{L} & = & I\Delta\omega=\tau\Delta t\\
+\Rightarrow\frac{\Delta\omega}{\Delta t} & \propto & \tau\propto\frac{1}{I}\\
+\frac{\Delta\omega}{\Delta t} & = & \frac{\tau}{I}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+When the wheel is spinning, the torque is perpendicular to 
+\begin_inset Formula $\underline{L}$
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/spinning gyroscope.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The torque about the pivot 
+\begin_inset Formula $O$
+\end_inset
+
+ is given by, 
+\begin_inset Formula 
+\begin{eqnarray*}
+\tau & = & \underline{l}\times m\underline{g}\\
+\Rightarrow\tau & = & \frac{\text{d}\underline{L}}{\text{d}t}
+\end{eqnarray*}
+
+\end_inset
+
+so is perpendicular to 
+\begin_inset Formula $\underline{L}$
+\end_inset
+
+.
+ Because the torque is perpendicular to 
+\begin_inset Formula $\underline{L}$
+\end_inset
+
+, it changes its direction and not the magnitude, and so the system starts
+ to rotates.
+ As the torque is always perpendicular to 
+\begin_inset Formula $\underline{L}$
+\end_inset
+
+, the system continues to rotate, it precesses about the vertical axis.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/precession.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+\tau\Delta t & = & \underline{L}\Delta\phi\\
+\Rightarrow\frac{\text{\Delta\phi}}{\text{\Delta}t} & = & \Omega=\frac{\tau}{L}
+\end{eqnarray*}
+
+\end_inset
+
+Because the axis is horizontal,
+\begin_inset Formula 
+\begin{eqnarray*}
+\underline{\tau} & = & \underline{l}\times m\underline{g}\\
+|\tau| & = & lmg\\
+\Rightarrow\Omega & = & \frac{\tau}{L}=\frac{lmg}{I\omega}
+\end{eqnarray*}
+
+\end_inset
+
+Rewrite 
+\begin_inset Formula $I=m\kappa^{2}$
+\end_inset
+
+,
+\begin_inset Formula 
+\[
+\Omega=\frac{lg}{\omega\kappa}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+If the axis is not horizontal, there will be precession with a given frequency
+ as the angular momentum is in the same direction as the axle.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/non horizontal gyroscope.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\underline{\tau}=\underline{\Omega}\times\underline{L}
+\]
+
+\end_inset
+
+This is the special case when th axis is already rotating at the correct
+ speed, so that when the flywheel spins, the motion of the axis is already
+ set.
+ If the flywheel is set spinning, then the axis released from rest, the
+ axis must accelerate from zero velocity up to the required velocity.
+\end_layout
+
+\begin_layout Part
+Fictitious Forces and Non-Inertial Frames
+\end_layout
+
+\begin_layout Standard
+Consider observers in 2 different frames:
+\end_layout
+
+\begin_layout Itemize
+an inertial frame (non accelerating)
+\end_layout
+
+\begin_layout Itemize
+a frame with constant linear acceleration 
+\begin_inset Formula $\underline{A}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In the inertial frame, the object has acceleration 
+\begin_inset Formula $\underline{a}$
+\end_inset
+
+ due to the force 
+\begin_inset Formula $\underline{F}$
+\end_inset
+
+ applied on it,
+\begin_inset Formula 
+\[
+\underline{F}=m\underline{a}
+\]
+
+\end_inset
+
+In the accelerating frame, the object appears to have acceleration 
+\begin_inset Formula $\underline{a}'$
+\end_inset
+
+ where 
+\begin_inset Formula 
+\[
+\underline{a}'=\underline{a}-\underline{A}
+\]
+
+\end_inset
+
+So to the non inertial observer, the object appears to be subject to an
+ extra force,
+\begin_inset Formula 
+\begin{eqnarray*}
+\underline{F}' & = & m\underline{a}'\\
+ & = & m(\underline{a}-\underline{A})\\
+ & = & m\underline{a}-m\underline{A}\\
+ & = & \underline{F_{a}}-\underline{F_{A}}=\underline{F}+\underline{F}_{{\scriptscriptstyle \text{inertial}}}
+\end{eqnarray*}
+
+\end_inset
+
+where 
+\begin_inset Formula $\underline{F}_{{\scriptscriptstyle \text{inertial}}}$
+\end_inset
+
+ is the apparent force due to the acceleration of the frame.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+\noun on
+Ex 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "50text%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Subsubsection*
+Rocket on launchpad
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\begin_inset Formula $\quad$
+\end_inset
+
+
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/rocket on launchpad.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "50text%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Subsubsection*
+Rocket in deep space accelerating at 
+\begin_inset Formula $1\unit{g}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\begin_inset Formula $\quad$
+\end_inset
+
+
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/rocket in space.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The results are indistinguishable to the astronaut, only an external observer
+ can tell the difference.
+ This is the basis of Einstein's Equivalence Principle.
+\end_layout
+
+\begin_layout Section
+Rotating Reference Frame
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/rotating reference frame.svg
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Let 
+\begin_inset Formula $(x,y,z)$
+\end_inset
+
+ be inertial co-ordinates and 
+\begin_inset Formula $(x',y',z')$
+\end_inset
+
+ be co-ordinates in frame rotating about 
+\begin_inset Formula $z$
+\end_inset
+
+ with angular velocity 
+\begin_inset Formula $\omega$
+\end_inset
+
+.
+ In this case, 
+\begin_inset Formula $z=z'$
+\end_inset
+
+ as 
+\begin_inset Formula $(x',y')$
+\end_inset
+
+ rotate in the 
+\begin_inset Formula $x-y$
+\end_inset
+
+ plane.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/stationary point rotating.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Point 
+\begin_inset Formula $P$
+\end_inset
+
+, stationary in the rotating frame has velocity 
+\begin_inset Formula $\underline{v}=\underline{\omega}\times\underline{v}$
+\end_inset
+
+ in the inertial frame.
+ 
+\end_layout
+
+\begin_layout Standard
+How do we relate changes in the vector 
+\begin_inset Formula $\underline{A}$
+\end_inset
+
+ in the two frames?
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\Delta\underline{A}_{i}=$
+\end_inset
+
+change seen by the inertial observer
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\Delta\underline{A}_{r}=$
+\end_inset
+
+change seen in the rotating frame 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\left(\underline{\omega}\times\underline{A}\right)\Delta t=$
+\end_inset
+
+change the inertial observer would see if 
+\begin_inset Formula $\underline{A}$
+\end_inset
+
+ was fixed in the rotating frame.
+\end_layout
+
+\begin_layout Standard
+So the total change seen in the inertial frame is given by,
+\begin_inset Formula 
+\[
+\Delta\underline{A}_{i}=\Delta\underline{A}_{r}+\underline{\omega}\times\underline{A}\Delta t
+\]
+
+\end_inset
+
+So the rate of change is given by,
+\begin_inset Formula 
+\[
+\left(\frac{\text{d}\underline{A}}{\text{d}t}\right)_{i}=\left(\frac{\text{d}\underline{A}}{\text{d}t}\right)_{r}+\underline{\omega}\times\underline{A}
+\]
+
+\end_inset
+
+This can then be applied to the velocity and the acceleration.
+\end_layout
+
+\begin_layout Enumerate
+Velocity
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Let 
+\begin_inset Formula $\underline{A}=$
+\end_inset
+
+position, 
+\begin_inset Formula $\underline{r}$
+\end_inset
+
+, of the object
+\begin_inset Formula 
+\begin{eqnarray*}
+\Rightarrow\left(\frac{\text{d}\underline{A}}{\text{d}t}\right)_{i} & = & \underline{v}_{i}=\text{velocity in the inertial frame}\\
+\left(\frac{\text{d}\underline{A}}{\text{d}t}\right)_{r} & = & \underline{v}'=\text{velocity in the rotating frame}\\
+\Rightarrow\underline{v} & = & \underline{v}'+\underline{\omega}\times\underline{r}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Acceleration
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Let 
+\begin_inset Formula $\underline{A}=$
+\end_inset
+
+velocity, 
+\begin_inset Formula $\underline{v}$
+\end_inset
+
+, of the object
+\begin_inset Formula 
+\[
+\left(\frac{\text{d}\underline{v}}{\text{d}t}\right)_{i}=\left(\frac{\text{d}\underline{v}}{\text{d}t}\right)_{r}+\underline{\omega}\times\underline{r}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+We want to relate 
+\begin_inset Formula $\underline{a}=\frac{\text{d}\underline{V}}{\text{d}t}$
+\end_inset
+
+ with 
+\begin_inset Formula $\underline{a}'=\frac{\text{d}\underline{V}'}{\text{d}t}$
+\end_inset
+
+.
+ Substitute from above,
+\begin_inset Formula 
+\begin{eqnarray*}
+\underline{v} & = & \underline{v}'+\underline{\omega}\times\underline{r}\\
+\Rightarrow\left(\frac{\text{d}\underline{V}}{\text{d}t}\right)_{i} & = & \underline{a}=\frac{\text{d}}{\text{d}t}\left(\underline{v}'+\underline{\omega}\times\underline{r}\right)_{i}+\underline{\omega}\times(\underline{\omega}\times\underline{r})
+\end{eqnarray*}
+
+\end_inset
+
+So if a real external force exists,
+\begin_inset Formula 
+\[
+\underline{F}_{\text{ext}}=m\underline{a}
+\]
+
+\end_inset
+
+then the apparent force in the rotating frame is given by,
+\begin_inset Formula 
+\begin{eqnarray*}
+\underline{F}' & = & m\underline{a}'\\
+ & = & \underline{F}_{\text{ext}}\underbrace{-2m\left(\underline{\omega}\times\underline{v}'\right)}_{\text{"Colriolis" Force}\:}\underbrace{-m\omega\times\left(\underline{\omega}\times\underline{r}\right)}_{\:\text{"Centrifugal" Force}}
+\end{eqnarray*}
+
+\end_inset
+
+These two forces, the Coriolis and Centrifugal forces, are fictional internal
+ forces.
+\end_layout
+
+\begin_layout Itemize
+Coriolis force
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula $-2m\left(\underline{\omega}\times\underline{r}\right)$
+\end_inset
+
+ acts perpendicular to 
+\begin_inset Formula $\underline{v}'$
+\end_inset
+
+ so deflects the motion sideways.
+ This depends on the 
+\begin_inset Formula $\underline{v}'$
+\end_inset
+
+ but not the position.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Centrifugal force 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula $-m\underline{\omega}\times\left(\underline{\omega}\times\underline{r}\right)$
+\end_inset
+
+ acts radially outwards and depends on the position but not the velocity.
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Illustration
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -1cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/illustration rotating observer.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Person at A throws a ball to the person at B (radially outwards).
+ To the rotating observer, the ball is subject to inertial forces:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $-m\omega^{2}\underline{r}$
+\end_inset
+
+ (radially outwards)
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $-2m\omega\times\underline{v}^{'}$
+\end_inset
+
+ (perpendicular to 
+\begin_inset Formula $\underline{v}'$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/illustration inertial observer.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+To the inertial observer (outside the system) the ball travels in a straight
+ line.
+ Relative to the rotating axis, the ball appears to move to the right.
+\end_layout
+
+\begin_layout Section
+Direction of Coriolis Force
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/direction of coriolis force.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Variation of 
+\begin_inset Formula $g$
+\end_inset
+
+ with Latitude
+\end_layout
+
+\begin_layout Standard
+Consider a plumb-line suspended at the point 
+\begin_inset Formula $P$
+\end_inset
+
+ on the earth's surface.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/variation of g.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+If the earth did not rotate, it would hang down directly towards the center
+ of the planet.
+ On a rotating planet, however, this is not true.
+\end_layout
+
+\begin_layout Standard
+Rotating frame: weight hangs stationary, so can ignore the effect of the
+ Coriolis force,
+\begin_inset Formula 
+\begin{eqnarray*}
+F & = & mg-m\underline{\omega}\times(\underline{\omega}\times\underline{r})
+\end{eqnarray*}
+
+\end_inset
+
+In the example of the earth, 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $r_{\text{earth}}\approx6.4\times10^{6}\unit{m}$
+\end_inset
+
+ and 
+\begin_inset Formula $\omega\approx\frac{2\pi}{1\text{ day}}=7.27\times10^{-5}\unit{s^{-1}}$
+\end_inset
+
+.
+ Let 
+\begin_inset Formula $\underline{g}*=$
+\end_inset
+
+ acceleration of the object which can then be resolved into 
+\begin_inset Formula $g{}_{h}^{*}$
+\end_inset
+
+ (horizontal) and 
+\begin_inset Formula $g_{v}^{*}$
+\end_inset
+
+ (vertical),
+\begin_inset Formula 
+\begin{eqnarray*}
+\Rightarrow mg_{h}^{*} & = & F_{\text{cent}}\cos\theta\\
+ & = & -m\omega^{2}r\sin\theta\cos\theta\\
+mg_{v}^{*} & = & gm-mr\omega^{2}\sin\theta\cos\theta\\
+ & = & m(g-r\omega^{2}\sin^{2}\theta)
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+At one of the poles, 
+\begin_inset Formula $\theta=0,\qquad$
+\end_inset
+
+ so 
+\begin_inset Formula $g_{h}^{*}=0$
+\end_inset
+
+, 
+\begin_inset Formula $g_{v}^{*}=g$
+\end_inset
+
+ (max 
+\begin_inset Formula $g_{v}^{*}$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Itemize
+At the equator, 
+\begin_inset Formula $\theta=\frac{\pi}{2},\qquad$
+\end_inset
+
+ so 
+\begin_inset Formula $g_{h}^{*}=0$
+\end_inset
+
+, 
+\begin_inset Formula $g_{v}^{*}=g-\omega^{2}r=g-0.034$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This means that 
+\begin_inset Formula $g_{v}^{*}$
+\end_inset
+
+ varies by about 0.35% with latitude.
+\end_layout
+
+\begin_layout Standard
+Angle between 
+\begin_inset Formula $g$
+\end_inset
+
+ and 
+\begin_inset Formula $g^{*}=\alpha$
+\end_inset
+
+
+\begin_inset Formula 
+\begin{eqnarray*}
+\alpha\approx\tan\alpha & = & \frac{g_{h}^{*}}{g_{v}^{*}}\\
+ & = & \frac{\omega^{2}r\sin\theta\cos\theta}{g-\omega^{2}r\sin\theta\sin\theta}\\
+ & \approx & \frac{\omega^{2}r\sin2\theta}{2g}
+\end{eqnarray*}
+
+\end_inset
+
+
+\begin_inset Formula $\alpha_{\text{max}}$
+\end_inset
+
+ occurs when 
+\begin_inset Formula $\sin2\theta=1$
+\end_inset
+
+, 
+\begin_inset Formula $\theta=\frac{\pi}{4}$
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\alpha_{\text{max}}=\frac{\omega^{2}r}{2g}\approx1.7\times10^{-3}\unit{rad}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+\noun on
+Ex
+\end_layout
+
+\begin_layout Standard
+Circulation of the atmosphere.
+\end_layout
+
+\begin_layout Standard
+For a non-rotating planet, the air would flow radially from the high pressure
+ to the low pressure region.
+ However, the rotation of the earth means that this does not happen.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/circulation of the atmosphere.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Resolve 
+\begin_inset Formula $\underline{\omega}$
+\end_inset
+
+ into horizontal and vertical components.
+ The Coriolis force acts on the moving air,
+\begin_inset Formula 
+\begin{eqnarray*}
+\underline{F}_{\text{Cor}} & = & -2m(\underline{\omega}\times\underline{v}')\\
+ & = & -2m\left(\underline{\omega}_{h}+\underline{\omega}_{v}\right)\times\underline{v}'\\
+ & = & \underbrace{-2m\underline{\omega}_{h}\times\underline{v}'}_{A}+\underbrace{2m\underline{\omega}_{v}\times\underline{v}'}_{B}
+\end{eqnarray*}
+
+\end_inset
+
+Here 
+\begin_inset Formula $A$
+\end_inset
+
+ is the force generated perpendicular to the surface and 
+\begin_inset Formula $B$
+\end_inset
+
+ produces a force parallel to the surface but perpendicular to the velocity.
+\end_layout
+
+\begin_layout Standard
+Horizontal component of 
+\begin_inset Formula $\underline{F}_{\text{Cor}}$
+\end_inset
+
+,
+\begin_inset Formula 
+\begin{eqnarray*}
+\left(F_{\text{Cor}}\right)_{H} & = & -2m\underline{\omega}_{v}\times\underline{v}'\\
+ & = & -2m\omega_{v}v'\\
+ & = & -2m\omega v'\sin\lambda
+\end{eqnarray*}
+
+\end_inset
+
+To note from this, the magnitude of the horizontal Coriolis force depends
+ on the latitude you're at, but not the direction of the wind, 
+\begin_inset Formula $\underline{v}'$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\left(\underline{F}_{\text{Cor}}\right)_{H}$
+\end_inset
+
+ deflects motion to the right if in the northern hemisphere 
+\begin_inset Formula $(\lambda>0)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\left(\underline{F}_{\text{Cor}}\right)_{H}$
+\end_inset
+
+ deflects motion to the left if in the southern hemisphere 
+\begin_inset Formula $(\lambda<0)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The result of this is that in the northern hemisphere, a storm will form
+ a circulating system, spiraling in the anti-clockwise direction.
+ Similarly, for the southern hemisphere, the storm will develop spinning
+ in the other direction, clockwise.
+\end_layout
+
+\begin_layout Part
+Motion Under Central Conservative Forces - Orbits
+\end_layout
+
+\begin_layout Standard
+A conservative force is one where the work done in moving between A and
+ B does not depend on which route is taken.
+ This also means that, moving around a closed path, 
+\begin_inset Formula $A\rightarrow B\rightarrow A$
+\end_inset
+
+, the total work done is zero.
+ This leads to the conclusion that that total mechanical energy 
+\begin_inset Formula $=E_{k}+E_{p}=$
+\end_inset
+
+ constant.
+ This however is a particular case and does not always apply.
+ It can be shown that this is true if the curl of the force is zero,
+\begin_inset Formula 
+\[
+\underline{\nabla}\times\underline{F}=0
+\]
+
+\end_inset
+
+and hence if
+\begin_inset Formula 
+\[
+\underline{F}=-\underline{\nabla}\phi
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $\phi$
+\end_inset
+
+ is a scalar potential.
+ A central force is one that depends only on the radial distance from the
+ source,
+\begin_inset Formula 
+\[
+\underline{F}=f(\underline{r})\underline{\hat{r}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Properties of a Central Force
+\end_layout
+
+\begin_layout Enumerate
+Conservative
+\begin_inset Formula 
+\begin{eqnarray*}
+\underline{F}(r) & = & f(r)\underline{\hat{r}}=-\frac{\text{d}V(r)}{\text{d}r}\underline{\hat{r}}\\
+\therefore\underline{F}(r) & = & -\underline{\nabla}V(r)
+\end{eqnarray*}
+
+\end_inset
+
+So any central force must be conservative.
+\end_layout
+
+\begin_layout Enumerate
+Can also assume that the angular momentum is constant
+\begin_inset Formula 
+\begin{eqnarray*}
+\underline{\tau} & = & \underline{r}\times\underline{F}\\
+ & = & \underline{r}\times\underline{\hat{r}}f(r)=0=\frac{\text{d}\underline{L}}{\text{d}t}\\
+\Rightarrow\underline{L} & = & \text{Constant}
+\end{eqnarray*}
+
+\end_inset
+
+Therefore the motion is confined to a plane and this can be reduced to a
+ 2D system,
+\begin_inset Formula 
+\[
+L=\underline{r}\times m\underline{\dot{r}}
+\]
+
+\end_inset
+
+So both 
+\begin_inset Formula $\underline{r}$
+\end_inset
+
+ and 
+\bar under
+
+\begin_inset Formula $\underline{\dot{r}}$
+\end_inset
+
+ 
+\bar default
+are perpendicular to the angular momentum.
+ So if the direction of 
+\begin_inset Formula $L$
+\end_inset
+
+ is fixed, since it is constant, the plane of motion must also be fixed.
+\end_layout
+
+\begin_layout Subsection
+Plane Polar Co-ordinates
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\underline{r}=r\underline{\hat{r}}
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $\underline{\hat{r}}=\underline{i}\cos\theta+\underline{j}\sin\theta$
+\end_inset
+
+ and 
+\begin_inset Formula $\underline{\hat{\theta}}=-\underline{i}\sin\theta+\underline{j}\cos\theta$
+\end_inset
+
+.
+ From this, it can be shown that
+\begin_inset Formula 
+\begin{eqnarray*}
+\frac{\text{d}\underline{\hat{r}}}{\text{d}t} & = & \dot{\theta}\underline{\hat{\theta}}\\
+\frac{\text{d}\underline{\hat{\theta}}}{\text{d}t} & = & -\underline{\hat{r}}\dot{\theta}
+\end{eqnarray*}
+
+\end_inset
+
+Hence 
+\begin_inset Formula 
+\begin{eqnarray*}
+\underline{v} & = & \frac{\text{d}\underline{v}}{\text{d}t}=\dot{r}\underline{\hat{r}}+r\frac{\text{d}\underline{\hat{r}}}{\text{d}t}=\dot{r}\underline{\hat{r}}+r\dot{\theta}\hat{\underline{\theta}}
+\end{eqnarray*}
+
+\end_inset
+
+and 
+\begin_inset Formula 
+\begin{eqnarray*}
+\underline{a} & = & \frac{\text{d}\underline{v}}{\text{d}t}=\ddot{r}\underline{\hat{r}}+2\dot{r}\dot{\theta}\underline{\hat{\theta}}+r\ddot{\theta}\underline{\hat{\theta}}-r(\dot{\theta})^{2}\underline{\hat{r}}\\
+\therefore\underline{a} & = & \underbrace{\left(\ddot{r}-r(\dot{\theta})^{2}\right)\underline{\hat{r}}}_{\text{Radial acceleration}}+\underbrace{\left(2\dot{r}\dot{\theta}+r\ddot{\theta}\right)\underline{\hat{\theta}}}_{\text{Tangential acceleration}}
+\end{eqnarray*}
+
+\end_inset
+
+Since 
+\begin_inset Formula $\underline{F}$
+\end_inset
+
+ is purely radial, 
+\begin_inset Formula $\underline{F}=m\underline{a}$
+\end_inset
+
+ can be separated into two terms,
+\end_layout
+
+\begin_layout Enumerate
+Radial
+\begin_inset Formula 
+\[
+f(r)=m\left(\ddot{r}-r\dot{\theta}^{2}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Tangential
+\begin_inset Formula 
+\[
+0=m\left(2\dot{r}\dot{\theta}+r\ddot{\theta}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The tangential equation is a consequence of the angular momentum being constant.
+ Consider the tangential velocity
+\begin_inset Formula 
+\begin{eqnarray*}
+v_{\theta} & = & r\dot{\theta}\\
+|\underline{L}|=l & = & mrv_{\theta}=mr^{2}\dot{\theta}\\
+\therefore\frac{\text{d}l}{\text{d}t} & = & m\left(2r\dot{r}\dot{\theta}+r^{2}\ddot{\theta}\right)\\
+ & = & mr\left(2\dot{r}\dot{\theta}+r\ddot{\theta}\right)
+\end{eqnarray*}
+
+\end_inset
+
+This is just the tangential equation of motion multiplied by 
+\begin_inset Formula $r$
+\end_inset
+
+,
+\begin_inset Formula 
+\[
+\frac{\text{d}l}{\text{d}t}=mr\left(2\dot{r}\dot{\theta}+r\ddot{\theta}\right)=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Energy Equation
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+E & = & \frac{1}{2}mv^{2}+V(r)\\
+ & = & \frac{1}{2}m\left(\dot{r}^{2}+r^{2}\dot{\theta}^{2}\right)+V(r)
+\end{eqnarray*}
+
+\end_inset
+
+Using 
+\begin_inset Formula $mr^{2}\dot{\theta}^{2}=\frac{l^{2}}{mr^{2}}$
+\end_inset
+
+ (
+\begin_inset Formula $l$
+\end_inset
+
+= constant) 
+\begin_inset Formula 
+\[
+\Rightarrow E=\frac{1}{2}m\dot{r}+\frac{l^{2}}{2mr^{2}}+V(r)
+\]
+
+\end_inset
+
+This is the radial energy equation.
+ This looks like a one dimensional equation of motion,
+\begin_inset Formula 
+\[
+E=\frac{1}{2}m\dot{r}^{2}+V_{\text{eff}}(r)
+\]
+
+\end_inset
+
+where the effective potential is given by
+\begin_inset Formula 
+\[
+V_{\text{eff}}=\frac{l^{2}}{2mr^{2}}+V(r)
+\]
+
+\end_inset
+
+and 
+\begin_inset Formula $\frac{l^{2}}{2mr^{2}}$
+\end_inset
+
+ corresponds to the force,
+\begin_inset Formula 
+\[
+F=-\frac{\text{d}V}{\text{d}r}=\frac{l^{2}}{2mr^{3}}=mr\dot{\theta}^{2}
+\]
+
+\end_inset
+
+This angular momentum term is effectively a repulsive force equal to the
+ (effective) centrifugal force, so the term 
+\begin_inset Formula $\frac{l^{2}}{2mr^{2}}$
+\end_inset
+
+ is known as the centrifugal potential.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/centrifugal potential.svg
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Since 
+\begin_inset Formula $l$
+\end_inset
+
+ is constant, for small 
+\begin_inset Formula $r$
+\end_inset
+
+, a large 
+\begin_inset Formula $v_{\theta}$
+\end_inset
+
+ is required, and so a large kinetic energy is present.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+\noun on
+Ex
+\end_layout
+
+\begin_layout Standard
+Consider a short range attractive force, for example, the potential given
+ by 
+\begin_inset Formula $V(r)=-\frac{k}{r^{3}}$
+\end_inset
+
+, so 
+\begin_inset Formula $V_{\text{eff}}=\frac{l^{2}}{2mr^{2}}-\frac{k}{r^{3}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/inverse fourth force.svg
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+If the energy of an object is greater than 
+\begin_inset Formula $V_{\text{max}}$
+\end_inset
+
+, then it is not bound by this potential and is free to move anywhere.
+ 
+\end_layout
+
+\begin_layout Itemize
+If the energy is less than 
+\begin_inset Formula $V_{\text{max}}$
+\end_inset
+
+, the object could be bound in 
+\begin_inset Formula $r<r_{1}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+If the energy is greater than zero and still less that 
+\begin_inset Formula $V_{\text{max}}$
+\end_inset
+
+, it could be bound in the region 
+\begin_inset Formula $r>r_{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+\noun on
+Ex
+\end_layout
+
+\begin_layout Standard
+Consider an inverse cube force (force is inverse cube so potential is inverse
+ square 
+\begin_inset Formula $F=\frac{\text{d}v}{\text{d}r}$
+\end_inset
+
+),
+\begin_inset Formula 
+\[
+V(r)=-\frac{k}{r^{2}}
+\]
+
+\end_inset
+
+so 
+\begin_inset Formula 
+\[
+V_{\text{eff}}=\frac{1}{r^{2}}\left(\frac{l^{2}}{2m}-k\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/inverse cube force.svg
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+So this force is either attractive or repulsive depending on the relative
+ strength of 
+\begin_inset Formula $k$
+\end_inset
+
+.
+ This means there is no stable orbits for an inverse cube potential.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+\noun on
+Ex
+\end_layout
+
+\begin_layout Standard
+Consider the inverse square force.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/inverse square force.svg
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $V_{\text{eff}}$
+\end_inset
+
+ has minimum, 
+\begin_inset Formula $E_{\text{min}}=-\frac{mk^{2}}{2l^{2}}$
+\end_inset
+
+ which occurs at a radius 
+\begin_inset Formula $r_{\text{min}}=\frac{l^{2}}{mk}$
+\end_inset
+
+.
+ Therefore, for a given energy less than zero, there is also a maximum angular
+ momentum,
+\begin_inset Formula 
+\[
+l_{\text{max}}=\sqrt{\frac{mk^{2}}{2|E|}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Orbital Shapes
+\end_layout
+
+\begin_layout Standard
+Looking at the inverse square force, 
+\end_layout
+
+\begin_layout Itemize
+when the energy is 
+\begin_inset Formula $E_{\text{min}}$
+\end_inset
+
+, the orbit will be circular as there is only one possible value of 
+\begin_inset Formula $r$
+\end_inset
+
+, so the radius must be constant,
+\end_layout
+
+\begin_layout Itemize
+for 
+\begin_inset Formula $E_{\text{min}}<E<0$
+\end_inset
+
+ (still bound) the orbit will change between 
+\begin_inset Formula $r_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $r_{2}$
+\end_inset
+
+.
+ In three dimensions, this would mean the radius oscillates between these
+ limits, so the shape of the orbit must be an ellipse,
+\end_layout
+
+\begin_layout Itemize
+if 
+\begin_inset Formula $E>0$
+\end_inset
+
+, the object is unbound, but still with some minimum value of 
+\begin_inset Formula $r$
+\end_inset
+
+, a distance of closest approach.
+ In general, the shape in three dimensions would be a hyperbola.
+ If 
+\begin_inset Formula $E=0$
+\end_inset
+
+, the shape would be a parabola.
+\end_layout
+
+\begin_layout Subsection
+Orbit Equation
+\end_layout
+
+\begin_layout Standard
+The radial equation used the fact that 
+\begin_inset Formula $l=$
+\end_inset
+
+constant to eliminate the angular dependence from the energy equation.
+ The orbit equation uses the same principle, that 
+\begin_inset Formula $l$
+\end_inset
+
+ is constant, to eliminate time from the equation, to relate 
+\begin_inset Formula $r$
+\end_inset
+
+ and 
+\begin_inset Formula $\theta$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+This gives the equation
+\begin_inset Formula 
+\[
+r\left(1-\epsilon\cos\theta\right)=r_{0}
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $r_{0}=\frac{l^{2}}{mk}$
+\end_inset
+
+ which is the radius that a circular orbit for the particular values of
+ 
+\begin_inset Formula $l$
+\end_inset
+
+, 
+\begin_inset Formula $m$
+\end_inset
+
+, and 
+\begin_inset Formula $k$
+\end_inset
+
+ would have, and 
+\begin_inset Formula $\epsilon=\sqrt{1+\frac{2El^{2}}{mk^{2}}}$
+\end_inset
+
+ which is the eccentricity and characterises the shape of the orbit.
+ This is derived by starting with the equation in plane polars, then making
+ the 2 substitutions,
+\begin_inset Formula 
+\begin{eqnarray*}
+u & = & \frac{1}{r}\;\rightarrow\;\frac{\text{d}u}{\text{d}\theta}=-\frac{1}{r^{2}}\frac{\text{d}r}{\text{d}\theta}\\
+\Rightarrow\dot{r} & = & \frac{\text{d}r}{\text{d}t}=\frac{\text{d}r}{\text{d}\theta}\dot{\theta}=-r^{2}\dot{\theta}\frac{\text{d}u}{\text{d}\theta}=-\frac{l}{m}\frac{\text{d}u}{\text{d}\theta}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Bound Orbits
+\end_layout
+
+\begin_layout Standard
+Bound orbits occur when the total energy, 
+\begin_inset Formula $E<0$
+\end_inset
+
+ so that also the eccentricity, 
+\begin_inset Formula $\epsilon<1$
+\end_inset
+
+.
+ This can be written as 
+\begin_inset Formula 
+\[
+\frac{(x-a\epsilon)^{2}}{a^{2}}+\frac{y^{2}}{b^{2}}=1\qquad\text{Elliptical orbit}
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $a=\frac{r_{0}}{1-\epsilon^{2}}=-\frac{k}{2E}$
+\end_inset
+
+ and 
+\begin_inset Formula $b^{2}=r_{0}a=-\frac{l^{2}}{2mE}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/bound orbit.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+semi-major axis, 
+\begin_inset Formula $a$
+\end_inset
+
+, is determined by the energy, 
+\begin_inset Formula $E$
+\end_inset
+
+,
+\begin_inset Formula 
+\begin{eqnarray*}
+a & = & -\frac{k}{2E}\\
+E & = & -\frac{k}{2a}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+semi-latus rectum, 
+\begin_inset Formula $r_{0}$
+\end_inset
+
+, is defined by the angular momentum,
+\end_layout
+
+\begin_layout Itemize
+the eccentricity, 
+\begin_inset Formula $\epsilon$
+\end_inset
+
+, is defined by
+\begin_inset Formula 
+\[
+\epsilon^{2}=1-\frac{r_{0}}{a}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+the semi-minor axis is given by
+\begin_inset Formula 
+\[
+b^{2}=-\frac{l^{2}}{2mE}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+So when 
+\begin_inset Formula $E=E_{\text{min}}$
+\end_inset
+
+, 
+\begin_inset Formula $\epsilon=0$
+\end_inset
+
+ so the semi-major axis is the same as the semi-minor axis, 
+\begin_inset Formula $a=b=r_{0}$
+\end_inset
+
+so there is a circular orbit.
+\end_layout
+
+\begin_layout Subsection
+Conservation Laws
+\end_layout
+
+\begin_layout Standard
+If we know that the energy, 
+\begin_inset Formula $E$
+\end_inset
+
+, and the angular momentum, 
+\begin_inset Formula $l$
+\end_inset
+
+, are constant at any point in the orbit, we can calculate the shape of
+ the orbit.
+ If we know 
+\begin_inset Formula $E$
+\end_inset
+
+ at any point, we can work out 
+\begin_inset Formula $|\underline{v}|$
+\end_inset
+
+ at any other point,
+\begin_inset Formula 
+\[
+E=\frac{1}{2}mv^{2}+V(r)
+\]
+
+\end_inset
+
+If we know 
+\begin_inset Formula $|\underline{v}|$
+\end_inset
+
+ when 
+\begin_inset Formula $r$
+\end_inset
+
+ is perpendicular to the radius, then we can calculate 
+\begin_inset Formula $l$
+\end_inset
+
+,
+\begin_inset Formula 
+\[
+l=mvr
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+\noun on
+Ex
+\end_layout
+
+\begin_layout Standard
+Show that 
+\begin_inset Formula $E=-\frac{k}{2a}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/bound orbit example.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Conservation of energy
+\begin_inset Formula 
+\begin{eqnarray}
+E & = & \frac{1}{2}mv_{1}^{2}-\frac{k}{r_{1}}\nonumber \\
+ & = & \frac{1}{2}mv_{2}^{2}-\frac{k}{r_{2}}
+\end{eqnarray}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Conservation of angular momentum (
+\begin_inset Formula $v$
+\end_inset
+
+ perpendicular to 
+\begin_inset Formula $r$
+\end_inset
+
+ at this point)
+\begin_inset Formula 
+\begin{eqnarray}
+l & = & mv_{1}r_{1}\nonumber \\
+ & = & mv_{2}r_{2}\nonumber \\
+v_{2} & = & \frac{r_{1}}{r_{2}}v_{1}
+\end{eqnarray}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Substitute 
+\begin_inset Formula $(6)$
+\end_inset
+
+ into 
+\begin_inset Formula $(5)$
+\end_inset
+
+
+\begin_inset Formula 
+\begin{eqnarray*}
+\frac{1}{2}mv_{1}^{2}-\frac{k}{r_{1}^{2}} & = & \frac{1}{2}mv_{2}^{2}-\frac{k}{r_{2}^{2}}\\
+\frac{1}{2}mv_{1}^{2}-\frac{k}{r^{2}} & = & \frac{1}{2}m\left(\frac{r_{1}}{r_{2}}v_{1}\right)^{2}-\frac{k}{r_{2}^{2}}\\
+\frac{1}{2}v_{1}^{2}m\left(1-\frac{r_{1}^{2}}{r_{2}^{2}}\right) & = & k\left(\frac{1}{r_{1}}-\frac{1}{r_{2}}\right)\\
+\frac{1}{2}m\left(\frac{r_{2}^{2}-r_{1}^{2}}{r_{2}^{2}}\right)v_{1}^{2} & = & k\left(\frac{r_{2}-r_{1}}{r_{1}r_{2}}\right)\\
+\frac{1}{2}m\frac{(r_{2}-r_{1})(r_{2}+r_{1})}{r_{2}}v_{1}^{2} & = & k\left(\frac{r_{2}-r_{1}}{r_{1}}\right)\\
+\frac{1}{2}m\frac{(r_{2}+r_{1})}{r_{2}}v_{1}^{2} & = & \frac{k}{r_{1}}\\
+\frac{1}{2}mv_{1}^{2} & = & k\frac{r_{2}}{r_{1}}\frac{1}{r_{1}+r_{2}}
+\end{eqnarray*}
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{eqnarray*}
+\Rightarrow E & = & k\frac{r_{2}}{r_{1}}\frac{1}{r_{2}+r_{1}}-\frac{k}{r_{1}}=-\frac{k}{r_{1}+r_{2}}\\
+\Rightarrow E & = & -\frac{k}{2a}\\
+a & = & -\frac{k}{2E}\qquad\text{As required.}
+\end{eqnarray*}
+
+\end_inset
+
+So energy 
+\begin_inset Formula $E>0$
+\end_inset
+
+, and so the eccentricity 
+\begin_inset Formula $\epsilon>1$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Subsection
+Unbound Orbits
+\end_layout
+
+\begin_layout Itemize
+For 
+\begin_inset Formula $\epsilon>1$
+\end_inset
+
+, the orbit equation can be written as 
+\begin_inset Formula 
+\[
+\frac{(x+\epsilon a)^{2}}{a^{2}}-\frac{y^{2}}{b^{2}}=1\qquad\text{(Hyperbola)}
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $a=\frac{r_{0}}{\epsilon^{2}-1}=\frac{k}{2E}$
+\end_inset
+
+ and 
+\begin_inset Formula $b^{2}=r_{0}a=\frac{l^{2}}{2mE}$
+\end_inset
+
+.
+ This describes a hyperbola with focus at the point 
+\begin_inset Formula $x=y=0$
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/unbound hyperbolic.svg
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Here 
+\begin_inset Formula $b=$
+\end_inset
+
+impact parameter and 
+\begin_inset Formula $\theta=$
+\end_inset
+
+scattering angle
+\begin_inset Formula $=\cos^{-1}\left(\frac{1}{\epsilon}\right)$
+\end_inset
+
+.
+ As 
+\begin_inset Formula $r\rightarrow\infty$
+\end_inset
+
+, 
+\begin_inset Formula $r=\frac{r_{0}}{1-\epsilon\cos\theta}\rightarrow0$
+\end_inset
+
+.
+ So 
+\begin_inset Formula $\epsilon\cos\theta\rightarrow1$
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+When 
+\begin_inset Formula $E=0$
+\end_inset
+
+, so the object is just unbound, 
+\begin_inset Formula $\epsilon=1,$
+\end_inset
+
+ so
+\begin_inset Formula 
+\begin{eqnarray*}
+r(1-\cos\theta) & = & r_{0}\\
+r(1-x) & = & r_{0}\\
+\Rightarrow y^{2} & = & r_{0}^{2}+2r_{0}x\qquad\text{(Parabola)}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/unbound parabolic.svg
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This is the case when the object has just enough energy to escape capture,
+ 
+\begin_inset Formula $E_{k}\rightarrow0$
+\end_inset
+
+, 
+\begin_inset Formula $r\rightarrow\infty$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Family of Related Forces
+\end_layout
+
+\begin_layout Standard
+Launch an object from the point 
+\begin_inset Formula $P$
+\end_inset
+
+ with velocity 
+\begin_inset Formula $v$
+\end_inset
+
+ perpendicular to 
+\begin_inset Formula $FP$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/family of orbits.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\begin{array}{ccccc}
+\text{Low }v: & P & = & \text{Perigee of ellipse}\\
+| &  &  & \downarrow\\
+| &  &  & \text{Circle}\\
+| &  &  & \downarrow\\
+| &  &  & \text{Apogee of ellipse}\\
+\downarrow &  &  & \downarrow\\
+\text{High }v: &  &  & \text{Hyperbola - unbound orbit}
+\end{array}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Calculating an Orbit
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/calculating an orbit.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Given the initial position and the velocity at that position, 
+\begin_inset Formula $\underline{r}$
+\end_inset
+
+, and 
+\begin_inset Formula $\underline{v}_{0}$
+\end_inset
+
+, find the orbit.
+\end_layout
+
+\begin_layout Enumerate
+Is 
+\begin_inset Formula $E>0$
+\end_inset
+
+ or 
+\begin_inset Formula $E<0$
+\end_inset
+
+?
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula $\frac{1}{2}mv^{2}>\frac{GMm}{r_{1}}$
+\end_inset
+
+ or 
+\begin_inset Formula $\frac{1}{2}mv^{2}<\frac{GMm}{r_{1}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Lets assume 
+\begin_inset Formula $E<0$
+\end_inset
+
+ (bound).
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Orbital angular momentum 
+\begin_inset Formula 
+\[
+|l|=(\underline{r}_{j}\times m\underline{v}_{0})=r_{j}m\underline{v}_{0}\sin\phi
+\]
+
+\end_inset
+
+At perigee and apogee, the position and velocity are perpendicular
+\begin_inset Formula 
+\begin{eqnarray*}
+l & = & mv_{1}r_{1}=mv_{2}r_{2}\\
+\Rightarrow\frac{1}{r_{1}}=\frac{mv_{1}}{l} &  & \frac{1}{r_{2}}=\frac{mv_{2}}{l}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Energy
+\begin_inset Formula 
+\begin{eqnarray*}
+E & = & \frac{1}{2}mv_{1}^{2}-\frac{GMm}{r_{1}}=-\frac{GMm}{2a}\\
+\Rightarrow E & = & \frac{1}{2}mv_{1}^{2}-\frac{m_{1}v_{1}}{l}GMm\\
+ & = & \frac{1}{2}mv_{1}^{2}-\frac{GMm^{2}v_{1}}{l}
+\end{eqnarray*}
+
+\end_inset
+
+This gives a quadratic for 
+\begin_inset Formula $v_{1}(v_{2})$
+\end_inset
+
+ so can find 
+\begin_inset Formula $r_{1}(r_{2})$
+\end_inset
+
+ from this.
+\end_layout
+
+\begin_layout Enumerate
+Eccentricity
+\begin_inset Formula 
+\[
+\left.\begin{array}{ccc}
+r_{1} & = & a(1-\epsilon)\\
+r_{2} & = & a(1+\epsilon)
+\end{array}\right\} \epsilon
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Angle of the orbit from the orbit equation
+\begin_inset Formula 
+\begin{eqnarray*}
+r_{j}(1-\epsilon\cos\theta_{j}) & = & r_{0}\\
+r_{0} & = & a(1-\epsilon^{2})
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Perturbed Circular Orbit
+\end_layout
+
+\begin_layout Standard
+Consider an object in a circular orbit that is subject to some impulse (force
+ applied for a very short amount of time.
+\end_layout
+
+\begin_layout Subsubsection
+Radial Impulse
+\end_layout
+
+\begin_layout Standard
+The impulse, 
+\begin_inset Formula $I$
+\end_inset
+
+, does not change the angular momentum, 
+\begin_inset Formula $l$
+\end_inset
+
+, of the orbit, since the torque about 
+\begin_inset Formula $F=0$
+\end_inset
+
+.
+ It does change the radial velocity 
+\begin_inset Formula $O$
+\end_inset
+
+ to 
+\begin_inset Formula $u=\frac{\Delta F}{m}$
+\end_inset
+
+.
+ Therefore, the energy of the object in the orbit will be increased,
+\begin_inset Formula 
+\[
+E_{k}=\frac{1}{2}m(v^{2}+u^{2})-\frac{GMm}{r}
+\]
+
+\end_inset
+
+So now 
+\begin_inset Formula $E>E_{\text{min}}$
+\end_inset
+
+, so the orbit is no longer circular.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "50text%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Subsubsection*
+Outward Impulse
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/outward impulse.svg
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "50text%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Subsubsection*
+Inward Impulse
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/inward impulse.svg
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In both cases, the energy is the same as is the size of the orbit, 
+\begin_inset Formula $2a$
+\end_inset
+
+, and so the shape, ie the eccentricity, 
+\begin_inset Formula $\epsilon$
+\end_inset
+
+, is the same.
+\end_layout
+
+\begin_layout Subsubsection
+Tangential Impulse
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/tangential impulse.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Impulse is anti-parallel to the velocity.
+\begin_inset Formula 
+\begin{eqnarray*}
+\therefore v & = & v'=v_{0}-u\\
+\Rightarrow E & = & \frac{1}{2}m(v_{0}-u)^{2}-\frac{GMm}{r}
+\end{eqnarray*}
+
+\end_inset
+
+So the energy decreases, and the angular momentum also decreases
+\begin_inset Formula 
+\[
+l\rightarrow l'=mr(v_{0}-u)
+\]
+
+\end_inset
+
+The new orbit must be elliptical with a semi-major axis, 
+\begin_inset Formula $a<r$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/decrease impulse.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+If the impulse had increased the velocity, then the new velocity must be
+ 
+\begin_inset Formula $v_{0}+u$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/increase impulse.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+Special Relativity
+\end_layout
+
+\begin_layout Section
+Postulates
+\end_layout
+
+\begin_layout Enumerate
+The laws of physics are the same in all inertial frames
+\end_layout
+
+\begin_layout Enumerate
+The speed of light (in a vacuum) has the same value in all inertial frames.
+\end_layout
+
+\begin_layout Section
+Lorentz Transformation
+\end_layout
+
+\begin_layout Standard
+If 
+\begin_inset Formula $x$
+\end_inset
+
+, 
+\begin_inset Formula $y$
+\end_inset
+
+, 
+\begin_inset Formula $z$
+\end_inset
+
+ and 
+\begin_inset Formula $t$
+\end_inset
+
+ are the co-ordinates in the inertial frame 
+\begin_inset Formula $S$
+\end_inset
+
+, and 
+\begin_inset Formula $x'$
+\end_inset
+
+, 
+\begin_inset Formula $y'$
+\end_inset
+
+, 
+\begin_inset Formula $z'$
+\end_inset
+
+ and 
+\begin_inset Formula $t'$
+\end_inset
+
+ are the co-ordinates in the frame 
+\begin_inset Formula $S'$
+\end_inset
+
+ moving relative to 
+\begin_inset Formula $S$
+\end_inset
+
+ with velocity 
+\begin_inset Formula $v$
+\end_inset
+
+ in the positive 
+\begin_inset Formula $x$
+\end_inset
+
+ direction.
+ Then
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{align*}
+\end_layout
+
+\begin_layout Plain Layout
+
+	x'&=
+\backslash
+gamma(x-vt) & x&=
+\backslash
+gamma(x'+vt)
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	y'&=y & y &=y'
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	z'&=z & z&=z'
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	t'&=
+\backslash
+gamma
+\backslash
+left(t-
+\backslash
+frac{v}{c^{2}}x
+\backslash
+right) & t&=
+\backslash
+gamma
+\backslash
+left(t'+
+\backslash
+frac{v}{c^{2}}x
+\backslash
+right)
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{align*}
+\end_layout
+
+\end_inset
+
+where 
+\begin_inset Formula ${\displaystyle \gamma=\frac{1}{\sqrt{1-\frac{v^{2}}{c^{2}}}}=\left(1-\frac{v^{2}}{c^{2}}\right)^{-\frac{1}{2}}=(1-\beta^{2})^{-\frac{1}{2}}}$
+\end_inset
+
+, where 
+\begin_inset Formula $\beta=\frac{v}{c}$
+\end_inset
+
+.
+ We can also write this as a matrix vector,
+\begin_inset Formula 
+\[
+\begin{pmatrix}x'\\
+y'\\
+z'\\
+ct'
+\end{pmatrix}=\begin{pmatrix}\gamma & 0 & 0 & -\beta\gamma\\
+0 & 1 & 0 & 0\\
+0 & 0 & 1 & 0\\
+-\beta\gamma & 0 & 0 & \gamma
+\end{pmatrix}\begin{pmatrix}x\\
+y\\
+z\\
+ct
+\end{pmatrix}
+\]
+
+\end_inset
+
+
+\begin_inset Formula $ct'$
+\end_inset
+
+ is used to keep the dimensions constant.
+ This is know as a 
+\begin_inset Quotes eld
+\end_inset
+
+4 vector
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Space-Time Diagrams
+\end_layout
+
+\begin_layout Standard
+These are a way of representing how events appear in different frames.
+ Only the 
+\begin_inset Formula $x$
+\end_inset
+
+ and 
+\begin_inset Formula $ct$
+\end_inset
+
+ co-ordinates are plotted.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/space-time diagram.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+So the events with co-ordinates 
+\begin_inset Formula $(x,ct)$
+\end_inset
+
+ is 
+\begin_inset Formula $S$
+\end_inset
+
+ has co-ordinates 
+\begin_inset Formula $(x',ct')$
+\end_inset
+
+ in 
+\begin_inset Formula $S'$
+\end_inset
+
+.
+ The lines joining this point to the 
+\begin_inset Formula $x'$
+\end_inset
+
+ and 
+\begin_inset Formula $ct'$
+\end_inset
+
+ axes must be parallel to the other, 
+\begin_inset Formula $ct'$
+\end_inset
+
+ or 
+\begin_inset Formula $x'$
+\end_inset
+
+ respectively, axis.
+ Reversing the velocity reverses the angle.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/path of photon.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The path of a photon, since it travels with velocity 
+\begin_inset Formula $c$
+\end_inset
+
+, in all frames must be mid way between the axis for all frames,
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{align*}
+\end_layout
+
+\begin_layout Plain Layout
+
+	x&=ct
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	x'&=ct'
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	x''&=ct''
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{align*}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Space-Time Interval
+\end_layout
+
+\begin_layout Standard
+An invariant quantity is one that has the same value in all inertial frames.
+ One of these quantities is the speed of light.
+ Another is the interval, 
+\begin_inset Formula $\text{d}S$
+\end_inset
+
+, between 2 events where
+\begin_inset Formula 
+\[
+(\text{d}S)^{2}=c^{2}(\text{d}t)^{2}-(\text{d}x)^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/space time inteval.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In 
+\begin_inset Formula $S'$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+(\mbox{\text{d}S')^{2}} & =c\text{d}t'^{2}-\text{d}x'^{2}\\
+ & =\gamma^{2}\left(c\text{d}t-\beta\text{d}\right)^{2}-\gamma^{2}\left(\text{d}x-\beta c\text{d}t\right)^{2}\\
+ & =\gamma^{2}\left(c^{2}\text{d}t^{2}+\beta^{2}\text{d}x^{2}-2\beta c\text{d}t\text{d}x-\text{d}x^{2}-\beta^{2}c^{2}\text{d}t^{2}+2\beta c\text{d}t\text{d}x\right)\\
+ & =\gamma^{2}c^{2}\text{d}t^{2}\left(1-\beta^{2}\right)-\gamma^{2}\text{d}x^{2}\left(1-\beta^{2}\right)\\
+ & =c^{2}\text{d}t^{2}-\text{d}x^{2}\\
+ & =\left(\text{d}S\right)^{2}
+\end{align*}
+
+\end_inset
+
+
+\begin_inset Formula $\therefore\text{d}S$
+\end_inset
+
+ is the same in both frames.
+ This is the Lorentz Invariance.
+\end_layout
+
+\begin_layout Section
+Intervals and Causality
+\end_layout
+
+\begin_layout Standard
+No influence can travel faster than the speed of light, 
+\begin_inset Formula $c$
+\end_inset
+
+.
+ This means that for any event there can be defined light cones which contain
+ all events that this event might have influenced and all events that might
+ have influenced this event.
+ These are all the possible events where there can be a causal connection.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/time cones.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Future Cone
+\end_layout
+
+\begin_layout Standard
+Region in space-time where event 
+\begin_inset Formula $A$
+\end_inset
+
+ may influence what happens
+\end_layout
+
+\begin_layout Paragraph
+Past Cone
+\end_layout
+
+\begin_layout Standard
+Region in space-time which contains all the events that could have had an
+ influence on 
+\begin_inset Formula $A$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Events outside these regions have no causal connection with what happened
+ at 
+\begin_inset Formula $A$
+\end_inset
+
+.
+ The condition for an event to be on one of these cones is if the separation
+ in space is 
+\begin_inset Formula $\text{d}r$
+\end_inset
+
+ in the instant of time 
+\begin_inset Formula $\text{d}t$
+\end_inset
+
+, then
+\begin_inset Formula 
+\[
+|\text{d}r|\leq c|\text{d}t|
+\]
+
+\end_inset
+
+as measured in any reference frame.
+ Expressed as an invariant interval ,
+\begin_inset Formula 
+\[
+\text{d}S^{2}=c^{2}\text{d}t^{2}-\text{d}r^{2}\geq0
+\]
+
+\end_inset
+
+So this interval is invariant, so is the same in all reference frames.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "60col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Subsection
+\begin_inset Formula $\text{d}S^{2}>0$
+\end_inset
+
+ 
+\begin_inset Quotes eld
+\end_inset
+
+Time-like
+\begin_inset Quotes erd
+\end_inset
+
+ Interval
+\end_layout
+
+\begin_layout Plain Layout
+A signal with speed less than 
+\begin_inset Formula $c$
+\end_inset
+
+ can connect these two events, 
+\begin_inset Formula $A$
+\end_inset
+
+ and 
+\begin_inset Formula $B$
+\end_inset
+
+.
+ The invariant distance is time-like,
+\begin_inset Formula 
+\[
+\text{d}\tau=\left(c^{2}\text{d}t^{2}-\text{d}r^{2}\right)^{\frac{1}{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+This is known as the proper time.
+\end_layout
+
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "40col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/time like interval.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "60col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Subsection
+\begin_inset Formula $\text{d}S^{2}=0$
+\end_inset
+
+ 
+\begin_inset Quotes eld
+\end_inset
+
+Light-like
+\begin_inset Quotes erd
+\end_inset
+
+ Interval
+\end_layout
+
+\begin_layout Plain Layout
+Only something traveling at the speed of light could connect these two events,
+\begin_inset Formula 
+\[
+\text{d}\tau=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "40col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/light like interval.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "60col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Subsection
+\begin_inset Formula $\text{d}S^{2}<0$
+\end_inset
+
+ 
+\begin_inset Quotes eld
+\end_inset
+
+Space-like
+\begin_inset Quotes erd
+\end_inset
+
+ Interval
+\end_layout
+
+\begin_layout Plain Layout
+Nothing can connect these two events as it would have to travel faster than
+ light,
+\begin_inset Formula 
+\[
+\text{d}\sigma=\left(\text{d}r^{2}-c\text{d}t^{2}\right)^{\frac{1}{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+This is the proper distance.
+\end_layout
+
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "40col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/space like interval.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Causality and Time Order
+\end_layout
+
+\begin_layout Standard
+Two observers need not agree on the time order of events.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Classical Mechanics and Relativity/time order and causality.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Since the events are outside each other's event cone, there is no problem
+ here as the two events are not causally connected.
+\end_layout
+
+\begin_layout Standard
+Let 
+\begin_inset Formula 
+\begin{eqnarray*}
+\text{d}t & = & t_{2}-t_{1}>0\\
+c\text{d}t' & = & ct'_{2}-ct'_{2}\\
+ & = & \gamma\left(ct_{2}-\beta x_{2}\right)-\gamma\left(ct_{1}-\beta x_{1}\right)\\
+\Rightarrow c\text{d}t' & = & \gamma\left(c\text{d}t-\beta\text{d}x\right)
+\end{eqnarray*}
+
+\end_inset
+
+If 
+\begin_inset Formula $t'_{1}>t'_{2}$
+\end_inset
+
+ then 
+\begin_inset Formula $\text{d}t'<0$
+\end_inset
+
+,
+\begin_inset Formula 
+\begin{eqnarray*}
+\Rightarrow\beta\text{d}x & > & c\text{d}t\\
+\text{d}x & > & c\text{d}t
+\end{eqnarray*}
+
+\end_inset
+
+So this pair are space-like separated.
+\end_layout
+
+\begin_layout Section
+Energy and Momentum
+\end_layout
+
+\begin_layout Standard
+Energy and momentum transform between frames in the same way as for position
+ and time,
+\begin_inset Formula 
+\[
+\left.\begin{array}{ccc}
+p'_{x}c & = & \begin{aligned}\gamma\left(p_{x}c-\beta E\right)\end{aligned}
+\\
+p'_{y}c & = & p_{y}c\qquad\qquad\\
+p'_{z}c & = & p_{z}c\qquad\qquad\\
+\; E' & = & \gamma\left(E-\beta p_{x}c\right)
+\end{array}\right\} \begin{array}{c}
+\text{Energy momentum}\\
+\text{4 vector}
+\end{array}
+\]
+
+\end_inset
+
+As these transform in exactly the same way as 
+\begin_inset Formula $(ct,\underline{r})$
+\end_inset
+
+, the combination of corresponding to 
+\begin_inset Formula $\text{d}S^{2}$
+\end_inset
+
+ must also be invariant.
+\begin_inset Formula 
+\[
+P^{2}=E^{2}-p^{2}c^{2}
+\]
+
+\end_inset
+
+is also invariant, independent of the frame that it is measured in.
+ In the center of mass frame of a particle, 
+\begin_inset Formula $p=o$
+\end_inset
+
+, so 
+\begin_inset Formula 
+\[
+P^{2}=E_{cm}^{2}
+\]
+
+\end_inset
+
+For a single object, 
+\begin_inset Formula $E_{cm}=mc^{2}$
+\end_inset
+
+, therefore,
+\begin_inset Formula 
+\[
+E^{2}-p^{2}c^{2}=m^{2}c^{4}
+\]
+
+\end_inset
+
+in any frame.
+\end_layout
+
+\begin_layout Itemize
+Photon, 
+\begin_inset Formula $E=pc$
+\end_inset
+
+, 
+\begin_inset Formula $E^{2}-p^{2}c^{2}=0$
+\end_inset
+
+, 
+\begin_inset Formula $\qquad\therefore$
+\end_inset
+
+ photon is massless
+\end_layout
+
+\begin_layout Itemize
+Multiple-particle system, 
+\begin_inset Formula $E=\sum_{i}E_{j}$
+\end_inset
+
+, 
+\begin_inset Formula $\underline{p}=\sum_{i}\underline{p}_{i}$
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\Rightarrow E^{2}-p^{2}c^{2}=E_{cm}^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+If we combine these into one object, then
+\begin_inset Formula 
+\[
+E_{cm}^{2}=\text{mass}\times c^{2}
+\]
+
+\end_inset
+
+then we still write
+\begin_inset Formula 
+\[
+E^{2}-p^{2}c^{2}=m^{2}c^{4}
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $m^{2}c^{4}$
+\end_inset
+
+ is the invariant mass of the system.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+\noun on
+Ex
+\end_layout
+
+\begin_layout Standard
+Create 
+\begin_inset Formula $Z^{0}$
+\end_inset
+
+ boson in 
+\begin_inset Formula $e^{+}e^{-}$
+\end_inset
+
+ collision
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "20col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+\ensuremath{\Diagram{\vertexlabel^{e^{+}}\\
+fdA\\
+ & fA\\
+\vertexlabel_{e^{-}}fuA
+}
+Z^{0}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "20col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset VSpace -0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Formula 
+\begin{eqnarray*}
+m_{z}c^{2} & \approx & 90\unit{GeV}\\
+E^{2}-p^{2}c^{2} & = & m_{z}^{2}c^{2}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.1cm
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+When symmetric beams are produced,
+\begin_inset Formula 
+\begin{eqnarray*}
+E_{+}=E_{-}=E_{e} & \Rightarrow & \sum E=2E_{e}\\
+\underline{p}_{+}=-\underline{p}_{-} & \Rightarrow & \sum\underline{p}=0\\
+\Rightarrow E_{cm} & = & 2E_{e}=m_{z}c^{2}\\
+E_{e} & = & \frac{m_{z}c^{2}}{2}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Fixed Target
+\end_layout
+
+\begin_layout Standard
+A positron beam is fired at a stationary hydrogen target.
+ We know that
+\begin_inset Formula 
+\begin{eqnarray*}
+m_{z}^{2}c^{4} & = & \left(E_{+}+m_{e}c^{2}\right)^{2}-p_{+}^{2}c^{2}\\
+ & = & E_{+}^{2}+2m_{e}c^{2}E_{+}+m_{e}^{2}c^{4}-p_{+}^{2}c^{2}\\
+ & = & 2m_{e}c^{2}E_{+}+2m_{e}^{2}c^{4}
+\end{eqnarray*}
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{eqnarray*}
+m_{z}^{2}c^{4}\approx90^{2},\qquad m_{e}^{2}c^{4} & = & \left(0.5\times10^{-3}\right)^{2}\\
+\Rightarrow90^{2} & \approx & 2m_{e}c^{2}E_{+}\\
+E_{+} & \approx & 8.1\times10^{6}\unit{GeV}=8.1\unit{PeV}>1000\times\text{LHC beam energy}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

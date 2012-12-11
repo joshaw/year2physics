@@ -1,0 +1,5791 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered true
+\pdf_bookmarksopen true
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize default
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2cm
+\topmargin 3cm
+\rightmargin 2cm
+\bottommargin 3cm
+\headheight 2cm
+\headsep 2cm
+\footskip 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip smallskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pagenumbering{roman}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Title
+Classical Mechanics and Relativity
+\end_layout
+
+\begin_layout Author
+Josh Wainwright
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pagenumbering{arabic} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{page}{1}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph*
+Year 1 Mechanics:
+\end_layout
+
+\begin_layout Standard
+treated objects as point masses, concerned with translation only
+\end_layout
+
+\begin_layout Paragraph*
+Year 2 Mechanics: 
+\end_layout
+
+\begin_layout Standard
+looking at extended bodies which leads to rotation
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\bar under
+Translation
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\bar under
+Rotation
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Force 
+\begin_inset Formula $\underline{F}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Torque 
+\begin_inset Formula $\underline{\tau}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Momentum 
+\begin_inset Formula $\underline{p}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Angular Momentum 
+\begin_inset Formula $\underline{L}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+mass, velocity 
+\begin_inset Formula $\underline{F}=\frac{\mbox{d}p}{\mbox{d}t}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Momentum of inertia, angular velocity 
+\begin_inset Formula $\underline{\tau}=\frac{\mbox{d}\underline{L}}{\mbox{d}t}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $F=0\Rightarrow\underline{p}=\textrm{constant}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\underline{\tau}=0\Rightarrow\underline{L}=\textrm{constant}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+Motion of Extended Body
+\end_layout
+
+\begin_layout Standard
+The fall analysis can be very complex so it is simplified by separating
+ the motion into the motion of the center of mass and the rotation about
+ the center of mass of the rest of the object.
+\end_layout
+
+\begin_layout Section
+Center of Mass, Reduced Mass and Relative Coordinates
+\end_layout
+
+\begin_layout Subsection
+Reduced Mass
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename 2 mass system.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Consider the external forces 
+\begin_inset Formula $\underline{F}_{1}^{ext}$
+\end_inset
+
+ and 
+\begin_inset Formula $\underline{F}_{2}^{ext}$
+\end_inset
+
+ acting on masses 1 and 2.
+ If the force on 
+\begin_inset Formula $m_{1}$
+\end_inset
+
+ due to 
+\begin_inset Formula $m_{2}$
+\end_inset
+
+ is 
+\begin_inset Formula $\underline{F}_{12}$
+\end_inset
+
+, then according to Newton's 3rd law, the force om 
+\begin_inset Formula $m_{2}$
+\end_inset
+
+ due to 
+\begin_inset Formula $m_{1}$
+\end_inset
+
+, is 
+\begin_inset Formula 
+\[
+\underline{F}_{21}=-\underline{F}_{12}\equiv-\underline{F}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Equations of motion for the two bodies
+\begin_inset Formula 
+\begin{eqnarray}
+m_{1}\underline{\ddot{r}}_{1} & = & \underline{F}_{1}^{ext}+\underline{F}\label{eq:motion of 2 bodies 1}\\
+m_{2}\underline{\ddot{r}}_{2} & = & \underline{F}_{2}^{ext}+\underline{F}\label{eq:motion of 2 bodies 2}
+\end{eqnarray}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+To makes solving these equations easier, we will simplify the situation.
+ Center of mass is given by,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\underline{R}=\frac{m_{1}r_{1}+m_{2}r_{2}}{m_{1}+m_{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+and the relative position is given by,
+\begin_inset Formula 
+\[
+\underline{r}=\underline{r}_{1}-\underline{r}_{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Given these definitions, and adding (1) and (2) gives
+\begin_inset Formula 
+\begin{eqnarray*}
+m_{1}\underline{\ddot{r}}_{1}+m_{2}\underline{\ddot{r}}_{2} & = & \underline{F}_{1}^{ext}+\underline{F}_{2}^{ext}+\underline{F}-\underline{F}\\
+(m_{1}+m_{2})\underline{\ddot{R}} & = & \underline{F}_{1}^{ext}+\underline{F}_{2}^{ext}\\
+M\underline{\ddot{R}} & = & \underline{F}_{tot}^{ext}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+So the system behaves like a point mass 
+\begin_inset Formula $M$
+\end_inset
+
+ at coordinate 
+\begin_inset Formula $R$
+\end_inset
+
+ under the external force 
+\begin_inset Formula $\underline{F}_{tot}^{ext}$
+\end_inset
+
+.
+ If 
+\begin_inset Formula $\underline{F}_{tot}^{ext}=0$
+\end_inset
+
+ then the center of mass acceleration is zero and hence the momentum of
+ the center of mass is constant.
+\begin_inset Formula 
+\begin{eqnarray*}
+M\underline{\ddot{R}} & = & 0\\
+\Rightarrow M\underline{\dot{R}} & = & \textrm{constant}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Also from (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:motion of 2 bodies 1"
+
+\end_inset
+
+) and (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:motion of 2 bodies 2"
+
+\end_inset
+
+),
+\begin_inset Formula 
+\begin{eqnarray*}
+\underline{\ddot{r}}_{1} & = & \frac{\underline{F}_{1}^{ext}}{m_{1}}+\frac{\underline{F}}{m_{1}}\\
+\underline{\ddot{r}}_{2} & = & \frac{\underline{F}_{2}^{ext}}{m_{2}}-\frac{\underline{F}}{m_{2}}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Supposing the only external force is gravity, then
+\begin_inset Formula 
+\[
+\frac{\underline{F}_{1}^{ext}}{m_{1}}=\frac{\underline{F}_{2}^{ext}}{m_{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+this is the gravitational acceleration.
+\begin_inset Formula 
+\begin{eqnarray*}
+\Rightarrow\underline{\ddot{r}} & = & \underline{\ddot{r}}_{1}-\underline{\ddot{r}}_{2}=F\left(\frac{1}{m_{1}}+\frac{1}{m_{2}}\right)=\frac{F}{\mu}\\
+F & = & \mu\underline{\ddot{r}}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\begin_inset Formula $\mu=\frac{m_{1}m_{2}}{m_{1}+m_{2}}$
+\end_inset
+
+.
+ This is typically called the reduce mass.
+ 
+\noun on
+Reduced mass
+\noun default
+ 
+\begin_inset Formula $=\mu$
+\end_inset
+
+.
+ So the motion of a two body system can be separated into 
+\end_layout
+
+\begin_layout Itemize
+center of mass of the system which moves under the influence of the of the
+ net external force and
+\end_layout
+
+\begin_layout Itemize
+relative motion which can be described as the motion of a single particle
+ whose mass is the reduced mass, 
+\begin_inset Formula $\mu$
+\end_inset
+
+, under the influence of the internal force
+\end_layout
+
+\begin_layout Subsection
+Center of Mass of Many Body System
+\end_layout
+
+\begin_layout Standard
+For two bodies;
+\begin_inset Formula 
+\[
+R_{cm}=\frac{m_{1}r_{1}+m_{2}r_{2}}{m_{1}+m_{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+For many bodies;
+\begin_inset Formula 
+\[
+R_{cm}=\frac{\sum_{k}^{n}m_{k}\underline{r}_{k}}{\sum_{k}^{n}m_{k}}=\frac{1}{M}\sum_{k}m_{k}\underline{r}_{k}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\begin_inset Formula $M$
+\end_inset
+
+ is the total mass of the system.
+\end_layout
+
+\begin_layout Standard
+For a continuous mass distribution;
+\begin_inset Formula 
+\[
+R_{cm}=\frac{\int\underline{r}\mbox{d}m}{\int\mbox{d}m}=\frac{\int\underline{r}\rho(\underline{r})\mbox{d}V}{\int\rho(\underline{r})\mbox{d}V}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\begin_inset Formula $\rho(\underline{r})=$
+\end_inset
+
+ mass density at the point 
+\begin_inset Formula $r$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection
+Finding Center of Mass
+\end_layout
+
+\begin_layout Standard
+Use symmetry where possible
+\end_layout
+
+\begin_layout Itemize
+if the mass distribution has an axis of symmetry, then the center of mass
+ will lie on that axis.
+\end_layout
+
+\begin_layout Itemize
+If there is more than one axis of symmetry, then the center of mass must
+ lie on both axes, therefor must lie at the point where the axes intersect.
+\end_layout
+
+\begin_layout Itemize
+if 
+\begin_inset Formula $\rho$
+\end_inset
+
+ is constant, then for a sphere, for example, the center of mass must lie
+ at the center of the sphere.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+if 
+\begin_inset Formula $\rho=\rho(r)$
+\end_inset
+
+ then CM is still at the center,
+\end_layout
+
+\begin_layout Itemize
+if 
+\begin_inset Formula $\rho=\rho(z)$
+\end_inset
+
+ then CM lies on the z axis.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+
+\bar under
+\noun on
+Ex
+\end_layout
+
+\begin_layout Standard
+A solid hemisphere, of uniform density , 
+\begin_inset Formula $\rho$
+\end_inset
+
+, and radius 
+\begin_inset Formula $a$
+\end_inset
+
+.
+ Find the location of the CM.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename hemisphere.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+By symmetry, 
+\begin_inset Formula $x_{cm}=y_{cm}=0$
+\end_inset
+
+, so just need to calculate 
+\begin_inset Formula $z_{cm}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Consider the hemisphere as a stack of disks, radius 
+\begin_inset Formula $r$
+\end_inset
+
+, with height 
+\begin_inset Formula $\rightarrow0$
+\end_inset
+
+,
+\begin_inset Formula 
+\begin{eqnarray*}
+\mbox{d}m & = & \rho\mbox{d}V\\
+ & = & \rho\pi r^{2}\mbox{d}z
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Rewrite new variable, 
+\begin_inset Formula $r$
+\end_inset
+
+, in terms of 
+\begin_inset Formula $z$
+\end_inset
+
+, 
+\begin_inset Formula $r^{2}=a^{2}-z^{2}$
+\end_inset
+
+
+\begin_inset Formula 
+\begin{eqnarray*}
+\Rightarrow\mbox{d}m & = & \rho\pi(a^{2}-z^{2})\mbox{d}z\\
+z_{cm} & = & \frac{\int z\mbox{d}m}{\int\mbox{d}m}\\
+ & = & \frac{\int_{0}^{a}\rho\pi z(a^{2}-z^{2})\mbox{d}z}{\int_{0}^{a}\rho\pi(a^{2}-z^{2})\mbox{d}z}\\
+ & = & \frac{\int_{0}^{a}za^{2}-z^{3}\mbox{d}z}{\int_{0}^{a}a-z^{2}\mbox{d}z}\\
+ & = & \frac{\left[\frac{a^{2}z^{2}}{2}-\frac{z^{4}}{4}\right]_{0}^{a}}{\left[a^{2}z-\frac{z^{3}}{3}\right]_{0}^{a}}=\frac{\frac{a^{4}}{4}}{\frac{2}{3}a^{3}}=\frac{3}{8}a
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+\noun on
+Ex
+\end_layout
+
+\begin_layout Standard
+Consider a hollow hemisphere,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename hollow hemisphere.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Mass per unit area
+\begin_inset Formula $=\sigma$
+\end_inset
+
+, 
+\begin_inset Formula 
+\begin{eqnarray*}
+\Rightarrow\mbox{d}m & = & \sigma\mbox{d}A\\
+x_{cm} & = & y_{cm}=0\\
+\mbox{d}A & = & 2\pi ra\mbox{d}\theta\\
+ & = & 2\pi ra^{2}\sin(\theta)\mbox{d}\theta\\
+\mbox{d}m & = & \sigma2\pi a^{2}\sin(\theta)\mbox{d}\theta\\
+z & = & a\cos(\theta)
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+z_{cm} & = & \frac{\int z\mbox{d}m}{\int\mbox{d}m}\\
+ & = & \frac{\int\sigma2\pi a^{2}\sin(\theta)a\cos(\theta)\mbox{d}\theta}{\int\sigma2\pi a^{2}\sin(\theta)\mbox{d}\theta}\\
+ & = & \frac{a}{2}\frac{\int_{0}^{\frac{\pi}{2}}2\sin(\theta)\cos(\theta)\mbox{d}\theta}{\int_{0}^{\frac{\pi}{2}}\sin(\theta)\mbox{d}\theta}\\
+ & = & \frac{a}{2}\frac{\int_{0}^{\frac{\pi}{2}}\sin(2\theta)\mbox{d}\theta}{\int_{0}^{\frac{\pi}{2}}\sin(\theta)\mbox{d}\theta}=\frac{a}{2}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+Harmonic Oscillations and Motion
+\end_layout
+
+\begin_layout Standard
+Motion in a conservative potential, if the potential depends only on position,
+\begin_inset Formula $V=V(r)$
+\end_inset
+
+, then 
+\begin_inset Formula $E=T+V=\mbox{constant}$
+\end_inset
+
+.
+ In one dimension this gives 
+\begin_inset Formula 
+\[
+E=\frac{p^{2}}{2m}+V(x)=\mbox{constant}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Types of Motion
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename bounded motion.svg
+	scale 200
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+For a particle with energy E there are three types of region,
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $a<x<b\qquad$
+\end_inset
+
+ - bounded motion
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $b<x<c\qquad$
+\end_inset
+
+ - excluded from the region
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $x>c\qquad$
+\end_inset
+
+ - unbounded, can travel 
+\begin_inset Formula $\rightarrow\infty$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Bounded Motion
+\end_layout
+
+\begin_layout Standard
+Consider a particle in the region 
+\begin_inset Formula $a<x<b$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $x=b$
+\end_inset
+
+, 
+\begin_inset Formula $V=E$
+\end_inset
+
+ so 
+\begin_inset Formula $T=0$
+\end_inset
+
+ and 
+\begin_inset Formula $V=0$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $\frac{\mbox{d}V}{\mbox{d}x}>0$
+\end_inset
+
+, 
+\begin_inset Formula $F=-\frac{\mbox{d}V}{\mbox{d}t}<0$
+\end_inset
+
+ so the force pushes back towards 
+\begin_inset Formula $a$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+\begin_inset Formula $x=a$
+\end_inset
+
+, 
+\begin_inset Formula $V=E$
+\end_inset
+
+ so 
+\begin_inset Formula $T=0$
+\end_inset
+
+ and 
+\begin_inset Formula $V=0$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $\frac{\mbox{d}V}{\mbox{d}x}<0$
+\end_inset
+
+, 
+\begin_inset Formula $F=-\frac{\mbox{d}V}{\mbox{d}t}>0$
+\end_inset
+
+ so the force pushes towards 
+\begin_inset Formula $b$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Formula $\therefore$
+\end_inset
+
+ Bound particle will oscillate continually between these limits.
+ The nature of the oscillation will depend on the shape of the potential
+ inside the bounded region.
+\end_layout
+
+\begin_layout Subsection
+Equilibrium
+\end_layout
+
+\begin_layout Standard
+The point 
+\begin_inset Formula $A$
+\end_inset
+
+, is an equilibrium position for a particle if that particle when released
+ from rest at that position doesn't move so remains there, ie the point
+ where the net force on an object is zero.
+ Since 
+\begin_inset Formula $F=-\frac{\mbox{d}V}{\mbox{d}x}=0$
+\end_inset
+
+.
+ So the equilibrium position is the stationary point in the potential function
+ 
+\begin_inset Formula $V(x)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Let 
+\begin_inset Formula $V(x)$
+\end_inset
+
+ have stationary point at 
+\begin_inset Formula $x_{0}$
+\end_inset
+
+.
+ For small displacement from 
+\begin_inset Formula $x_{0}$
+\end_inset
+
+, we expand,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+V(x)=V_{0}+\left[\frac{\mbox{d}V}{\mbox{d}x}\right]_{x=x_{0}}(x-x_{0})+\left[\frac{\mbox{d}^{2}V}{\mbox{d}x^{2}}\right]_{x=x_{0}}\frac{(x-x_{0})^{2}}{2}+\mathcal{O}(x-x_{0})^{3}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Therefore, near the equilibrium point,
+\begin_inset Formula 
+\begin{eqnarray*}
+V(x) & \approx & \left[\frac{\mbox{d}^{2}V}{\mbox{d}x^{2}}\right]_{x=x_{0}}\frac{(x-x_{0})^{2}}{2}+V_{0}\\
+\frac{\mbox{d}^{2}V}{\mbox{d}x^{2}} & = & \mbox{constant}=k
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename equilibrium potentail.svg
+	scale 200
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+\frac{\mbox{d}^{2}V}{\mbox{d}x^{2}} & \neq & k\\
+F(x) & = & -k(x-x_{0})\\
+F & \propto & -\mbox{displacement}\\
+ & = & \mbox{resulting force}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+So small displacement from the equilibrium will give oscillations about
+ the equilibrium,
+\begin_inset Formula 
+\[
+F=m\ddot{x}=-kx
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This is the simple harmonic oscillator.
+ So it there is a sufficiently small displacement if any system from the
+ equilibrium, that will produce SHM.
+\end_layout
+
+\begin_layout Subsubsection
+Solutions
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+\ddot{x} & = & -\frac{kx}{m}\\
+\Rightarrow x(t) & = & Ae^{i\omega t}+Be^{-i\omega t}\\
+ & \mbox{or}\\
+x(t) & = & C\cos(\omega t)+D\sin(\omega t)
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Unstable equilibrium
+\begin_inset Formula 
+\begin{eqnarray*}
+\frac{\mbox{d}^{2}V}{\mbox{d}x^{2}} & < & 0\rightarrow\ddot{x}=\frac{k}{m}x\\
+x(t) & = & Ae^{\omega t}+Be^{-\omega t}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+which corresponds to exponential decrease with time.
+\end_layout
+
+\begin_layout Paragraph
+Examples
+\end_layout
+
+\begin_layout Itemize
+Simple Pendulum
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename simple pendulum.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+weight on a string
+\end_layout
+
+\begin_layout Itemize
+LC circuit
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename LC Circuit.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Damping
+\end_layout
+
+\begin_layout Standard
+In reality, dissipative forces are usually present.
+ These will convert the energy of motion of this oscillator into other forms.
+ And so the oscillations will decay.
+ The simplest type is one that is proportional to velocity,
+\begin_inset Formula 
+\[
+F=-b\ddot{x}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Then the equation of motion becomes
+\begin_inset Formula 
+\[
+m\ddot{x}+b\dot{x}+kx=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+\noun on
+Ex
+\end_layout
+
+\begin_layout Standard
+Mass attached to a light plate that is immersed in a viscous fluid;
+\end_layout
+
+\begin_layout Itemize
+when the mass moves up, the force points downward
+\end_layout
+
+\begin_layout Itemize
+when the mass moves down, the force points upward
+\end_layout
+
+\begin_layout Itemize
+when the mass is at rest there is no net force
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+m\ddot{x}+b\dot{x}+kx=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Solution, try 
+\begin_inset Formula $x=e^{pt}$
+\end_inset
+
+
+\begin_inset Formula 
+\begin{eqnarray*}
+(mp^{2}+bp+k)e^{pt} & = & 0\\
+mp^{2}+bp+k & = & 0\\
+p & = & -\frac{b}{2m}-\sqrt{\frac{b^{2}}{4m^{2}}-\frac{k}{m}}\\
+\Rightarrow x(t) & = & Ae^{p_{1}t}+Be^{p_{2}t}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where
+\begin_inset Formula 
+\begin{eqnarray*}
+p_{1} & = & -\frac{b}{2m}-\sqrt{\frac{b^{2}}{4m^{2}}-\frac{k}{m}}\\
+p_{2} & = & -\frac{b}{2m}+\sqrt{\frac{b^{2}}{4m^{2}}-\frac{k}{m}}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ideal SHM 
+\begin_inset Formula $m\ddot{y}=ky=0$
+\end_inset
+
+.
+ With damping 
+\begin_inset Formula $m\ddot{y}+b\dot{y}+ky=0$
+\end_inset
+
+.
+ So the damping force 
+\begin_inset Formula $F_{\mbox{damp}}=-b\frac{dy}{dt}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+General solution 
+\begin_inset Formula $y(t)=Ae^{p_{1}t}+Be^{p_{2}t}$
+\end_inset
+
+, where 
+\begin_inset Formula $p_{1,2}=-\frac{b}{2m}\pm\sqrt{\frac{b^{2}}{4m^{2}}-\frac{k}{m}}$
+\end_inset
+
+.
+ Note, the frequency of the undamped oscillator 
+\begin_inset Formula $\omega_{0}=\sqrt{\frac{k}{m}}$
+\end_inset
+
+.
+ So
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+p_{1,2} & = & -\frac{b}{2m}\pm\sqrt{\frac{b^{2}}{4m^{2}}-\frac{k}{m}}=-\frac{b}{2m}\pm\sqrt{\frac{b^{2}}{4m^{2}}-\omega_{0}^{2}}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+If 
+\begin_inset Formula $b=0$
+\end_inset
+
+, 
+\begin_inset Formula $p_{1,2}=\pm i\omega_{0}$
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\Rightarrow y(t)=Ae^{i\omega_{0}t}+Be^{-i\omega_{0}t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+as expected.
+ Get 
+\begin_inset Formula $A$
+\end_inset
+
+ and 
+\begin_inset Formula $B$
+\end_inset
+
+ from the initial conditions,
+\end_layout
+
+\begin_layout Standard
+eg at 
+\begin_inset Formula $t=0$
+\end_inset
+
+, 
+\begin_inset Formula $y=10\unit{m}$
+\end_inset
+
+, 
+\begin_inset Formula $\frac{\mbox{d}y}{\mbox{d}t}=v=2.6\unit{ms^{-1}}$
+\end_inset
+
+
+\begin_inset Formula 
+\begin{eqnarray*}
+y(0) & = & A+B=10\\
+y`(0) & = & p_{1}A+p_{2}B=2.6
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+then solve these simultaneously for 
+\begin_inset Formula $A$
+\end_inset
+
+ and 
+\begin_inset Formula $B$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Behavior of Damped Oscillator
+\end_layout
+
+\begin_layout Standard
+There are two qualitatively different types of behavior, depending on the
+ conditions.
+ The transition case is a special case that is useful and important for
+ many applications.
+ 
+\end_layout
+
+\begin_layout Itemize
+Consider the case where
+\begin_inset Formula 
+\[
+\frac{b^{2}}{4m^{2}}>\frac{k}{m}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+This means that both 
+\begin_inset Formula $p_{1}$
+\end_inset
+
+and 
+\begin_inset Formula $p_{2}$
+\end_inset
+
+ are real and negative.
+ So 
+\begin_inset Formula $y=Ae^{p_{1}t}+Be^{p_{2}t}$
+\end_inset
+
+, which is that sum of two decaying exponentials.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+\noun on
+Ex
+\end_layout
+
+\begin_layout Standard
+Release an object from rest
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Over Damping.svg
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Consider the special case where 
+\begin_inset Formula $\frac{b^{2}}{4m^{2}}=\frac{k}{m}$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Rightarrow p_{1}=p_{2}=-\frac{b}{2m}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+So the solution has the form 
+\begin_inset Formula 
+\[
+y(t)=(A+B)e^{-\frac{b}{2m}t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Qualitatively this has the same sort of behavior.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+\noun on
+Ex
+\end_layout
+
+\begin_layout Standard
+Release an object from rest
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Critical Damping.svg
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Consider the case where 
+\begin_inset Formula 
+\[
+\frac{b^{2}}{4m^{2}}<\frac{k}{m}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+So 
+\begin_inset Formula $p_{1}$
+\end_inset
+
+and 
+\begin_inset Formula $p_{2}$
+\end_inset
+
+ are complex
+\begin_inset Formula 
+\begin{eqnarray*}
+p_{1} & = & p_{2}=-\frac{b}{2m}\pm i\omega\\
+\Rightarrow y(t) & = & Ae^{p_{1}t}+Be^{p_{2}t}\\
+ & = & e^{-\frac{b}{2m}t}\left(Ae^{i\omega t}+Be^{-i\omega t}\right)
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We can rewrite this as
+\begin_inset Formula 
+\begin{eqnarray*}
+y(t) & = & e^{-\frac{b}{2m}t}(C\sin(\omega t)+D\cos(\omega t))\\
+ & = & e^{-\frac{b}{2m}t}(C^{2}+D^{2})^{\frac{1}{2}}\left(\frac{C}{(C^{2}+D^{2})^{\frac{1}{2}}}\cos(\omega t)+\frac{D}{(C^{2}+D^{2})^{\frac{1}{2}}}\sin(\omega t)\right)
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Now let 
+\begin_inset Formula $\frac{C}{(C^{2}+D^{2})^{\frac{1}{2}}}=\cos(\alpha)$
+\end_inset
+
+, and 
+\begin_inset Formula $\frac{D}{(C^{2}+D^{2})^{\frac{1}{2}}}=\sin(\alpha)$
+\end_inset
+
+, and 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $(C^{2}+D^{2})^{\frac{1}{2}}=E$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+y(t) & = & e^{-\frac{b}{2m}t}E(\cos(\alpha)\cos(\omega t)+\sin(\alpha)\sin(\omega t)\\
+ & = & Ee^{-\frac{b}{2m}t}\cos(\omega t-\alpha)
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Under Damping.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Subsubsection
+Frequency of Damped Oscillations
+\end_layout
+
+\begin_layout Standard
+From above
+\begin_inset Formula 
+\[
+\omega^{2}=\frac{k}{m}-\frac{b^{2}}{4m^{2}}=\omega_{0}^{2}-\frac{b^{2}}{4m^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+So unless the system is very heavily damped 
+\begin_inset Formula $\left(\frac{b^{2}}{4m^{2}}\approx\omega_{0}^{2}\textrm{ ie close to critical damping}\right)$
+\end_inset
+
+ we usually find that the shift in frequency is not very large, 
+\begin_inset Formula $\omega\approx\omega_{0}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection
+Decay of Damped Oscillations
+\end_layout
+
+\begin_layout Standard
+Convenient to write 
+\begin_inset Formula 
+\[
+e^{-\frac{bt}{2m}}=e^{-\frac{\lambda}{\tau}t}\qquad T=\frac{2\pi}{\omega}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Then, for each cycle of oscillations, the amplitude decreases by a factor
+ of 
+\begin_inset Formula $e^{-\lambda}$
+\end_inset
+
+, where
+\begin_inset Formula 
+\begin{eqnarray*}
+\frac{b}{2m} & = & \frac{\lambda}{\frac{2\pi}{\omega}}\\
+\lambda & = & \frac{b}{2m}\frac{2\pi}{\omega}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Q Factor
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Q=2\pi\frac{\textrm{Energy stored in the oscillator}}{\textrm{Energy dissipated in one cycle}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This is a dimensionless quantity that relates the loss of energy to the
+ cycles made by the oscillator.
+\begin_inset Formula 
+\[
+\textrm{Energy}\propto\textrm{(Amplitude)}^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Q value.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This is the fraction of energy lost per cycle (change in energy)
+\begin_inset Formula 
+\begin{eqnarray*}
+\frac{\Delta E}{E} & = & \frac{A_{3}}{A_{1}}\frac{A_{1}^{2}-A_{3}^{2}}{A_{1}^{2}}\qquad\frac{A_{3}}{A_{1}}=e^{-\lambda}\\
+\frac{\Delta E}{E} & = & 1-\frac{A_{3}^{2}}{A_{1}^{2}}=1-e^{-2\lambda}\\
+\therefore Q & = & 2\pi\frac{\Delta E}{E}=\frac{2\pi}{1-e^{-2\lambda}}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+When damping is very light, 
+\begin_inset Formula $\lambda\ll1$
+\end_inset
+
+
+\begin_inset Formula 
+\begin{eqnarray*}
+1-e^{-2\lambda} & \approx & 2\lambda\\
+\Rightarrow Q & \approx & \frac{\pi}{\lambda}=\frac{m\omega}{b}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Large Q
+\end_layout
+
+\begin_layout Itemize
+Light damping
+\end_layout
+
+\begin_layout Itemize
+Little energy lost per cycle
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename large Q.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Small Q
+\end_layout
+
+\begin_layout Itemize
+Heavy damping
+\end_layout
+
+\begin_layout Itemize
+Lots of energy lost per cycle
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename small Q.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Forced Damped Simple Harmonic Oscillations
+\end_layout
+
+\begin_layout Itemize
+Consider the system with
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Restoring force 
+\begin_inset Formula $=ky$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Damping force 
+\begin_inset Formula $=b\dot{y}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Periodic driving force 
+\begin_inset Formula $=F_{0}\cos(\omega t)$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+Equation of motion
+\begin_inset Formula 
+\begin{eqnarray*}
+m\ddot{y} & = & -ky-b\dot{y}+F_{0}\cos(\omega t)\\
+m\ddot{y}+ky+b\dot{y} & = & F_{0}\cos(\omega t)
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This is a second order, non homogeneous differential equation.
+\end_layout
+
+\begin_layout Subsubsection
+General Solution
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\textrm{General Solution}=\textrm{Particular Integral}+\textrm{Complimentary Function}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Why study this example?
+\end_layout
+
+\begin_layout Standard
+There are many examples of other forced systems, but many of these are not
+ sinusoidal in their forces.
+ Study the sinusoidal forced oscillations because,
+\end_layout
+
+\begin_layout Itemize
+its the easiest to study
+\end_layout
+
+\begin_layout Itemize
+it does have many important applications
+\end_layout
+
+\begin_layout Itemize
+any other force can be rewritten as a set of interfering sinusoidal waves.
+\end_layout
+
+\begin_layout Standard
+This uses the fact that this equation is linear.
+ So if 
+\begin_inset Formula $y_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $y_{2}$
+\end_inset
+
+ are solutions of the equation
+\begin_inset Formula 
+\begin{eqnarray*}
+m\ddot{y}_{1}+ky_{1}+b\dot{y}_{1} & = & A\cos(\omega_{1}t)\\
+m\ddot{y}_{2}+ky_{2}+b\dot{y}_{2} & = & A\sin(\omega_{2}t)
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+then 
+\begin_inset Formula $y=y_{1}+y_{2}$
+\end_inset
+
+ is the solution of the following equation which is the same operator being
+ driven by the sum of those two forces,
+\begin_inset Formula 
+\[
+m\ddot{y}+ky+b\dot{y}=A\cos(\omega_{1}t)+B\sin(\omega_{2}t)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Solving the Equation
+\end_layout
+
+\begin_layout Standard
+Replace 
+\begin_inset Formula $\cos(\omega t)$
+\end_inset
+
+ with
+\begin_inset Formula $e^{i\omega t}$
+\end_inset
+
+,
+\begin_inset Formula 
+\[
+\Rightarrow m\ddot{y}+b\dot{y}+ky=F_{0}e^{i\omega t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Solve these two equations together then take the real part of y as the solution.
+ 
+\end_layout
+
+\begin_layout Paragraph
+Particular integral
+\end_layout
+
+\begin_layout Standard
+Try 
+\begin_inset Formula $y=Ae^{i\omega t}$
+\end_inset
+
+
+\begin_inset Formula 
+\begin{eqnarray*}
+A(-m\omega^{2}+ib\omega+k)e^{i\omega t} & = & F_{0}e^{i\omega t}\\
+A & = & \frac{F_{0}}{m}\frac{1}{-\omega^{2}+\frac{k}{m}+\frac{i\omega b}{m}}\\
+A & = & \frac{F_{0}}{m}\frac{1}{(\omega_{0}^{2}-\omega^{2})+i\omega\frac{b}{m}}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Rewrite in the form 
+\begin_inset Formula $A=A_{0}e^{i\phi}$
+\end_inset
+
+, so
+\begin_inset Formula 
+\[
+A_{0}=\sqrt{c^{2}+a^{2}},\qquad\tan\phi=\frac{b}{c}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Giving
+\begin_inset Formula 
+\[
+A_{0}=\frac{F_{0}}{m}\frac{1}{\left((\omega_{0}^{2}-\omega^{2})+\frac{\omega^{2}b^{2}}{m^{2}}\right)^{\frac{1}{2}}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+and
+\begin_inset Formula 
+\[
+\phi=\tan^{-1}\left(\frac{-\omega b}{m\left(\omega_{0}^{2}-\omega^{2}\right)}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Convention dictates this is written as phase angle 
+\begin_inset Formula $\alpha=-\phi$
+\end_inset
+
+, giving
+\begin_inset Formula 
+\[
+y(t)=A_{0}e^{i(\omega t+\phi)}=A_{0}e^{i(\omega t-\alpha)}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+So the real part of the solution
+\begin_inset Formula 
+\[
+y(t)=A_{0}\cos(\omega t-\alpha)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $-\alpha$
+\end_inset
+
+is the phase difference between the applied force and the response of the
+ oscillator to it.
+ 
+\end_layout
+
+\begin_layout Paragraph
+Complimentary function 
+\end_layout
+
+\begin_layout Standard
+This is the solution of 
+\begin_inset Formula $m\ddot{y}+b\dot{y}+ky=0$
+\end_inset
+
+, from unforced example.
+ Since the complimentary function decays with time, it describes a transient
+ response to initial conditions.
+ For large times, 
+\begin_inset Formula $CF\rightarrow0$
+\end_inset
+
+ and only 
+\begin_inset Formula $PI$
+\end_inset
+
+ is left.
+ Therefore we will ignore 
+\begin_inset Formula $CF$
+\end_inset
+
+ and consider the steady state behavior described by 
+\begin_inset Formula $PI$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection
+Constant Force 
+\begin_inset Formula $(b=0)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+A_{0}=\frac{F_{0}}{m\omega_{0}^{2}}=\frac{F_{0}}{k}\qquad(\textrm{Hoches Law})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Without Damping 
+\begin_inset Formula $(b=0)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+A_{0} & = & \frac{F_{0}}{m(\omega_{0}^{2}-\omega^{2})}\rightarrow\infty\qquad\textrm{when }\omega=\omega_{0}\\
+\alpha & = & \tan^{-1}(0)=0,\pm\pi
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+For 
+\begin_inset Formula 
+\begin{eqnarray*}
+\omega & < & \omega_{0},\; A>0,\;\alpha=0\qquad\textrm{oscillates in phase with the force}\\
+\omega & > & \omega_{0},\; A<0,\;\alpha=\pi\qquad\textrm{oscillates in antiphase}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename oscillating without damping.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Forced Oscillations with Damping
+\end_layout
+
+\begin_layout Standard
+Resonant frequency
+\begin_inset Formula 
+\[
+A_{0}=\frac{F}{m}\left(\left(\omega_{0}^{2}-\omega^{2}\right)^{2}+\frac{\omega^{2}b^{2}}{m^{2}}\right)^{-\frac{1}{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Maximum when there is a turning point,
+\begin_inset Formula 
+\begin{eqnarray*}
+\frac{\partial A}{\partial\omega} & = & 0\\
+\Rightarrow\omega_{\mbox{res}}^{2} & = & \omega_{0}^{2}-\frac{b^{2}}{2m^{2}}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+So the resonant frequency of the damped oscillator is
+\begin_inset Formula $<\omega_{0}$
+\end_inset
+
+.
+ Though is the damping is light, the difference is very small.
+\begin_inset Formula 
+\begin{eqnarray*}
+\textrm{Resonant Frequency} & \neq & \textrm{Natural Frequency of damped oscillator}\\
+\omega_{\mbox{res}}^{2} & = & \omega_{0}^{2}-\frac{b^{2}}{2m^{2}}\\
+\omega_{\mbox{damp}}^{2} & = & \omega_{0}^{2}-\frac{b^{2}}{4m^{2}}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The resonant frequency is the lowest.
+ The damping force is proportional to the velocity, so increasing the velocity
+ means that the damping force increases too, so the higher frequencies provide
+ more force.
+\end_layout
+
+\begin_layout Subsubsection
+Amplitude of Resonance
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+A_{\mbox{res}}=\frac{F_{0}}{m}\left(\frac{1}{\left(\omega_{0}^{2}-\omega_{\mbox{res}}^{2}\right)^{2}+\frac{\omega_{\mbox{\mbox{re}s}}^{2}b^{2}}{m^{2}}}\right)^{\frac{1}{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Substitute for 
+\begin_inset Formula $\omega_{res}$
+\end_inset
+
+ from above,
+\begin_inset Formula 
+\begin{eqnarray*}
+A_{\mbox{res}} & = & \frac{F_{0}}{m}\left(\frac{1}{\frac{b^{2}}{m^{2}}\left(\omega_{0}^{2}-\frac{b^{2}}{4m^{2}}\right)}\right)^{\frac{1}{2}}\\
+A_{\mbox{res}} & = & \frac{F_{0}}{b\omega_{\mbox{damp}}}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+As expected, the heavier damping leads to smaller amplitude at resonance.
+\end_layout
+
+\begin_layout Subsubsection
+Amplitude and Q Factor
+\end_layout
+
+\begin_layout Standard
+When there is light damping,
+\begin_inset Formula 
+\begin{eqnarray*}
+Q & \apprge & \frac{m\omega_{\mbox{damp}}}{b}\\
+b & = & \frac{m\omega_{\mbox{damp}}}{Q}\\
+\Rightarrow A_{\mbox{res}} & = & \frac{F_{0}Q}{m\omega_{\mbox{damp}}^{2}}\\
+A_{\mbox{res}} & \propto & Q
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Also, for light damping,
+\begin_inset Formula 
+\begin{eqnarray*}
+\omega_{\mbox{damp}}^{2} & \approx & \omega_{0}^{2}=\frac{k}{m}\\
+\Rightarrow A_{\mbox{res}} & = & \frac{F_{0}}{k}Q
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+So, the amplitude at resonance is the Quality factor times the constant
+ displacement caused by a force of the same magnitude with no oscillations.
+\end_layout
+
+\begin_layout Subsection
+Width of Resonance
+\end_layout
+
+\begin_layout Standard
+Define the width as the full width at half maximum of 
+\begin_inset Formula $|A|^{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename full width half maximum.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+A^{2}=\frac{F_{0}^{2}}{m^{2}}\frac{1}{\left(\omega_{0}^{2}-\omega^{2}\right)^{2}+\frac{b^{2}\omega^{2}}{m^{2}}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We want 
+\begin_inset Formula $\omega$
+\end_inset
+
+ for which the denominator is doubled, ie has twice the resonant value,
+\begin_inset Formula 
+\[
+\left(\omega_{0}^{2}-\omega^{2}\right)^{2}+\frac{b^{2}\omega^{2}}{m^{2}}=2\times\left(\frac{b^{2}\omega_{0}^{2}}{m^{2}}-\frac{b^{2}}{4m^{2}}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Consider light damping, so 
+\begin_inset Formula $\frac{b^{2}}{4m^{2}}\ll\omega_{0}^{2}$
+\end_inset
+
+
+\begin_inset Formula 
+\begin{eqnarray*}
+\left(\omega_{0}^{2}-\omega^{2}\right)^{2}+\frac{b^{2}\omega^{2}}{m^{2}} & \approx & \frac{2b^{2}\omega_{0}^{2}}{m^{2}}\\
+\left(\omega_{0}^{2}-\omega^{2}\right)^{2} & = & \frac{b^{2}\omega^{2}}{m^{2}}+\frac{b^{2}}{m^{2}}\left(\omega_{0}^{2}-\omega^{2}\right)
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Near resonance 
+\begin_inset Formula $\omega_{0}^{2}-\omega^{2}\ll\omega_{0}^{2}$
+\end_inset
+
+
+\begin_inset Formula 
+\begin{eqnarray*}
+\left(\omega_{0}^{2}-\omega^{2}\right)^{2} & \approx & \frac{b^{2}\omega_{0}^{2}}{m^{2}}\\
+\omega_{0}^{2}-\omega^{2} & = & \pm\frac{b\omega_{0}}{m}\\
+\left(\omega_{0}-\omega\right)\left(\omega_{0}+\omega\right) & = & \pm\frac{b\omega_{0}}{m}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+As 
+\begin_inset Formula $\omega_{0}\approx\omega\rightarrow\omega_{0}+\omega=2\omega_{0}$
+\end_inset
+
+
+\begin_inset Formula 
+\begin{eqnarray*}
+2\omega_{0}\left(\omega_{0}-\omega\right) & \approx & \pm\frac{b\omega_{0}}{m}\\
+\frac{\omega_{0}-\omega}{\omega_{0}} & = & \pm\frac{b}{2m\omega}=\pm\frac{1}{2Q}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This gives the half width, so the full width at half maximum (FWHM) frequency
+ is given by 
+\begin_inset Formula $\frac{1}{Q}$
+\end_inset
+
+.
+ So light damping, ie a large Q value, gives a narrow amplitude with a large
+ resonance.
+ As the damping gets heavier, the width and the amplitude decrease.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename light and heavy damping.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Phase of Oscillator
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\alpha=\tan^{-1}\left(\frac{b\omega}{m\left(\omega_{0}^{2}-\omega^{2}\right)}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The 
+\begin_inset Formula $\tan\rightarrow\infty$
+\end_inset
+
+ when 
+\begin_inset Formula $\omega\rightarrow\omega_{0}$
+\end_inset
+
+ so, 
+\begin_inset Formula $\alpha\left(\omega_{0}\right)\rightarrow\frac{\pi}{2}$
+\end_inset
+
+.
+ So the phase of the oscillator does not depend of the damping.
+ We still have the phase switch, but it is softened by the damping.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename light and heavy damping phase.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+Rotational Motion
+\end_layout
+
+\begin_layout Section
+Angular Momentum
+\end_layout
+
+\begin_layout Standard
+The angular momentum of an object, relative to the origin of co-ordinates
+ is,
+\begin_inset Formula 
+\[
+\underline{L}=\underline{r}\times\underline{p}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\begin_inset Formula $\underline{r}$
+\end_inset
+
+ is the position vector from the origin and 
+\begin_inset Formula $\underline{p}$
+\end_inset
+
+ is the momentum vector.
+ This has the dimensions 
+\begin_inset Formula $[M][L^{2}][T^{-1}]$
+\end_inset
+
+, but has no named standard unit.
+ 
+\begin_inset Formula $\underline{L}$
+\end_inset
+
+ is perpendicular to both 
+\begin_inset Formula $\underline{r}$
+\end_inset
+
+ and 
+\begin_inset Formula $\underline{p}$
+\end_inset
+
+, therefore, 
+\begin_inset Formula $\underline{L}$
+\end_inset
+
+ will be normal to the plane of rotation of the object.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename plane of rotation.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The direction is given by the right hand rule, there is no position in space
+ linked with the angular momentum, just a magnitude and direction.
+ 
+\begin_inset Formula $\underline{L}$
+\end_inset
+
+ depends on where 
+\begin_inset Formula $\underline{r}$
+\end_inset
+
+ and 
+\begin_inset Formula $\underline{p}$
+\end_inset
+
+ are measured from.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+\noun on
+Ex
+\end_layout
+
+\begin_layout Standard
+Block standing along the axis
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename block sliding on the axis.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Relative to the origin, 
+\begin_inset Formula $O$
+\end_inset
+
+, 
+\begin_inset Formula 
+\begin{eqnarray*}
+\underline{L} & = & \underline{r}_{1}\times\underline{p}\\
+ & = & \underline{y}\times m\underline{v}=\underline{0}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Relative to the point 
+\begin_inset Formula $A$
+\end_inset
+
+,
+\begin_inset Formula 
+\begin{eqnarray*}
+\underline{L} & = & \underline{r}_{1}\times\underline{p}\\
+ & = & \begin{pmatrix}0\\
+y\\
+-a
+\end{pmatrix}\times\begin{pmatrix}0\\
+mv\\
+0
+\end{pmatrix}\\
+ & = & mva\hat{\underline{x}}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Note that if 
+\begin_inset Formula $\underline{v}$
+\end_inset
+
+ is constant, then so is 
+\begin_inset Formula $\underline{L}$
+\end_inset
+
+, 
+\begin_inset Formula $\underline{L}$
+\end_inset
+
+ depends on the distance of closest approach, but not on the instantaneous
+ position.
+\end_layout
+
+\begin_layout Subsubsection
+Conical Pendulum
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename conical pendulum.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+These are the same situation so the angular momentum should be able to be
+ used to describe the motion, irrespective of the chosen co-ordinate system.
+\end_layout
+
+\begin_layout Subsection
+Forces and Rotation: Torque
+\end_layout
+
+\begin_layout Standard
+The effect of forces on rotation is described by its torque,
+\begin_inset Formula 
+\[
+\tau=\underline{r}\times\underline{F}=\underline{r}\times\frac{\mbox{d}p}{\mbox{d}t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+So torques are perpendicular to the forces producing it.
+ Like the angular momentum, the magnitude of the torque depends on where
+ it is measured from, the co-ordinate system used.
+ So you can have a torque with no net force, and a force with no net torque.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename torque vs force.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Consider the change in angular momentum,
+\begin_inset Formula 
+\begin{eqnarray*}
+\frac{\mbox{d}\underline{L}}{\mbox{d}t} & = & \frac{\mbox{d}}{\mbox{d}t}(\underline{r}\times\underline{p})\\
+ & = & \frac{\mbox{d}\underline{r}}{\mbox{d}t}\times\underline{p}+\underline{r}\times\frac{\mbox{d}\underline{p}}{\mbox{d}t}\\
+ & = & \underline{v}\times m\underline{v}+\underline{r}\times\frac{\mbox{d}\underline{p}}{\mbox{d}t}\\
+ & = & \underline{r}\times\underline{F}=\tau\\
+\Rightarrow\tau & = & \frac{\mbox{d}\underline{L}}{\mbox{d}t}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+So the torque is the change in angular momentum per unit time.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+\noun on
+Ex
+\end_layout
+
+\begin_layout Standard
+Conical pendulum
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename conical pendulum forces.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Tension must balance the weight,
+\begin_inset Formula 
+\begin{eqnarray*}
+T\cos(\alpha)-mg & = & 0\\
+T & = & \frac{mg}{\cos(\alpha)}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\therefore$
+\end_inset
+
+the net force
+\begin_inset Formula $=$
+\end_inset
+
+horizontal component of the tension,
+\begin_inset Formula 
+\[
+\underline{F_{r}}=-T\sin(\alpha)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Measure everything relative to the center of rotation, 
+\begin_inset Formula $O$
+\end_inset
+
+,
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+\underline{\tau} & = & \underline{r}\times\underline{F}=\underline{\tau}\times\underline{F_{r}}=0\\
+\frac{\mbox{d}\underline{L}}{\mbox{d}t} & = & 0
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+therefore, in this case, 
+\begin_inset Formula $\underline{L}$
+\end_inset
+
+ is constant
+\begin_inset Formula 
+\begin{eqnarray*}
+\underline{L} & = & \underline{r}\underline{p}\\
+ & = & \underline{l}\sin(\alpha)p\underline{\hat{z}}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Measure relative to the pivot, 
+\begin_inset Formula $P$
+\end_inset
+
+,
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\[
+|\underline{L}|=|\underline{l}\times\underline{p}|=lp=lmr\omega=\textrm{constant}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Direction of 
+\begin_inset Formula $\underline{L}$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename conical pendulum forces side view.svg
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="3">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Vertical component
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Radial component
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\qquad L_{z}=L\sin(\alpha)=\textrm{constant}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\qquad L_{r}=L\cos(\alpha)$
+\end_inset
+
+, direction changes with 
+\begin_inset Formula $r$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Components of 
+\begin_inset Formula $\underline{L}$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename conical pendulum forces top view.svg
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="3">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $x=l\sin(\alpha)\cos(\theta)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $p_{x}=-p\sin(\theta)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $y=l\sin(\alpha)\sin(\theta)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $p_{y}=p\cos(\theta)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $z=-l\cos(\alpha)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $p_{z}=0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore\underline{L}=\underline{r}\times\underline{p}=pl\begin{pmatrix}\cos(\alpha)\cos(\theta)\\
+\cos(\alpha)\sin(\theta)\\
+\sin(\alpha)
+\end{pmatrix}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+Pendulum rotates with a constant angular velocity,
+\begin_inset Formula 
+\begin{eqnarray*}
+\frac{\mbox{d}\theta}{\mbox{d}t} & = & \omega\\
+\frac{\mbox{d}\underline{L}}{\mbox{d}t} & = & \frac{\mbox{d}\underline{L}}{\mbox{d}\theta}\times\frac{\mbox{d}\theta}{\mbox{d}t}\\
+ & = & pl\begin{pmatrix}-\cos(\alpha)\sin(\theta)\\
+\cos(\alpha)\cos(\theta)\\
+0
+\end{pmatrix}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+For circular motion
+\begin_inset Formula 
+\begin{eqnarray*}
+|\underline{F}| & = & mr\omega^{2}\\
+ & = & p\omega
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This acts towards the center of rotation
+\begin_inset Formula 
+\begin{eqnarray*}
+\underline{F} & = & p\omega\begin{pmatrix}-\cos(\theta)\\
+-\sin(\theta)\\
+0
+\end{pmatrix}\\
+\Rightarrow\underline{\tau} & = & \underline{r}\times\underline{F}\\
+ & = & p\omega l\begin{pmatrix}-\cos\alpha\sin\theta\\
+\cos\alpha\cos\theta\\
+0
+\end{pmatrix}
+\end{eqnarray*}
+
+\end_inset
+
+Hence, demonstrated again, in this case, 
+\begin_inset Formula $\tau=\frac{\mbox{d}\underline{L}}{\mbox{d}t}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+\mbox{\textsc{Torqu}e} & = & \mbox{\textsc{Rate of change of angular momentum}}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Relative to the pivot point, 
+\begin_inset Formula $P$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Itemize
+angular momentum precesses with the pendulum
+\end_layout
+
+\begin_layout Itemize
+torque from the net force causes the precession.
+\end_layout
+
+\begin_layout Standard
+Although 
+\begin_inset Formula $\underline{L}$
+\end_inset
+
+ and 
+\begin_inset Formula $\underline{\tau}$
+\end_inset
+
+ depend on where they are measured from, 
+\begin_inset Formula $\tau=\frac{\mbox{d}\underline{L}}{\mbox{d}t}$
+\end_inset
+
+ is universal and they both describe the same motion of the pendulum.
+ So always choose the co-ordinate system to make the problem as simple as
+ possible.
+\end_layout
+
+\begin_layout Section
+Rigid Body Rotation
+\end_layout
+
+\begin_layout Subsection
+Rotation About a Fixed Axis
+\end_layout
+
+\begin_layout Standard
+Consider rotation about the z-axis.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename rotation about a fixed axis.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+For any element, 
+\begin_inset Formula $j$
+\end_inset
+
+, of the body,
+\begin_inset Formula 
+\begin{eqnarray*}
+\underline{L}_{z} & = & \left(\underline{r}_{j}\times\underline{p}_{j}\right)\hat{\underline{z}}\\
+ & = & \rho_{j}m_{j}v_{j}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Using 
+\begin_inset Formula $v_{j}=\rho_{j}\omega$
+\end_inset
+
+,
+\begin_inset Formula 
+\[
+\underline{L}_{z}=m_{j}\rho_{j}^{2}\omega
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Since this is a rigid body that is rotating, 
+\end_layout
+
+\begin_layout Itemize
+the distance, 
+\begin_inset Formula $\rho$
+\end_inset
+
+, of any element from the axis of rotation remains constant
+\end_layout
+
+\begin_layout Itemize
+the angular velocity of rotation, 
+\begin_inset Formula $\omega$
+\end_inset
+
+, is the same for all elements.
+\end_layout
+
+\begin_layout Standard
+Therefore, for the whole body,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\underline{L}_{z}=\left(\sum_{j=1}^{n}m_{j}\rho_{j}\right)\omega
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Let 
+\begin_inset Formula 
+\[
+\sum_{j=1}^{n}m_{j}\rho_{j}^{2}=I
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+so we can then rewrite
+\begin_inset Formula 
+\[
+\underline{L}_{z}=I\omega
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\begin_inset Formula $I$
+\end_inset
+
+ is the moment of inertia of the body about the z-axis (
+\begin_inset Formula $I$
+\end_inset
+
+ is to rotation what 
+\begin_inset Formula $m$
+\end_inset
+
+ is to translation).
+\begin_inset Formula 
+\[
+p=mv\qquad\rightarrow\qquad L=I\omega
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $I$
+\end_inset
+
+ depends on the distribution of the mass in the body and where the axis
+ of rotation is.
+ For a continuous body, the individual elements become infinitely small
+ and the equation becomes,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+I & = & \int\rho^{2}\mbox{d}m\\
+ & = & \int(y^{2}+x^{2})\mbox{d}m
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+or 
+\begin_inset Formula 
+\[
+I=\int\delta(r)(x^{2}+y^{2})\mbox{d}x\mbox{d}y\mbox{d}z
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\begin_inset Formula $\delta(r)$
+\end_inset
+
+ is the density at the point 
+\begin_inset Formula $\underline{r}$
+\end_inset
+
+.
+ (For the rotation about the z-axis).
+ This is then simplest if the object is symmetric about the axis of rotation.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+\noun on
+Ex
+\end_layout
+
+\begin_layout Standard
+A ring of mass 
+\begin_inset Formula $m$
+\end_inset
+
+, radius 
+\begin_inset Formula $a$
+\end_inset
+
+ is rotating about the axis through the center perpendicular to the plane
+ of the ring.
+ All of the mass is at a distance 
+\begin_inset Formula $a$
+\end_inset
+
+ from the axis of rotation,
+\begin_inset Formula 
+\[
+I=a^{2}m
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ex
+\end_layout
+
+\begin_layout Standard
+Consider a uniform disk.
+ Subdivide into multiple concentric rings.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename uniform disk inertia.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+I & = & \int r^{2}\mbox{d}m\\
+ & = & \int_{0}^{a}\delta2mr^{3}\mbox{d}r\\
+ & = & \frac{\delta\pi}{2}a^{4}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Since 
+\begin_inset Formula $m=\delta\pi a^{2}$
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\Rightarrow I=\frac{ma^{2}}{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+So the value of 
+\begin_inset Formula $I$
+\end_inset
+
+ is half of that for the uniform ring.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+\noun on
+Ex
+\end_layout
+
+\begin_layout Standard
+Consider a cuboid with the axis of rotation through the center.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename cuboid inertia.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+M & = & \delta abc\\
+\mbox{d}M & = & \delta\mbox{d}x\mbox{d}y\mbox{d}z\\
+\Rightarrow I & = & \delta\int_{-\frac{a}{2}}^{\frac{a}{2}}\int_{-\frac{b}{2}}^{\frac{b}{2}}\int_{-\frac{c}{2}}^{\frac{c}{2}}(x^{2}+y^{2})\mbox{d}x\mbox{d}y\mbox{d}z\\
+ & = & \delta abc\left(\frac{a^{2}}{12}+\frac{b^{2}}{12}\right)\\
+ & = & \frac{M}{2}(a^{2}+b^{2})
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Parallel Axis Theorem
+\end_layout
+
+\begin_layout Standard
+This is for use when the axis of rotation does not pass through the center
+ of mass.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename parallel axis theorum.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Take an element 
+\begin_inset Formula $j$
+\end_inset
+
+ of the body.
+ The vector from the axis to 
+\begin_inset Formula $j$
+\end_inset
+
+ is 
+\begin_inset Formula $\rho_{j}=\rho_{c}+\rho'_{j}$
+\end_inset
+
+.
+ Then
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+I & = & \sum_{j}m_{j}\rho_{j}^{2}\\
+ & = & \sum_{j}m_{j}\left(\underline{\rho}_{c}+\underline{\rho}`_{j}\right)^{2}\\
+ & = & \sum_{j}m_{j}\left(|\underline{\rho}_{c}|^{2}+|\underline{\rho}'_{j}|^{2}+2\underline{\rho}_{c}\underline{\rho}'_{j}\right)\\
+ & = & M\rho_{c}^{2}+\sum_{j}m_{j}\underline{\rho'}{}_{j}^{2}+2\sum_{j}m_{j}\underline{\rho}_{c}\underline{\rho}'_{j}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $M\rho_{c}^{2}$
+\end_inset
+
+ is the moment of inertia of mass 
+\begin_inset Formula $M$
+\end_inset
+
+ at a perpendicular distance 
+\begin_inset Formula $\rho_{c}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\sum_{j}m_{j}\rho'{}_{j}^{2}$
+\end_inset
+
+ is the moment of inertia of the body about the axis through the center
+ of mass.
+\end_layout
+
+\begin_layout Standard
+Using 
+\begin_inset Formula $\underline{\rho}'_{j}=-\underline{\rho}_{c}+\underline{\rho}_{j}$
+\end_inset
+
+,
+\begin_inset Formula 
+\begin{eqnarray*}
+\sum_{j}m_{j}\rho_{c}\rho'_{j} & = & -\sum_{j}m_{j}\rho_{c}^{2}+\sum_{j}m_{j}\rho_{c}\rho_{j}\\
+ & = & -M\rho_{c}^{2}+\rho_{c}\sum_{j}m_{j}\rho_{j}\\
+ & = & -M\rho_{c}^{2}+\rho_{c}M\rho_{c}\\
+ & = & 0
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Therefore, 
+\begin_inset Formula 
+\[
+I=M\rho_{c}^{2}+I_{0}
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $I_{0}$
+\end_inset
+
+ is the moment of inertia for rotation about the parallel axis through the
+ center of mass.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+\noun on
+Ex
+\end_layout
+
+\begin_layout Standard
+Rotate a cuboid about one edge.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename rotate cuboid about edge.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+I & = & \int x^{2}+y^{2}\mbox{d}m\\
+ & = & \rho\int_{0}^{a}\int_{0}^{b}\int_{0}^{c}x^{2}+y^{2}\mbox{d}x\mbox{d}y\mbox{d}z\\
+ & = & \frac{M}{3}(a^{2}+b^{2})
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Alternatively,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+I_{0}\mbox{ about CM} & = & \frac{M}{12}(a^{2}+b^{2})\\
+\mbox{CM} & = & \left(\frac{a}{2},\frac{b}{2},\frac{c}{2}\right)\\
+\Rightarrow\mbox{Total mass}\times\rho_{c}^{2} & = & M\left(\frac{a^{2}}{4}+\frac{b^{2}}{4}\right)\\
+\Rightarrow I & = & \frac{M}{3}(a^{2}+b^{2})
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Perpendicular Axis Theorem
+\end_layout
+
+\begin_layout Standard
+Consider a rigid body rotating about a fixed axis 
+\begin_inset Formula $(z)$
+\end_inset
+
+, we write,
+\begin_inset Formula 
+\[
+L=I\omega
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+If a torque is applied parallel to the axis, 
+\begin_inset Formula 
+\[
+\tau=\frac{\mbox{d}L}{\mbox{d}t}=\frac{\mbox{d}}{\mbox{d}t}I\omega=I\frac{\mbox{d}\omega}{\mbox{d}t}=I\alpha
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\begin_inset Formula $\alpha=\frac{\mbox{d}\omega}{\mbox{d}t}$
+\end_inset
+
+ which is the angular acceleration.
+ Consider the kinetic energy of the rotating object,
+\begin_inset Formula 
+\begin{eqnarray*}
+E_{k} & = & \sum_{j}\frac{1}{2}m_{j}v_{j}^{2}\\
+ & = & \frac{1}{2}\sum_{j}m_{j}\rho_{j}^{2}\omega^{2}\;(\mbox{using }v=\rho)\\
+T=E_{k} & = & \frac{1}{2}I\omega^{2}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Torques Due to Gravity
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename torques due to gravity.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Torque on element 
+\begin_inset Formula $j$
+\end_inset
+
+,
+\begin_inset Formula 
+\[
+\tau_{j}=\underline{r}_{j}\times m_{j}\underline{g}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Therefore, on the whole body,
+\begin_inset Formula 
+\begin{eqnarray*}
+\tau & = & \sum_{j}\tau_{j}\\
+ & = & \sum_{j}r_{j}\times m_{j}\underline{g}\\
+ & = & \left(\sum_{j}m_{j}r_{j}\right)\times\underline{g}\\
+ & = & M\underline{R}\times\underline{g}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\begin_inset Formula $\underline{R}$
+\end_inset
+
+ is the vector to the center of mass.
+\begin_inset Formula 
+\[
+\therefore\tau=\underline{R}\times M\underline{g}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Simple Pendulum
+\end_layout
+
+\begin_layout Standard
+Consider the torque about the pivot 
+\begin_inset Formula $P$
+\end_inset
+
+,
+\begin_inset Formula 
+\begin{eqnarray*}
+\tau & = & \underline{l}\times\underline{F}\\
+ & = & \underline{l}\times(\underline{g}m+I)\\
+ & = & \underline{l}\times m\underline{g}\\
+\tau & = & -lmg\sin\theta
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+So
+\begin_inset Formula 
+\begin{eqnarray*}
+\underline{L} & = & \underline{r}\times\underline{p}\\
+ & = & ml^{2}\dot{\theta}=I\dot{\theta}=I\omega
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Since 
+\begin_inset Formula $\tau=\frac{\mbox{d}\underline{L}}{\mbox{d}t}$
+\end_inset
+
+,
+\begin_inset Formula 
+\begin{eqnarray*}
+-lmg\sin\theta & = & \frac{\mbox{d}}{\mbox{d}t}(ml^{2}\dot{\theta})\\
+ & = & ml^{2}\frac{\mbox{d}^{2}\theta}{\mbox{d}^{2}t}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Using the small angle approximation, 
+\begin_inset Formula $\theta\ll1$
+\end_inset
+
+, 
+\begin_inset Formula $\sin\theta\approx\theta$
+\end_inset
+
+,
+\begin_inset Formula 
+\begin{eqnarray*}
+\Rightarrow l\ddot{\theta}+g\theta & = & 0\\
+\theta(t) & = & a\cos(\omega t+\phi)
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\begin_inset Formula $\omega^{2}=\frac{g}{m}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+General Rigid Body Pendulum
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename general pendulum.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The only net torque is that due to gravity,
+\begin_inset Formula 
+\[
+\tau=-mgl\sin\theta=\frac{\mbox{d}\underline{L}}{\mbox{d}t}=I\ddot{\theta}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+From the parallel axis theorem,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+I=I_{0}+Ml^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\begin_inset Formula $I_{0}$
+\end_inset
+
+ is the moment of inertia about the center of mass, and 
+\begin_inset Formula $I$
+\end_inset
+
+ is for the whole body.
+ It is convenient to write,
+\begin_inset Formula 
+\[
+I_{0}=M\kappa^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\begin_inset Formula $\kappa=\sqrt{\frac{I_{0}}{M}}$
+\end_inset
+
+ which is the 
+\begin_inset Quotes eld
+\end_inset
+
+radius of gyration
+\begin_inset Quotes erd
+\end_inset
+
+.
+ So,
+\begin_inset Formula 
+\begin{eqnarray*}
+I & = & I_{0}+ml^{2}\\
+ & = & M(\kappa^{2}+l^{2})
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Putting this back into the equation of motion,
+\begin_inset Formula 
+\begin{eqnarray*}
+-Mgl\sin\theta & = & M(\kappa^{2}+l^{2})\ddot{\theta}\\
+-gl\sin\theta & = & (\kappa^{2}+l^{2})\ddot{\theta}\\
+\ddot{\theta}+\frac{gl}{\kappa^{2}+l^{2}}\theta & = & 0\\
+\omega^{2} & = & \frac{gl}{\kappa^{2}+l^{2}}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This is the same form as the simple pendulum with 
+\begin_inset Formula $\kappa$
+\end_inset
+
+ describing the effect of distributing the mass rather than concentrated
+ at a point.
+ For a simple pendulum, 
+\begin_inset Formula $\kappa=0$
+\end_inset
+
+, so 
+\begin_inset Formula $\omega^{2}=\frac{g}{l}$
+\end_inset
+
+ as before.
+\end_layout
+
+\begin_layout Subsection
+Atwood's Machine
+\end_layout
+
+\begin_layout Standard
+This machine was designed to show the acceleration due to gravity down so
+ that, knowing how much it had slowed, the value of 
+\begin_inset Formula $g$
+\end_inset
+
+ could be measured without having perfectly accurate timing.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename atwood machine.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Massless pulley
+\begin_inset Formula 
+\begin{eqnarray*}
+F & = & ma\\
+(m_{1}-m_{2})g & = & a(m_{a}+m_{2})\\
+a & = & \frac{m_{1}-m_{2}}{m_{1}+m_{2}}g
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+This relies on the unphysical assumption that the pulley is massless.
+ To be accurate, the mass of the pulley needs to be taken into account.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Massive pulley
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Linear motion of masses
+\begin_inset Formula 
+\begin{eqnarray}
+F & = & ma\nonumber \\
+m_{1}g-T_{1} & = & m_{1}a\\
+m_{2}g-T_{2} & = & m_{2}a
+\end{eqnarray}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Rotation of the pulley
+\begin_inset Formula 
+\begin{eqnarray*}
+\tau & = & \frac{\mbox{d}\underline{L}}{\mbox{d}t}\\
+T_{1}R-T_{2}R & = & \tau\\
+\underline{L} & = & I\alpha
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Assume the rope does not slip
+\begin_inset Formula 
+\begin{eqnarray}
+v & = & R\omega\nonumber \\
+a & = & R\alpha
+\end{eqnarray}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Eliminate the unwanted variables, 
+\begin_inset Formula $T$
+\end_inset
+
+,
+\begin_inset Formula 
+\begin{eqnarray*}
+(3)+(4)\qquad(m_{1}-m_{2})g-(T_{1}-T_{2}) & = & (m_{1}+m_{2})a\\
+\mbox{sub }(5)\qquad(m_{1}-m_{2})g-\frac{I\alpha}{R} & = & (m_{1}+m_{2})a\\
+(m_{1}-m_{2})g-\frac{Ia}{R^{2}} & = & (m_{a}+m_{2})a\\
+a & = & \frac{(m_{1}-m_{2})}{\left(m_{1}+m_{2}+\frac{I}{R^{2}}\right)}g
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+
+\bar under
+\noun on
+Ex
+\end_layout
+
+\begin_layout Standard
+If the pulley is a uniform disk,
+\begin_inset Formula 
+\begin{eqnarray*}
+I & = & \frac{1}{2}M_{p}R^{2}\\
+a & = & g\frac{\left(M_{1}-M_{2}\right)}{\left(M_{1}+M_{2}+\frac{M_{p}}{2}\right)}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Motion Including Both Rotation and Translation
+\end_layout
+
+\begin_layout Standard
+Consider an object that is both moving with linear translation and is rotating.
+\end_layout
+
+\begin_layout Itemize
+Angular momentum
+\begin_inset Formula 
+\[
+\underline{L}=\sum_{j}r_{j}\times m_{j}\underline{r}_{j}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+if 
+\begin_inset Formula $R$
+\end_inset
+
+ is the center of mass,
+\begin_inset Formula 
+\[
+\underline{R}=\frac{\sum_{j}m_{j}r_{j}}{\sum_{j}m_{j}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $r`_{j}$
+\end_inset
+
+ is the position of the element 
+\begin_inset Formula $j$
+\end_inset
+
+ relative to the center of mass.
+ Then
+\begin_inset Formula 
+\begin{eqnarray*}
+\underline{r}_{j} & = & \underline{R}+\underline{r}'_{j}\\
+\therefore\underline{L} & = & \sum_{j}\left(\underline{R}+\underline{r}'_{j}\right)\times m_{j}\left(\underline{\dot{R}}+\dot{\underline{r}'_{j}}\right)\\
+ & = & \underline{R}\times\sum_{j}m_{j}\underline{\dot{R}}+\sum_{j}m_{j}\dot{r_{j}}\times\underline{\dot{R}}+\underline{R}\times\sum_{j}m_{j}\dot{\underline{r}}_{j}+\sum_{j}m_{j}\underline{r}'_{j}\times\underline{\dot{r}}'_{j}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Using 
+\begin_inset Formula 
+\begin{eqnarray*}
+\sum_{j}m_{j}\underline{r}'_{j} & = & \sum_{j}m_{j}(\underline{r}_{j}-\underline{R})\\
+ & = & \sum_{j}m_{j}\underline{r}_{j}-\underline{R}\sum_{j}m_{j}\\
+ & = & M\underline{R}-\underline{R}M=0
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Also 
+\begin_inset Formula 
+\begin{eqnarray*}
+\sum_{j}m_{j}\dot{\underline{r}}'_{j} & = & \frac{\mbox{d}}{\mbox{d}t}\sum_{j}m_{j}\underline{r}'_{j}=0\\
+\Rightarrow\underline{L} & = & \underbrace{R\times M\underline{\dot{R}}}+\underbrace{\sum_{j}\underline{r}'_{j}\times m\dot{\underline{r}}'_{j}}\\
+ &  & \quad\;\; a\qquad\qquad\quad\; b
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Here, 
+\begin_inset Formula $a$
+\end_inset
+
+ is the angular momentum due to the center of mass, and 
+\begin_inset Formula $b$
+\end_inset
+
+ is the angular momentum due to the rotation of the object about the center
+ of mass.
+ If the axis of rotation maintains a steady direction, remains parallel
+ to the z-axis, eg a rolling wheel, then,
+\begin_inset Formula 
+\begin{eqnarray*}
+L_{z} & = & \left(R\times M\underline{v}\right)_{z}+\left(\sum_{j}m_{j}\underline{r}'_{j}\times\dot{\underline{r}}'_{j}\right)_{z}\\
+ & = & \left(R\times M\underline{v}\right)_{z}+I_{0}\omega
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Similarly, we can factor the torque,
+\begin_inset Formula 
+\[
+\tau_{z}=\left(\underline{R}\times\underline{F}\right)_{z}+I_{0}\alpha
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+where 
+\begin_inset Formula $\left(\underline{R}\times\underline{F}\right)_{z}$
+\end_inset
+
+ is the torque on the center of mass due to an extended force and 
+\begin_inset Formula $I_{0}\alpha$
+\end_inset
+
+ is the torque about the center of mass.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+And the kinetic energy in the same way,
+\begin_inset Formula 
+\begin{eqnarray*}
+T=E_{k} & = & \frac{1}{2}\sum_{j}m_{j}\left(\underline{\dot{r}}_{j}\right)^{2}\\
+ & = & \frac{1}{2}\sum_{j}m_{j}\left(\underline{\dot{r}}'_{j}+\underline{\dot{R}}\right)^{2}\qquad\underline{\dot{R}}=\underline{v}\\
+ & = & \frac{1}{2}\sum_{j}m_{j}\underline{\dot{r}'}_{j}^{2}+\left(\sum_{j}m_{j}\underline{\dot{r}}'_{j}\right)\underline{v}+\frac{1}{2}\sum_{j}m_{j}v^{2}\\
+\therefore T & = & \frac{1}{2}I_{0}\omega^{2}+\frac{1}{2}Mv^{2}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+So the kinetic energy is the component from the regular motion of the body
+ added to the component provided by the rotation of the body about the center
+ of mass.
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Sliding vs.
+ Rolling
+\end_layout
+
+\begin_layout Subsubsection
+Using Equations of Motion
+\end_layout
+
+\begin_layout Itemize
+Sliding without rolling
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename sliding without rolling.svg
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+\mbox{Friction, }f & = & \mu\times\mbox{normal reaction force}\\
+f & = & \mu mg\cos\theta\\
+\therefore F=ma & = & mg\sin\theta-f\\
+a & = & g\left(\sin\theta-\mu\cos\theta\right)
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Rolling without sliding
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename rolling without sliding.svg
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+F=ma & = & mg\sin\theta-f\\
+\tau & = & I_{0}\alpha=Rf\\
+\Rightarrow f & = & \frac{I_{0}}{R}\alpha\\
+\Rightarrow ma & = & mg\sin\theta-\frac{I_{0}}{R}\alpha
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Using 
+\begin_inset Formula $v=R\omega$
+\end_inset
+
+, 
+\begin_inset Formula $a=R\alpha$
+\end_inset
+
+
+\begin_inset Formula 
+\[
+mg\sin\theta-\frac{I_{0}}{R^{2}}a=ma
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Using 
+\begin_inset Formula $I_{0}=m\kappa^{2}$
+\end_inset
+
+
+\begin_inset Formula 
+\begin{eqnarray*}
+\Rightarrow m\left(g\sin\theta-\frac{\kappa^{2}}{R^{2}}a\right) & = & ma\\
+a & = & \frac{g\sin\theta}{\left(1+\frac{\kappa^{2}}{R^{2}}\right)}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Subsubsection
+Using Energy
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "50col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+
+\bar under
+Sliding (no friction)
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\begin{eqnarray*}
+\mbox{At }A:\qquad E_{k}+E_{p} & = & 0+mgh\\
+\mbox{At }B:\qquad E_{k}+E_{p} & = & \frac{1}{2}mv^{2}\\
+\Rightarrow mgh & = & \frac{1}{2}mv^{2}\\
+v^{2} & = & 2gh
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "50col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+\noindent
+\align center
+
+\bar under
+Rolling without sliding
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\begin{eqnarray*}
+E_{k}+E_{p} & = & 0+mgh\\
+E_{k}+E_{p} & = & \frac{1}{2}mv^{2}+\frac{1}{2}I\omega^{2}+0\\
+\Rightarrow mgh & = & \frac{1}{2}mv^{2}=\frac{1}{2}I\omega^{2}\\
+mgh & = & \frac{1}{2}mv^{2}+\frac{1}{2}m\kappa^{2}\frac{v^{2}}{R^{2}}\\
+v^{2} & = & \frac{2gh}{\left(1+\frac{\kappa^{2}}{R^{2}}\right)}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+More complicated example is when an object is sliding and rolling.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+\noun on
+Ex
+\end_layout
+
+\begin_layout Standard
+Consider a bowling ball projected horizontally along the floor.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename bowling ball motion.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Initially the ball slides along the floor, and eventually stops sliding
+ and rolls.
+ How to describe this motion?
+\end_layout
+
+\begin_layout Standard
+The forces present that must be considered are the weight and the reaction
+ from the floor which must cancel each other, and friction from the floor.
+ This means that there is only one resultant force acting on the ball.
+ The ball is initially both rolling and sliding.
+ The friction produces linear deceleration and produces an angular acceleration.
+\end_layout
+
+\begin_layout Standard
+Consider the point of contact between the ball and the floor,
+\end_layout
+
+\begin_layout Itemize
+Relative to the center of mass, 
+\begin_inset Formula $P$
+\end_inset
+
+ has velocity
+\begin_inset Formula 
+\[
+v_{p}=-R\omega
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Relative to the floor, it has velocity at any given moment in time of 
+\begin_inset Formula 
+\begin{eqnarray*}
+v'_{p} & = & v_{c}+v_{p}\\
+ & = & v_{c}-R\omega
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+When 
+\begin_inset Formula $v_{c}=R\omega$
+\end_inset
+
+, 
+\begin_inset Formula $v'_{p}=0$
+\end_inset
+
+, so the point of contact of the ball with the floor is no longer moving
+ with respect to the floor.
+ So if the point of contact is stationary, it cannot be sliding, then the
+ friction must be zero.
+ At this point, the ball will switch motion with constant velocity.
+\end_layout
+
+\begin_layout Section
+Impulsive Forces and Torques
+\end_layout
+
+\begin_layout Standard
+An impulse is a force that acts over a very short period of time.
+ We can work out the effect by using,
+\begin_inset Formula 
+\[
+\Delta\underline{p}=\int\underline{F}\mbox{d}t=\underline{F}\Delta t
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This well also produce an abrupt change in angular momentum,
+\begin_inset Formula 
+\begin{eqnarray*}
+\Delta\underline{L} & = & \int\underline{\tau}\mbox{d}t=\int\underline{r}\times\underline{F}\mbox{d}t\\
+ & = & \underline{r}\times\int\underline{F}\mbox{d}t=\underline{r}\times\Delta\underline{p}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Free Body
+\end_layout
+
+\begin_layout Standard
+So if a rigid body is subject to an impulse, at the point 
+\begin_inset Formula $A$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename impulse on free object.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Impulse is applied perpendicular to the point 
+\begin_inset Formula $CA$
+\end_inset
+
+ (
+\begin_inset Formula $C$
+\end_inset
+
+ is the center of mass).
+ The center of mass moves with velocity 
+\begin_inset Formula $v_{c}$
+\end_inset
+
+, given by
+\begin_inset Formula 
+\[
+v_{c}=\frac{\Delta\underline{p}}{m}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The body then rotates about the center of mass with angular velocity 
+\begin_inset Formula $\omega$
+\end_inset
+
+,
+\begin_inset Formula 
+\begin{eqnarray*}
+\Delta\tau & = & b\Delta\underline{p}\\
+ & = & I_{0}\omega\\
+ & = & m\kappa^{2}\omega\\
+\Rightarrow\omega & = & \frac{\Delta\tau}{I_{0}}\\
+ & = & \frac{b\Delta\underline{p}}{m\kappa^{2}}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Behavior When Object Has a Pivot
+\end_layout
+
+\begin_layout Standard
+Consider point 
+\begin_inset Formula $O$
+\end_inset
+
+ on the opposite side of the center of mass.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename impulse on pivoted object.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+If 
+\begin_inset Formula $O$
+\end_inset
+
+ is free to move, its velocity immediately after the impulse is applied
+ is given by 
+\begin_inset Formula $v_{0}=v_{c}-\omega h$
+\end_inset
+
+.
+ Suppose instead that 
+\begin_inset Formula $O$
+\end_inset
+
+ is a pivot, so is fixed in space.
+ Then 
+\begin_inset Formula $v_{0}=0$
+\end_inset
+
+ and so 
+\begin_inset Formula 
+\begin{eqnarray*}
+0 & = & v_{c}-\omega h\\
+v_{c} & = & \omega h
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(Note that this 
+\begin_inset Formula $\omega$
+\end_inset
+
+ is not the same as for the free object).
+ To keep 
+\begin_inset Formula $O$
+\end_inset
+
+ fixed in space, there will be an impulse reaction 
+\begin_inset Formula $\Delta\underline{p}'$
+\end_inset
+
+ at the point 
+\begin_inset Formula $O$
+\end_inset
+
+ acting on the pivot.
+\end_layout
+
+\begin_layout Subsubsection
+Removing Impulse Reaction
+\end_layout
+
+\begin_layout Standard
+The system can be set up in such a way that the impulse 
+\begin_inset Formula $\Delta\underline{p}'$
+\end_inset
+
+ is zero.
+ Equations of motion;
+\begin_inset Formula 
+\begin{eqnarray}
+\Delta p+\Delta p' & = & mv_{c}\qquad\Rightarrow\mbox{Linear}\\
+b\Delta p-h\Delta p' & = & m\kappa^{2}\omega\qquad\Rightarrow\mbox{Rotational}\nonumber 
+\end{eqnarray}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Using 
+\begin_inset Formula $v_{c}=\omega h$
+\end_inset
+
+, 
+\begin_inset Formula 
+\begin{equation}
+b\Delta p-h\Delta p'=m\kappa^{2}\frac{v_{c}}{h}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+From (6), 
+\begin_inset Formula 
+\[
+v_{c}=\frac{\Delta p+\Delta p'}{m}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Sub into (7),
+\begin_inset Formula 
+\[
+\Rightarrow\Delta p'=\left(\frac{bh-\kappa^{2}}{\kappa^{2}+h^{2}}\right)\Delta p
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+So if 
+\begin_inset Formula $bh=\kappa^{2}=\frac{I_{0}}{m}$
+\end_inset
+
+, ie 
+\begin_inset Formula $b=\frac{\kappa^{2}}{h}$
+\end_inset
+
+, then the reaction force is zero, 
+\begin_inset Formula $\Delta p'=0$
+\end_inset
+
+.
+ The point at which the reaction force is zero is called the 
+\begin_inset Quotes eld
+\end_inset
+
+center of percussion
+\begin_inset Quotes erd
+\end_inset
+
+ or 
+\begin_inset Quotes eld
+\end_inset
+
+sweet spot
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection
+Distance of Sweet Spot from Pivot
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+l & = & b+h\\
+ & = & \frac{h^{2}+\kappa^{2}}{h}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This has been seen before when a pendulum, when the distance from the center
+ of mass to the pivot was also 
+\begin_inset Formula $h$
+\end_inset
+
+, has frequency,
+\begin_inset Formula 
+\begin{eqnarray*}
+\omega^{2} & = & \frac{gh}{\kappa^{2}+h^{2}}\\
+ & = & \frac{g}{l}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+So measuring 
+\begin_inset Formula $\omega$
+\end_inset
+
+ gives the distance to the sweet spot 
+\begin_inset Formula $l$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+Angular Velocity Vector
+\end_layout
+
+\begin_layout Standard
+This is used when the axis of rotation is not fixed.
+ Define the angular velocity vector,
+\begin_inset Formula 
+\[
+\underline{\omega}=\left(\frac{\mbox{d}\theta_{x}}{\mbox{d}t},\frac{\mbox{d}\theta_{y}}{\mbox{d}t},\frac{\mbox{d}\theta_{z}}{\mbox{d}t}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\begin_inset Formula $\frac{\mbox{d}\theta_{x}}{\mbox{d}t}$
+\end_inset
+
+ is the rate of rotation about the x-axis.
+ So for an object rotating in a plane as the examples we have so far considered,
+ 
+\begin_inset Formula $\underline{\omega}$
+\end_inset
+
+ is parallel to the axis of rotation and perpendicular to the plane of rotation.
+\end_layout
+
+\begin_layout Standard
+So for the simplest case,
+\begin_inset Formula 
+\[
+\underline{L}=I\underline{\omega}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename angular velocity vector.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+But this is 
+\emph on
+not
+\emph default
+ true in general.
+\end_layout
+
+\begin_layout Subsubsection
+Rotating Skew Rod
+\end_layout
+
+\begin_layout Standard
+Two masses of mass 
+\begin_inset Formula $m$
+\end_inset
+
+, connected by a light rigid rod of length 
+\begin_inset Formula $2l$
+\end_inset
+
+ is rotating about the center of mass at an angle to the axis of rotation
+ 
+\begin_inset Formula $\alpha$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename skew rod rotating.svg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Relative to the center of mass, 
+\begin_inset Formula 
+\begin{eqnarray*}
+|\underline{L_{a}}| & = & |\underline{L_{b}}|=ml^{2}\omega\cos\alpha\\
+|\underline{L}| & = & 2ml^{2}\omega\cos\alpha
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+as 
+\bar under
+
+\begin_inset Formula $\underline{L_{a}}$
+\end_inset
+
+ 
+\bar default
+and 
+\begin_inset Formula $\underline{L_{b}}$
+\end_inset
+
+ are parallel.
+ 
+\begin_inset Formula $\underline{L}$
+\end_inset
+
+ turns with the rod, and is perpendicular to the rod and at an angle 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ to th axis of rotation.
+ But the angular velocity component has only one component, it is parallel
+ to the axis of rotation.
+ So the angular momentum vector is not parallel to the angular velocity.
+\end_layout
+
+\begin_layout Standard
+So in general, how are the angular momentum and the angular velocity vector
+ related?
+\end_layout
+
+\begin_layout Standard
+As before, consider a rotating rigid body, 
+\begin_inset Formula 
+\[
+\underline{L}=\sum_{j}\underline{r}_{j}\times m_{j}\underline{\dot{r}}_{j}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+As this is a rigid body,
+\begin_inset Formula 
+\[
+\underline{\dot{r}}_{j}=\underline{\omega}\times\underline{r}_{j}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+So
+\begin_inset Formula 
+\[
+\underline{L}=\sum_{j}\underline{r}_{j}\times m_{j}\left(\underline{\omega}\times\underline{r}_{j}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Rearranging gives 
+\begin_inset Formula 
+\[
+\underline{L}=\underline{\underline{I}}\times\underline{\omega}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

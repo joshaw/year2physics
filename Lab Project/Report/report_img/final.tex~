@@ -1,0 +1,194 @@
+\begin{tikzpicture}{0pt}{0pt}{419pt}{299pt}
+	\clip(0pt,299pt) -- (398.436pt,299pt) -- (398.436pt,14.6746pt) -- (0pt,14.6746pt) -- (0pt,299pt);
+\begin{scope}
+	\clip(46.5951pt,281.883pt) -- (345.184pt,281.883pt) -- (345.184pt,54.6133pt) -- (46.5951pt,54.6133pt) -- (46.5951pt,281.883pt);
+	\color[rgb]{0.627451,0.627451,0.643137}
+	\draw[line width=0.1pt, dash pattern=on 0.0024cm off 0.008cm, dash phase=0pt, line join=bevel, line cap=rect](58.9571pt,281.883pt) -- (58.9571pt,55.5642pt);
+	\color[rgb]{0.627451,0.627451,0.643137}
+	\draw[line width=0.1pt, dash pattern=on 0.0024cm off 0.008cm, dash phase=0pt, line join=bevel, line cap=rect](70.3682pt,281.883pt) -- (70.3682pt,55.5642pt);
+	\draw[line width=0.1pt, dash pattern=on 0.0024cm off 0.008cm, dash phase=0pt, line join=bevel, line cap=rect](82.7301pt,281.883pt) -- (82.7301pt,55.5642pt);
+	\draw[line width=0.1pt, dash pattern=on 0.0024cm off 0.008cm, dash phase=0pt, line join=bevel, line cap=rect](94.1412pt,281.883pt) -- (94.1412pt,55.5642pt);
+	\draw[line width=0.1pt, dash pattern=on 0.0024cm off 0.008cm, dash phase=0pt, line join=bevel, line cap=rect](117.914pt,281.883pt) -- (117.914pt,55.5642pt);
+	\draw[line width=0.1pt, dash pattern=on 0.0024cm off 0.008cm, dash phase=0pt, line join=bevel, line cap=rect](130.276pt,281.883pt) -- (130.276pt,55.5642pt);
+	\draw[line width=0.1pt, dash pattern=on 0.0024cm off 0.008cm, dash phase=0pt, line join=bevel, line cap=rect](141.687pt,281.883pt) -- (141.687pt,55.5642pt);
+	\draw[line width=0.1pt, dash pattern=on 0.0024cm off 0.008cm, dash phase=0pt, line join=bevel, line cap=rect](154.049pt,281.883pt) -- (154.049pt,55.5642pt);
+	\draw[line width=0.1pt, dash pattern=on 0.0024cm off 0.008cm, dash phase=0pt, line join=bevel, line cap=rect](177.822pt,281.883pt) -- (177.822pt,55.5642pt);
+	\draw[line width=0.1pt, dash pattern=on 0.0024cm off 0.008cm, dash phase=0pt, line join=bevel, line cap=rect](190.184pt,281.883pt) -- (190.184pt,55.5642pt);
+	\draw[line width=0.1pt, dash pattern=on 0.0024cm off 0.008cm, dash phase=0pt, line join=bevel, line cap=rect](201.595pt,281.883pt) -- (201.595pt,55.5642pt);
+	\draw[line width=0.1pt, dash pattern=on 0.0024cm off 0.008cm, dash phase=0pt, line join=bevel, line cap=rect](213.957pt,281.883pt) -- (213.957pt,55.5642pt);
+	\draw[line width=0.1pt, dash pattern=on 0.0024cm off 0.008cm, dash phase=0pt, line join=bevel, line cap=rect](237.73pt,281.883pt) -- (237.73pt,55.5642pt);
+	\draw[line width=0.1pt, dash pattern=on 0.0024cm off 0.008cm, dash phase=0pt, line join=bevel, line cap=rect](250.092pt,281.883pt) -- (250.092pt,55.5642pt);
+	\draw[line width=0.1pt, dash pattern=on 0.0024cm off 0.008cm, dash phase=0pt, line join=bevel, line cap=rect](261.503pt,281.883pt) -- (261.503pt,55.5642pt);
+	\draw[line width=0.1pt, dash pattern=on 0.0024cm off 0.008cm, dash phase=0pt, line join=bevel, line cap=rect](273.865pt,281.883pt) -- (273.865pt,55.5642pt);
+	\draw[line width=0.1pt, dash pattern=on 0.0024cm off 0.008cm, dash phase=0pt, line join=bevel, line cap=rect](297.638pt,281.883pt) -- (297.638pt,55.5642pt);
+	\draw[line width=0.1pt, dash pattern=on 0.0024cm off 0.008cm, dash phase=0pt, line join=bevel, line cap=rect](309.049pt,281.883pt) -- (309.049pt,55.5642pt);
+	\draw[line width=0.1pt, dash pattern=on 0.0024cm off 0.008cm, dash phase=0pt, line join=bevel, line cap=rect](321.411pt,281.883pt) -- (321.411pt,55.5642pt);
+	\draw[line width=0.1pt, dash pattern=on 0.0024cm off 0.008cm, dash phase=0pt, line join=bevel, line cap=rect](332.822pt,281.883pt) -- (332.822pt,55.5642pt);
+	\draw[line width=0.1pt, dash pattern=on 0.0024cm off 0.008cm, dash phase=0pt, line join=bevel, line cap=rect](46.5951pt,63.1716pt) -- (344.233pt,63.1716pt);
+	\draw[line width=0.1pt, dash pattern=on 0.0024cm off 0.008cm, dash phase=0pt, line join=bevel, line cap=rect](46.5951pt,79.3372pt) -- (344.233pt,79.3372pt);
+	\draw[line width=0.1pt, dash pattern=on 0.0024cm off 0.008cm, dash phase=0pt, line join=bevel, line cap=rect](46.5951pt,95.5029pt) -- (344.233pt,95.5029pt);
+	\draw[line width=0.1pt, dash pattern=on 0.0024cm off 0.008cm, dash phase=0pt, line join=bevel, line cap=rect](46.5951pt,111.669pt) -- (344.233pt,111.669pt);
+	\draw[line width=0.1pt, dash pattern=on 0.0024cm off 0.008cm, dash phase=0pt, line join=bevel, line cap=rect](46.5951pt,127.834pt) -- (344.233pt,127.834pt);
+	\draw[line width=0.1pt, dash pattern=on 0.0024cm off 0.008cm, dash phase=0pt, line join=bevel, line cap=rect](46.5951pt,144pt) -- (344.233pt,144pt);
+	\draw[line width=0.1pt, dash pattern=on 0.0024cm off 0.008cm, dash phase=0pt, line join=bevel, line cap=rect](46.5951pt,160.166pt) -- (344.233pt,160.166pt);
+	\draw[line width=0.1pt, dash pattern=on 0.0024cm off 0.008cm, dash phase=0pt, line join=bevel, line cap=rect](46.5951pt,176.331pt) -- (344.233pt,176.331pt);
+	\draw[line width=0.1pt, dash pattern=on 0.0024cm off 0.008cm, dash phase=0pt, line join=bevel, line cap=rect](46.5951pt,192.497pt) -- (344.233pt,192.497pt);
+	\draw[line width=0.1pt, dash pattern=on 0.0024cm off 0.008cm, dash phase=0pt, line join=bevel, line cap=rect](46.5951pt,208.662pt) -- (344.233pt,208.662pt);
+	\draw[line width=0.1pt, dash pattern=on 0.0024cm off 0.008cm, dash phase=0pt, line join=bevel, line cap=rect](46.5951pt,224.828pt) -- (344.233pt,224.828pt);
+	\draw[line width=0.1pt, dash pattern=on 0.0024cm off 0.008cm, dash phase=0pt, line join=bevel, line cap=rect](46.5951pt,240.994pt) -- (344.233pt,240.994pt);
+	\draw[line width=0.1pt, dash pattern=on 0.0024cm off 0.008cm, dash phase=0pt, line join=bevel, line cap=rect](46.5951pt,257.159pt) -- (344.233pt,257.159pt);
+	\draw[line width=0.1pt, dash pattern=on 0.0024cm off 0.008cm, dash phase=0pt, line join=bevel, line cap=rect](46.5951pt,273.325pt) -- (344.233pt,273.325pt);
+	\draw[line width=0.1pt, dash pattern=on 0.0024cm off 0.008cm, dash phase=0pt, line join=bevel, line cap=rect](46.5951pt,70.7789pt) -- (344.233pt,70.7789pt);
+	\draw[line width=0.1pt, dash pattern=on 0.0024cm off 0.008cm, dash phase=0pt, line join=bevel, line cap=rect](46.5951pt,103.11pt) -- (344.233pt,103.11pt);
+	\draw[line width=0.1pt, dash pattern=on 0.0024cm off 0.008cm, dash phase=0pt, line join=bevel, line cap=rect](46.5951pt,135.442pt) -- (344.233pt,135.442pt);
+	\draw[line width=0.1pt, dash pattern=on 0.0024cm off 0.008cm, dash phase=0pt, line join=bevel, line cap=rect](46.5951pt,167.773pt) -- (344.233pt,167.773pt);
+	\draw[line width=0.1pt, dash pattern=on 0.0024cm off 0.008cm, dash phase=0pt, line join=bevel, line cap=rect](46.5951pt,201.055pt) -- (344.233pt,201.055pt);
+	\draw[line width=0.1pt, dash pattern=on 0.0024cm off 0.008cm, dash phase=0pt, line join=bevel, line cap=rect](46.5951pt,233.386pt) -- (344.233pt,233.386pt);
+	\draw[line width=0.1pt, dash pattern=on 0.0024cm off 0.008cm, dash phase=0pt, line join=bevel, line cap=rect](46.5951pt,265.718pt) -- (344.233pt,265.718pt);
+	\color[rgb]{0,0,1}
+	\draw[line width=0.2pt, dash pattern=on 0.024cm off 0.016cm, dash phase=0pt, line join=bevel, line cap=rect](106.503pt,281.883pt) -- (106.503pt,55.5642pt);
+	\draw[line width=0.2pt, dash pattern=on 0.024cm off 0.016cm, dash phase=0pt, line join=bevel, line cap=rect](166.411pt,281.883pt) -- (166.411pt,55.5642pt);
+	\draw[line width=0.2pt, dash pattern=on 0.024cm off 0.016cm, dash phase=0pt, line join=bevel, line cap=rect](225.368pt,281.883pt) -- (225.368pt,55.5642pt);
+	\draw[line width=0.2pt, dash pattern=on 0.024cm off 0.016cm, dash phase=0pt, line join=bevel, line cap=rect](285.276pt,281.883pt) -- (285.276pt,55.5642pt);
+	\draw[line width=0.2pt, dash pattern=on 0.024cm off 0.016cm, dash phase=0pt, line join=bevel, line cap=rect](46.5951pt,86.9446pt) -- (344.233pt,86.9446pt);
+	\draw[line width=0.2pt, dash pattern=on 0.024cm off 0.016cm, dash phase=0pt, line join=bevel, line cap=rect](46.5951pt,119.276pt) -- (344.233pt,119.276pt);
+	\draw[line width=0.2pt, dash pattern=on 0.024cm off 0.016cm, dash phase=0pt, line join=bevel, line cap=rect](46.5951pt,151.607pt) -- (344.233pt,151.607pt);
+	\draw[line width=0.2pt, dash pattern=on 0.024cm off 0.016cm, dash phase=0pt, line join=bevel, line cap=rect](46.5951pt,184.889pt) -- (344.233pt,184.889pt);
+	\draw[line width=0.2pt, dash pattern=on 0.024cm off 0.016cm, dash phase=0pt, line join=bevel, line cap=rect](46.5951pt,217.221pt) -- (344.233pt,217.221pt);
+	\draw[line width=0.2pt, dash pattern=on 0.024cm off 0.016cm, dash phase=0pt, line join=bevel, line cap=rect](46.5951pt,249.552pt) -- (344.233pt,249.552pt);
+	\color[rgb]{0,0,0}
+	\draw[line width=1.5pt, line join=miter, line cap=rect](47.7895pt,267.598pt) -- (48.9838pt,267.598pt) -- (50.1782pt,267.598pt) -- (51.3726pt,266.299pt) -- (52.5669pt,266.299pt) -- (53.7613pt,267.598pt) -- (54.9556pt,267.598pt) -- (56.15pt,267.598pt) -- (57.3443pt,267.598pt) -- (58.5387pt,267.598pt) -- (59.7331pt,268.897pt) -- (60.9274pt,267.598pt) -- (62.1218pt,267.598pt) -- (63.3161pt,267.598pt) -- (64.5105pt,267.598pt) -- (65.7048pt,267.598pt) -- (66.8992pt,266.299pt) -- (68.0936pt,263.702pt) -- (69.2879pt,259.806pt) -- (70.4823pt,254.611pt) -- (71.6766pt,249.416pt) -- (72.871pt,242.923pt) -- (74.0653pt,233.832pt) -- (75.2597pt,226.04pt) -- (76.4541pt,216.949pt) -- (77.6484pt,207.858pt) -- (78.8428pt,198.767pt) -- (80.0371pt,193.573pt) -- (81.2315pt,189.677pt) -- (82.4258pt,185.781pt) -- (83.6202pt,184.482pt) -- (84.8146pt,183.183pt) -- (86.0089pt,184.482pt) -- (87.2033pt,183.183pt) -- (88.3976pt,183.183pt) -- (89.592pt,184.482pt) -- (90.7863pt,183.183pt) -- (91.9807pt,183.183pt) -- (93.175pt,183.183pt) -- (94.3694pt,183.183pt) -- (95.5638pt,184.482pt) -- (96.7581pt,183.183pt) -- (97.9525pt,184.482pt) -- (99.1468pt,184.482pt) -- (100.341pt,183.183pt) -- (101.536pt,183.183pt) -- (102.73pt,184.482pt) -- (103.924pt,184.482pt) -- (105.119pt,183.183pt) -- (106.313pt,183.183pt) -- (107.507pt,184.482pt) -- (108.702pt,183.183pt) -- (109.896pt,183.183pt) -- (111.09pt,183.183pt) -- (112.285pt,184.482pt) -- (113.479pt,183.183pt) -- (114.673pt,183.183pt) -- (115.868pt,184.482pt) -- (117.062pt,184.482pt) -- (118.257pt,184.482pt) -- (119.451pt,183.183pt) -- (120.645pt,184.482pt) -- (121.84pt,184.482pt) -- (123.034pt,183.183pt) -- (124.228pt,183.183pt) -- (125.423pt,183.183pt) -- (126.617pt,183.183pt) -- (127.811pt,184.482pt) -- (129.006pt,184.482pt) -- (130.2pt,184.482pt) -- (131.394pt,184.482pt) -- (132.589pt,184.482pt) -- (133.783pt,184.482pt) -- (134.978pt,184.482pt) -- (136.172pt,184.482pt) -- (137.366pt,184.482pt) -- (138.561pt,183.183pt) -- (139.755pt,184.482pt) -- (140.949pt,184.482pt) -- (142.144pt,184.482pt) -- (143.338pt,183.183pt) -- (144.532pt,184.482pt) -- (145.727pt,184.482pt) -- (146.921pt,183.183pt) -- (148.115pt,184.482pt) -- (149.31pt,183.183pt) -- (150.504pt,183.183pt) -- (151.699pt,184.482pt) -- (152.893pt,183.183pt) -- (154.087pt,184.482pt) -- (155.282pt,183.183pt) -- (156.476pt,184.482pt) -- (157.67pt,183.183pt) -- (158.865pt,184.482pt) -- (160.059pt,184.482pt) -- (161.253pt,184.482pt) -- (162.448pt,184.482pt) -- (163.642pt,183.183pt) -- (164.836pt,184.482pt) -- (166.031pt,183.183pt) -- (167.225pt,184.482pt) -- (168.42pt,184.482pt) -- (169.614pt,183.183pt) -- (170.808pt,183.183pt) -- (172.003pt,184.482pt) -- (173.197pt,183.183pt) -- (174.391pt,184.482pt) -- (175.586pt,183.183pt) -- (176.78pt,184.482pt) -- (177.974pt,183.183pt) -- (179.169pt,184.482pt) -- (180.363pt,183.183pt) -- (181.557pt,184.482pt) -- (182.752pt,184.482pt) -- (183.946pt,185.781pt) -- (185.141pt,188.378pt) -- (186.335pt,190.975pt) -- (187.529pt,194.871pt) -- (188.724pt,198.767pt) -- (189.918pt,201.365pt) -- (191.112pt,205.261pt) -- (192.307pt,209.157pt) -- (193.501pt,213.053pt) -- (194.695pt,214.352pt) -- (195.89pt,219.546pt) -- (197.084pt,222.144pt) -- (198.278pt,224.741pt) -- (199.473pt,226.04pt) -- (200.667pt,228.637pt) -- (201.862pt,232.533pt) -- (203.056pt,233.832pt) -- (204.25pt,236.429pt) -- (205.445pt,237.728pt) -- (206.639pt,240.325pt) -- (207.833pt,242.923pt) -- (209.028pt,244.222pt) -- (210.222pt,245.52pt) -- (211.416pt,246.819pt) -- (212.611pt,249.416pt) -- (213.805pt,249.416pt) -- (214.999pt,250.715pt) -- (216.194pt,253.312pt) -- (217.388pt,253.312pt) -- (218.583pt,254.611pt) -- (219.777pt,254.611pt) -- (220.971pt,255.91pt) -- (222.166pt,257.208pt) -- (223.36pt,258.507pt) -- (224.554pt,258.507pt) -- (225.749pt,258.507pt) -- (226.943pt,259.806pt) -- (228.137pt,259.806pt) -- (229.332pt,261.104pt) -- (230.526pt,261.104pt) -- (231.72pt,262.403pt) -- (232.915pt,262.403pt) -- (234.109pt,262.403pt) -- (235.304pt,263.702pt) -- (236.498pt,263.702pt) -- (237.692pt,263.702pt) -- (238.887pt,263.702pt) -- (240.081pt,263.702pt) -- (241.275pt,265pt) -- (242.47pt,265pt) -- (243.664pt,265pt) -- (244.858pt,265pt) -- (246.053pt,266.299pt) -- (247.247pt,266.299pt) -- (248.441pt,266.299pt) -- (249.636pt,265pt) -- (250.83pt,266.299pt) -- (252.025pt,267.598pt) -- (253.219pt,266.299pt) -- (254.413pt,267.598pt) -- (255.608pt,266.299pt) -- (256.802pt,267.598pt) -- (257.996pt,267.598pt) -- (259.191pt,267.598pt) -- (260.385pt,267.598pt) -- (261.579pt,267.598pt) -- (262.774pt,267.598pt) -- (263.968pt,267.598pt) -- (265.162pt,267.598pt) -- (266.357pt,267.598pt) -- (267.551pt,267.598pt) -- (268.746pt,267.598pt) -- (269.94pt,268.897pt) -- (271.134pt,267.598pt) -- (272.329pt,267.598pt) -- (273.523pt,267.598pt) -- (274.717pt,266.299pt) -- (275.912pt,263.702pt) -- (277.106pt,261.104pt) -- (278.3pt,255.91pt) -- (279.495pt,249.416pt) -- (280.689pt,244.222pt) -- (281.883pt,236.429pt) -- (283.078pt,228.637pt) -- (284.272pt,218.248pt) -- (285.466pt,206.56pt) -- (286.661pt,200.066pt) -- (287.855pt,194.871pt) -- (289.05pt,189.677pt) -- (290.244pt,187.079pt) -- (291.438pt,184.482pt) -- (292.633pt,183.183pt) -- (293.827pt,183.183pt) -- (295.021pt,183.183pt) -- (296.216pt,183.183pt) -- (297.41pt,183.183pt) -- (298.604pt,183.183pt) -- (299.799pt,183.183pt) -- (300.993pt,184.482pt) -- (302.187pt,183.183pt) -- (303.382pt,183.183pt) -- (304.576pt,184.482pt) -- (305.771pt,184.482pt) -- (306.965pt,183.183pt) -- (308.159pt,183.183pt) -- (309.354pt,184.482pt) -- (310.548pt,184.482pt) -- (311.742pt,184.482pt) -- (312.937pt,184.482pt) -- (314.131pt,184.482pt) -- (315.325pt,184.482pt) -- (316.52pt,183.183pt) -- (317.714pt,183.183pt) -- (318.908pt,184.482pt) -- (320.103pt,184.482pt) -- (321.297pt,183.183pt) -- (322.492pt,184.482pt) -- (323.686pt,183.183pt) -- (324.88pt,183.183pt) -- (326.075pt,183.183pt) -- (327.269pt,183.183pt) -- (328.463pt,183.183pt) -- (329.658pt,184.482pt) -- (330.852pt,183.183pt) -- (332.046pt,184.482pt) -- (333.241pt,183.183pt) -- (334.435pt,183.183pt) -- (335.629pt,183.183pt) -- (336.824pt,183.183pt) -- (338.018pt,184.482pt) -- (339.213pt,184.482pt) -- (340.407pt,183.183pt) -- (341.601pt,184.482pt) -- (342.796pt,183.183pt) -- (343.99pt,183.183pt) -- (345.184pt,183.183pt);
+	\color[rgb]{1,0,0}
+	\draw[line width=1.5pt, line join=miter, line cap=rect](47.7895pt,145.521pt) -- (48.9838pt,144.223pt) -- (50.1782pt,144.223pt) -- (51.3726pt,144.223pt) -- (52.5669pt,144.223pt) -- (53.7613pt,144.223pt) -- (54.9556pt,145.521pt) -- (56.15pt,144.223pt) -- (57.3443pt,145.521pt) -- (58.5387pt,145.521pt) -- (59.7331pt,144.223pt) -- (60.9274pt,144.223pt) -- (62.1218pt,144.223pt) -- (63.3161pt,144.223pt) -- (64.5105pt,144.223pt) -- (65.7048pt,144.223pt) -- (66.8992pt,144.223pt) -- (68.0936pt,144.223pt) -- (69.2879pt,142.924pt) -- (70.4823pt,140.327pt) -- (71.6766pt,133.833pt) -- (72.871pt,127.34pt) -- (74.0653pt,120.846pt) -- (75.2597pt,113.054pt) -- (76.4541pt,107.859pt) -- (77.6484pt,103.963pt) -- (78.8428pt,101.366pt) -- (80.0371pt,100.067pt) -- (81.2315pt,100.067pt) -- (82.4258pt,98.7686pt) -- (83.6202pt,98.7686pt) -- (84.8146pt,97.4699pt) -- (86.0089pt,98.7686pt) -- (87.2033pt,97.4699pt) -- (88.3976pt,97.4699pt) -- (89.592pt,98.7686pt) -- (90.7863pt,98.7686pt) -- (91.9807pt,98.7686pt) -- (93.175pt,98.7686pt) -- (94.3694pt,98.7686pt) -- (95.5638pt,98.7686pt) -- (96.7581pt,98.7686pt) -- (97.9525pt,98.7686pt) -- (99.1468pt,97.4699pt) -- (100.341pt,98.7686pt) -- (101.536pt,97.4699pt) -- (102.73pt,98.7686pt) -- (103.924pt,98.7686pt) -- (105.119pt,98.7686pt) -- (106.313pt,97.4699pt) -- (107.507pt,98.7686pt) -- (108.702pt,97.4699pt) -- (109.896pt,97.4699pt) -- (111.09pt,97.4699pt) -- (112.285pt,97.4699pt) -- (113.479pt,98.7686pt) -- (114.673pt,98.7686pt) -- (115.868pt,97.4699pt) -- (117.062pt,98.7686pt) -- (118.257pt,98.7686pt) -- (119.451pt,98.7686pt) -- (120.645pt,97.4699pt) -- (121.84pt,97.4699pt) -- (123.034pt,98.7686pt) -- (124.228pt,97.4699pt) -- (125.423pt,98.7686pt) -- (126.617pt,98.7686pt) -- (127.811pt,98.7686pt) -- (129.006pt,98.7686pt) -- (130.2pt,97.4699pt) -- (131.394pt,98.7686pt) -- (132.589pt,97.4699pt) -- (133.783pt,97.4699pt) -- (134.978pt,97.4699pt) -- (136.172pt,97.4699pt) -- (137.366pt,98.7686pt) -- (138.561pt,97.4699pt) -- (139.755pt,97.4699pt) -- (140.949pt,98.7686pt) -- (142.144pt,97.4699pt) -- (143.338pt,97.4699pt) -- (144.532pt,97.4699pt) -- (145.727pt,97.4699pt) -- (146.921pt,98.7686pt) -- (148.115pt,98.7686pt) -- (149.31pt,97.4699pt) -- (150.504pt,98.7686pt) -- (151.699pt,98.7686pt) -- (152.893pt,98.7686pt) -- (154.087pt,98.7686pt) -- (155.282pt,98.7686pt) -- (156.476pt,98.7686pt) -- (157.67pt,97.4699pt) -- (158.865pt,97.4699pt) -- (160.059pt,98.7686pt) -- (161.253pt,98.7686pt) -- (162.448pt,98.7686pt) -- (163.642pt,98.7686pt) -- (164.836pt,98.7686pt) -- (166.031pt,98.7686pt) -- (167.225pt,98.7686pt) -- (168.42pt,97.4699pt) -- (169.614pt,97.4699pt) -- (170.808pt,97.4699pt) -- (172.003pt,97.4699pt) -- (173.197pt,97.4699pt) -- (174.391pt,97.4699pt) -- (175.586pt,98.7686pt) -- (176.78pt,97.4699pt) -- (177.974pt,97.4699pt) -- (179.169pt,98.7686pt) -- (180.363pt,98.7686pt) -- (181.557pt,98.7686pt) -- (182.752pt,101.366pt) -- (183.946pt,107.859pt) -- (185.141pt,114.353pt) -- (186.335pt,120.846pt) -- (187.529pt,126.041pt) -- (188.724pt,132.534pt) -- (189.918pt,136.431pt) -- (191.112pt,140.327pt) -- (192.307pt,141.625pt) -- (193.501pt,142.924pt) -- (194.695pt,144.223pt) -- (195.89pt,144.223pt) -- (197.084pt,144.223pt) -- (198.278pt,144.223pt) -- (199.473pt,144.223pt) -- (200.667pt,144.223pt) -- (201.862pt,144.223pt) -- (203.056pt,144.223pt) -- (204.25pt,144.223pt) -- (205.445pt,144.223pt) -- (206.639pt,144.223pt) -- (207.833pt,144.223pt) -- (209.028pt,144.223pt) -- (210.222pt,144.223pt) -- (211.416pt,144.223pt) -- (212.611pt,144.223pt) -- (213.805pt,144.223pt) -- (214.999pt,144.223pt) -- (216.194pt,144.223pt) -- (217.388pt,144.223pt) -- (218.583pt,144.223pt) -- (219.777pt,144.223pt) -- (220.971pt,144.223pt) -- (222.166pt,144.223pt) -- (223.36pt,144.223pt) -- (224.554pt,144.223pt) -- (225.749pt,144.223pt) -- (226.943pt,142.924pt) -- (228.137pt,144.223pt) -- (229.332pt,144.223pt) -- (230.526pt,144.223pt) -- (231.72pt,144.223pt) -- (232.915pt,144.223pt) -- (234.109pt,144.223pt) -- (235.304pt,144.223pt) -- (236.498pt,144.223pt) -- (237.692pt,144.223pt) -- (238.887pt,144.223pt) -- (240.081pt,144.223pt) -- (241.275pt,144.223pt) -- (242.47pt,144.223pt) -- (243.664pt,144.223pt) -- (244.858pt,144.223pt) -- (246.053pt,145.521pt) -- (247.247pt,144.223pt) -- (248.441pt,144.223pt) -- (249.636pt,144.223pt) -- (250.83pt,144.223pt) -- (252.025pt,144.223pt) -- (253.219pt,144.223pt) -- (254.413pt,144.223pt) -- (255.608pt,144.223pt) -- (256.802pt,144.223pt) -- (257.996pt,144.223pt) -- (259.191pt,144.223pt) -- (260.385pt,144.223pt) -- (261.579pt,144.223pt) -- (262.774pt,144.223pt) -- (263.968pt,145.521pt) -- (265.162pt,144.223pt) -- (266.357pt,144.223pt) -- (267.551pt,144.223pt) -- (268.746pt,144.223pt) -- (269.94pt,144.223pt) -- (271.134pt,144.223pt) -- (272.329pt,144.223pt) -- (273.523pt,144.223pt) -- (274.717pt,144.223pt) -- (275.912pt,144.223pt) -- (277.106pt,144.223pt) -- (278.3pt,144.223pt) -- (279.495pt,141.625pt) -- (280.689pt,137.729pt) -- (281.883pt,132.534pt) -- (283.078pt,124.742pt) -- (284.272pt,116.95pt) -- (285.466pt,110.457pt) -- (286.661pt,106.561pt) -- (287.855pt,103.963pt) -- (289.05pt,101.366pt) -- (290.244pt,100.067pt) -- (291.438pt,98.7686pt) -- (292.633pt,98.7686pt) -- (293.827pt,98.7686pt) -- (295.021pt,97.4699pt) -- (296.216pt,97.4699pt) -- (297.41pt,97.4699pt) -- (298.604pt,98.7686pt) -- (299.799pt,97.4699pt) -- (300.993pt,97.4699pt) -- (302.187pt,97.4699pt) -- (303.382pt,98.7686pt) -- (304.576pt,98.7686pt) -- (305.771pt,98.7686pt) -- (306.965pt,98.7686pt) -- (308.159pt,98.7686pt) -- (309.354pt,97.4699pt) -- (310.548pt,97.4699pt) -- (311.742pt,98.7686pt) -- (312.937pt,97.4699pt) -- (314.131pt,97.4699pt) -- (315.325pt,98.7686pt) -- (316.52pt,97.4699pt) -- (317.714pt,98.7686pt) -- (318.908pt,97.4699pt) -- (320.103pt,97.4699pt) -- (321.297pt,98.7686pt) -- (322.492pt,97.4699pt) -- (323.686pt,97.4699pt) -- (324.88pt,98.7686pt) -- (326.075pt,97.4699pt) -- (327.269pt,98.7686pt) -- (328.463pt,97.4699pt) -- (329.658pt,98.7686pt) -- (330.852pt,97.4699pt) -- (332.046pt,98.7686pt) -- (333.241pt,97.4699pt) -- (334.435pt,97.4699pt) -- (335.629pt,98.7686pt) -- (336.824pt,97.4699pt) -- (338.018pt,98.7686pt) -- (339.213pt,97.4699pt) -- (340.407pt,98.7686pt) -- (341.601pt,98.7686pt) -- (342.796pt,97.4699pt) -- (343.99pt,97.4699pt) -- (345.184pt,98.4209pt);
+	\color[rgb]{0,0,0}
+	\draw[line width=1pt, line join=bevel, line cap=rect](46.5951pt,217.221pt) -- (344.233pt,217.221pt);
+	\draw[line width=1pt, line join=miter, line cap=rect](46.5951pt,119.276pt) -- (345.184pt,119.276pt);
+\end{scope}
+\begin{scope}
+	\color[rgb]{0,0,0}
+	\pgftext[center, base, at={\pgfpoint{13.3129pt}{168.716pt}},rotate=90]{Voltage (V), Variable VCO}
+	\color[rgb]{0.235294,0.235294,0.235294}
+	\pgftext[center, base, at={\pgfpoint{29.2631pt}{49.8587pt}}]{−10}
+	\pgftext[center, base, at={\pgfpoint{32.8216pt}{82.19pt}}]{−8}
+	\pgftext[center, base, at={\pgfpoint{32.8216pt}{114.521pt}}]{−6}
+	\pgftext[center, base, at={\pgfpoint{32.8216pt}{146.853pt}}]{−4}
+	\pgftext[center, base, at={\pgfpoint{32.8216pt}{180.135pt}}]{−2}
+	\pgftext[center, base, at={\pgfpoint{37.3311pt}{212.466pt}}]{0}
+	\pgftext[center, base, at={\pgfpoint{37.3311pt}{244.798pt}}]{2}
+	\pgftext[center, base, at={\pgfpoint{37.3311pt}{277.129pt}}]{4}
+	\color[rgb]{0,0,0}
+	\draw[line width=1pt, line join=bevel, line cap=rect](46.5951pt,63.1716pt) -- (44.6933pt,63.1716pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](46.5951pt,79.3372pt) -- (44.6933pt,79.3372pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](46.5951pt,95.5029pt) -- (44.6933pt,95.5029pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](46.5951pt,111.669pt) -- (44.6933pt,111.669pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](46.5951pt,127.834pt) -- (44.6933pt,127.834pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](46.5951pt,144pt) -- (44.6933pt,144pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](46.5951pt,160.166pt) -- (44.6933pt,160.166pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](46.5951pt,176.331pt) -- (44.6933pt,176.331pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](46.5951pt,192.497pt) -- (44.6933pt,192.497pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](46.5951pt,208.662pt) -- (44.6933pt,208.662pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](46.5951pt,224.828pt) -- (44.6933pt,224.828pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](46.5951pt,240.994pt) -- (44.6933pt,240.994pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](46.5951pt,257.159pt) -- (44.6933pt,257.159pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](46.5951pt,273.325pt) -- (44.6933pt,273.325pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](46.5951pt,70.7789pt) -- (44.6933pt,70.7789pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](46.5951pt,103.11pt) -- (44.6933pt,103.11pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](46.5951pt,135.442pt) -- (44.6933pt,135.442pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](46.5951pt,167.773pt) -- (44.6933pt,167.773pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](46.5951pt,201.055pt) -- (44.6933pt,201.055pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](46.5951pt,233.386pt) -- (44.6933pt,233.386pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](46.5951pt,265.718pt) -- (44.6933pt,265.718pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](46.5951pt,54.6133pt) -- (42.7914pt,54.6133pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](46.5951pt,86.9446pt) -- (42.7914pt,86.9446pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](46.5951pt,119.276pt) -- (42.7914pt,119.276pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](46.5951pt,151.607pt) -- (42.7914pt,151.607pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](46.5951pt,184.889pt) -- (42.7914pt,184.889pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](46.5951pt,217.221pt) -- (42.7914pt,217.221pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](46.5951pt,249.552pt) -- (42.7914pt,249.552pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](46.5951pt,281.883pt) -- (42.7914pt,281.883pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](46.5951pt,281.883pt) -- (46.5951pt,54.6133pt);
+	\pgftext[center, base, at={\pgfpoint{386.074pt}{168.724pt}},rotate=90]{Voltage (V), Fixed VCO}
+	\color[rgb]{0.235294,0.235294,0.235294}
+	\pgftext[center, base, at={\pgfpoint{362.791pt}{49.8587pt}}]{−4}
+	\pgftext[center, base, at={\pgfpoint{362.791pt}{82.19pt}}]{−2}
+	\pgftext[center, base, at={\pgfpoint{357.791pt}{114.521pt}}]{0}
+	\pgftext[center, base, at={\pgfpoint{357.791pt}{146.853pt}}]{2}
+	\pgftext[center, base, at={\pgfpoint{357.791pt}{180.135pt}}]{4}
+	\pgftext[center, base, at={\pgfpoint{357.791pt}{212.466pt}}]{6}
+	\pgftext[center, base, at={\pgfpoint{357.791pt}{244.798pt}}]{8}
+	\pgftext[center, base, at={\pgfpoint{362.791pt}{277.129pt}}]{10}
+	\color[rgb]{0,0,0}
+	\draw[line width=1pt, line join=bevel, line cap=rect](345.184pt,63.1716pt) -- (347.086pt,63.1716pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](345.184pt,79.3372pt) -- (347.086pt,79.3372pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](345.184pt,95.5029pt) -- (347.086pt,95.5029pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](345.184pt,111.669pt) -- (347.086pt,111.669pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](345.184pt,127.834pt) -- (347.086pt,127.834pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](345.184pt,144pt) -- (347.086pt,144pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](345.184pt,160.166pt) -- (347.086pt,160.166pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](345.184pt,176.331pt) -- (347.086pt,176.331pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](345.184pt,192.497pt) -- (347.086pt,192.497pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](345.184pt,208.662pt) -- (347.086pt,208.662pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](345.184pt,224.828pt) -- (347.086pt,224.828pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](345.184pt,240.994pt) -- (347.086pt,240.994pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](345.184pt,257.159pt) -- (347.086pt,257.159pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](345.184pt,273.325pt) -- (347.086pt,273.325pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](345.184pt,70.7789pt) -- (347.086pt,70.7789pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](345.184pt,103.11pt) -- (347.086pt,103.11pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](345.184pt,135.442pt) -- (347.086pt,135.442pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](345.184pt,167.773pt) -- (347.086pt,167.773pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](345.184pt,201.055pt) -- (347.086pt,201.055pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](345.184pt,233.386pt) -- (347.086pt,233.386pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](345.184pt,265.718pt) -- (347.086pt,265.718pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](345.184pt,54.6133pt) -- (348.988pt,54.6133pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](345.184pt,86.9446pt) -- (348.988pt,86.9446pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](345.184pt,119.276pt) -- (348.988pt,119.276pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](345.184pt,151.607pt) -- (348.988pt,151.607pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](345.184pt,184.889pt) -- (348.988pt,184.889pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](345.184pt,217.221pt) -- (348.988pt,217.221pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](345.184pt,249.552pt) -- (348.988pt,249.552pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](345.184pt,281.883pt) -- (348.988pt,281.883pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](345.184pt,281.883pt) -- (345.184pt,54.6133pt);
+	\pgftext[center, base, at={\pgfpoint{199.211pt}{18.4783pt}}]{Time ($\micro$s$\times 10^{-6}$)}
+	\color[rgb]{0.235294,0.235294,0.235294}
+	\pgftext[center, base, at={\pgfpoint{47.0632pt}{34.6439pt}}]{0}
+	\pgftext[center, base, at={\pgfpoint{106.496pt}{34.6439pt}}]{0.5}
+	\pgftext[center, base, at={\pgfpoint{166.879pt}{34.6439pt}}]{1}
+	\pgftext[center, base, at={\pgfpoint{225.361pt}{34.6439pt}}]{1.5}
+	\pgftext[center, base, at={\pgfpoint{285.744pt}{34.6439pt}}]{2}
+	\pgftext[center, base, at={\pgfpoint{345.177pt}{34.6439pt}}]{2.5}
+	\color[rgb]{0,0,0}
+	\draw[line width=1pt, line join=bevel, line cap=rect](58.9571pt,54.6133pt) -- (58.9571pt,52.7114pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](70.3682pt,54.6133pt) -- (70.3682pt,52.7114pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](82.7301pt,54.6133pt) -- (82.7301pt,52.7114pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](94.1412pt,54.6133pt) -- (94.1412pt,52.7114pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](117.914pt,54.6133pt) -- (117.914pt,52.7114pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](130.276pt,54.6133pt) -- (130.276pt,52.7114pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](141.687pt,54.6133pt) -- (141.687pt,52.7114pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](154.049pt,54.6133pt) -- (154.049pt,52.7114pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](177.822pt,54.6133pt) -- (177.822pt,52.7114pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](190.184pt,54.6133pt) -- (190.184pt,52.7114pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](201.595pt,54.6133pt) -- (201.595pt,52.7114pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](213.957pt,54.6133pt) -- (213.957pt,52.7114pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](237.73pt,54.6133pt) -- (237.73pt,52.7114pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](250.092pt,54.6133pt) -- (250.092pt,52.7114pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](261.503pt,54.6133pt) -- (261.503pt,52.7114pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](273.865pt,54.6133pt) -- (273.865pt,52.7114pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](297.638pt,54.6133pt) -- (297.638pt,52.7114pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](309.049pt,54.6133pt) -- (309.049pt,52.7114pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](321.411pt,54.6133pt) -- (321.411pt,52.7114pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](332.822pt,54.6133pt) -- (332.822pt,52.7114pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](46.5951pt,54.6133pt) -- (46.5951pt,50.8096pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](106.503pt,54.6133pt) -- (106.503pt,50.8096pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](166.411pt,54.6133pt) -- (166.411pt,50.8096pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](225.368pt,54.6133pt) -- (225.368pt,50.8096pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](285.276pt,54.6133pt) -- (285.276pt,50.8096pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](345.184pt,54.6133pt) -- (345.184pt,50.8096pt);
+	\draw[line width=1pt, line join=bevel, line cap=rect](46.5951pt,54.6133pt) -- (345.184pt,54.6133pt);
+	\draw[line width=2pt, line join=miter, line cap=rect](76.0737pt,261.914pt) -- (106.503pt,261.914pt);
+	\pgftext[left, base, at={\pgfpoint{116.012pt}{256.209pt}}]{Variable VCO}
+	\color[rgb]{1,0,0}
+	\draw[line width=2pt, line join=miter, line cap=rect](76.0737pt,243.847pt) -- (106.503pt,243.847pt);
+	\color[rgb]{0,0,0}
+	\pgftext[left, base, at={\pgfpoint{116.012pt}{238.141pt}}]{Fixed VCO}
+\end{scope}
+\end{tikzpicture}

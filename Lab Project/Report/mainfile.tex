@@ -1,0 +1,65 @@
+\documentclass[british]{extarticle}
+
+\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+%\usepackage{ae}
+\usepackage[a4paper]{geometry}
+\geometry{verbose,tmargin=3cm,bmargin=3cm,lmargin=3cm,rmargin=3cm,headheight=2cm,headsep=3cm,footskip=2cm}
+\usepackage[light]{kpfonts}
+\usepackage{amsmath, amssymb}
+\usepackage{color}
+\usepackage{graphicx,float}
+\usepackage{parskip}
+\usepackage{pstricks}
+\usepackage{tikz}
+\usepackage{scalefnt}
+\usepackage{subfigure}
+\usepackage{pdfpages}
+\usepackage{wrapfig}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+%\usepackage[dvips,ps2pdf]{thumbpdf}
+%\usepackage{textcomp}
+\usepackage[font=small,labelfont=bf,textfont=it]{caption}
+%\usepackage{caption2}
+\usepackage{hyperref}
+
+\numberwithin{figure}{section}
+\let\footnote=\endnote
+\hypersetup{colorlinks=true,linkcolor=black,citecolor=black}
+
+%\hyphenpenalty=500
+
+\includeonly{
+	titlepage, 
+	abstract,  
+	toc, 
+	%listofthings,
+	section1-history_theory,
+	section2-method, 
+	section3-testing, 
+	bib,
+	appendix
+}
+
+\def\baselinestretch{1.3}
+
+\begin{document}
+\pagenumbering{roman}
+%\begin{sloppypar}
+\selectlanguage{english}
+
+	\include{titlepage}
+\setcounter{page}{1}
+	\include{abstract}
+	\include{toc}
+
+	\input{section1-history_theory}
+	\input{section2-method}
+	\input{section3-testing}
+	\input{section4-conclusion}
+	\include{appendix}
+	\include{bib}
+
+%\end{sloppypar}
+\end{document}
